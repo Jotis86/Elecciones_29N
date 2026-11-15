@@ -7,3 +7,7 @@ dist/
 # Los PDFs no se versionan: se enlazan a la fuente oficial.
 programas/*.pdf
 programas/originales/
+
+# Python
+__pycache__/
+*.pyc

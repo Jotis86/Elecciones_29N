@@ -113,6 +113,22 @@ const porPartido = fichas.map((f) => Object.keys(f.temas).length);
           únicamente con fines informativos.
         </p>
 
+        <h2>Calculadora y datos electorales</h2>
+        <p>
+          La calculadora usa los escaños por circunscripción del anexo del
+          Real Decreto 806/2026 (BOE-A-2026-20742, de 6 de octubre). El reparto
+          aplica los artículos 162 y 163 de la LOREG: quedan fuera las
+          candidaturas con menos del 3% de los votos válidos, los votos se
+          dividen entre 1, 2, 3… y los escaños van a los cocientes mayores. Si
+          coinciden cocientes, gana quien más votos totales tiene; si persiste
+          el empate, se resuelve por sorteo reproducible.
+        </p>
+        <p>
+          Es una simulación con los escaños oficiales, no una encuesta ni una
+          predicción. Los porcentajes parten de cero: no se cargan resultados
+          anteriores ni datos de sondeos.
+        </p>
+
         <h2>Estado del proyecto</h2>
         <p>
           {partidosDisponibles.length} programas publicados, {fichas.length}

@@ -17,8 +17,9 @@ python3 -m venv .venv
 .venv/bin/pip install -r scripts/requirements.txt
 
 npm run dev      # http://localhost:4321
-npm run build    # valida las citas y genera dist/
-npm run validar  # solo la validación
+npm run build    # valida los datos y genera dist/
+npm run validar  # valida citas y datos electorales
+npm test         # pruebas del reparto D'Hondt
 ```
 
 ## Cómo está organizado
@@ -28,16 +29,22 @@ programas/            PDFs originales (no se versionan, están en .gitignore)
 data/
   partidos.json       metadatos: siglas, color, programa, URLs, estado
   temas.json          taxonomía de 16 temas + palabras clave
+  escanos.json        diputados por circunscripción (anexo RD 806/2026)
   texto/<slug>.json   texto extraído del PDF, página a página (generado)
   propuestas/<slug>.json  fichas curadas: resumen + citas con página
 src/
   lib/datos.ts        carga de datos y utilidades
+  lib/dhondt.js       reparto D'Hondt y umbral del 3% (LOREG 162-163)
   components/         FichaTema, TarjetaPartido
-  pages/              portada, /temas, /tema/[slug], /partido/[slug], /buscar, /programas, /sobre
+  pages/              portada, /temas, /tema/[slug], /partido/[slug],
+                      /calculadora, /buscar, /programas, /sobre
+tests/
+  dhondt.test.js      ejemplo de la LOREG, umbral, empates y escala
 scripts/
   extraer_texto.py    PDF → data/texto (con caché por sha256)
   ver.py              consulta el texto extraído durante la curación
   validar.mjs         comprueba esquema y que cada cita exista en su página
+  validar-electoral.mjs  52 circunscripciones y suma de 350 diputados
 ```
 
 ## Añadir un partido
@@ -93,6 +100,23 @@ desplegable para ver la cita literal en su idioma.
   el proceso de extracción lo detecta.
 - `data/texto/*.json` sí se versiona: permite buscar y validar sin redistribuir
   el documento completo.
+
+## Calculadora D'Hondt
+
+`/calculadora` reparte escaños por circunscripción con los diputados del anexo
+del Real Decreto 806/2026 (BOE-A-2026-20742) y las reglas de los artículos 162
+y 163 de la LOREG:
+
+- quedan fuera las candidaturas con menos del 3% de los votos válidos, umbral
+  que incluye el voto en blanco;
+- los votos se dividen entre 1, 2, 3… hasta el número de escaños y se asignan
+  los cocientes mayores, comparados con enteros para evitar redondeos;
+- los empates de cociente se resuelven por votos totales y, si persisten, por
+  un sorteo determinista y reproducible.
+
+Los campos empiezan vacíos: la página no carga encuestas ni resultados
+anteriores. `npm test` verifica, entre otros casos, el ejemplo práctico de la
+LOREG y que el reparto sea invariante a la escala.
 
 ## La garantía
 
