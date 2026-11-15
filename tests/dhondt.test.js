@@ -13,6 +13,10 @@ test('ejemplo práctico de la LOREG: 8 escaños y 480.000 votos', () => {
   });
   assert.deepEqual(soloAsignados(r), { A: 4, B: 2, C: 1, D: 1 });
   assert.equal(Object.values(r.asignados).reduce((a, b) => a + b, 0), 8);
+  // El noveno cociente (primero sin escaño) es E 40/1.
+  assert.equal(r.siguiente.partido, 'E');
+  assert.equal(r.siguiente.divisor, 1);
+  assert.equal(r.siguiente.cociente, 40000);
 });
 
 test('reparte exactamente los escaños disponibles', () => {

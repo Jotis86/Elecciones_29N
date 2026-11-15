@@ -56,7 +56,7 @@ const datos2023 = {
             <span class="calc-badge" id="modo-badge" hidden>Modo 2023 · resultado oficial</span>
           </div>
 
-          <p class="calc-disponible" id="disponible" role="status"></p>
+          <p class="calc-disponible" id="disponible"></p>
 
           <div id="partidos"></div>
 
@@ -100,12 +100,13 @@ const datos2023 = {
             <span class="calc-pct" aria-hidden="true">%</span>
           </div>
 
-          <p class="calc-resumen" id="resumen" role="status"></p>
+          <p class="calc-resumen" id="resumen"></p>
         </div>
 
         <div class="calc-panel calc-resultados">
           <h2>Reparto</h2>
-          <div id="resultado" aria-live="polite"></div>
+          <div id="resultado"></div>
+          <p class="calc-umbral" id="umbral"></p>
 
           <details class="calc-detalle">
             <summary>Cocientes que reparten los escaños</summary>
@@ -113,6 +114,8 @@ const datos2023 = {
           </details>
         </div>
       </div>
+
+      <p class="visualmente-oculto" id="anuncio" aria-live="polite"></p>
 
       <p class="aviso-legal" style="margin-top:1.8rem">
         Simulación, no predicción. No es una encuesta. Los porcentajes son partes
@@ -146,11 +149,75 @@ const datos2023 = {
 
   <script>
     import { repartir } from '../lib/dhondt.js';
+    import { decimas, maximoCampo, recortar } from '../lib/porcentajes.js';
 
-    const PALETA = [
-      '#1B4D8F', '#E30613', '#63BE21', '#7A2F8F', '#F2A20C', '#2A9D8F',
-      '#C2185B', '#6D4C41', '#00843D', '#5C6BC0', '#B71C1C', '#00695C',
+    const nf1 = new Intl.NumberFormat('es-ES', {
+      minimumFractionDigits: 1,
+      maximumFractionDigits: 1,
+    });
+    const nf0 = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0 });
+    const nf2 = new Intl.NumberFormat('es-ES', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    });
+
+    /** Colores estables por partido: el PP siempre es azul, el PSOE siempre rojo. */
+    const COLORES = [
+      { clave: 'PP', color: '#1B4D8F' },
+      { clave: 'POPULAR', color: '#1B4D8F' },
+      { clave: 'PSOE', color: '#E30613' },
+      { clave: 'PSE', color: '#E30613' },
+      { clave: 'PSC', color: '#E30613' },
+      { clave: 'SOCIALISTA', color: '#E30613' },
+      { clave: 'VOX', color: '#63BE21' },
+      { clave: 'SUMAR', color: '#E51C55' },
+      { clave: 'PODEMOS', color: '#7A2F8F' },
+      { clave: 'IU', color: '#C62828' },
+      { clave: 'ERC', color: '#F2A20C' },
+      { clave: 'ESQUERRA', color: '#F2A20C' },
+      { clave: 'JUNTS', color: '#00A3A3' },
+      { clave: 'JXCAT', color: '#00A3A3' },
+      { clave: 'BILDU', color: '#7AC143' },
+      { clave: 'PNV', color: '#00843D' },
+      { clave: 'EAJ', color: '#00843D' },
+      { clave: 'BNG', color: '#2E86C1' },
+      { clave: 'CC', color: '#F5C400' },
+      { clave: 'CANARIA', color: '#F5C400' },
+      { clave: 'CANARIAS', color: '#FFB300' },
+      { clave: 'NC', color: '#FFB300' },
+      { clave: 'PACMA', color: '#6A994E' },
+      { clave: 'CIUDADANOS', color: '#EB6109' },
+      { clave: 'CS', color: '#EB6109' },
+      { clave: 'UPN', color: '#1B4D8F' },
+      { clave: 'PRC', color: '#00843D' },
+      { clave: 'FORO', color: '#1B4D8F' },
+      { clave: 'CUP', color: '#F2A20C' },
+      { clave: 'MES', color: '#2A9D8F' },
+      { clave: 'COMPROMIS', color: '#2A9D8F' },
+      { clave: 'TERUEL', color: '#C2185B' },
+      { clave: 'GEROA', color: '#00843D' },
+      { clave: 'ASG', color: '#F5C400' },
     ];
+    const COLORES_FRASE = [{ texto: 'EL PI', color: '#2A9D8F' }];
+    const PALETA_RESERVA = ['#5C6BC0', '#8D6E63', '#00897B', '#6A1B9A', '#EF6C00', '#546E7A'];
+
+    function colorPartido(nombre) {
+      const normalizado = nombre
+        .normalize('NFKD')
+        .replace(/\p{M}/gu, '')
+        .toUpperCase()
+        .trim();
+      for (const { texto, color } of COLORES_FRASE) {
+        if (normalizado.includes(texto)) return color;
+      }
+      const palabras = new Set(normalizado.split(/[^A-Z0-9]+/).filter(Boolean));
+      for (const { clave, color } of COLORES) {
+        if (palabras.has(clave)) return color;
+      }
+      let hash = 0;
+      for (const caracter of normalizado) hash = (hash * 31 + caracter.charCodeAt(0)) >>> 0;
+      return PALETA_RESERVA[hash % PALETA_RESERVA.length];
+    }
 
     const $ = (id) => document.getElementById(id);
 
@@ -166,38 +233,54 @@ const datos2023 = {
     const badge = $('modo-badge');
     const botonModo = $('reproducir');
     const disponible = $('disponible');
+    const umbralTexto = $('umbral');
+    const anuncio = $('anuncio');
     const controles = new Map();
 
-    let partidos = ['A', 'B', 'C', 'D', 'E', 'F'].map((letra, i) => ({
-      id: `p${i + 1}`,
-      nombre: `Partido ${letra}`,
-      valor: 0,
-      color: PALETA[i % PALETA.length],
-    }));
+    function partidosIniciales() {
+      return ['A', 'B', 'C', 'D', 'E', 'F'].map((letra, i) => {
+        const nombre = `Partido ${letra}`;
+        return { id: `p${i + 1}`, nombre, valor: 0, color: colorPartido(nombre) };
+      });
+    }
+
+    let partidos = partidosIniciales();
     let blanco = 0;
     let modo2023 = false;
     let exacto = null;
+    let temporizadorAnuncio;
 
     const nombreDe = (p, i) => p.nombre.trim() || `Partido ${i + 1}`;
 
-    /** Décimas de punto porcentual: 1000 = 100%. Evita errores de redondeo. */
-    const decimas = (valor) => Math.round(Number(valor) * 10);
+    function nodo(tag, clase, texto) {
+      const el = document.createElement(tag);
+      if (clase) el.className = clase;
+      if (texto !== undefined) el.textContent = texto;
+      return el;
+    }
+
+    function anunciar(texto) {
+      clearTimeout(temporizadorAnuncio);
+      temporizadorAnuncio = setTimeout(() => {
+        anuncio.textContent = texto;
+      }, 400);
+    }
+
+    const valoresDecimas = () => [...partidos.map((p) => decimas(p.valor)), decimas(blanco)];
 
     function maximoPartido(id) {
-      const resto =
-        partidos.reduce((suma, p) => suma + (p.id === id ? 0 : decimas(p.valor)), 0) +
-        decimas(blanco);
-      return Math.max(0, 1000 - resto);
+      const indice = partidos.findIndex((p) => p.id === id);
+      return indice < 0 ? 0 : maximoCampo(valoresDecimas(), indice);
     }
 
-    function maximoBlanco() {
-      return Math.max(
-        0,
-        1000 - partidos.reduce((suma, p) => suma + decimas(p.valor), 0),
-      );
+    const maximoBlanco = () => maximoCampo(valoresDecimas(), partidos.length);
+
+    function actualizarModo() {
+      badge.hidden = !modo2023;
+      botonModo.textContent = modo2023 ? 'Salir del modo 2023' : 'Reproducir 2023';
+      botonModo.setAttribute('aria-pressed', modo2023 ? 'true' : 'false');
     }
 
-    /** Ajusta el tope de cada campo a lo que queda libre. */
     function actualizarLimites() {
       for (const p of partidos) {
         const control = controles.get(p.id);
@@ -209,25 +292,17 @@ const datos2023 = {
         control.rango.disabled = bloqueado;
         control.numero.disabled = bloqueado;
       }
+
       const maximoB = maximoBlanco();
       const bloqueadoB = maximoB === 0 && decimas(blanco) === 0;
       $('blanco-rango').max = String(maximoB / 10);
       $('blanco-numero').max = String(maximoB / 10);
       $('blanco-rango').disabled = bloqueadoB;
       $('blanco-numero').disabled = bloqueadoB;
-    }
 
-    function nodo(tag, clase, texto) {
-      const el = document.createElement(tag);
-      if (clase) el.className = clase;
-      if (texto !== undefined) el.textContent = texto;
-      return el;
-    }
-
-    function actualizarModo() {
-      badge.hidden = !modo2023;
-      botonModo.textContent = modo2023 ? 'Salir del modo 2023' : 'Reproducir 2023';
-      botonModo.setAttribute('aria-pressed', modo2023 ? 'true' : 'false');
+      // No se pueden añadir filas si ya está todo asignado.
+      const ocupado = partidos.reduce((suma, p) => suma + decimas(p.valor), 0) + decimas(blanco);
+      $('anadir').disabled = ocupado >= 1000 || partidos.length >= 12;
     }
 
     function salirModo2023() {
@@ -240,6 +315,8 @@ const datos2023 = {
     }
 
     function crearFila(p, indice) {
+      p.color = colorPartido(p.nombre);
+
       const fila = nodo('div', 'calc-fila');
 
       const punto = nodo('span', 'calc-punto');
@@ -251,10 +328,6 @@ const datos2023 = {
       nombre.className = 'calc-nombre';
       nombre.value = p.nombre;
       nombre.setAttribute('aria-label', `Nombre del partido ${indice + 1}`);
-      nombre.addEventListener('input', () => {
-        p.nombre = nombre.value;
-        calcular();
-      });
 
       const rango = document.createElement('input');
       rango.type = 'range';
@@ -275,20 +348,29 @@ const datos2023 = {
       numero.value = String(p.valor);
       numero.setAttribute('aria-label', `Porcentaje de ${nombreDe(p, indice)}`);
 
+      nombre.addEventListener('input', () => {
+        p.nombre = nombre.value;
+        p.color = colorPartido(p.nombre);
+        punto.style.background = p.color;
+        const etiqueta = `Porcentaje de ${nombreDe(p, indice)}`;
+        rango.setAttribute('aria-label', etiqueta);
+        numero.setAttribute('aria-label', etiqueta);
+        calcular();
+      });
+
       const aplicar = (valor, origen) => {
-        // Editar un porcentaje saca del modo exacto de 2023.
         if (modo2023) {
           modo2023 = false;
           exacto = null;
           actualizarModo();
         }
-        const maximo = maximoPartido(p.id) / 10;
-        const bruto = Number(valor) || 0;
-        const v = Math.round(Math.min(maximo, Math.max(0, bruto)) * 10) / 10;
+        const maximo = maximoPartido(p.id);
+        const vDecimas = recortar(valor, maximo);
+        const v = vDecimas / 10;
         p.valor = v;
         if (origen !== rango) rango.value = String(v);
         if (origen !== numero) numero.value = String(v);
-        if (origen && bruto !== v) origen.value = String(v);
+        if (origen && decimas(valor) !== vDecimas) origen.value = String(v);
         actualizarLimites();
         calcular();
       };
@@ -319,13 +401,12 @@ const datos2023 = {
           exacto = null;
           actualizarModo();
         }
-        const maximo = maximoBlanco() / 10;
-        const bruto = Number(valor) || 0;
-        const v = Math.round(Math.min(maximo, Math.max(0, bruto)) * 10) / 10;
+        const vDecimas = recortar(valor, maximoBlanco());
+        const v = vDecimas / 10;
         blanco = v;
         if (origen !== rango) rango.value = String(v);
         if (origen !== numero) numero.value = String(v);
-        if (origen && bruto !== v) origen.value = String(v);
+        if (origen && decimas(valor) !== vDecimas) origen.value = String(v);
         actualizarLimites();
         calcular();
       };
@@ -333,7 +414,6 @@ const datos2023 = {
       numero.addEventListener('input', () => aplicar(numero.value, numero));
     }
 
-    /** Carga los votos oficiales de 2023 y los escaños de entonces. */
     function cargar2023() {
       const provincia = datos2023.provincias.find(
         (p) => p.codigo === selectProvincia.value,
@@ -350,7 +430,7 @@ const datos2023 = {
         id: `p${i + 1}`,
         nombre: p.siglas,
         valor: Number(((p.votos / validos) * 100).toFixed(1)),
-        color: PALETA[i % PALETA.length],
+        color: colorPartido(p.siglas),
       }));
       blanco = Number(((provincia.blanco / validos) * 100).toFixed(1));
 
@@ -400,9 +480,11 @@ const datos2023 = {
         }
       }
 
-      if (Object.keys(votos).length === 0) {
+      // Sin partidos ni blanco no hay nada que repartir.
+      if (Object.keys(votos).length === 0 && decimas(blanco) === 0) {
         resumen.textContent = 'Introduce porcentajes para ver el reparto.';
-        disponible.textContent = 'Sin asignar: 100.0%';
+        disponible.textContent = 'Otros partidos (sin asignar): 100,0%';
+        umbralTexto.textContent = 'Umbral del 3% de los votos válidos';
         resultado.textContent = '';
         resultado.append(
           nodo(
@@ -412,6 +494,7 @@ const datos2023 = {
           ),
         );
         cocientesDiv.textContent = '';
+        anunciar('Sin votos que repartir.');
         return;
       }
 
@@ -426,20 +509,22 @@ const datos2023 = {
       const totalPartidos = Object.values(votos).reduce((a, b) => a + b, 0);
 
       if (modo2023) {
-        const partes = [`Datos oficiales del 23J · partidos ${pct(totalPartidos).toFixed(1)}%`];
-        if (blancoPeso > 0) partes.push(`blanco ${pct(blancoPeso).toFixed(1)}%`);
-        if (otros > 0) partes.push(`otros ${pct(otros).toFixed(1)}%`);
+        const partes = [`Datos oficiales del 23J · partidos ${nf1.format(pct(totalPartidos))}%`];
+        if (blancoPeso > 0) partes.push(`blanco ${nf1.format(pct(blancoPeso))}%`);
+        if (otros > 0) partes.push(`otros ${nf1.format(pct(otros))}%`);
         resumen.textContent = partes.join(' · ');
         disponible.textContent = 'Datos oficiales de 2023 cargados';
+        umbralTexto.textContent = `Umbral del 3%: ${nf0.format(r.umbral)} votos`;
       } else {
-        const partes = [`Partidos: ${(totalPartidos / 1000).toFixed(1)}%`];
-        if (blancoPeso > 0) partes.push(`blanco: ${(blancoPeso / 1000).toFixed(1)}%`);
-        if (otros > 0) partes.push(`sin asignar: ${(otros / 1000).toFixed(1)}%`);
+        const partes = [`Partidos: ${nf1.format(totalPartidos / 1000)}%`];
+        if (blancoPeso > 0) partes.push(`blanco: ${nf1.format(blancoPeso / 1000)}%`);
+        if (otros > 0) partes.push(`otros: ${nf1.format(otros / 1000)}%`);
         resumen.textContent = partes.join(' · ');
         disponible.textContent =
           otros > 0
-            ? `Sin asignar: ${(otros / 1000).toFixed(1)}%`
+            ? `Otros partidos (sin asignar): ${nf1.format(otros / 1000)}%`
             : '100% asignado';
+        umbralTexto.textContent = 'Umbral del 3% de los votos válidos';
       }
 
       pintarResultado(r, votos, meta, escanos);
@@ -457,6 +542,7 @@ const datos2023 = {
             'Ninguna candidatura alcanza el 3% de los votos válidos: no se asigna ningún escaño.',
           ),
         );
+        anunciar('Ninguna candidatura alcanza el 3%. No se asigna ningún escaño.');
         return;
       }
 
@@ -466,8 +552,9 @@ const datos2023 = {
         .filter((x) => x.escanos > 0)
         .sort((a, b) => b.escanos - a.escanos || b.pct - a.pct);
 
+      const totalEscanos = conEscano.reduce((a, b) => a + b.escanos, 0);
       const cifra = nodo('p', 'calc-total');
-      cifra.append(nodo('b', null, String(conEscano.reduce((a, b) => a + b.escanos, 0))));
+      cifra.append(nodo('b', null, String(totalEscanos)));
       cifra.append(document.createTextNode(` de ${escanos} escaños asignados`));
       resultado.append(cifra);
 
@@ -481,7 +568,7 @@ const datos2023 = {
           nodo(
             'span',
             'calc-barra-datos',
-            `${x.escanos} escaño${x.escanos === 1 ? '' : 's'} · ${cuota.toFixed(1)}% de escaños`,
+            `${x.escanos} escaño${x.escanos === 1 ? '' : 's'} · ${nf1.format(cuota)}% de escaños · ${nf1.format(x.pct)}% de votos`,
           ),
         );
         const pista = nodo('div', 'calc-barra-pista');
@@ -505,7 +592,7 @@ const datos2023 = {
             'p',
             'calc-nota',
             `Superan el 3% pero no obtienen escaño: ${sinEscano
-              .map((x) => `${meta[x.id].nombre} (${x.pct.toFixed(1)}%)`)
+              .map((x) => `${meta[x.id].nombre} (${nf1.format(x.pct)}%)`)
               .join(', ')}.`,
           ),
         );
@@ -522,11 +609,16 @@ const datos2023 = {
             'p',
             'calc-nota',
             `Fuera por el umbral del 3%: ${excluidos
-              .map((x) => `${meta[x.id].nombre} (${x.pct.toFixed(1)}%)`)
+              .map((x) => `${meta[x.id].nombre} (${nf1.format(x.pct)}%)`)
               .join(', ')}.`,
           ),
         );
       }
+
+      const anuncioEscanos = conEscano
+        .map((x) => `${meta[x.id].nombre} ${x.escanos}`)
+        .join(', ');
+      anunciar(`${totalEscanos} de ${escanos} escaños. ${anuncioEscanos}.`);
     }
 
     function pintarCocientes(r, meta) {
@@ -548,11 +640,21 @@ const datos2023 = {
         fila.append(nodo('td', 'num', String(i + 1)));
         fila.append(nodo('td', null, meta[g.partido].nombre));
         fila.append(nodo('td', 'num', `÷ ${g.divisor}`));
-        fila.append(nodo('td', 'num', `${(g.cociente / (r.validos / 100)).toFixed(2)}%`));
+        fila.append(nodo('td', 'num', `${nf2.format(g.cociente / (r.validos / 100))}%`));
         tbody.append(fila);
       });
       tabla.append(tbody);
       cocientesDiv.append(tabla);
+
+      if (r.siguiente) {
+        cocientesDiv.append(
+          nodo(
+            'p',
+            'calc-nota',
+            `Primer cociente sin escaño: ${meta[r.siguiente.partido].nombre} ÷ ${r.siguiente.divisor} = ${nf2.format(r.siguiente.cociente / (r.validos / 100))}%.`,
+          ),
+        );
+      }
     }
 
     $('anadir').addEventListener('click', () => {
@@ -564,11 +666,12 @@ const datos2023 = {
       }
       const i = partidos.length;
       const letra = String.fromCharCode(65 + (i % 26));
+      const nombre = `Partido ${letra}`;
       const p = {
         id: `p${i + 1}`,
-        nombre: `Partido ${letra}`,
+        nombre,
         valor: 0,
-        color: PALETA[i % PALETA.length],
+        color: colorPartido(nombre),
       };
       partidos.push(p);
       contenedor.append(crearFila(p, i));
@@ -577,16 +680,14 @@ const datos2023 = {
     });
 
     $('reiniciar').addEventListener('click', () => {
-      if (modo2023) {
-        modo2023 = false;
-        exacto = null;
-        actualizarModo();
-      }
-      partidos = partidos.map((p) => ({ ...p, valor: 0 }));
+      modo2023 = false;
+      exacto = null;
+      partidos = partidosIniciales();
       blanco = 0;
       $('blanco-rango').value = '0';
       $('blanco-numero').value = '0';
       pintarPartidos();
+      actualizarModo();
       actualizarLimites();
       calcular();
     });
@@ -679,6 +780,11 @@ const datos2023 = {
 
     .calc-rango:disabled,
     .calc-numero:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .boton:disabled {
       opacity: 0.45;
       cursor: not-allowed;
     }
@@ -850,6 +956,13 @@ const datos2023 = {
       margin: 1rem 0 0;
       font-size: 0.82rem;
       color: var(--tenue);
+    }
+
+    .calc-umbral {
+      margin: 0.4rem 0 0;
+      font-size: 0.8rem;
+      color: var(--tenue);
+      font-variant-numeric: tabular-nums;
     }
 
     .calc-detalle {

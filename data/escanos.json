@@ -5,57 +5,265 @@
   "eleccion": "Elecciones generales del 29 de noviembre de 2026",
   "total": 350,
   "circunscripciones": [
-    { "codigo": "01", "nombre": "Araba/Álava", "diputados": 4 },
-    { "codigo": "02", "nombre": "Albacete", "diputados": 4 },
-    { "codigo": "03", "nombre": "Alicante/Alacant", "diputados": 12 },
-    { "codigo": "04", "nombre": "Almería", "diputados": 6 },
-    { "codigo": "05", "nombre": "Ávila", "diputados": 3 },
-    { "codigo": "06", "nombre": "Badajoz", "diputados": 5 },
-    { "codigo": "07", "nombre": "Balears (Illes)", "diputados": 8 },
-    { "codigo": "08", "nombre": "Barcelona", "diputados": 32 },
-    { "codigo": "09", "nombre": "Burgos", "diputados": 4 },
-    { "codigo": "10", "nombre": "Cáceres", "diputados": 4 },
-    { "codigo": "11", "nombre": "Cádiz", "diputados": 8 },
-    { "codigo": "12", "nombre": "Castellón/Castelló", "diputados": 5 },
-    { "codigo": "13", "nombre": "Ciudad Real", "diputados": 5 },
-    { "codigo": "14", "nombre": "Córdoba", "diputados": 6 },
-    { "codigo": "15", "nombre": "Coruña (A)", "diputados": 8 },
-    { "codigo": "16", "nombre": "Cuenca", "diputados": 3 },
-    { "codigo": "17", "nombre": "Girona", "diputados": 6 },
-    { "codigo": "18", "nombre": "Granada", "diputados": 7 },
-    { "codigo": "19", "nombre": "Guadalajara", "diputados": 3 },
-    { "codigo": "20", "nombre": "Gipuzkoa", "diputados": 6 },
-    { "codigo": "21", "nombre": "Huelva", "diputados": 5 },
-    { "codigo": "22", "nombre": "Huesca", "diputados": 3 },
-    { "codigo": "23", "nombre": "Jaén", "diputados": 5 },
-    { "codigo": "24", "nombre": "León", "diputados": 4 },
-    { "codigo": "25", "nombre": "Lleida", "diputados": 4 },
-    { "codigo": "26", "nombre": "Rioja (La)", "diputados": 4 },
-    { "codigo": "27", "nombre": "Lugo", "diputados": 4 },
-    { "codigo": "28", "nombre": "Madrid", "diputados": 38 },
-    { "codigo": "29", "nombre": "Málaga", "diputados": 11 },
-    { "codigo": "30", "nombre": "Murcia", "diputados": 10 },
-    { "codigo": "31", "nombre": "Navarra", "diputados": 5 },
-    { "codigo": "32", "nombre": "Ourense", "diputados": 4 },
-    { "codigo": "33", "nombre": "Asturias", "diputados": 7 },
-    { "codigo": "34", "nombre": "Palencia", "diputados": 3 },
-    { "codigo": "35", "nombre": "Palmas (Las)", "diputados": 8 },
-    { "codigo": "36", "nombre": "Pontevedra", "diputados": 7 },
-    { "codigo": "37", "nombre": "Salamanca", "diputados": 4 },
-    { "codigo": "38", "nombre": "Santa Cruz de Tenerife", "diputados": 7 },
-    { "codigo": "39", "nombre": "Cantabria", "diputados": 5 },
-    { "codigo": "40", "nombre": "Segovia", "diputados": 3 },
-    { "codigo": "41", "nombre": "Sevilla", "diputados": 12 },
-    { "codigo": "42", "nombre": "Soria", "diputados": 2 },
-    { "codigo": "43", "nombre": "Tarragona", "diputados": 6 },
-    { "codigo": "44", "nombre": "Teruel", "diputados": 3 },
-    { "codigo": "45", "nombre": "Toledo", "diputados": 6 },
-    { "codigo": "46", "nombre": "Valencia/València", "diputados": 16 },
-    { "codigo": "47", "nombre": "Valladolid", "diputados": 5 },
-    { "codigo": "48", "nombre": "Bizkaia", "diputados": 8 },
-    { "codigo": "49", "nombre": "Zamora", "diputados": 3 },
-    { "codigo": "50", "nombre": "Zaragoza", "diputados": 7 },
-    { "codigo": "51", "nombre": "Ceuta", "diputados": 1 },
-    { "codigo": "52", "nombre": "Melilla", "diputados": 1 }
+    {
+      "codigo": "01",
+      "nombre": "Araba/Álava",
+      "diputados": 4
+    },
+    {
+      "codigo": "02",
+      "nombre": "Albacete",
+      "diputados": 4
+    },
+    {
+      "codigo": "03",
+      "nombre": "Alicante/Alacant",
+      "diputados": 12
+    },
+    {
+      "codigo": "04",
+      "nombre": "Almería",
+      "diputados": 6
+    },
+    {
+      "codigo": "05",
+      "nombre": "Ávila",
+      "diputados": 3
+    },
+    {
+      "codigo": "06",
+      "nombre": "Badajoz",
+      "diputados": 5
+    },
+    {
+      "codigo": "07",
+      "nombre": "Balears (Illes)",
+      "diputados": 8
+    },
+    {
+      "codigo": "08",
+      "nombre": "Barcelona",
+      "diputados": 32
+    },
+    {
+      "codigo": "09",
+      "nombre": "Burgos",
+      "diputados": 4
+    },
+    {
+      "codigo": "10",
+      "nombre": "Cáceres",
+      "diputados": 4
+    },
+    {
+      "codigo": "11",
+      "nombre": "Cádiz",
+      "diputados": 8
+    },
+    {
+      "codigo": "12",
+      "nombre": "Castellón/Castelló",
+      "diputados": 5
+    },
+    {
+      "codigo": "13",
+      "nombre": "Ciudad Real",
+      "diputados": 5
+    },
+    {
+      "codigo": "14",
+      "nombre": "Córdoba",
+      "diputados": 6
+    },
+    {
+      "codigo": "15",
+      "nombre": "Coruña (A)",
+      "diputados": 8
+    },
+    {
+      "codigo": "16",
+      "nombre": "Cuenca",
+      "diputados": 3
+    },
+    {
+      "codigo": "17",
+      "nombre": "Girona",
+      "diputados": 6
+    },
+    {
+      "codigo": "18",
+      "nombre": "Granada",
+      "diputados": 7
+    },
+    {
+      "codigo": "19",
+      "nombre": "Guadalajara",
+      "diputados": 3
+    },
+    {
+      "codigo": "20",
+      "nombre": "Gipuzkoa",
+      "diputados": 6
+    },
+    {
+      "codigo": "21",
+      "nombre": "Huelva",
+      "diputados": 5
+    },
+    {
+      "codigo": "22",
+      "nombre": "Huesca",
+      "diputados": 3
+    },
+    {
+      "codigo": "23",
+      "nombre": "Jaén",
+      "diputados": 5
+    },
+    {
+      "codigo": "24",
+      "nombre": "León",
+      "diputados": 4
+    },
+    {
+      "codigo": "25",
+      "nombre": "Lleida",
+      "diputados": 4
+    },
+    {
+      "codigo": "26",
+      "nombre": "Rioja (La)",
+      "diputados": 4
+    },
+    {
+      "codigo": "27",
+      "nombre": "Lugo",
+      "diputados": 4
+    },
+    {
+      "codigo": "28",
+      "nombre": "Madrid",
+      "diputados": 38
+    },
+    {
+      "codigo": "29",
+      "nombre": "Málaga",
+      "diputados": 11
+    },
+    {
+      "codigo": "30",
+      "nombre": "Murcia",
+      "diputados": 10
+    },
+    {
+      "codigo": "31",
+      "nombre": "Navarra",
+      "diputados": 5
+    },
+    {
+      "codigo": "32",
+      "nombre": "Ourense",
+      "diputados": 4
+    },
+    {
+      "codigo": "33",
+      "nombre": "Asturias",
+      "diputados": 7
+    },
+    {
+      "codigo": "34",
+      "nombre": "Palencia",
+      "diputados": 3
+    },
+    {
+      "codigo": "35",
+      "nombre": "Palmas (Las)",
+      "diputados": 8
+    },
+    {
+      "codigo": "36",
+      "nombre": "Pontevedra",
+      "diputados": 7
+    },
+    {
+      "codigo": "37",
+      "nombre": "Salamanca",
+      "diputados": 4
+    },
+    {
+      "codigo": "38",
+      "nombre": "Santa Cruz de Tenerife",
+      "diputados": 7
+    },
+    {
+      "codigo": "39",
+      "nombre": "Cantabria",
+      "diputados": 5
+    },
+    {
+      "codigo": "40",
+      "nombre": "Segovia",
+      "diputados": 3
+    },
+    {
+      "codigo": "41",
+      "nombre": "Sevilla",
+      "diputados": 12
+    },
+    {
+      "codigo": "42",
+      "nombre": "Soria",
+      "diputados": 2
+    },
+    {
+      "codigo": "43",
+      "nombre": "Tarragona",
+      "diputados": 6
+    },
+    {
+      "codigo": "44",
+      "nombre": "Teruel",
+      "diputados": 3
+    },
+    {
+      "codigo": "45",
+      "nombre": "Toledo",
+      "diputados": 6
+    },
+    {
+      "codigo": "46",
+      "nombre": "Valencia/València",
+      "diputados": 16
+    },
+    {
+      "codigo": "47",
+      "nombre": "Valladolid",
+      "diputados": 5
+    },
+    {
+      "codigo": "48",
+      "nombre": "Bizkaia",
+      "diputados": 8
+    },
+    {
+      "codigo": "49",
+      "nombre": "Zamora",
+      "diputados": 3
+    },
+    {
+      "codigo": "50",
+      "nombre": "Zaragoza",
+      "diputados": 7
+    },
+    {
+      "codigo": "51",
+      "nombre": "Ceuta",
+      "diputados": 1
+    },
+    {
+      "codigo": "52",
+      "nombre": "Melilla",
+      "diputados": 1
+    }
   ]
 }

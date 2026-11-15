@@ -35,16 +35,19 @@ data/
 src/
   lib/datos.ts        carga de datos y utilidades
   lib/dhondt.js       reparto D'Hondt y umbral del 3% (LOREG 162-163)
+  lib/porcentajes.js  topes del 100% y redondeo en décimas
   components/         FichaTema, TarjetaPartido
   pages/              portada, /temas, /tema/[slug], /partido/[slug],
                       /calculadora, /buscar, /programas, /sobre
 tests/
   dhondt.test.js      ejemplo de la LOREG, umbral, empates y escala
+  porcentajes.test.js topes del 100% y recorte de valores
 scripts/
   extraer_texto.py    PDF → data/texto (con caché por sha256)
   ver.py              consulta el texto extraído durante la curación
   validar.mjs         comprueba esquema y que cada cita exista en su página
   validar-electoral.mjs  52 circunscripciones y suma de 350 diputados
+  boe_escanos.py      actualiza los diputados desde el BOE sin cambiar el esquema
 ```
 
 ## Añadir un partido
@@ -119,8 +122,12 @@ circunscripción, de modo que todas juntas suman el 100% de los escaños.
 
 Los porcentajes tampoco pueden sumar más de 100: cada campo tiene como tope lo
 que queda libre, los campos sin margen se deshabilitan y el resto se muestra
-como «sin asignar». No hay normalización silenciosa: lo que ves es lo que se
-reparte.
+como «otros partidos (sin asignar)». No hay normalización silenciosa: lo que
+ves es lo que se reparte.
+
+Los colores son estables por partido (PP azul, PSOE rojo) y todos los números
+se formatean en español. Los escaños se pueden actualizar desde el BOE con
+`python scripts/boe_escanos.py`, que conserva los códigos y nombres.
 
 El botón **Reproducir 2023** carga los votos oficiales del 23J guardados en
 `data/resultados_2023.json`, usa los escaños de 2023 y marca la página con un

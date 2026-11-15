@@ -59,7 +59,8 @@ export function compararCocientes(a, b) {
  *   aptos: string[],
  *   excluidos: string[],
  *   asignados: Record<string, number>,
- *   ganadores: Array<{ partido: string, votos: number, divisor: number, cociente: number }>
+ *   ganadores: Array<{ partido: string, votos: number, divisor: number, cociente: number }>,
+ *   siguiente: ({ partido: string, votos: number, divisor: number, cociente: number } | null)
  * }}
  */
 export function repartir({ votos, escanos, blanco = 0, otros = 0 }) {
@@ -76,7 +77,15 @@ export function repartir({ votos, escanos, blanco = 0, otros = 0 }) {
   const validos = totalCandidaturas + Math.max(0, blanco) + Math.max(0, otros);
 
   if (validos <= 0 || entradas.length === 0) {
-    return { validos, umbral: 0, aptos: [], excluidos: [], asignados: {}, ganadores: [] };
+    return {
+      validos,
+      umbral: 0,
+      aptos: [],
+      excluidos: [],
+      asignados: {},
+      ganadores: [],
+      siguiente: null,
+    };
   }
 
   const umbral = validos * 0.03;
@@ -97,12 +106,16 @@ export function repartir({ votos, escanos, blanco = 0, otros = 0 }) {
     asignados[ganador.partido] = (asignados[ganador.partido] ?? 0) + 1;
   }
 
+  const conCociente = (g) => ({ ...g, cociente: g.votos / g.divisor });
+  const siguiente = cocientes[escanos] ?? null;
+
   return {
     validos,
     umbral,
     aptos: aptos.map((x) => x.partido),
     excluidos: excluidos.map((x) => x.partido),
     asignados,
-    ganadores: ganadores.map((g) => ({ ...g, cociente: g.votos / g.divisor })),
+    ganadores: ganadores.map(conCociente),
+    siguiente: siguiente ? conCociente(siguiente) : null,
   };
 }
