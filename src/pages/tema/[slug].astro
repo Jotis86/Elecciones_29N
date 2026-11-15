@@ -69,7 +69,9 @@ const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
             y el análisis se irá publicando por tandas.
           </p>
         ) : (
-          fichas.map(({ partido, bloque }) => <FichaTema partido={partido} bloque={bloque} />)
+          fichas.map(({ partido, ficha, bloque }) => (
+            <FichaTema partido={partido} bloque={bloque} idioma={ficha.idioma ?? 'es'} />
+          ))
         )
       }
 

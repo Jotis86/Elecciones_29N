@@ -1,0 +1,195 @@
+{
+  "partido": "cc",
+  "revisado": "2026-11-15",
+  "temas": {
+    "vivienda": {
+      "resumen": "El programa de Coalición Canaria está planteado como una agenda de exigencias al Estado para el archipiélago. En vivienda propone un fondo estatal de ocho años para cofinanciar vivienda pública y asequible, con cesión de suelo estatal, un plan de regeneración de barrios y vivienda joven para la emancipación. Añade limitar por ley la compra de vivienda por extranjeros en Canarias —con un régimen específico ante la UE— y dar cobertura jurídica para limitar las viviendas vacacionales donde haya presión acreditada.",
+      "propuestas": [
+        {
+          "titular": "Fondo estatal de ocho años para vivienda asequible",
+          "texto": "Un acuerdo de vivienda con financiación plurianual. Impulsaremos un fondo estatal de ocho años para cofinanciar vivienda pública y asequible, con una asignación para Canarias ajustada a sus necesidades.",
+          "pagina": 10
+        },
+        {
+          "titular": "Alquiler estable e incorporar vivienda vacía",
+          "texto": "Alquiler estable y vivienda vacía en uso. Mejoraremos los incentivos fiscales estatales para pequeños propietarios que incorporen voluntariamente viviendas a programas de alquiler asequible",
+          "pagina": 11
+        },
+        {
+          "titular": "Vivienda para la emancipación",
+          "texto": "Vivienda para la emancipación. Defenderemos una línea estatal reforzada de vivienda joven, alquiler asequible y cooperativas.",
+          "pagina": 11
+        },
+        {
+          "titular": "Limitar la compra por extranjeros",
+          "texto": "Limitar la compra de vivienda por extranjeros. Impulsaremos en las Cortes Generales las reformas necesarias para limitar la compra de vivienda en Canarias por extranjeros",
+          "pagina": 11,
+          "nota": "Se apoya en la condición de región ultraperiférica para pedir un régimen específico y una futura Ley Canaria de Residencia."
+        },
+        {
+          "titular": "Vivienda vacacional con reglas",
+          "texto": "Vivienda vacacional con reglas y control. Defenderemos la cobertura jurídica estatal y europea necesaria para que Canarias y sus municipios puedan modular y limitar los usos turísticos",
+          "pagina": 11
+        },
+        {
+          "titular": "Agilizar la vivienda protegida",
+          "texto": "Agilizar la vivienda protegida y asequible. Impulsaremos reformas de los procedimientos estatales y de los informes sectoriales para acortar los plazos.",
+          "pagina": 11
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "CC no plantea una política fiscal general, sino la defensa del Régimen Económico y Fiscal canario: mantenerlo íntegro, actualizarlo, impedir que sus recursos se computen como financiación ordinaria de los servicios públicos y orientarlo a la inversión productiva. Pide un sistema de financiación autonómica que reconozca el coste de las ocho islas y una fiscalidad diferenciada para las «islas verdes». En comercio electrónico exige que se aplique el IGIC y no se cobre IVA indebidamente.",
+      "propuestas": [
+        {
+          "titular": "Proteger y actualizar el REF",
+          "texto": "Proteger y actualizar el REF. Defenderemos la integridad del Régimen Económico y Fiscal, nuestro fuero histórico y un instrumento esencial para compensar desventajas permanentes.",
+          "pagina": 8
+        },
+        {
+          "titular": "Separar el REF de la financiación de servicios",
+          "texto": "Separar el REF de la financiación de los servicios públicos. Impediremos que los recursos del REF se computen como financiación ordinaria de la sanidad, la educación, la dependencia o los servicios sociales.",
+          "pagina": 8
+        },
+        {
+          "titular": "Financiación que entienda las ocho islas",
+          "texto": "Una financiación que entienda las ocho islas. Exigiremos un sistema de financiación autonómica suficiente y estable que reconozca el coste real de prestar servicios en un archipiélago alejado.",
+          "pagina": 8
+        },
+        {
+          "titular": "Orientar el REF a la actividad productiva",
+          "texto": "Orientar el REF hacia la actividad productiva. Evaluaremos y actualizaremos sus instrumentos para atraer inversión productiva e innovadora que genere empleo estable en Canarias",
+          "pagina": 12
+        },
+        {
+          "titular": "Fiscalidad para las islas verdes",
+          "texto": "Una fiscalidad que ayude a permanecer en las islas verdes. Defenderemos las medidas de la propuesta de Decreto Canarias para mantener la deducción del 60 % en el IRPF aplicable en La Palma y extenderla a La Gomera y El Hierro.",
+          "pagina": 13
+        },
+        {
+          "titular": "Comercio electrónico con IGIC",
+          "texto": "Comprar y vender por internet desde Canarias en igualdad de condiciones. Impulsaremos un acuerdo con el Estado y la UE que elimine barreras y costes de intermediación abusivos en el comercio electrónico.",
+          "pagina": 12
+        },
+        {
+          "titular": "Mantener el POSEI",
+          "texto": "Mantener el POSEI y sus recursos. Exigiremos que España defienda íntegramente el programa europeo de apoyo al sector primario de las regiones ultraperiféricas, el POSEI",
+          "pagina": 13
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "CC reclama financiación estatal para el Plan Integral de Empleo de Canarias mientras el paro siga por encima de la media, con prioridad a quienes más dificultades tienen. Plantea apoyo a autónomos y microempresas adaptado a los costes logísticos insulares, incentivos ligados a mejoras salariales pactadas y un plan cuatrienal de empleo juvenil. Vincula la formación profesional y dual a sectores concretos y pide becas que cubran el desplazamiento entre islas.",
+      "propuestas": [
+        {
+          "titular": "Mantener el Plan Integral de Empleo",
+          "texto": "Planes de empleo hasta reducir la desigualdad. Defenderemos la financiación del Plan Integral de Empleo de Canarias y de los programas específicos previstos en el REF",
+          "pagina": 12
+        },
+        {
+          "titular": "Apoyo a autónomos y microempresas",
+          "texto": "Pequeñas empresas con más oportunidades. Adaptaremos los programas estatales de digitalización, innovación y financiación al tamaño y a los costes logísticos de la microempresa canaria.",
+          "pagina": 12
+        },
+        {
+          "titular": "Salarios con medidas específicas",
+          "texto": "Mejorar los salarios con medidas específicas para Canarias. Reclamaremos al Estado incentivos fiscales y bonificaciones en las cotizaciones ligados a mejoras salariales pactadas y a la productividad",
+          "pagina": 12
+        },
+        {
+          "titular": "Plan de empleo joven",
+          "texto": "Un plan de empleo para los jóvenes de Canarias. Reclamaremos la aportación estatal al plan cuatrienal de empleo para menores de 35 años previsto en la propuesta de Decreto Canarias.",
+          "pagina": 14
+        },
+        {
+          "titular": "Formación conectada con el empleo",
+          "texto": "Formación conectada con el empleo y el retorno. Reclamaremos financiación estatal para la formación profesional y la formación dual",
+          "pagina": 14
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "CC aborda la migración como territorio de primera acogida en la ruta atlántica y reclama al Estado y a la UE los costes del salvamento y la acogida. Pide que la solidaridad entre comunidades sea «obligatoria y automática», con traslados activados por indicadores y plazos, no negociados caso a caso. Añade financiación estable para menores no acompañados, cooperación con países de origen, participación canaria en las decisiones migratorias y programas de convivencia frente al racismo.",
+      "propuestas": [
+        {
+          "titular": "Salvamento y acogida con costes compartidos",
+          "texto": "Salvamento y acogida con recursos compartidos. Exigiremos que el Estado y la Unión Europea asuman los costes extraordinarios del salvamento, la acogida y la atención humanitaria en la frontera atlántica.",
+          "pagina": 18
+        },
+        {
+          "titular": "Solidaridad obligatoria y automática",
+          "texto": "Solidaridad obligatoria y automática. Exigiremos que los mecanismos estatales de solidaridad territorial funcionen con indicadores de capacidad, plazos y financiación conocidos.",
+          "pagina": 19,
+          "nota": "Cuando un territorio de primera acogida supere los umbrales, se activarían traslados y la participación de otras comunidades."
+        },
+        {
+          "titular": "Sistema estable para menores no acompañados",
+          "texto": "Un sistema estable para los menores no acompañados. Exigiremos al Estado financiación suficiente y previsible para atender a los menores extranjeros no acompañados acogidos en Canarias",
+          "pagina": 19
+        },
+        {
+          "titular": "Cooperación con países de origen",
+          "texto": "Cooperación y voz canaria en las decisiones migratorias. Reforzaremos la cooperación estable con Mauritania, Senegal, Marruecos, Cabo Verde y otros países de origen y tránsito",
+          "pagina": 19
+        },
+        {
+          "titular": "Inclusión y convivencia",
+          "texto": "Inclusión y convivencia. Defenderemos financiación estatal y europea para programas de integración, convivencia intercultural y prevención de conflictos en los territorios de primera acogida.",
+          "pagina": 19
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "CC reclama una financiación sanitaria que reconozca el coste de atender a la población de ocho islas, con una compensación estatal específica por insularidad y lejanía, y que la formación de especialistas responda a las necesidades del archipiélago. Propone acercar servicios desplazando profesionales en lugar de pacientes y reforzar la salud mental con partidas estatales. Añade una aportación estable para dependencia y cuidados de larga duración.",
+      "propuestas": [
+        {
+          "titular": "Financiación por atender ocho islas",
+          "texto": "Atención sanitaria en todas las islas. Defenderemos una financiación sanitaria que reconozca el coste de atender a la población de ocho islas y permita planificar las plantillas y los centros.",
+          "pagina": 9,
+          "nota": "Pide «una compensación específica y actualizada por los sobrecostes sanitarios de la insularidad y la lejanía»."
+        },
+        {
+          "titular": "Acercar los servicios a las personas",
+          "texto": "Acercar los servicios a las personas. Promoveremos el apoyo estatal a la movilidad de especialistas y otros profesionales cuando resulte más eficiente desplazar el servicio que al paciente.",
+          "pagina": 9
+        },
+        {
+          "titular": "Reforzar la salud mental",
+          "texto": "Reforzar la salud mental. Reclamaremos que los Presupuestos Generales del Estado refuercen las partidas destinadas a la atención en salud mental en Canarias.",
+          "pagina": 9
+        },
+        {
+          "titular": "Dependencia con respaldo estable",
+          "texto": "Dependencia y cuidados con respaldo estable. Exigiremos una aportación estatal suficiente, estable y acorde con las obligaciones del sistema de dependencia.",
+          "pagina": 9
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "CC pide financiación estatal para una oferta suficiente y gratuita de educación infantil de 0 a 3 años y para recuperar los programas de inversión en infraestructuras educativas. Reclama becas que cubran el coste de desplazarse cuando los estudios no se ofrecen en la isla, financiación para FP y FP dual y un plan plurianual para las universidades públicas canarias. Vincula la formación a sectores con salida laboral en las islas.",
+      "propuestas": [
+        {
+          "titular": "Educación infantil de 0 a 3 años",
+          "texto": "Educación infantil de cero a tres años. Reforzaremos la financiación estatal para una oferta suficiente de plazas públicas gratuitas y de calidad.",
+          "pagina": 9
+        },
+        {
+          "titular": "Centros educativos que respondan a las necesidades",
+          "texto": "Centros educativos que respondan a las necesidades. Recuperaremos programas estatales de inversión para corregir los déficits de las infraestructuras educativas",
+          "pagina": 10
+        },
+        {
+          "titular": "Becas según dónde se vive",
+          "texto": "Becas que tengan en cuenta dónde se vive. Defenderemos una formación profesional y una universidad accesibles.",
+          "pagina": 14,
+          "nota": "Exige reforzar las previsiones del REF para quienes deben desplazarse porque sus estudios no se ofrecen en su isla."
+        },
+        {
+          "titular": "Financiación para las universidades canarias",
+          "texto": "Investigar aquí y generar oportunidades aquí. Reclamaremos criterios que corrijan las desventajas de la ultraperiferia en las convocatorias estatales de investigación, desarrollo e innovación.",
+          "pagina": 14
+        }
+      ]
+    }
+  }
+}

@@ -65,6 +65,24 @@ Añade el objeto en `data/temas.json` (`slug`, `nombre`, `descripcion`,
 `/tema/<slug>`. Los partidos sin ficha en ese tema se listan como «sin
 propuestas localizadas».
 
+## Programa en otro idioma
+
+Si el programa no está en castellano, la ficha lleva `"idioma": "gl"` o `"eu"`
+y cada propuesta guarda la cita original además de la traducción:
+
+```json
+{
+  "titular": "Topar el alquiler por ley",
+  "texto": "Topar por ley los precios de los alquileres…",
+  "texto_original": "Topar por lei os prezos dos alugueiros…",
+  "pagina": 12
+}
+```
+
+El validador comprueba `texto_original` contra el PDF (la traducción no se
+valida, porque no está en el documento) y la web muestra la traducción con un
+desplegable para ver la cita literal en su idioma.
+
 ## Por qué no se suben los PDFs
 
 - Git no perdona archivos grandes: un PDF de 69 MB queda en el historial para

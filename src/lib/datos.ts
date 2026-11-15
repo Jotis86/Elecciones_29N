@@ -30,6 +30,8 @@ export interface Tema {
 export interface Propuesta {
   titular: string;
   texto: string;
+  /** Cita literal en el idioma original cuando el programa no está en castellano. */
+  texto_original?: string;
   pagina: number;
   nota?: string;
 }
@@ -41,9 +43,17 @@ export interface BloqueTema {
 
 export interface Ficha {
   partido: string;
+  /** Idioma original del programa: es, gl (gallego) o eu (euskera). */
+  idioma?: 'es' | 'gl' | 'eu';
   revisado: string;
   temas: Record<string, BloqueTema>;
 }
+
+export const NOMBRE_IDIOMA: Record<string, string> = {
+  es: 'castellano',
+  gl: 'gallego',
+  eu: 'euskera',
+};
 
 export const partidos = leer<Partido[]>('data/partidos.json');
 export const temas = leer<Tema[]>('data/temas.json');

@@ -87,6 +87,13 @@ for (const fichero of ficheros) {
   const paginas = new Map(documento.texto.map((p) => [p.pagina, normalizar(p.texto)]));
   const totalPaginas = documento.paginas;
 
+  // Los programas que no están en castellano se traducen, pero se guarda la
+  // cita original y se verifica contra el PDF.
+  const idioma = ficha.idioma ?? 'es';
+  if (!['es', 'gl', 'eu'].includes(idioma)) {
+    errores.push(`${slug}: idioma desconocido «${idioma}»`);
+  }
+
   if (!partido.pdf && documento.pdf) {
     avisos.push(`${slug}: partidos.json no indica «pdf» pero existe texto extraído`);
   }
@@ -114,6 +121,9 @@ for (const fichero of ficheros) {
 
       if (!prop.titular || prop.titular.length < 5) errores.push(`${etiqueta}: titular ausente`);
       if (!prop.texto || prop.texto.length < 40) errores.push(`${etiqueta}: cita demasiado corta`);
+      if (idioma !== 'es' && !prop.texto_original) {
+        avisos.push(`${etiqueta}: sin cita original en ${idioma}`);
+      }
       if (!Number.isInteger(prop.pagina)) {
         errores.push(`${etiqueta}: «pagina» debe ser un número entero`);
         continue;
@@ -123,7 +133,7 @@ for (const fichero of ficheros) {
         continue;
       }
 
-      const cita = normalizar(prop.texto);
+      const cita = normalizar(prop.texto_original ?? prop.texto);
       if (!cita) {
         errores.push(`${etiqueta}: la cita queda vacía al normalizar`);
         continue;

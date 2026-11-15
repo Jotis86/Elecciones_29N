@@ -1,0 +1,254 @@
+{
+  "partido": "bng",
+  "idioma": "gl",
+  "revisado": "2026-11-15",
+  "temas": {
+    "vivienda": {
+      "resumen": "El BNG propone topar por ley los precios del alquiler y suspender de forma automática cualquier desalojo sin alternativa habitacional, además de blindar por ley el carácter indefinido de los contratos. Plantea destinar el 3% de los Presupuestos del Estado a un parque público de alquiler permanente, expropiar viviendas públicas compradas por fondos y traspasar gratuitamente a Galicia los suelos y viviendas de la Sareb. En fiscalidad, elimina deducciones a propietarios que alquilen por encima del precio de referencia y recarga a fondos y SOCIMI.",
+      "propuestas": [
+        {
+          "titular": "Topar el alquiler por ley",
+          "texto": "Topar por ley los precios de los alquileres y prohibir los desalojos de personas en situación de vulnerabilidad, decretando la suspensión automática e indefinida de cualquier lanzamiento sin alternativa habitacional.",
+          "texto_original": "Topar por lei os prezos dos alugueiros e prohibir os desafiuzamentos de persoas en situación de vulnerabilidade, así como decretar a suspensión automática e indefinida de calquera lanzamento sen alternativa habitacional",
+          "pagina": 12
+        },
+        {
+          "titular": "3% de los Presupuestos para vivienda pública",
+          "texto": "Destinar el 3% de los Presupuestos Generales del Estado a financiar, mediante el Plan estatal de vivienda, la creación de un parque público de alquiler permanente.",
+          "texto_original": "Destinar o 3% dos Orzamentos Xerais do Estado para financiar mediante o Plan estatal de vivenda a creación dun parque público de alugueiro permanente.",
+          "pagina": 12
+        },
+        {
+          "titular": "Expropiar vivienda pública comprada por fondos",
+          "texto": "Facilitar la expropiación forzosa de viviendas de promoción pública adquiridas por fondos de inversión.",
+          "texto_original": "Facilitar a expropiación forzosa de vivendas de promoción públicas adquiridas por fondos de investimento.",
+          "pagina": 12
+        },
+        {
+          "titular": "Que la vivienda pública no se pueda privatizar",
+          "texto": "Garantizar legalmente el carácter permanentemente público de las viviendas financiadas con recursos públicos e impedir su privatización.",
+          "texto_original": "Garantir legalmente o carácter permanentemente público das vivendas financiadas con recursos públicos e impedir a súa privatización.",
+          "pagina": 12
+        },
+        {
+          "titular": "Sareb e IGVS: traspaso gratuito",
+          "texto": "Transferir gratuitamente los suelos y viviendas de la Sareb al Instituto Galego de Vivenda e Solo para incorporarlos al parque público de alquiler.",
+          "texto_original": "Transferir gratuitamente os solos e vivendas da Sareb ao IGVS para a súa incorporación ao parque público de vivenda en alugueiro.",
+          "pagina": 13
+        },
+        {
+          "titular": "Recargo fiscal a fondos y SOCIMI",
+          "texto": "Aplicar recargos en el Impuesto de Sociedades a fondos y SOCIMI que incumplan la función social de la vivienda, y eliminar las deducciones en el IRPF a propietarios que alquilen por encima del precio de referencia.",
+          "texto_original": "Eliminar as deducións no IRPF para propietarios que aluguen por riba do prezo de referencia. Aplicar recargos no Imposto de Sociedades a fondos e SOCIMIs que incumpran a función social da vivenda.",
+          "pagina": 13
+        },
+        {
+          "titular": "Canon a la vivienda vacía",
+          "texto": "Facilitar que las comunidades autónomas apliquen alquiler forzoso, expropiación temporal o un canon a la vivienda vacía de grandes propietarios: diez euros por metro cuadrado, con subidas anuales del 10% hasta el triple.",
+          "texto_original": "Adoptar as medidas necesarias para facilitar a aplicación por parte CCAA de mecanismos como o alugueiro forzoso, a expropiación temporal ou o estabelecemento de canon á vivenda desocupada (importe de como mínimo 10 euros por metro cadrado, incrementándose un 10% anual até o triplo do importe inicial) para as vivendas baleiras desde hai 5 ou máis anos e en mans de grandes propietarios.",
+          "pagina": 14
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "El BNG plantea una reforma fiscal estatal para corregir lo que considera una penalización de las rentas del trabajo frente al capital: más progresividad, tipos distintos según el origen de la renta y ajuste de tramos por el IPC gallego. Propone que tributen en Galicia las empresas que operan allí con sede en otra comunidad, elevar la reserva de capitalización para pymes y rebajar el IVA de bienes esenciales, energía y cultura. Defiende blindar los impuestos a banca, energéticas y grandes fortunas y traspasar su gestión a Galicia.",
+      "propuestas": [
+        {
+          "titular": "El trabajo tributa más que el capital",
+          "texto": "Existe una penalización fiscal de las rentas del trabajo frente a las del capital.",
+          "texto_original": "Existe unha penalización fiscal das rendas do traballo fronte ás do capital.",
+          "pagina": 43
+        },
+        {
+          "titular": "Más progresividad y tramos según el IPC gallego",
+          "texto": "Incrementar la progresividad —que pague más quien más renta obtiene— y ajustar los tramos estatales del IRPF al incremento anual del IPC en Galicia.",
+          "texto_original": "Incrementar a súa progresividade: que pague máis quen máis renda obtén. Axustar os tramos estatais do IRPF en función do incremento anual do Índice de Prezos de Consumo en Galiza.",
+          "pagina": 43,
+          "nota": "Añade «establecer distintos tipos de gravamen en función de la naturaleza de los rendimientos», minorando la tributación del trabajo y aumentando la del capital."
+        },
+        {
+          "titular": "Que tributen en Galicia las empresas que operan allí",
+          "texto": "Establecer el deber de tributar en Galicia de todas las empresas que ejercen su actividad allí y sitúan su domicilio social en otras partes del Estado.",
+          "texto_original": "Deber de tributación en Galiza de todas as empresas que exercen a súa actividade no noso país e sitúan o seu domicilio social noutras partes do Estado.",
+          "pagina": 43
+        },
+        {
+          "titular": "IVA superreducido en bienes esenciales",
+          "texto": "Rebajar el IVA de bienes y servicios esenciales y de los bienes culturales al tramo superreducido, con rebaja permanente en alimentación básica, productos del mar, higiene femenina y transporte público.",
+          "texto_original": "Reducir a imposición do IVE de bens e servizos esenciais, así como os bens de carácter cultural, para que tributen no tramo superreducido.",
+          "pagina": 44
+        },
+        {
+          "titular": "Blindar los impuestos a banca y grandes fortunas",
+          "texto": "Blindar la permanencia de los impuestos específicos a los beneficios de la banca, de las grandes energéticas y a las grandes fortunas, reducir los límites de exención, aumentar su progresividad y traspasar su gestión a Galicia.",
+          "texto_original": "Blindar a permanencia dos impostos específicos aos beneficios da banca, das grandes enerxéticas e ás grandes fortunas, reducir os límites de exención, aumentar a súa progresividade e traspasar a súa xestión á Galiza.",
+          "pagina": 44
+        },
+        {
+          "titular": "IVA del 5% en luz y gas",
+          "texto": "Volver a bajar el IVA de la electricidad, el gas, la biomasa y la leña, y del resto de suministros básicos, al 5%, con carácter permanente.",
+          "texto_original": "Rebaixar de novo o IVE aplicado á electricidade, gas, biomasa para quecemento e madeira para leña, e do resto de subministracións básicas ao 5% e estabelecer a súa permanencia.",
+          "pagina": 44
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "El BNG propone derogar las reformas laborales y recuperar 45 días de indemnización por despido improcedente, autorización administrativa en despidos colectivos y prevalencia de los convenios sectoriales. Plantea jornada de 35 horas sin reducción salarial —con horizonte de 32 en cuatro días—, elevar el SMI al 60% del salario medio y eliminar las ETT y la subcontratación en cadena. Añade prestación por desempleo del 75% de la base reguladora los primeros 180 días y suprimir la tasa de reposición en el empleo público.",
+      "propuestas": [
+        {
+          "titular": "Jornada de 35 horas",
+          "texto": "Promover la implantación de la jornada laboral de 35 horas semanales sin reducción salarial, y avanzar hacia la jornada de 32 horas semanales en cuatro días.",
+          "texto_original": "Promover a implantación da xornada laboral de 35 horas semanais sen redución salarial, e avanzar no horizonte da xornada de 32 horas semanais en 4 xornadas.",
+          "pagina": 15
+        },
+        {
+          "titular": "SMI al 60% del salario medio",
+          "texto": "Incrementar el Salario Mínimo Interprofesional hasta situarlo en el 60% del salario medio, como fija la Carta Social Europea según los datos de Eurostat.",
+          "texto_original": "Incrementar o Salario Mínimo Interprofesional até o situar no 60 % do salario medio, tal e como fixa a Carta Social Europea conforme aos datos do EUROSTAT.",
+          "pagina": 15
+        },
+        {
+          "titular": "45 días por despido improcedente",
+          "texto": "Restituir los 45 días de indemnización y un máximo de 42 mensualidades por despido improcedente, junto con la autorización administrativa en los despidos colectivos.",
+          "texto_original": "Os 45 días de indemnización e un máximo de 42 mensualidades por despedimento improcedente. A autorización administrativa nos despedimentos colectivos.",
+          "pagina": 15
+        },
+        {
+          "titular": "Eliminar las ETT",
+          "texto": "Eliminar las Empresas de Trabajo Temporal y las agencias privadas de colocación, la subcontratación en cadena y los falsos autónomos.",
+          "texto_original": "Eliminar as Empresas de Traballo Temporal (ETT) e as axencias privadas de colocación, a subcontratación en cadea, as falsas/os autónomas/os",
+          "pagina": 16
+        },
+        {
+          "titular": "Más paro y menos temporalidad",
+          "texto": "Elevar la prestación contributiva al 75% de la base reguladora los primeros 180 días y al 65% después, sin que pueda ser inferior al SMI.",
+          "texto_original": "Prestación contributiva: Elevar a súa contía ao 75% da base reguladora os primeiros 180 días e 65% despois, non podendo ser nunca inferior ao SMI.",
+          "pagina": 17
+        },
+        {
+          "titular": "Suprimir la tasa de reposición",
+          "texto": "Suprimir por ley la tasa de reposición en el empleo público, con una tasa de interinidad máxima del 5% y procesos selectivos ejecutables en 12 meses.",
+          "texto_original": "Suprimir por lei a taxa de reposición; taxa de interinidade máxima do 5%; procesos selectivos executábeis en 12 meses.",
+          "pagina": 18
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "El BNG defiende la regularización administrativa como vía para acabar con la irregularidad como herramienta de explotación, junto con más inspección laboral y apoyo a la afiliación sindical. Plantea garantizar el acceso a la lengua gallega desde el primer momento de la acogida y admitir su conocimiento como criterio para la nacionalidad española. Pide cerrar los CIE, terminar con las devoluciones en caliente y garantizar derechos de vivienda, trabajo, sanidad y educación a la población migrante.",
+      "propuestas": [
+        {
+          "titular": "Regularización frente a la explotación",
+          "texto": "Promover la regularización administrativa como vía para eliminar la irregularidad como herramienta de explotación, reforzando la inspección laboral.",
+          "texto_original": "Reforzar os mecanismos de inspección laboral e combater a explotación. Promover a regularización administrativa como vía para eliminar a irregularidade como ferramenta de explotación.",
+          "pagina": 22
+        },
+        {
+          "titular": "El gallego, parte de la acogida",
+          "texto": "La garantía de acceso a la lengua gallega debe ser parte integral del proceso de acogida desde el primer momento.",
+          "texto_original": "A garantía ao acceso á lingua galega debe ser parte integral do proceso de acollida desde o primeiro momento.",
+          "pagina": 22
+        },
+        {
+          "titular": "Gallego para la nacionalidad",
+          "texto": "Demandar que un conocimiento acreditado de la lengua y la cultura gallegas sea admitido como criterio para acceder a la nacionalidad española, con independencia del conocimiento del español.",
+          "texto_original": "Demandamos tamén que un acreditado coñecemento da lingua e cultura galegas sexa admitido como criterio para acceder á nacionalidade española, con independencia do coñecemento do español",
+          "pagina": 23
+        },
+        {
+          "titular": "Derechos en vivienda, trabajo, sanidad y educación",
+          "texto": "Impulsar las reformas legislativas necesarias para garantizar los derechos de la población inmigrante —vivienda, trabajo, atención sanitaria, educación— y facilitar los procesos de regularización.",
+          "texto_original": "Impulsar as reformas lexislativas necesarias para garantir os dereitos da poboación inmigrante (vivenda, traballo, atención sanitaria, educación...) así como favorecer e facilitar os procesos de regularización administrativa.",
+          "pagina": 23
+        },
+        {
+          "titular": "Cerrar los CIE",
+          "texto": "Demandar el cierre de los Centros de Internamiento para Extranjeros en el Estado español y el fin de las devoluciones en caliente, con respeto escrupuloso a los derechos humanos.",
+          "texto_original": "Demandar o peche dos Centros de Internamento para Estranxeiros (CIEs) no Estado español e o fin das deportacións en quente",
+          "pagina": 23
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "El BNG propone elevar la financiación sanitaria pública hasta la media de inversión por habitante de la UE, con más peso de la dispersión y el envejecimiento, y garantizar por ley el carácter público de la sanidad frente a la privatización. Plantea una nueva ley de universalización, ampliar la cartera común a odontología, podología, logopedia o nutrición, y acabar con el copago farmacéutico. Añade eliminar la tasa de reposición y asumir en Galicia las competencias de formación MIR, EIR y PIR.",
+      "propuestas": [
+        {
+          "titular": "Financiación hasta la media europea",
+          "texto": "Aumentar la financiación de la sanidad pública hasta, como mínimo, la media de inversión por habitante de la UE, con más peso de la dispersión y el envejecimiento.",
+          "texto_original": "Aumentar o financiamento da sanidade pública, até como mínimo a media de investimento por habitante da UE, co incremento do valor dos parámetros de dispersión e envellecemento da poboación",
+          "pagina": 37
+        },
+        {
+          "titular": "Sanidad solo pública",
+          "texto": "Garantizar el carácter público de la sanidad y reducir sus posibilidades de privatización, asegurando que titularidad, financiación, gestión y provisión se hagan con entidades exclusivamente públicas.",
+          "texto_original": "Garantir o carácter público da sanidade e reducir as súas posibilidades de privatización, mediante unha modificación da Lei 15/97, sobre habilitación de novas formas de xestión do Sistema de Saúde, que asegure que a titularidade, o financiamento, a xestión e a provisión de servizos sanitarios se fará con entidades exclusivamente públicas.",
+          "pagina": 37
+        },
+        {
+          "titular": "Universalidad por ley",
+          "texto": "Garantizar el derecho a la asistencia sanitaria con carácter universal mediante una nueva ley de universalización, sin interpretaciones que amparen exclusiones.",
+          "texto_original": "Garantir o dereito á asistencia sanitaria con carácter universal, cunha nova Lei de universalización, sen aberturas interpretativas que ampararen a exclusión",
+          "pagina": 37
+        },
+        {
+          "titular": "Fin al copago farmacéutico",
+          "texto": "Modificar el marco legal que regula la aportación de los usuarios al gasto farmacéutico para poner fin al modelo de copagos y repagos, al que califica de impuesto a la enfermedad.",
+          "texto_original": "Modificar o marco legal actual que regula a participación económica das usuarias/os da sanidade pública no financiamento da prestación farmacéutica para pór fin ao modelo actual de copagamentos e repagamentos",
+          "pagina": 38
+        },
+        {
+          "titular": "Eliminar la tasa de reposición",
+          "texto": "Eliminar la tasa de reposición de personal como norma básica de obligado cumplimiento en todo el Estado.",
+          "texto_original": "Eliminar a taxa de reposición de persoal como norma básica de obrigado cumprimento en todo o Estado",
+          "pagina": 38
+        },
+        {
+          "titular": "Formación MIR en Galicia",
+          "texto": "Transferir a Galicia todas las competencias relacionadas con los programas de formación MIR, EIR y PIR, e incrementar las plazas según las necesidades reales del SERGAS.",
+          "texto_original": "Transferir a Galiza todas as competencias relacionadas cos programas de formación MIR, EIR, PIR... e incrementar o número de prazas consonte as necesidades reais que presenta o SERGAS",
+          "pagina": 38
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "El BNG defiende una educación pública, laica y gratuita de 0 a 18 años, con una única red de enseñanza y libros, material y actividades extraescolares gratuitas. Propone una ley gallega de educación y otra universitaria propia, con el traspaso de todas las competencias pendientes, y elevar el gasto educativo al 7% del PIB. Plantea eliminar la asignatura de Religión del currículo y avanzar en la supresión de los conciertos educativos.",
+      "propuestas": [
+        {
+          "titular": "Pública, universal y gratuita de 0 a 18",
+          "texto": "Garantizar una educación pública, universal y gratuita de 0 a 18 años que contribuya a formar personas críticas y libres y a la normalización lingüística.",
+          "texto_original": "garantir unha educación pública, universal e gratuíta de 0 a 18 anos que contribúa para formar persoas críticas e libres, para a transformación social, para a normalización lingüística",
+          "pagina": 33
+        },
+        {
+          "titular": "Ley gallega de educación",
+          "texto": "Aprobar una ley gallega de educación que regule el sistema educativo hasta Bachillerato, junto con una ley gallega de formación profesional y una ley del sistema universitario gallego.",
+          "texto_original": "unha Lei galega de educación que regule o noso sistema educativo até o Bacharelato, unha Lei galega de formación profesional, unha Lei de ensinanzas artísticas superiores que permita que os centros que imparten estas ensinanzas poidan adscribirse á universidade e unha Lei do Sistema Universitario Galego.",
+          "pagina": 34
+        },
+        {
+          "titular": "Una sola red, la pública",
+          "texto": "Un modelo basado en el derecho universal a la educación de 0 a 18 años, obligatoria de 3 a 18, sustentado en una única red de enseñanza, la pública, con servicios complementarios gratuitos.",
+          "texto_original": "Promover un modelo educativo fundamentado no dereito universal á educación para os galegos e galegas de 0 a 18 anos e obrigatoria de 3 a 18 anos, sustentado nunha única rede de ensino, a pública, con servizos complementarios, con libros de texto, material escolar e actividades extraescolares gratuítas.",
+          "pagina": 34
+        },
+        {
+          "titular": "7% del PIB para educación",
+          "texto": "Dotar al sistema educativo de mayores niveles de calidad, con un crecimiento del presupuesto hasta dedicar como mínimo el 7% del PIB.",
+          "texto_original": "Dotar o sistema educativo de maiores niveis de calidade, apostando polo crecemento dos orzamentos destinados á educación até lle dedicar, como mínimo, 7% do PIB.",
+          "pagina": 35
+        },
+        {
+          "titular": "Enseñanza laica",
+          "texto": "Promover una enseñanza laica: la asignatura de Religión no formará parte del currículo escolar y se renegociará el concordato con la Santa Sede.",
+          "texto_original": "Promover un ensino laico. A materia de Relixión non formará parte do currículo escolar, xa que é incuestionábel que a difusión da fe relixiosa corresponde ao ámbito privado e familiar.",
+          "pagina": 35
+        },
+        {
+          "titular": "Suprimir los conciertos",
+          "texto": "Avanzar en la supresión de los conciertos educativos en todos los niveles, empezando por eliminarlos en la enseñanza no obligatoria y controlando el financiamiento ajeno a los conciertos.",
+          "texto_original": "No camiño da supresión dos concertos en todos os niveis educativos, eliminación destes no ensino non-obrigatorio e control do financiamento alleo aos concertos nos centros sostidos con fondos públicos.",
+          "pagina": 35
+        }
+      ]
+    }
+  }
+}

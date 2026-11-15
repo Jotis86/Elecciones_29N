@@ -366,6 +366,41 @@ a.tarjeta:hover {
 
 /* ── Fichas por tema ──────────────────────────────────────── */
 
+.sello-idioma {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--tenue);
+  border: 1px dashed var(--linea);
+  border-radius: 99px;
+  padding: 0.1rem 0.55rem;
+}
+
+details.original {
+  margin-top: 0.5rem;
+  padding-left: 0.9rem;
+  font-size: 0.87rem;
+  color: var(--tenue);
+}
+
+details.original summary {
+  cursor: pointer;
+  width: fit-content;
+  border-bottom: 1px dotted var(--linea);
+}
+
+details.original summary:hover {
+  color: var(--tinta);
+}
+
+details.original blockquote {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--tenue);
+  border-left-color: var(--linea);
+}
+
 .ficha {
   border: 1px solid var(--linea);
   border-radius: var(--radio);

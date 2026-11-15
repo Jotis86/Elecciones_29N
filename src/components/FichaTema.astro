@@ -1,14 +1,16 @@
 ---
 import type { BloqueTema, Partido } from '../lib/datos';
-import { enlacePdf } from '../lib/datos';
+import { NOMBRE_IDIOMA, enlacePdf } from '../lib/datos';
 
 interface Props {
   partido: Partido;
   bloque: BloqueTema;
   titulo?: string;
+  idioma?: 'es' | 'gl' | 'eu';
 }
 
-const { partido, bloque, titulo } = Astro.props;
+const { partido, bloque, titulo, idioma = 'es' } = Astro.props;
+const idiomaNombre = NOMBRE_IDIOMA[idioma] ?? idioma;
 ---
 
 <article class="ficha" style={`--acento:${partido.color}`}>
@@ -25,6 +27,9 @@ const { partido, bloque, titulo } = Astro.props;
       }
     </h2>
     {!titulo && <span class="programa">{partido.programa}</span>}
+    {idioma !== 'es' && (
+      <span class="sello-idioma">Traducido del {idiomaNombre}</span>
+    )}
   </header>
 
   <p class="resumen">{bloque.resumen}</p>
@@ -52,6 +57,12 @@ const { partido, bloque, titulo } = Astro.props;
                 <span class="cita-pagina">pág. {propuesta.pagina}</span>
               )}
             </p>
+            {propuesta.texto_original && (
+              <details class="original">
+                <summary>Ver cita original en {idiomaNombre}</summary>
+                <blockquote lang={idioma}>{propuesta.texto_original}</blockquote>
+              </details>
+            )}
             {propuesta.nota && <p class="nota">{propuesta.nota}</p>}
           </li>
         );

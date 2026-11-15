@@ -112,7 +112,12 @@ const temasSinFicha = ficha
             const bloque = ficha!.temas[tema.slug];
             return (
               <div id={`tema-${tema.slug}`} style="margin-bottom:2rem">
-                <FichaTema partido={partido} bloque={bloque} titulo={tema.nombre} />
+                <FichaTema
+                  partido={partido}
+                  bloque={bloque}
+                  titulo={tema.nombre}
+                  idioma={ficha!.idioma ?? 'es'}
+                />
               </div>
             );
           })}

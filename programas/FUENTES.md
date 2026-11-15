@@ -13,7 +13,7 @@ fuentes; la web enlaza a la URL oficial y, cuando exista, a una copia archivada.
 | SALF | Contrato electoral | Publicado · texto extraído | `salf.pdf` | https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf |
 | Por Un Mundo Más Justo | Si no es justo, cámbialo | Publicado · texto extraído | `por un mundo mas justo.pdf` | https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf |
 | ERC | Programa electoral Congrés 2026 | Anunciado, PDF no localizado | — | no encontrado en esquerra.cat |
-| PNV / EAJ | Euskadi zaindu | Publicado · bilingüe eu/es | `pnv.pdf` | https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21765/pdf/hauteskunde-programa-a29 |
+| PNV / EAJ | Euskadi zaindu | Publicado · en euskera | `pnv.pdf` | https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21765/pdf/hauteskunde-programa-a29 |
 | BNG | Xerais 2026 | Publicado · en gallego | `bng.pdf` | https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf |
 | CC | Defiende Canarias | Publicado 9-nov | `canaria.pdf` | https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf |
 | Frente Amplio | — | Sin publicar | — | — |
@@ -23,7 +23,9 @@ fuentes; la web enlaza a la URL oficial y, cuando exista, a una copia archivada.
 
 - **SALF**: en la tabla original figuraba como «La ilusión de un país», pero el
   documento se titula «Contrato electoral».
-- **PNV**: el documento está en euskera (con versión en castellano).
+- **PNV**: el documento está íntegramente en euskera. La URL «/es/» devuelve el
+  mismo PDF en euskera, así que no hay versión castellana oficial localizada:
+  las fichas se publican traducidas, con la cita original al lado.
 - **BNG**: el documento está en gallego.
 - **CC**: el archivo local se llama `canaria.pdf` (antes figuraba como `cc.pdf`).
 - **PSOE**: si se confirma la publicación del 15-nov, descargar, añadir a

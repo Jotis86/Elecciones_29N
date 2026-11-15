@@ -1,0 +1,247 @@
+{
+  "partido": "pnv",
+  "idioma": "eu",
+  "revisado": "2026-11-15",
+  "temas": {
+    "vivienda": {
+      "resumen": "El PNV propone aumentar la oferta de vivienda agilizando los trámites urbanísticos, movilizando viviendas vacías y rehabilitando edificios. Plantea regular los alquileres de temporada y turísticos para que no resten vivienda residencial, y evitar contratos estacionales que eludan las garantías del alquiler habitual. Añade seguridad jurídica para inquilinos y pequeños propietarios, y alternativas habitacionales para familias vulnerables sin cargar todo el coste sobre los pequeños propietarios.",
+      "propuestas": [
+        {
+          "titular": "Agilizar licencias para construir",
+          "texto": "Agilizar los trámites urbanísticos para facilitar la construcción de vivienda nueva, con plazos razonables y garantías legales.",
+          "texto_original": "Hirigintza-izapideak arintzea, etxebizitza berriak eraikitzea errazteko, arrazoizko epeekin eta legezko bermeekin.",
+          "pagina": 8
+        },
+        {
+          "titular": "Movilizar vivienda vacía",
+          "texto": "Ayudar a comercializar viviendas vacías y rehabilitar edificios para ampliar la oferta residencial.",
+          "texto_original": "Etxebizitza hutsak merkaturatzen laguntzea eta eraikinak birgaitzea, bizitegi-eskaintza handitzeko.",
+          "pagina": 8
+        },
+        {
+          "titular": "Evitar el fraude en contratos de temporada",
+          "texto": "Evitar que se cometa fraude en los contratos de temporada que esquiva las garantías del alquiler de vivienda habitual.",
+          "texto_original": "Sasoiko kontratuetan ez dadila iruzurrik egin, ohiko etxebizitzaren alokairuaren bermeak ekidin ez daitezen.",
+          "pagina": 8
+        },
+        {
+          "titular": "Regular el alquiler turístico",
+          "texto": "Regular los alquileres de temporada y turísticos para que no resten vivienda al mercado residencial.",
+          "texto_original": "Sasoiko alokairuak eta alokairu turistikoak arautzea, bizitegi-alokairuaren merkatuari etxebizitzarik ken ez diezaioten.",
+          "pagina": 8
+        },
+        {
+          "titular": "Seguridad jurídica para ambas partes",
+          "texto": "Dar seguridad jurídica a inquilinos y pequeños propietarios, con el objetivo de facilitar el alquiler habitual.",
+          "texto_original": "Maizterrei eta jabe txikiei segurtasun juridikoa ematea, ohiko alokairua erraztera begira.",
+          "pagina": 8
+        },
+        {
+          "titular": "Alternativas para familias vulnerables",
+          "texto": "Ofrecer alternativas habitacionales a familias vulnerables sin poner toda la responsabilidad sobre los pequeños propietarios.",
+          "texto_original": "Familia kalteberei bizitegi-alternatibak eskaintzea, erantzukizun osoa jabe txikien bizkarrean jarri gabe.",
+          "pagina": 8
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "El PNV centra su propuesta fiscal en defender el Concierto Económico y la autonomía financiera vasca, con más capacidad normativa de las diputaciones forales sobre IVA e impuestos especiales. Plantea una reforma del IVA que aplique tipo cero o superreducido a alimentos básicos y revise la fiscalidad de suministros esenciales y transporte público. Añade más margen de inversión para las administraciones vascas y que puedan usar sus superávits en inversiones prioritarias.",
+      "propuestas": [
+        {
+          "titular": "IVA cero o superreducido en alimentos básicos",
+          "texto": "Impulsar una reforma integral del IVA de bienes y servicios básicos, con tipo cero o superreducido para alimentos como el pescado o la carne y productos específicos como los aptos para celíacos, y revisar la fiscalidad de suministros esenciales y transporte público.",
+          "texto_original": "Oinarrizko ondasun eta zerbitzuen BEZaren erreforma integrala bultzatzea, oinarrizko elikagai jakin batzuei (arraina, haragia, besteak beste) eta elikadura-produktu espezifikoei (zeliakoak, beste kolektibo batzuen artean) zero tasak edo tasa supermurriztuak aplikatzea eta funtsezko horniduren (elektrizitatea, gasa, erregaiak...) eta garraio publikoaren zergak berrikustea",
+          "pagina": 21
+        },
+        {
+          "titular": "IVA cultural más bajo",
+          "texto": "Revisar el IVA cultural para facilitar el trabajo de artistas y galerías, aprovechando las opciones de la normativa europea.",
+          "texto_original": "BEZ kulturala berrikustea, artisten eta galerien lana errazteko, Europako araudiaren aukerak aprobetxatuz.",
+          "pagina": 21
+        },
+        {
+          "titular": "Más margen de inversión",
+          "texto": "Dar a las administraciones vascas un mayor margen de inversión revisando la normativa de estabilidad presupuestaria y permitiendo reglas de gasto más flexibles.",
+          "texto_original": "Euskal administrazioei inbertsio-tarte handiagoa ematea, aurrekontu-egonkortasunari buruzko araudia berrikusiz, Europako zerga-esparru berrira egokituz eta administrazioentzako gastu-arau malguagoak ahalbidetuz.",
+          "pagina": 21
+        },
+        {
+          "titular": "Usar los superávits en inversión",
+          "texto": "Facilitar que ayuntamientos, diputaciones forales y Gobierno vasco usen sus superávits en inversiones prioritarias.",
+          "texto_original": "Udalek, foru-aldundiek eta Eusko Jaurlaritzak beren superabitak lehentasunezko inbertsioetarako erabil ditzaten erraztea",
+          "pagina": 21
+        },
+        {
+          "titular": "Defender el Concierto Económico",
+          "texto": "Garantizar que las reformas fiscales y presupuestarias respeten el Concierto Económico y la autonomía financiera de las instituciones vascas.",
+          "texto_original": "Ziurtatzea zerga- eta aurrekontu-erreformek errespetatu egingo dituztela Ekonomia Ituna eta euskal erakundeen finantza-autonomia",
+          "pagina": 21
+        },
+        {
+          "titular": "Más capacidad normativa foral",
+          "texto": "Ampliar la capacidad normativa de las diputaciones forales sobre el IVA y los impuestos especiales, actualizando el Concierto Económico dentro de los límites de armonización de la UE.",
+          "texto_original": "Foru-ogasunek BEZari eta zerga bereziei buruz duten araugintza-ahalmena handitzea.",
+          "pagina": 21
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "El PNV pide competencia plena para fijar un salario mínimo propio vasco, por encima del estatal y ajustado al coste de vida, y defender la prevalencia de los convenios vascos. Plantea reforzar la Inspección de Trabajo contra el fraude laboral y los falsos autónomos, y aplicar la normativa europea de transparencia salarial. Añade ampliar la cobertura del desempleo hasta 36 meses y mejorar la prevención de riesgos psicosociales.",
+      "propuestas": [
+        {
+          "titular": "Salario mínimo propio para Euskadi",
+          "texto": "Reclamar competencia plena para establecer un salario mínimo propio para Euskadi, ajustado al coste de vida y siempre por encima del mínimo estatal, definido mediante diálogo social.",
+          "texto_original": "Euskadirentzako estatus politiko berri baten esparruan, gutxieneko soldata propioa ezartzeko eskumen osoa eskatzea, bizi-kostuari egokitua eta, betiere, Estatuko gutxienekoaren gainetik.",
+          "pagina": 9
+        },
+        {
+          "titular": "Convenios vascos prioritarios",
+          "texto": "Defender un marco propio de relaciones laborales y la prevalencia de los convenios colectivos vascos cuando establezcan condiciones más favorables para los trabajadores.",
+          "texto_original": "Lan-harremanen esparru propioa eta euskal hitzarmen kolektiboen nagusitasuna babestea, legez aurreikusitako baldintzetan, langileentzako baldintza onuragarriagoak ezartzen dituztenean.",
+          "pagina": 9
+        },
+        {
+          "titular": "Reforzar la Inspección de Trabajo",
+          "texto": "Mejorar la detección y sanción de los abusos laborales y reforzar la Inspección de Trabajo contra el fraude, la contratación irregular, los falsos autónomos y la economía sumergida.",
+          "texto_original": "Laneko abusuak hobeto hautematea eta zehatzea, eta Lan Ikuskaritza indartzea, laneko iruzurrari, kontratazio irregularrari, autonomo faltsuei, ezkutuko ekonomiari eta lan-araudia ez betetzeari aurre egiteko.",
+          "pagina": 9
+        },
+        {
+          "titular": "Transparencia salarial europea",
+          "texto": "Asegurar la aplicación de la normativa europea de transparencia retributiva para detectar y corregir las diferencias salariales entre mujeres y hombres.",
+          "texto_original": "Ordainsarien gardentasunari buruzko Europako araudiaren aplikazioa ziurtatzea, emakumeen eta gizonen arteko soldata-desberdintasunak hautemateko eta zuzentzeko.",
+          "pagina": 9
+        },
+        {
+          "titular": "Paro hasta 36 meses",
+          "texto": "Ampliar la cobertura de la prestación por desempleo hasta un máximo de 36 meses, vinculada a procesos de mejora de la empleabilidad.",
+          "texto_original": "Langabezia-prestazioaren estaldura gehienez 36 hilabetera arte zabaltzea, enplegagarritasuna hobetzeko prozesuekin lotuta",
+          "pagina": 10
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "El PNV reclama más competencias para gestionar la migración desde Euskadi —llegada, acogida, residencia, trabajo e integración— y que se reconozca al País Vasco como frontera norte con recursos y coordinación adecuados. Plantea un modelo de acogida descentralizado, rechazando grandes centros como el previsto en Arana (Vitoria), con financiación estatal suficiente. Añade vías legales y seguras, contratación en origen, homologación ágil de títulos y aprendizaje del euskera como herramienta de integración.",
+      "propuestas": [
+        {
+          "titular": "Gestionar la migración desde Euskadi",
+          "texto": "Impulsar más competencias para Euskadi en migración y extranjería, avanzando hacia una gestión integral que incluya llegada, acogida, residencia, trabajo e integración.",
+          "texto_original": "Euskadirentzat eskumen handiagoak sustatzea migrazioaren eta atzerritartasunaren arloan, iritsiera, harrera, egoitza, lana eta integrazioa barne hartzen dituen kudeaketa integral baterantz aurrera eginez.",
+          "pagina": 24
+        },
+        {
+          "titular": "Arana: rechazo a los grandes centros",
+          "texto": "Reclamar un acuerdo entre el Estado y las instituciones vascas que garantice coordinación, financiación suficiente y atención digna, priorizando un modelo de acogida descentralizado y rechazando grandes centros como el previsto en Arana.",
+          "texto_original": "Estatuaren eta euskal erakundeen arteko akordio bat erreklamatzea, nazioarteko babesa eskatzen duten pertsonei koordinazioa, finantzaketa nahikoa eta arreta duina bermatuko diena, harrera-eredu deszentralizatu bati lehentasuna emanez eta Gasteizko Aranan aurreikusitakoa bezalako zentro handiak ezartzea baztertuz.",
+          "pagina": 25
+        },
+        {
+          "titular": "Vías legales y seguras",
+          "texto": "Promover vías legales, seguras y ordenadas para la migración, con gestión planificada y respeto a los derechos humanos.",
+          "texto_original": "Migraziorako bide legal, seguru eta ordenatuak sustatzea, kudeaketa planifikatu eta giza eskubideak errespetatuz.",
+          "pagina": 25
+        },
+        {
+          "titular": "Contratación en origen",
+          "texto": "Facilitar la contratación en origen vinculada a las necesidades del mercado laboral vasco y con garantías para los trabajadores.",
+          "texto_original": "Jatorrian kontratatzen laguntzea, euskal lan-merkatuaren premiei lotuta eta langileentzako bermeekin.",
+          "pagina": 25
+        },
+        {
+          "titular": "Euskera como herramienta de integración",
+          "texto": "Promover la integración social y laboral de las personas migrantes facilitando su autonomía, su participación en la sociedad vasca y el aprendizaje del euskera.",
+          "texto_original": "Migratzaileen gizarteratzea eta laneratzea sustatzea, haien autonomia, euskal gizartean parte hartzea eta euskara ikastea erraztuz, integraziorako eta bizikidetzarako tresna gisa.",
+          "pagina": 25
+        },
+        {
+          "titular": "Homologar títulos sin fricción",
+          "texto": "Agilizar la homologación y el reconocimiento de titulaciones y cualificaciones profesionales extranjeras para no desaprovechar el talento de las personas migrantes.",
+          "texto_original": "Atzerriko titulazio eta kualifikazio profesionalen homologazioa eta onarpena arintzea, administrazio-izapideek pertsona migratzaileen talentua eta prestakuntza aprobetxatzea eragotz ez dezaten.",
+          "pagina": 25
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "El PNV plantea formar más especialistas adaptando el sistema BAME a las necesidades reales y reforzar la planificación de profesionales para coordinar formación y plantillas. Pide traspasar a Euskadi las competencias sanitarias pendientes —formación especializada, acreditación de plazas, incapacidad laboral y sanidad exterior— y negociar el Estatuto Marco con los profesionales. Añade participación vasca en la fijación de precios de medicamentos y mejoras en enfermedades raras y neurodegenerativas.",
+      "propuestas": [
+        {
+          "titular": "Más especialistas donde hacen falta",
+          "texto": "Formar más especialistas sanitarios en los lugares donde se necesitan, adaptando el sistema BAME para ajustar la oferta de plazas a la necesidad real de profesionales.",
+          "texto_original": "Osasun-espezialista gehiago prestatzea behar diren lekuetan, BAME sistema egokituz, plazen eskaintza profesionalen benetako beharretara egokitzeko",
+          "pagina": 32
+        },
+        {
+          "titular": "Planificación de profesionales",
+          "texto": "Reforzar la planificación de los profesionales sanitarios mejorando la coordinación entre la oferta de formación especializada y las necesidades de los sistemas públicos de salud.",
+          "texto_original": "Profesional sanitarioen plangintza indartzea, prestakuntza espezializatuaren eskaintzaren eta osasun-sistema publikoen beharren arteko koordinazioa hobetuz.",
+          "pagina": 32
+        },
+        {
+          "titular": "Precio de los medicamentos",
+          "texto": "Garantizar la participación permanente del Gobierno vasco en los órganos estatales que autorizan, registran y fijan los precios de los medicamentos.",
+          "texto_original": "Eusko Jaurlaritzaren eta Nafarroako Gobernuaren partaidetza iraunkorra ziurtatzea sendagaien prezioak baimendu, erregistratu eta finkatzeaz arduratzen diren estatuorganoetan",
+          "pagina": 32
+        },
+        {
+          "titular": "Transferencias sanitarias pendientes",
+          "texto": "Completar las transferencias sanitarias que aún no se han hecho a Euskadi, especialmente en formación especializada, acreditación de plazas, control de salud de las incapacidades laborales y sanidad exterior.",
+          "texto_original": "Euskadiri oraindik transferitu gabe dauden osasun-transferentziak gauzatzea, bereziki osasun-prestakuntza espezializatuan, plazen egiaztapenean, lan-ezintasunen osasunkontrolean eta kanpo-osasunean.",
+          "pagina": 32
+        },
+        {
+          "titular": "Estatuto Marco negociado",
+          "texto": "Promover que la reforma del Estatuto Marco de las profesiones sanitarias se negocie con profesionales, sindicatos y comunidades autónomas, reconociendo la especificidad del trabajo médico.",
+          "texto_original": "Osasun-lanbideen Estatutu Markoaren erreforma profesionalekin, sindikatuekin eta autonomia-erkidegoekin negozia dadin sustatzea, mediku-lanaren espezifikotasuna aitortuz",
+          "pagina": 32
+        },
+        {
+          "titular": "Enfermedades raras",
+          "texto": "Mejorar la investigación y la atención a las personas con enfermedades raras y neurodegenerativas, incluido el Alzheimer, facilitando el acceso a medicamentos huérfanos y tratamientos especializados.",
+          "texto_original": "Gaixotasun arraroak eta neurodegeneratiboak, Alzheimerra barne, dituzten pertsonen ikerketa eta arreta hobetzea, sendagai umezurtzak eta tratamendu espezializatuak eskuratzeko erraztasunak emanez.",
+          "pagina": 32
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "El PNV defiende las competencias educativas vascas frente a las interferencias del Estado y un modelo inclusivo, plurilingüe e intercultural. Plantea capacidad normativa propia sobre becas, con políticas adaptadas a la realidad vasca, y reforzar la FP dual y la colaboración entre centros y empresas. Añade más autonomía para las universidades vascas y su participación en proyectos universitarios europeos.",
+      "propuestas": [
+        {
+          "titular": "Defender las competencias educativas",
+          "texto": "Proteger las competencias educativas de Euskadi, evitando las interferencias del Estado en los ámbitos de decisión que corresponden a las instituciones vascas.",
+          "texto_original": "Euskadiren hezkuntza-eskumenak babestea, euskal erakundeei dagozkien erabakieremuetan Estatuaren interferentziak saihestuz.",
+          "pagina": 10
+        },
+        {
+          "titular": "Educación inclusiva y plurilingüe",
+          "texto": "Promover una educación inclusiva, plurilingüe e intercultural que garantice los derechos de la infancia y la adolescencia y la igualdad de oportunidades.",
+          "texto_original": "Haurren eta nerabeen eskubideak eta aukera-berdintasuna bermatuko dituen hezkuntza inklusiboa, eleanitza eta kulturartekoa sustatzea.",
+          "pagina": 10
+        },
+        {
+          "titular": "Becas con normativa propia",
+          "texto": "Defender la capacidad normativa del sistema vasco de becas para mantener una política propia adaptada a la realidad de Euskadi.",
+          "texto_original": "Beken Euskal Sistemaren araugintza-gaitasuna defendatzea, Euskadiko errealitatera egokitutako ikasketei laguntzeko politika propioa mantentzeko.",
+          "pagina": 10
+        },
+        {
+          "titular": "Reforzar la FP dual",
+          "texto": "Reforzar la Formación Profesional Dual, impulsando la colaboración entre centros de formación y empresas y su vínculo con las oportunidades de empleo.",
+          "texto_original": "Lanbide Heziketa Duala indartzea, prestakuntza-zentroen eta enpresen arteko lankidetza eta enplegu-aukerekiko lotura bultzatuz.",
+          "pagina": 10
+        },
+        {
+          "titular": "Universidad y empresa",
+          "texto": "Impulsar la colaboración entre universidades y empresas para generar formación, investigación y empleo cualificado.",
+          "texto_original": "Unibertsitateen eta enpresen arteko lankidetza bultzatzea, prestakuntza, ikerketa eta enplegu kualifikatua sortzea sustatuz.",
+          "pagina": 10
+        },
+        {
+          "titular": "Gobernanza universitaria propia",
+          "texto": "Defender la capacidad de Euskadi para decidir sobre la gobernanza de sus universidades y favorecer su participación en proyectos universitarios europeos.",
+          "texto_original": "Euskadik bere unibertsitateen gobernantzari buruz erabakitzeko duen gaitasuna defendatzea eta Europako unibertsitate-proiektuetan parte har dezan bultzatzea.",
+          "pagina": 11
+        }
+      ]
+    }
+  }
+}
