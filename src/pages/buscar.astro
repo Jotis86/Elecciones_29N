@@ -1,0 +1,161 @@
+---
+import Base from '../layouts/Base.astro';
+import { fichas, partidoPorSlug, temaPorSlug } from '../lib/datos';
+
+const indice = fichas.flatMap((ficha) => {
+  const partido = partidoPorSlug(ficha.partido);
+  if (!partido) return [];
+  return Object.entries(ficha.temas).flatMap(([slugTema, bloque]) => {
+    const tema = temaPorSlug(slugTema);
+    return bloque.propuestas.map((propuesta) => ({
+      partido: partido.siglas,
+      color: partido.color,
+      slugPartido: partido.slug,
+      slugTema,
+      tema: tema?.nombre ?? slugTema,
+      titular: propuesta.titular,
+      texto: propuesta.texto,
+      pagina: propuesta.pagina,
+      pdf: partido.pdf_oficial,
+    }));
+  });
+});
+---
+
+<Base
+  titulo="Buscar"
+  descripcion="Busca entre las propuestas de todos los programas electorales del 29N: vivienda, alquiler, impuestos, inmigración, sanidad y más."
+>
+  <header class="pagina-cabecera">
+    <div class="wrap">
+      <p class="kicker">Buscar</p>
+      <h1>Buscar en los programas</h1>
+      <p class="entradilla">
+        Escribe una palabra o una frase —«alquiler», «nuclear», «SMI»— y verás las
+        propuestas que la mencionan, con el partido y la página del programa.
+      </p>
+    </div>
+  </header>
+
+  <section class="seccion">
+    <div class="wrap">
+      <form class="buscador" role="search" onsubmit="return false">
+        <label class="visualmente-oculto" for="q">Buscar propuestas</label>
+        <input
+          id="q"
+          name="q"
+          type="search"
+          placeholder="Alquiler, impuestos, inmigración…"
+          autocomplete="off"
+          autofocus
+        />
+        <span class="buscador-cuenta" id="cuenta" aria-live="polite"></span>
+      </form>
+
+      <noscript>
+        <p class="ficha-vacia" style="margin-top:1.2rem">
+          El buscador necesita JavaScript. También puedes explorar por
+          <a href="/temas">temas</a> o por <a href="/programas">partido</a>.
+        </p>
+      </noscript>
+
+      <ol class="resultados" id="resultados"></ol>
+
+      <p class="aviso-legal" id="vacio" hidden>
+        No hay propuestas que coincidan. Prueba con una palabra más general o
+        consulta el <a href="/temas">índice de temas</a>.
+      </p>
+    </div>
+  </section>
+
+  <script type="application/json" id="indice" is:inline set:html={JSON.stringify(indice)}></script>
+
+  <script>
+    const normalizar = (s: string) =>
+      s
+        .normalize('NFKD')
+        .replace(/\p{M}/gu, '')
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}]+/gu, ' ')
+        .trim();
+
+    const datos: any[] = JSON.parse(
+      document.getElementById('indice')!.textContent || '[]',
+    );
+    for (const d of datos) d.busca = normalizar(`${d.titular} ${d.texto} ${d.tema} ${d.partido}`);
+
+    const input = document.getElementById('q') as HTMLInputElement;
+    const lista = document.getElementById('resultados')!;
+    const cuenta = document.getElementById('cuenta')!;
+    const vacio = document.getElementById('vacio') as HTMLElement;
+
+    const recortar = (texto: string, terminos: string[]) => {
+      const palabras = texto.split(/\s+/);
+      let pos = palabras.findIndex((p) => terminos.some((t) => normalizar(p).includes(t)));
+      if (pos < 0) pos = 0;
+      const desde = Math.max(0, pos - 8);
+      const trozo = palabras.slice(desde, desde + 34).join(' ');
+      return (desde > 0 ? '… ' : '') + trozo + (desde + 34 < palabras.length ? ' …' : '');
+    };
+
+    const pintar = (consulta: string) => {
+      const terminos = normalizar(consulta).split(' ').filter(Boolean);
+      lista.textContent = '';
+
+      if (!terminos.length) {
+        cuenta.textContent = '';
+        vacio.hidden = true;
+        return;
+      }
+
+      const encontrados = datos.filter((d) => terminos.every((t) => d.busca.includes(t)));
+      cuenta.textContent = `${encontrados.length} propuesta${encontrados.length === 1 ? '' : 's'}`;
+      vacio.hidden = encontrados.length > 0;
+
+      for (const d of encontrados.slice(0, 60)) {
+        const li = document.createElement('li');
+        li.className = 'resultado';
+        li.style.setProperty('--acento', d.color);
+
+        const cabecera = document.createElement('p');
+        cabecera.className = 'resultado-meta';
+        const enlacePartido = document.createElement('a');
+        enlacePartido.href = `/partido/${d.slugPartido}`;
+        enlacePartido.textContent = d.partido;
+        const enlaceTema = document.createElement('a');
+        enlaceTema.href = `/tema/${d.slugTema}`;
+        enlaceTema.textContent = d.tema;
+        cabecera.append(enlacePartido, document.createTextNode(' · '), enlaceTema);
+
+        const h3 = document.createElement('h3');
+        h3.textContent = d.titular;
+
+        const p = document.createElement('p');
+        p.className = 'resultado-texto';
+        p.textContent = `«${recortar(d.texto, terminos)}»`;
+
+        const pie = document.createElement('p');
+        pie.className = 'cita-pie';
+        if (d.pdf) {
+          const a = document.createElement('a');
+          a.className = 'cita-pagina';
+          a.href = `${d.pdf}#page=${d.pagina}`;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          a.textContent = `pág. ${d.pagina} · ver en el PDF ↗`;
+          pie.append(a);
+        }
+
+        li.append(cabecera, h3, p, pie);
+        lista.append(li);
+      }
+    };
+
+    const params = new URLSearchParams(location.search);
+    const inicial = params.get('q') ?? '';
+    input.value = inicial;
+    pintar(inicial);
+    input.addEventListener('input', () => pintar(input.value));
+    input.form?.addEventListener('submit', (e) => e.preventDefault());
+  </script>
+</Base>

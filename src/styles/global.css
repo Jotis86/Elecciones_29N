@@ -693,6 +693,83 @@ blockquote::after {
   margin-bottom: 0.5rem;
 }
 
+/* ── Buscador ─────────────────────────────────────────────── */
+
+.buscador {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.buscador input {
+  flex: 1 1 18rem;
+  font: inherit;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.buscador input:focus {
+  outline: 2px solid var(--tinta);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+.buscador-cuenta {
+  font-size: 0.85rem;
+  color: var(--tenue);
+  font-variant-numeric: tabular-nums;
+}
+
+.resultados {
+  list-style: none;
+  margin: 1.8rem 0 0;
+  padding: 0;
+}
+
+.resultado {
+  position: relative;
+  padding: 1rem 0 1rem 1.2rem;
+  border-bottom: 1px solid var(--linea);
+}
+
+.resultado::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1.1rem;
+  bottom: 1.1rem;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--acento);
+}
+
+.resultado-meta {
+  margin: 0 0 0.25rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+.resultado-meta a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--linea);
+}
+
+.resultado h3 {
+  margin: 0 0 0.3rem;
+}
+
+.resultado-texto {
+  margin: 0;
+  font-size: 0.95rem;
+  color: color-mix(in srgb, var(--tinta) 80%, var(--tenue));
+}
+
 /* ── Pie ──────────────────────────────────────────────────── */
 
 .pie {

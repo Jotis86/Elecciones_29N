@@ -33,7 +33,7 @@ data/
 src/
   lib/datos.ts        carga de datos y utilidades
   components/         FichaTema, TarjetaPartido
-  pages/              portada, /temas, /tema/[slug], /partido/[slug], /programas, /sobre
+  pages/              portada, /temas, /tema/[slug], /partido/[slug], /buscar, /programas, /sobre
 scripts/
   extraer_texto.py    PDF → data/texto (con caché por sha256)
   ver.py              consulta el texto extraído durante la curación
