@@ -114,6 +114,15 @@ y 163 de la LOREG:
 - los empates de cociente se resuelven por votos totales y, si persisten, por
   un sorteo determinista y reproducible.
 
+Las barras miden los escaños de cada partido sobre el total de la
+circunscripción, de modo que todas juntas suman el 100% de los escaños.
+
+El botón **Reproducir 2023** carga los votos oficiales del 23J guardados en
+`data/resultados_2023.json`, usa los escaños de 2023 y marca la página con un
+distintivo de «resultado oficial». En ese modo el cálculo emplea los votos
+enteros, no los porcentajes redondeados. Al editar cualquier porcentaje se sale
+del modo y se vuelve a los escaños de 2026.
+
 Los campos empiezan vacíos: la página no carga encuestas ni resultados
 anteriores. `npm test` verifica, entre otros casos, el ejemplo práctico de la
 LOREG y que el reparto sea invariante a la escala.

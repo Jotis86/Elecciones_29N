@@ -1,10 +1,23 @@
 ---
 import Base from '../layouts/Base.astro';
 import datos from '../../data/escanos.json';
+import resultados2023 from '../../data/resultados_2023.json';
 
 const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
   a.nombre.localeCompare(b.nombre, 'es'),
 );
+
+// Solo lo que necesita la interfaz: votos, blanco y escaños de 2023.
+const datos2023 = {
+  fuente: 'Ministerio del Interior · Congreso 23J 2023',
+  provincias: resultados2023.provincias.map((p) => ({
+    codigo: p.cod_ine,
+    nombre: p.nombre,
+    escanos: p.escanos,
+    blanco: p.votos_blanco,
+    partidos: p.partidos.map((x) => ({ siglas: x.siglas, votos: x.votos })),
+  })),
+};
 ---
 
 <Base
@@ -18,7 +31,8 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       <p class="entradilla">
         Elige una circunscripción, reparte porcentajes entre partidos y mira
         cuántos escaños salen. Los escaños son los del anexo del Real Decreto
-        806/2026; las reglas, las de la LOREG.
+        806/2026; el modo 2023 usa los votos y los escaños de entonces. Las
+        reglas, las de la LOREG.
       </p>
     </div>
   </header>
@@ -33,18 +47,27 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
               {
                 circunscripciones.map((c) => (
                   <option value={c.codigo} selected={c.codigo === '28'}>
-                    {c.nombre} ({c.diputados})
+                    {c.nombre}
                   </option>
                 ))
               }
             </select>
             <p class="calc-escanos" id="escanos-prov"></p>
+            <span class="calc-badge" id="modo-badge" hidden>Modo 2023 · resultado oficial</span>
           </div>
 
           <div id="partidos"></div>
 
           <div class="calc-acciones">
             <button type="button" id="anadir" class="boton secundario">Añadir partido</button>
+            <button
+              type="button"
+              id="reproducir"
+              class="boton secundario calc-boton-modo"
+              aria-pressed="false"
+            >
+              Reproducir 2023
+            </button>
             <button type="button" id="reiniciar" class="boton secundario">Reiniciar</button>
           </div>
 
@@ -97,6 +120,8 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
         Reglas: <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#acientosesentaytres" target="_blank" rel="noopener noreferrer">LOREG, arts. 162 y 163 ↗</a>.
         Los empates de cociente se resuelven por votos totales y, si persisten,
         por sorteo reproducible: la misma entrada da siempre el mismo resultado.
+        El modo 2023 usa los votos oficiales del 23J y los escaños de entonces;
+        al editar cualquier porcentaje, vuelve a los escaños de 2026.
       </p>
     </div>
   </section>
@@ -108,6 +133,13 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
     set:html={JSON.stringify(circunscripciones)}
   ></script>
 
+  <script
+    type="application/json"
+    id="datos-2023"
+    is:inline
+    set:html={JSON.stringify(datos2023)}
+  ></script>
+
   <script>
     import { repartir } from '../lib/dhondt.js';
 
@@ -116,17 +148,19 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       '#C2185B', '#6D4C41', '#00843D', '#5C6BC0', '#B71C1C', '#00695C',
     ];
 
-    const circunscripciones = JSON.parse(
-      document.getElementById('datos-escanos').textContent,
-    );
-
     const $ = (id) => document.getElementById(id);
+
+    const circunscripciones = JSON.parse($('datos-escanos').textContent);
+    const datos2023 = JSON.parse($('datos-2023').textContent);
+
     const contenedor = $('partidos');
     const selectProvincia = $('provincia');
     const resumen = $('resumen');
     const resultado = $('resultado');
     const cocientesDiv = $('cocientes');
     const escanosProv = $('escanos-prov');
+    const badge = $('modo-badge');
+    const botonModo = $('reproducir');
 
     let partidos = ['A', 'B', 'C', 'D', 'E', 'F'].map((letra, i) => ({
       id: `p${i + 1}`,
@@ -135,6 +169,8 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       color: PALETA[i % PALETA.length],
     }));
     let blanco = 0;
+    let modo2023 = false;
+    let exacto = null;
 
     const nombreDe = (p, i) => p.nombre.trim() || `Partido ${i + 1}`;
 
@@ -143,6 +179,20 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       if (clase) el.className = clase;
       if (texto !== undefined) el.textContent = texto;
       return el;
+    }
+
+    function actualizarModo() {
+      badge.hidden = !modo2023;
+      botonModo.textContent = modo2023 ? 'Salir del modo 2023' : 'Reproducir 2023';
+      botonModo.setAttribute('aria-pressed', modo2023 ? 'true' : 'false');
+    }
+
+    function salirModo2023() {
+      if (!modo2023) return;
+      modo2023 = false;
+      exacto = null;
+      actualizarModo();
+      calcular();
     }
 
     function crearFila(p, indice) {
@@ -182,6 +232,12 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       numero.setAttribute('aria-label', `Porcentaje de ${nombreDe(p, indice)}`);
 
       const aplicar = (valor, origen) => {
+        // Editar un porcentaje saca del modo exacto de 2023.
+        if (modo2023) {
+          modo2023 = false;
+          exacto = null;
+          actualizarModo();
+        }
         const v = Math.min(100, Math.max(0, Number(valor) || 0));
         p.valor = v;
         if (origen !== rango) rango.value = String(v);
@@ -207,6 +263,11 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       const rango = $('blanco-rango');
       const numero = $('blanco-numero');
       const aplicar = (valor, origen) => {
+        if (modo2023) {
+          modo2023 = false;
+          exacto = null;
+          actualizarModo();
+        }
         const v = Math.min(100, Math.max(0, Number(valor) || 0));
         blanco = v;
         if (origen !== rango) rango.value = String(v);
@@ -217,25 +278,72 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       numero.addEventListener('input', () => aplicar(numero.value, numero));
     }
 
+    /** Carga los votos oficiales de 2023 y los escaños de entonces. */
+    function cargar2023() {
+      const provincia = datos2023.provincias.find(
+        (p) => p.codigo === selectProvincia.value,
+      );
+      if (!provincia) return;
+
+      const orden = [...provincia.partidos].sort((a, b) => b.votos - a.votos);
+      const visibles = orden.slice(0, 10);
+      const resto = orden.slice(10);
+      const validos =
+        orden.reduce((suma, p) => suma + p.votos, 0) + provincia.blanco;
+
+      partidos = visibles.map((p, i) => ({
+        id: `p${i + 1}`,
+        nombre: p.siglas,
+        valor: Number(((p.votos / validos) * 100).toFixed(1)),
+        color: PALETA[i % PALETA.length],
+      }));
+      blanco = Number(((provincia.blanco / validos) * 100).toFixed(1));
+
+      exacto = {
+        escanos: provincia.escanos,
+        votos: Object.fromEntries(visibles.map((p, i) => [`p${i + 1}`, p.votos])),
+        blanco: provincia.blanco,
+        otros: resto.reduce((suma, p) => suma + p.votos, 0),
+        validos,
+      };
+      modo2023 = true;
+
+      pintarPartidos();
+      $('blanco-rango').value = String(blanco);
+      $('blanco-numero').value = String(blanco);
+      actualizarModo();
+      calcular();
+    }
+
     function calcular() {
       const provincia = circunscripciones.find((c) => c.codigo === selectProvincia.value);
-      const escanos = provincia.diputados;
+      const escanos = modo2023 ? exacto.escanos : provincia.diputados;
       escanosProv.textContent =
         `${escanos} diputado${escanos === 1 ? '' : 's'}` +
-        (escanos === 1 ? ' · circunscripción uninominal' : '');
+        (escanos === 1 ? ' · circunscripción uninominal' : '') +
+        (modo2023 ? ' · 2023' : '');
 
       const votos = {};
       const meta = {};
-      for (const [i, p] of partidos.entries()) {
-        const peso = Math.round(p.valor * 1000);
-        if (peso > 0) {
-          votos[p.id] = peso;
-          meta[p.id] = { nombre: nombreDe(p, i), color: p.color };
+
+      if (modo2023) {
+        for (const [i, p] of partidos.entries()) {
+          const votosPartido = exacto.votos[p.id];
+          if (votosPartido) {
+            votos[p.id] = votosPartido;
+            meta[p.id] = { nombre: nombreDe(p, i), color: p.color };
+          }
+        }
+      } else {
+        for (const [i, p] of partidos.entries()) {
+          const peso = Math.round(p.valor * 1000);
+          if (peso > 0) {
+            votos[p.id] = peso;
+            meta[p.id] = { nombre: nombreDe(p, i), color: p.color };
+          }
         }
       }
 
-      // Sin votos de partidos no hay nada que repartir: no llamamos al
-      // algoritmo para no mostrar un «0% para todos» engañoso.
       if (Object.keys(votos).length === 0) {
         resumen.textContent = 'Introduce porcentajes para ver el reparto.';
         resultado.textContent = '';
@@ -250,16 +358,23 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
         return;
       }
 
-      const blancoPeso = Math.round(blanco * 1000);
-      const totalPartidos = Object.values(votos).reduce((a, b) => a + b, 0);
-      const total = totalPartidos + blancoPeso;
-      const otros = Math.max(0, 100000 - total);
+      const blancoPeso = modo2023 ? exacto.blanco : Math.round(blanco * 1000);
+      const otros = modo2023
+        ? exacto.otros
+        : Math.max(0, 100000 - Object.values(votos).reduce((a, b) => a + b, 0) - blancoPeso);
 
       const r = repartir({ votos, escanos, blanco: blancoPeso, otros });
 
-      // Resumen del reparto de porcentajes.
-      if (total > 100000) {
-        resumen.textContent = `Partidos y blanco suman ${(total / 1000).toFixed(1)}%: se normalizan al 100%.`;
+      const pct = (n) => (r.validos > 0 ? (n / r.validos) * 100 : 0);
+      const totalPartidos = Object.values(votos).reduce((a, b) => a + b, 0);
+
+      if (modo2023) {
+        const partes = [`Datos oficiales del 23J · partidos ${pct(totalPartidos).toFixed(1)}%`];
+        if (blancoPeso > 0) partes.push(`blanco ${pct(blancoPeso).toFixed(1)}%`);
+        if (otros > 0) partes.push(`otros ${pct(otros).toFixed(1)}%`);
+        resumen.textContent = partes.join(' · ');
+      } else if (totalPartidos + blancoPeso > 100000) {
+        resumen.textContent = `Partidos y blanco suman ${((totalPartidos + blancoPeso) / 1000).toFixed(1)}%: se normalizan al 100%.`;
       } else {
         const partes = [`Partidos: ${(totalPartidos / 1000).toFixed(1)}%`];
         if (blancoPeso > 0) partes.push(`blanco: ${(blancoPeso / 1000).toFixed(1)}%`);
@@ -285,13 +400,11 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
         return;
       }
 
-      const pct = (id) => (votos[id] / r.validos) * 100;
+      const pctVotos = (id) => (votos[id] / r.validos) * 100;
       const conEscano = Object.keys(votos)
-        .map((id) => ({ id, escanos: r.asignados[id] ?? 0, pct: pct(id) }))
+        .map((id) => ({ id, escanos: r.asignados[id] ?? 0, pct: pctVotos(id) }))
         .filter((x) => x.escanos > 0)
         .sort((a, b) => b.escanos - a.escanos || b.pct - a.pct);
-
-      const maxEscanos = Math.max(...conEscano.map((x) => x.escanos), 1);
 
       const cifra = nodo('p', 'calc-total');
       cifra.append(nodo('b', null, String(conEscano.reduce((a, b) => a + b.escanos, 0))));
@@ -300,6 +413,7 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
 
       const barras = nodo('div', 'calc-barras');
       for (const x of conEscano) {
+        const cuota = (x.escanos / escanos) * 100;
         const fila = nodo('div', 'calc-barra');
         const cabecera = nodo('div', 'calc-barra-cabecera');
         cabecera.append(nodo('span', 'calc-barra-nombre', meta[x.id].nombre));
@@ -307,12 +421,12 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
           nodo(
             'span',
             'calc-barra-datos',
-            `${x.escanos} escaño${x.escanos === 1 ? '' : 's'} · ${x.pct.toFixed(1)}%`,
+            `${x.escanos} escaño${x.escanos === 1 ? '' : 's'} · ${cuota.toFixed(1)}% de escaños`,
           ),
         );
         const pista = nodo('div', 'calc-barra-pista');
         const relleno = nodo('div', 'calc-barra-relleno');
-        relleno.style.width = `${(x.escanos / maxEscanos) * 100}%`;
+        relleno.style.width = `${cuota}%`;
         relleno.style.background = meta[x.id].color;
         pista.append(relleno);
         fila.append(cabecera, pista);
@@ -321,7 +435,7 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       resultado.append(barras);
 
       const sinEscano = Object.keys(votos)
-        .map((id) => ({ id, pct: pct(id) }))
+        .map((id) => ({ id, pct: pctVotos(id) }))
         .filter((x) => (r.asignados[x.id] ?? 0) === 0 && x.pct >= 3)
         .sort((a, b) => b.pct - a.pct);
 
@@ -338,7 +452,7 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       }
 
       const excluidos = Object.keys(votos)
-        .map((id) => ({ id, pct: pct(id) }))
+        .map((id) => ({ id, pct: pctVotos(id) }))
         .filter((x) => x.pct < 3)
         .sort((a, b) => b.pct - a.pct);
 
@@ -374,7 +488,7 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
         fila.append(nodo('td', 'num', String(i + 1)));
         fila.append(nodo('td', null, meta[g.partido].nombre));
         fila.append(nodo('td', 'num', `÷ ${g.divisor}`));
-        fila.append(nodo('td', 'num', `${(g.cociente / 1000).toFixed(2)}%`));
+        fila.append(nodo('td', 'num', `${(g.cociente / (r.validos / 100)).toFixed(2)}%`));
         tbody.append(fila);
       });
       tabla.append(tbody);
@@ -383,6 +497,11 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
 
     $('anadir').addEventListener('click', () => {
       if (partidos.length >= 12) return;
+      if (modo2023) {
+        modo2023 = false;
+        exacto = null;
+        actualizarModo();
+      }
       const i = partidos.length;
       const letra = String.fromCharCode(65 + (i % 26));
       const p = {
@@ -397,6 +516,11 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
     });
 
     $('reiniciar').addEventListener('click', () => {
+      if (modo2023) {
+        modo2023 = false;
+        exacto = null;
+        actualizarModo();
+      }
       partidos = partidos.map((p) => ({ ...p, valor: 0 }));
       blanco = 0;
       $('blanco-rango').value = '0';
@@ -405,10 +529,19 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       calcular();
     });
 
-    selectProvincia.addEventListener('change', calcular);
+    botonModo.addEventListener('click', () => {
+      if (modo2023) salirModo2023();
+      else cargar2023();
+    });
+
+    selectProvincia.addEventListener('change', () => {
+      if (modo2023) cargar2023();
+      else calcular();
+    });
 
     pintarPartidos();
     sincronizarBlanco();
+    actualizarModo();
     calcular();
   </script>
 
@@ -461,6 +594,17 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       margin: 0;
       font-size: 0.85rem;
       color: var(--tenue);
+    }
+
+    .calc-badge {
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--ok);
+      border: 1px solid color-mix(in srgb, var(--ok) 40%, transparent);
+      border-radius: 99px;
+      padding: 0.12rem 0.55rem;
+      white-space: nowrap;
     }
 
     .calc-fila {
@@ -555,6 +699,11 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
       padding: 0.4rem 0.7rem;
     }
 
+    .calc-boton-modo[aria-pressed='true'] {
+      border-color: var(--ok);
+      color: var(--ok);
+    }
+
     .calc-resumen {
       margin: 1rem 0 0;
       font-size: 0.82rem;
@@ -583,8 +732,9 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
 
     .calc-barra-cabecera {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
-      gap: 1rem;
+      gap: 0.2rem 1rem;
       font-size: 0.9rem;
       margin-bottom: 0.25rem;
     }
@@ -596,7 +746,6 @@ const circunscripciones = [...datos.circunscripciones].sort((a, b) =>
     .calc-barra-datos {
       color: var(--tenue);
       font-variant-numeric: tabular-nums;
-      white-space: nowrap;
     }
 
     .calc-barra-pista {
