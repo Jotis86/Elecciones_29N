@@ -360,6 +360,264 @@
           "pagina": 31
         }
       ]
+    },
+    "estado-instituciones": {
+      "resumen": "El BNG propone adelgazar la Administración del Estado en Galicia: suprimir la administración periférica, los ministerios con competencias transferidas y las diputaciones provinciales. Plantea más transparencia en la contratación pública, incluida la negociada y directa, y un modelo que favorezca a las pymes. En memoria, pide derogar la Ley de Amnistía de 1977 y modificar la Ley de Memoria para acabar con la impunidad del franquismo.",
+      "propuestas": [
+        {
+          "titular": "Suprimir la administración periférica",
+          "texto": "Supresión de la administración periférica del Estado y también de los departamentos ministeriales con competencias transferidas.",
+          "texto_original": "Supresión da administración periférica do Estado e tamén dos departamentos ministeriais con competencias transferidas.",
+          "pagina": 42
+        },
+        {
+          "titular": "Suprimir las diputaciones",
+          "texto": "Supresión de las diputaciones provinciales, con el traspaso de competencias y funciones a Galicia y a los ayuntamientos.",
+          "texto_original": "Supresión das deputacións provinciais, co traspaso de competencias e funcións a Galiza e aos concellos",
+          "pagina": 42
+        },
+        {
+          "titular": "Transparencia en la contratación",
+          "texto": "Modificación de la normativa de contratación pública, implantando la transparencia en la contratación negociada y directa y publicando en los perfiles de contratación las licitaciones negociadas.",
+          "texto_original": "Modificación da normativa de contratación pública, implantando a transparencia na contratación negociada e directa, publicando nos perfís de contratación as licitacións negociadas.",
+          "pagina": 42
+        },
+        {
+          "titular": "Derogar la Ley de Amnistía de 1977",
+          "texto": "Derogar la Ley de Amnistía de 1977, que sigue impidiendo las reivindicaciones y el amparo judicial de las víctimas de crímenes contra su vida y dignidad cometidos durante el régimen franquista.",
+          "texto_original": "Derrogar a Lei de Amnistía de 1977, que segue a impedir as reivindicacións e o amparo xudicial das vítimas de crimes contra a súa vida e dignidade cometidos durante o réxime franquista",
+          "pagina": 31
+        },
+        {
+          "titular": "Ley de Memoria contra la impunidad",
+          "texto": "Modificar la Ley de Memoria con el objetivo de romper con la impunidad del franquismo y garantizar la tutela judicial efectiva de las víctimas y de sus familias.",
+          "texto_original": "Modificar a Lei de Memoria co obxectivo de rachar coa impunidade do franquismo e que garanta a tutela xudicial efectiva das vítimas e das súas familias.",
+          "pagina": 31
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "El BNG propone un nuevo modelo de financiación basado en el concierto económico y la bilateralidad con el Estado, con una Hacienda gallega y capacidad plena para recaudar todos los impuestos. Plantea transferir competencias laborales, de Seguridad Social y pensiones, y de seguridad pública, policía judicial y fiscal, con una Policía Gallega. Su marco es la ruptura democrática y el avance en capacidad de decisión de Galicia.",
+      "propuestas": [
+        {
+          "titular": "Concierto económico",
+          "texto": "Un nuevo modelo de financiación basado en el concierto económico y en la bilateralidad con el Estado.",
+          "texto_original": "Un novo modelo de financiamento baseado no concerto económico e na bilateralidade co Estado.",
+          "pagina": 8,
+          "nota": "El objetivo es que Galicia recaude todos los impuestos y decida cómo los invierte."
+        },
+        {
+          "titular": "Hacienda gallega",
+          "texto": "Puesta en marcha de una Hacienda Gallega, como instrumento esencial del nuevo modelo de financiación.",
+          "texto_original": "Posta en marcha dunha Facenda Galega, como instrumento esencial do novo modelo de financiamento.",
+          "pagina": 9
+        },
+        {
+          "titular": "Competencias laborales",
+          "texto": "Transferencia de las competencias en materia de relaciones laborales, para que Galicia tenga plena capacidad legislativa y normativa para establecer un marco gallego de relaciones laborales.",
+          "texto_original": "Transferencia das competencias en materia de relacións laborais, co obxectivo de que Galiza teña plena capacidade lexislativa e normativa para estabelecer un marco galego de relacións laborais",
+          "pagina": 9
+        },
+        {
+          "titular": "Seguridad Social gallega",
+          "texto": "Transferencia de las competencias en materia de Seguridad Social y pensiones, para garantizar un sistema sanitario y de atención social bien financiado y unas pensiones dignas.",
+          "texto_original": "Transferencia das competencias en materia de Seguranza Social e pensións, co obxectivo de garantir un sistema sanitario e de atención social ben financiado e unhas pensións dignas para as persoas xubiladas.",
+          "pagina": 9
+        },
+        {
+          "titular": "Policía Gallega",
+          "texto": "Traspaso de las competencias en materia de seguridad pública, policía judicial y fiscal, así como de la guardia de tráfico, para lo que se desplegará el cuerpo de la Policía Gallega.",
+          "texto_original": "Traspaso das competencias en materia de seguranza pública, policía xudicial e fiscal, así como garda de tránsito, para o que será despregado o corpo da Policía Galega.",
+          "pagina": 9
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "El BNG propone la neutralidad activa de España, con salida de la OTAN y retirada de las misiones militares, y rechaza el aumento del gasto militar. Pide anular el cambio de posición sobre el Sáhara y defender un referéndum de autodeterminación del pueblo saharaui. Añade reconocimiento efectivo del Estado palestino, fin de las agresiones imperialistas y oposición a la militarización de la UE.",
+      "propuestas": [
+        {
+          "titular": "Neutralidad activa",
+          "texto": "El status internacional de neutralidad activa del Estado español, que incluirá la salida de la OTAN y la defensa de la disolución de esa alianza militar.",
+          "texto_original": "O status internacional de neutralidade activa do Estado español, que incluirá: Saída da OTAN e defensa de disolución desa alianza militar imperialista.",
+          "pagina": 89
+        },
+        {
+          "titular": "No al gasto militar",
+          "texto": "Rechazo al incremento del gasto militar y al acatamiento de las directrices de la OTAN y de Estados Unidos, con reducción progresiva de esas cantidades.",
+          "texto_original": "Rexeitamento ao incremento do gasto militar e ao acatamento das directrices OTAN e Estados Unidos neste ámbito. Redución progresiva das cantidades millonarias dilapidadas nesta materia",
+          "pagina": 90
+        },
+        {
+          "titular": "Sáhara: autodeterminación",
+          "texto": "Anular el cambio de posición del Gobierno español sobre el derecho a la autodeterminación del pueblo saharaui, condenar la ocupación marroquí e impulsar un referéndum con garantías democráticas.",
+          "texto_original": "Anular o cambio de posición do goberno español a respecto do dereito á autodeterminación do pobo saharauí, condenando enerxicamente a ocupación marroquí do Sáhara Occidental, e instando a que o Estado español impulse un referendo de autodeterminación con garantías democráticas.",
+          "pagina": 90
+        },
+        {
+          "titular": "Estado palestino",
+          "texto": "Condenar al Estado de Israel por la ocupación y el colonialismo en los territorios ocupados de Palestina, con reconocimiento real y efectivo del Estado palestino.",
+          "texto_original": "Condenar enerxicamente o Estado de Israel pola ocupación e colonialismo nos territorios ocupados da Palestina. Recoñecemento real e efectivo do Estado palestino.",
+          "pagina": 90
+        },
+        {
+          "titular": "Fuera de las misiones de la OTAN",
+          "texto": "Retirada inmediata de los miles de efectivos militares españoles que participan en misiones de la OTAN y de Estados Unidos, en concreto en los países fronterizos con la Federación Rusa.",
+          "texto_original": "Retirada inmediata dos milleiros de efectivos militares españois participantes en misións OTAN e USA, e en concreto nos países fronteirizos coa Federación Rusa.",
+          "pagina": 89
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "El BNG propone una reforma integral de la ley de violencia machista que cubra todos los tipos de violencia y dé rango legal a la violencia vicaria, además de introducir el término feminicidio y un estatuto de víctima. Pide gestión pública directa de los mecanismos telemáticos de protección y revisar VioGén. Añade reforzar la participación de las mujeres en la vida pública modificando la Ley de Paridad.",
+      "propuestas": [
+        {
+          "titular": "Contra todas las discriminaciones",
+          "texto": "La mejor respuesta es impulsar nuevos avances contra cada una de las discriminaciones que sufrimos por causa del patriarcado.",
+          "texto_original": "a mellor resposta é impulsar novos avances contra cada unha das discriminacións que sufrimos por causa do patriarcado",
+          "pagina": 24
+        },
+        {
+          "titular": "Reforma integral de la ley",
+          "texto": "Realizar una reforma legislativa integral que garantice la cobertura de todos los tipos de violencias contra las mujeres en la ley orgánica correspondiente y que otorgue rango de ley efectivo a la violencia vicaria.",
+          "texto_original": "realizar unha reforma lexislativa integral que garanta a cobertura de todos os tipos de violencias contra as mulleres na lei orgánica correspondente e que outorgue rango de lei efectivo á violencia vicaria.",
+          "pagina": 24
+        },
+        {
+          "titular": "Feminicidio en la ley",
+          "texto": "Introducir el término feminicidio en la legislación española e impulsar un Estatuto de Víctima de Feminicidio para un abordaje integral de la violencia machista.",
+          "texto_original": "Introducir o termo feminicidio na lexislación española e impulsar un Estatuto de Vítima de Feminicidio para unha abordaxe integral da violencia machista.",
+          "pagina": 25
+        },
+        {
+          "titular": "Control telemático público",
+          "texto": "Garantizar la gestión pública y directa de los mecanismos de control telemático para la protección de víctimas de violencia machista, y acabar con los problemas de cobertura y revictimización.",
+          "texto_original": "Garantir a xestión pública e directa dos mecanismos de control telemático para a protección de vítimas de violencia machista e realizar as melloras oportunas para rematar cos problemas de cobertura e revitimización existentes no noso país.",
+          "pagina": 25
+        },
+        {
+          "titular": "Más mujeres en las listas",
+          "texto": "Reforzar la participación de las mujeres en la vida pública e institucional modificando la Ley de Paridad para permitir una presencia correlativa de más mujeres en las listas electorales.",
+          "texto_original": "Reforzar a participación das mulleres na vida pública e institucional modificando a Lei de paridade, Lei Orgánica 2/2024, para permitir a presenza de correlativa de máis mulleres nas listas electorais.",
+          "pagina": 25
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "El BNG propone reformar la Ley de la Cadena Alimentaria para prohibir vender por debajo de costes y proteger al productor gallego. Rechaza el acuerdo UE-Mercosur y exige fondos para soberanía alimentaria frente al recorte de la PAC. En el mar, pide excluir la pesca artesanal del reglamento de control, concentrar la inspección en el cuerpo de Gardacostas de Galicia y recuperar las casas del mar.",
+      "propuestas": [
+        {
+          "titular": "Precios por encima de costes",
+          "texto": "Modificación de la Ley de la Cadena Alimentaria para que regule de forma efectiva las relaciones entre los eslabones de la cadena, con transacciones comerciales transparentes",
+          "texto_original": "A modificación da Lei da cadea alimentaria para que regule de xeito efectivo as relacións entre os elos da cadea, con transaccións comerciais transparentes",
+          "pagina": 47
+        },
+        {
+          "titular": "No vender bajo coste",
+          "texto": "Garantizar que no se hacen ventas por debajo de costes de producción.",
+          "texto_original": "garantindo que non se fan vendas por debaixo de custos de produción",
+          "pagina": 47
+        },
+        {
+          "titular": "No a Mercosur",
+          "texto": "Rechazo de acuerdos comerciales multilaterales perjudiciales para el sector agrario de Galicia, en particular el UE-Mercosur, por los enormes perjuicios a las explotaciones gallegas.",
+          "texto_original": "Rexeitamento de acordos comerciais multilaterais prexudiciais para o sector agrario de Galiza, en particular o UE-Mercosur polos enormes prexuízos ás explotacións agrarias galegas",
+          "pagina": 48
+        },
+        {
+          "titular": "Fondos para soberanía alimentaria",
+          "texto": "Exigimos la gestión descentralizada y el incremento de los fondos para el desarrollo territorial, la producción y la soberanía alimentaria, la sostenibilidad y el futuro de los sectores productivos.",
+          "texto_original": "esiximos a xestión descentralizada e o incremento dos fondos para o desenvolvemento territorial, a produción e a soberanía alimentaria, a sustentabilidade e o futuro dos nosos sectores produtivos",
+          "pagina": 48
+        },
+        {
+          "titular": "Pesca artesanal fuera del control",
+          "texto": "Exigir la exclusión de la pesca artesanal del Reglamento (UE) de Control de la Pesca.",
+          "texto_original": "A exixencia da exclusión da pesca artesanal do Regulamento (UE) do Control da Pesca.",
+          "pagina": 51
+        },
+        {
+          "titular": "Menos inspectores, un solo cuerpo",
+          "texto": "Evitar el acoso que sufre la gente del mar con cuatro cuerpos de inspección, concentrando esa función en el cuerpo de Gardacostas de Galicia.",
+          "texto_original": "Evitar o acoso que sofre a xente do mar con catro corpos de inspección (Gardacostas de Galiza, funcionarios do Ministerio, Garda Civil e funcionarios da UE), concentrando esa función no corpo de Gardacostas de Galiza.",
+          "pagina": 50
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "El BNG denuncia el déficit de infraestructuras de Galicia y reclama las competencias plenas de transporte con financiación. Propone trenes de proximidad en las principales ciudades, completar el Corredor Atlántico de Mercancías y acabar las obras pendientes del AVE. Plantea transferir las líneas interiores a una empresa pública gallega de transporte ferroviario y auditar la seguridad de toda la red.",
+      "propuestas": [
+        {
+          "titular": "Trenes de proximidad",
+          "texto": "Implantar, de forma efectiva y sin más demoras, un servicio de proximidades ferroviarias en las principales ciudades gallegas, aprovechando las infraestructuras existentes",
+          "texto_original": "Implantar, de xeito efectivo e sen máis demoras, un servizo de proximidades ferroviarias nas principais cidades galegas, aproveitando as infraestruturas existentes",
+          "pagina": 60
+        },
+        {
+          "titular": "Corredor Atlántico de Mercancías",
+          "texto": "Completar las obras del Corredor Atlántico de Mercancías en Galicia, abordando al menos el eje Ourense-Monforte-Lugo y el tramo León-Monforte.",
+          "texto_original": "Completar as obras do Corredor Atlántico de Mercadorías en Galiza, para o que deben abordarse, como mínimo, as obras do eixo Ourense–Monforte–Lugo, así como o tramo León–Monforte",
+          "pagina": 61
+        },
+        {
+          "titular": "GALTRÉN, empresa pública",
+          "texto": "Transferir a Galicia las líneas interiores para ser gestionadas a través de una empresa pública gallega de transporte ferroviario (GALTRÉN), tomando como referencia los modelos consolidados en otros territorios del Estado.",
+          "texto_original": "Transferir a Galiza as liñas interiores para seren xestionadas a través dunha empresa pública galega de transporte ferroviario (GALTRÉN), tomando como referencia os modelos xa consolidados noutros territorios do Estado.",
+          "pagina": 61
+        },
+        {
+          "titular": "Auditoría de seguridad",
+          "texto": "Realizar una auditoría independiente de toda la red ferroviaria con el objetivo de verificar su seguridad.",
+          "texto_original": "Realizar unha auditoría independente de toda a rede ferroviaria co obxectivo de verificar a súa seguridade.",
+          "pagina": 61
+        },
+        {
+          "titular": "Más frecuencias",
+          "texto": "Incrementar las frecuencias y mejorar los horarios de las conexiones ferroviarias en Galicia, especialmente en la línea del AVANT, así como rebajar los precios y establecer bonificaciones para los usuarios frecuentes.",
+          "texto_original": "Incrementar as frecuencias e mellorar os horarios das conexións ferroviarias en Galiza, especialmente na liña do AVANT, así como rebaixar os prezos e estabelecer bonificacións para as persoas usuarias frecuentes.",
+          "pagina": 61
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "El BNG defiende la normalización del gallego con presencia regular en RTVE, un canal de televisión en gallego, la recuperación de Radio 4 y doblaje en las plataformas. Pide líneas de ayuda específicas para la creación literaria en gallego sin obligar a traducir al español, y respeto a la toponimia. En deporte, propone transferir competencias y reconocer a las selecciones gallegas en competiciones internacionales.",
+      "propuestas": [
+        {
+          "titular": "Normalizar el gallego",
+          "texto": "La plena normalización de nuestra lengua es un objetivo prioritario y que debe ser asumido como tal por todas las administraciones públicas y por el conjunto de la sociedad.",
+          "texto_original": "A plena normalización da nosa lingua é un obxectivo prioritario e que debe ser asumido como tal por todas as Administracións públicas e polo conxunto da nosa sociedade.",
+          "pagina": 71
+        },
+        {
+          "titular": "Gallego en RTVE",
+          "texto": "Garantizar la presencia regular de la lengua y de las producciones culturales gallegas en RTVE, tanto en las desconexiones para Galicia como en la programación para todo el Estado.",
+          "texto_original": "Garantir a presenza regular da lingua e das producións culturais galegas na RTVE, tanto nas desconexións para Galiza como na programación para todo o Estado.",
+          "pagina": 71
+        },
+        {
+          "titular": "Recuperar Radio 4",
+          "texto": "Recuperar Radio 4, emisora de RNE en gallego.",
+          "texto_original": "Recuperar a Radio4, emisora da RNE en galego.",
+          "pagina": 71
+        },
+        {
+          "titular": "Ayudas al libro en gallego",
+          "texto": "Garantizar una línea de ayudas específica para la creación literaria en gallego, eliminando el requisito de entregar esas obras traducidas al español.",
+          "texto_original": "Garantir unha liña de axudas específica para a creación literaria en galego, eliminando o requisito de ter que entregar traducidas esas obras ao español.",
+          "pagina": 72
+        },
+        {
+          "titular": "Selecciones gallegas",
+          "texto": "Garantizar la participación de las selecciones gallegas con pleno derecho, en todas las disciplinas, en las competiciones deportivas internacionales oficiales.",
+          "texto_original": "Garantir a participación das seleccións galegas con pleno dereito, en todas as disciplinas, nas competicións deportivas internacionais oficiais.",
+          "pagina": 88
+        },
+        {
+          "titular": "Igualdad en el deporte",
+          "texto": "Impulsar acciones y políticas decididas para promover la igualdad en el deporte y la participación de las mujeres en todas las disciplinas, tanto en el deporte base como en el profesional.",
+          "texto_original": "Impulsar accións e políticas decididas para promover a igualdade no deporte e a participación das mulleres en todas as disciplinas deportivas, tanto no deporte base como no profesional.",
+          "pagina": 88
+        }
+      ]
     }
   }
 }

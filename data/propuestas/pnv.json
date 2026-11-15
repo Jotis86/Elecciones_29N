@@ -347,6 +347,217 @@
           "pagina": 24
         }
       ]
+    },
+    "estado-instituciones": {
+      "resumen": "El PNV propone una nueva Ley de Secretos Oficiales con criterios objetivos y plazos de desclasificación, y avanzar en la desclasificación de casos pendientes, entre ellos el 3 de marzo de Vitoria, Mikel Zabalza, Alonsotegi y los Sanfermines de 1978. Plantea crear un Consejo Vasco de Justicia con capacidad de gobierno del Poder Judicial y reconocer a la Ertzaintza como policía judicial. Añade reforzar la transparencia y la rendición de cuentas de las administraciones.",
+      "propuestas": [
+        {
+          "titular": "Nueva Ley de Secretos Oficiales",
+          "texto": "Garantizar la aprobación de una nueva Ley de Secretos Oficiales que sustituya a la vigente, establezca criterios objetivos de clasificación y fije plazos concretos de desclasificación automática.",
+          "texto_original": "Sekretu Ofizialen Lege berri bat onartuko dela ziurtatzea, indarrean dagoen legeria ordeztuko duena, sailkatzeko irizpide objektiboak ezarriko dituena eta automatikoki desklasifikatzeko epe zehatzak ezarriko dituena.",
+          "pagina": 40
+        },
+        {
+          "titular": "Desclasificar casos pendientes",
+          "texto": "Impulsar la desclasificación de los documentos oficiales relacionados con los sucesos del 3 de marzo de 1976 en Vitoria, para contribuir a esclarecer los hechos y reconocer y reparar a las víctimas.",
+          "texto_original": "1976ko martxoaren 3an Gasteizen izandako gertakariekin zerikusia duten dokumentu ofizialen desklasifikazioa sustatzea, gertaerak argitzen eta biktimei errekonozimendua eta erreparazioa ematen laguntzeko.",
+          "pagina": 40
+        },
+        {
+          "titular": "Consejo Vasco de Justicia",
+          "texto": "Impulsar la creación del Consejo Vasco de Justicia, con capacidad para ejercer las funciones de gobierno del Poder Judicial en Euskadi.",
+          "texto_original": "Euskal Justizia Kontseiluaren sorrera sustatzea, Euskadin Botere Judizialaren gobernueginkizunak betetzeko gaitasuna izango duena",
+          "pagina": 40
+        },
+        {
+          "titular": "Ertzaintza como policía judicial",
+          "texto": "Impulsar el reconocimiento de la Ertzaintza como policía judicial en el ámbito vasco, con plena capacidad para desempeñar sus funciones.",
+          "texto_original": "Ertzaintza euskal eremuan polizia judizial gisa aitor dadin sustatzea, dagozkion eginkizunak betetzeko gaitasun osoa izanik.",
+          "pagina": 40
+        },
+        {
+          "titular": "Transparencia y rendición de cuentas",
+          "texto": "Reforzar la transparencia y la rendición de cuentas de las administraciones públicas, garantizando que la ciudadanía tenga información comprensible sobre sus decisiones, presupuestos y resultados.",
+          "texto_original": "Herri-administrazioen gardentasuna eta kontu-ematea indartzea, herritarrek beren erabakiei, aurrekontuei eta emaitzei buruzko informazio ulergarria izango dutela bermatuz.",
+          "pagina": 40
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "El PNV exige el cumplimiento íntegro del Estatuto de Gernika y del Concierto Económico, con calendario y resultados verificables, y rechaza cualquier recentralización. Plantea un nuevo acuerdo político con el Estado basado en el reconocimiento nacional de Euskadi, la bilateralidad y el respeto a la voluntad democrática de la sociedad vasca. Añade defender los derechos históricos y el autogobierno de Navarra junto a Geroa Bai.",
+      "propuestas": [
+        {
+          "titular": "Cumplir el Estatuto y el Concierto",
+          "texto": "Defenderemos el cumplimiento íntegro en Madrid del Estatuto de Gernika, el Concierto Económico y las inversiones pactadas.",
+          "texto_original": "Madrilen Gernikako Estatutua, Kontzertu Ekonomikoa eta hitzartutako inbertsioak osorik betetzea defendatuko dugu.",
+          "pagina": 37
+        },
+        {
+          "titular": "Nuevo acuerdo político",
+          "texto": "Queremos lograr una nueva relación política con el Estado, basada en el reconocimiento de Euskadi como nación, el pacto, la bilateralidad y el respeto a la voluntad democrática de la sociedad vasca.",
+          "texto_original": "Estatuarekin harreman politiko berri bat lortu nahi dugu, Euskadi nazio gisa aitortzean, itunean, aldebikotasunean eta euskal gizartearen borondate demokratikoarekiko errespetuan oinarritua.",
+          "pagina": 37
+        },
+        {
+          "titular": "Todas las transferencias pendientes",
+          "texto": "Garantizar que se cumpla íntegramente el Estatuto de Gernika y que se completen todas las transferencias pendientes, asegurando que las competencias reconocidas se ejerzan de forma efectiva y con sus recursos.",
+          "texto_original": "Gernikako Estatutua osorik betetzen dela eta egiteke dauden transferentzia guztiak amaitzen direla ziurtatzea, aitortutako eskumenak modu eraginkorrean eta dagozkien baliabideekin gauzatu ahal izango direla bermatuz.",
+          "pagina": 38
+        },
+        {
+          "titular": "Frente a la recentralización",
+          "texto": "Rechazar cualquier intento de recentralizar, invadir o vaciar las competencias vascas, ya sea mediante reformas legales o decisiones administrativas y presupuestarias.",
+          "texto_original": "Euskal eskumenak birzentralizatzeko, inbaditzeko edo husteko ahalegin oro baztertzea, bai lege-erreformen bidez, bai administrazio- edo aurrekontu-erabakien bidez.",
+          "pagina": 38
+        },
+        {
+          "titular": "Derechos históricos",
+          "texto": "Proteger los Derechos Históricos del Pueblo Vasco y el reconocimiento nacional de Euskadi, como base de una relación política fundada en el pacto, la bilateralidad y el respeto mutuo.",
+          "texto_original": "Euskal Herriaren Eskubide Historikoak eta Euskadiren aitorpen nazionala babestea, itunean, aldebikotasunean eta elkarrekiko errespetuan oinarritutako harreman politikoaren oinarri gisa.",
+          "pagina": 38
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "El PNV reclama una voz propia de Euskadi en Europa: participación directa en las instituciones y en las formaciones del Consejo, especialmente cuando se traten sus competencias. Defiende la oficialidad del euskera, el catalán y el gallego en la UE, una Europa más democrática y con autonomía estratégica, y una macroregión atlántica. Pide además participar en el diseño y la gestión de los fondos europeos 2028-2034.",
+      "propuestas": [
+        {
+          "titular": "Voz propia en la UE",
+          "texto": "Garantizar que Euskadi tenga una participación directa y eficaz en las instituciones de la Unión Europea, especialmente en las decisiones relacionadas con sus competencias.",
+          "texto_original": "Euskadik Europar Batasuneko erakundeetan parte-hartze zuzena eta eraginkorra izango duela ziurtatzea, bereziki bere eskumenekin zerikusia duten erabakietan.",
+          "pagina": 41
+        },
+        {
+          "titular": "Presencia en el Consejo",
+          "texto": "Impulsar la voz propia de Euskadi en las formaciones del Consejo de la Unión Europea, especialmente en el ECOFIN y en el Consejo de Justicia y Asuntos de Interior.",
+          "texto_original": "Euskadiren berezko ahotsa bultzatzea Europar Batasuneko Kontseiluaren eraketetan, bereziki ECOFIN Kontseiluan eta Justizia eta Barne Arazoetarako Kontseiluan",
+          "pagina": 41
+        },
+        {
+          "titular": "Euskera oficial en la UE",
+          "texto": "Promover la oficialidad del euskera, el catalán y el gallego en la Unión Europea, garantizando la presencia y el uso efectivo del euskera en las instituciones comunitarias.",
+          "texto_original": "Euskararen, katalanaren eta galegoaren ofizialtasuna sustatzea Europar Batasunean, Erkidegoko erakundeetan euskararen presentzia eta erabilera eraginkorra bermatuz.",
+          "pagina": 41
+        },
+        {
+          "titular": "Macroregión atlántica",
+          "texto": "Contribuir a crear una macroregión atlántica europea para reforzar la cooperación en infraestructuras ferroviarias y energéticas, industria, digitalización, pesca, economía azul y relaciones con el Reino Unido.",
+          "texto_original": "Makroeskualde Atlantiko Europarra sortzen laguntzea, trenbide- eta energiaazpiegituretan, industrian, digitalizazioan, arrantzan, ekonomia urdinean, jasangarritasunean eta Erresuma Batuarekiko harremanetan lankidetza indartzeko.",
+          "pagina": 41
+        },
+        {
+          "titular": "Fondos europeos desde Euskadi",
+          "texto": "No aceptar que la gestión de los fondos europeos sirva para recentralizar competencias o alejar las decisiones de quienes mejor conocen las necesidades de Euskadi.",
+          "texto_original": "Ez dugu onartuko funtsen kudeaketak eskumenak birzentralizatzeko balio izatea edo erabakiak Euskadiren premiak hobeto ezagutzen dituztenengandik urruntzeko.",
+          "pagina": 41
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "El PNV parte de que los derechos de las mujeres «no se negocian» y propone aplicar de verdad las leyes de igualdad con perspectiva de género en las políticas públicas. Plantea garantizar el acceso efectivo a los derechos sexuales y reproductivos, cumplir el Pacto de Estado contra la violencia de género y reconocer la violencia vicaria. Añade formación obligatoria en perspectiva de género para jueces y fiscales, y defiende los derechos de las personas LGTBIQ+.",
+      "propuestas": [
+        {
+          "titular": "Los derechos de las mujeres no se negocian",
+          "texto": "Los derechos de las mujeres no se negocian. Defenderemos la igualdad real y exigiremos que las leyes se cumplan, con recursos suficientes y una justicia que proteja a las víctimas.",
+          "texto_original": "Emakumeen eskubideak ez dira negoziatzen. Benetako berdintasuna defendatuko dugu, eta legeak bete daitezela exijituko dugu, baliabide nahikoak eta biktimak babestuko dituen justizia batekin.",
+          "pagina": 25
+        },
+        {
+          "titular": "Aplicar las leyes de igualdad",
+          "texto": "Garantizar que las leyes de igualdad se apliquen de verdad y que la perspectiva de género se integre en las políticas públicas, desde su elaboración hasta su evaluación.",
+          "texto_original": "Berdintasun-legeak benetan aplikatzen direla eta politika publikoetan genero-ikuspegia txertatzen dela ziurtatzea, lege horiek egiten direnetik ebaluatzen diren arte.",
+          "pagina": 25
+        },
+        {
+          "titular": "Derechos sexuales y reproductivos",
+          "texto": "Proteger el ejercicio efectivo de los derechos sexuales y reproductivos de las mujeres, garantizando el acceso libre y seguro a los servicios de salud.",
+          "texto_original": "Emakumeen sexu- eta ugalketa-eskubideen erabilera eraginkorra babestea, osasunzerbitzuetarako sarbide libre eta segurua bermatuz.",
+          "pagina": 26
+        },
+        {
+          "titular": "Violencia vicaria",
+          "texto": "Impulsar una normativa que reconozca y defina adecuadamente la violencia vicaria, garantizando la prevención y el tratamiento en los sistemas de protección y atención.",
+          "texto_original": "Indarkeria bikarioa behar bezala aitortu eta definituko duen araudia bultzatzea, babes- eta arreta-sistemetan prebentzioa eta tratamendua bermatuz.",
+          "pagina": 26
+        },
+        {
+          "titular": "Derechos LGTBIQ+",
+          "texto": "Nadie debe sufrir discriminación por amar a quien ama o por ser quien es. Defenderemos los derechos conquistados y haremos frente a cualquier intento de retroceso.",
+          "texto_original": "Inork ez du diskriminaziorik jasan behar maite duena maitatzeagatik edo dena izateagatik. Konkistatutako eskubideak defendatuko ditugu eta edozein atzerapen-saiakerari aurre egingo diogu.",
+          "pagina": 26
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "El PNV pide una PAC 2028-2034 con plan estratégico propio para Euskadi, gestionado y financiado desde las instituciones vascas. Plantea relevo generacional con cotizaciones reducidas y acceso a la tierra, condiciones comerciales equivalentes para los productos importados y financiación para seguros agrarios. En pesca, defiende revisar la Política Pesquera Común con criterios científicos, más flexibilidad en las cuotas y modernización de la flota.",
+      "propuestas": [
+        {
+          "titular": "PAC con plan propio",
+          "texto": "Garantizar la Política Agraria Común para el periodo 2028-2034, reconociendo un Plan Estratégico propio para Euskadi.",
+          "texto_original": "2028-2034 epealdirako Nekazaritza-Politika Bateratua ziurtatzea, Euskadirentzat Plan Estrategiko propioa aitortuko duena",
+          "pagina": 17,
+          "nota": "El texto continúa en la página siguiente: las instituciones vascas deberían poder gestionarlo, programarlo y controlarlo, con financiación suficiente y diferenciada."
+        },
+        {
+          "titular": "Relevo generacional",
+          "texto": "Facilitar el relevo generacional en la agricultura y la ganadería, con cotizaciones reducidas para los jóvenes que se incorporan, medidas para transmitir explotaciones y ayudas para acceder a la tierra.",
+          "texto_original": "Nekazaritzan eta abeltzaintzan belaunaldien arteko erreleboa erraztea, sektorean sartzen diren gazteentzako kotizazio murriztuen, ustiategiak eskualdatzeko neurrien eta lurra eskuratzeko laguntzen bidez.",
+          "pagina": 18
+        },
+        {
+          "titular": "Mismas condiciones a los importados",
+          "texto": "Promover condiciones comerciales equivalentes para los productos importados, reforzando los controles, la trazabilidad y los mecanismos de protección de los sectores más sensibles.",
+          "texto_original": "Inportatutako produktuetarako merkataritza-baldintza baliokideak sustatzea, sektore sentikorrenen kontrolak, trazabilitatea eta babes-mekanismoak indartuz.",
+          "pagina": 18
+        },
+        {
+          "titular": "Revisar la política pesquera",
+          "texto": "Impulsar una revisión de la Política Pesquera Común que garantice la viabilidad de la flota vasca, con financiación europea suficiente y específica y decisiones basadas en criterios científicos y socioeconómicos.",
+          "texto_original": "Euskal ontzidiaren bideragarritasuna bermatuko duen Arrantza Politika Erkidearen berrikuspena bultzatzea, Europako finantzaketa nahikoa eta espezifikoarekin, araudiegonkortasunarekin eta irizpide zientifiko eta sozioekonomikoetan oinarritutako erabakiekin",
+          "pagina": 18
+        },
+        {
+          "titular": "Cuotas más flexibles",
+          "texto": "Trabajar para lograr una mayor flexibilidad en el reparto y la gestión de las cuotas pesqueras, atendiendo a las capturas históricas y a las necesidades de cada modalidad.",
+          "texto_original": "Arrantza-kuoten bidezko banaketa eta kudeaketaren malgutasun handiagoa lortzeko lan egitea, harrapaketa historikoei eta arrantza-modalitateen beharrei erreparatuta.",
+          "pagina": 18
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "El PNV exige al Estado que cumpla las inversiones comprometidas en Euskadi, con plazos públicos y responsabilidades claras, y reclama capacidad para gestionar las infraestructuras que sirven a su ciudadanía. Plantea terminar la «Y vasca» con calendario verificable y conexión con Pamplona, transferir Cercanías y eliminar pasos a nivel. Añade ejecutar el Corredor Atlántico y el bypass ferroviario sur de Bilbao.",
+      "propuestas": [
+        {
+          "titular": "Terminar la «Y vasca»",
+          "texto": "Terminar la «Y vasca» sin más retrasos, con un calendario de ejecución verificable, respetando los acuerdos sobre accesos subterráneos a Bilbao y Vitoria y garantizando la conexión con Pamplona.",
+          "texto_original": "Euskal Y-a beste atzerapenik gabe amaitzea, egikaritze-egutegi egiaztagarriarekin, Bilboko eta Gasteizko lurpeko sarbideei buruzko akordioak errespetatuz eta Iruñearekiko lotura bermatuz.",
+          "pagina": 19
+        },
+        {
+          "titular": "Transferir Cercanías",
+          "texto": "Completar la transferencia de las infraestructuras de cercanías que discurren íntegramente por Euskadi, para mejorar su gestión, mantenimiento, accesibilidad y coordinación con el sistema de transporte vasco.",
+          "texto_original": "Oso-osorik Euskaditik igarotzen diren aldiriko tren-azpiegituren transferentzia burutzea, horien kudeaketa, mantentzea, irisgarritasuna eta euskal garraio-sistemarekiko koordinazioa hobetzeko.",
+          "pagina": 19
+        },
+        {
+          "titular": "Corredor Atlántico",
+          "texto": "Impulsar la ejecución de las inversiones comprometidas en el Corredor Ferroviario Atlántico, consolidando a Euskadi como enlace ferroviario estratégico entre la península ibérica y Europa.",
+          "texto_original": "Atlantikoko trenbide-korridorean konprometitutako inbertsioen gauzatzea sustatzea, Euskadi iberiar penintsularen eta Europaren arteko trenbide-lotura estrategiko gisa sendotuz.",
+          "pagina": 19
+        },
+        {
+          "titular": "Bypass sur de Bilbao",
+          "texto": "Garantizar que el bypass ferroviario sur de Bilbao se ejecute con prioridad, para reducir el tráfico de mercancías en entornos urbanos y liberar capacidad para pasajeros.",
+          "texto_original": "Bilboko hegoaldeko trenbide-saihesbidea lehentasunez egingo dela ziurtatzea, hiriinguruneetako salgaien trafikoa murrizteko",
+          "pagina": 19
+        },
+        {
+          "titular": "Estaciones accesibles",
+          "texto": "Garantizar la accesibilidad universal del transporte ferroviario, eliminando barreras en las estaciones y adaptando el material rodante para personas con movilidad reducida.",
+          "texto_original": "Trenbide-garraioaren irisgarritasun unibertsala ziurtatzea, geltokietan oztopoak kenduz eta gurpildun materiala mugikortasun urriko pertsonentzat egokituz.",
+          "pagina": 19
+        }
+      ]
     }
   }
 }

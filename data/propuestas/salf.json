@@ -329,6 +329,68 @@
           "pagina": 10
         }
       ]
+    },
+    "estado-instituciones": {
+      "resumen": "SALF plantea que la corrupción de cargos públicos sea imprescriptible y que los condenados cumplan íntegramente, sin tercer grado ni indulto. Propone prohibir las amnistías en la Constitución, obligar a devolver el triple de lo defraudado y dar el 15% de lo recuperado a quien denuncie, con anonimato. Añade que un funcionario condenado pierda la plaza y que la empresa corruptora quede quince años sin contratar con el Estado.",
+      "propuestas": [
+        {
+          "titular": "Corrupción imprescriptible",
+          "texto": "La corrupción no prescribe. Cohecho, malversación, prevaricación, tráfico de influencias y financiación ilegal cometidos por cargos públicos: imprescriptibles.",
+          "pagina": 25
+        },
+        {
+          "titular": "Cumplimiento íntegro sin indulto",
+          "texto": "Sin tercer grado, sin indulto, sin permisos. Cumplimiento íntegro para condenados por corrupción y prohibición legal de indulto.",
+          "pagina": 25
+        },
+        {
+          "titular": "Amnistías prohibidas",
+          "texto": "Amnistías prohibidas en la Constitución. Indultos, nunca por política.",
+          "pagina": 26
+        },
+        {
+          "titular": "Devolver el triple",
+          "texto": "Devuelves el triple o no sales. Responsabilidad civil del triple, decomiso de todo patrimonio no justificado y ningún beneficio hasta restituir.",
+          "pagina": 26,
+          "nota": "El funcionario condenado pierde la plaza y la empresa corruptora queda quince años sin contratar con el Estado."
+        },
+        {
+          "titular": "El denunciante cobra el 15%",
+          "texto": "El que denuncia cobra el 15 %. El 15 % de lo recuperado, libre de impuestos, con anonimato, protección laboral y una autoridad independiente con capacidad de sancionar.",
+          "pagina": 26
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "SALF propone un referéndum de renegociación con la UE y, si Bruselas se niega, un segundo referéndum de salida. Anuncia veto a Mercosur, al recorte de la PAC y al Pacto Verde, y un bloqueo comercial total a Marruecos si mantiene el bloqueo a un puerto español o usa la inmigración como presión. Añade ley antiterrorista con penas máximas para los Hermanos Musulmanes y un régimen fiscal especial para Ceuta y Melilla.",
+      "propuestas": [
+        {
+          "titular": "Referéndum de renegociación con la UE",
+          "texto": "Referéndum de renegociación europea; y de salida, si Bruselas se niega.",
+          "pagina": 35
+        },
+        {
+          "titular": "Veto a Mercosur y al Pacto Verde",
+          "texto": "Veto a Mercosur, al recorte de la PAC y al Pacto Verde.",
+          "pagina": 35,
+          "nota": "Cifra en 877 M€/año lo que perdería el campo español con el recorte del 20% de la PAC."
+        },
+        {
+          "titular": "Bloqueo comercial a Marruecos",
+          "texto": "Marruecos: bloqueo comercial total si bloquea un solo puerto español.",
+          "pagina": 36
+        },
+        {
+          "titular": "Hermanos Musulmanes, ilegalizados",
+          "texto": "Guerra a los Hermanos Musulmanes: ley antiterrorista con penas máximas.",
+          "pagina": 35
+        },
+        {
+          "titular": "Ceuta y Melilla, plaza franca",
+          "texto": "Ceuta y Melilla, plaza franca: 0 % de IRPF, 0 % de Sociedades y 0 % de cotizaciones. Para siempre.",
+          "pagina": 36
+        }
+      ]
     }
   }
 }

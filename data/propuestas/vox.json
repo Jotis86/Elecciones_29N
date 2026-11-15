@@ -320,6 +320,194 @@
           "nota": "Propone reconocer la profesión militar como profesión de riesgo y reforzar la ciberseguridad y las infraestructuras críticas."
         }
       ]
+    },
+    "estado-instituciones": {
+      "resumen": "Vox propone despolitizar la Justicia eligiendo a los vocales del CGPJ por voto directo de jueces y magistrados, y liberar el Tribunal Constitucional de lo que considera control político. Plantea recuperar el delito de sedición, agravar la malversación y prohibir indultos por corrupción o integridad territorial. Añade la ilegalización de partidos u organizaciones que atenten contra la soberanía e independencia de España.",
+      "propuestas": [
+        {
+          "titular": "Elegir el CGPJ por voto de los jueces",
+          "texto": "Independencia y despolitización de la Justicia. Modificar la Ley Orgánica del Poder Judicial para que los doce vocales de procedencia judicial del Consejo General del Poder Judicial sean elegidos mediante voto personal, directo y secreto",
+          "pagina": 55
+        },
+        {
+          "titular": "«Liberar» el Tribunal Constitucional",
+          "texto": "Liberar el Tribunal Constitucional de las manos de los políticos. El control de la constitucionalidad de las leyes no puede depender de un órgano político.",
+          "pagina": 55
+        },
+        {
+          "titular": "Recuperar el delito de sedición",
+          "texto": "Respuesta contundente frente a los ataques contra la Unidad Nacional. Recuperar el delito de sedición",
+          "pagina": 55
+        },
+        {
+          "titular": "Sin indultos por corrupción",
+          "texto": "Prohibir los indultos para delitos relacionados con la corrupción política, la forma política del Estado o la integridad territorial.",
+          "pagina": 56
+        },
+        {
+          "titular": "Ilegalizar partidos independentistas",
+          "texto": "Ilegalización de los partidos políticos, asociaciones u organizaciones de cualquier tipo que atenten contra la soberanía e independencia de España, su unidad e integridad territorial.",
+          "pagina": 56
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "Vox reduce su política exterior a la defensa de la soberanía frente a «injerencias extranjeras» y a la recuperación de Gibraltar. Propone aplicar «toda la presión internacional necesaria» sobre el Peñón, desmantelar las redes de narcotráfico y contrabando que dice que se originan allí y recuperar el control de las aguas españolas. Su programa no desarrolla una posición sobre la UE más allá de la soberanía nacional.",
+      "propuestas": [
+        {
+          "titular": "Soberanía frente a injerencias",
+          "texto": "Defender nuestra soberanía ante injerencias extranjeras y recuperar una posición internacional que priorice la defensa de los intereses reales de los españoles y de la Unidad Nacional.",
+          "pagina": 47
+        },
+        {
+          "titular": "Recuperar Gibraltar",
+          "texto": "Aplicación de toda la presión internacional necesaria para la recuperación de la soberanía española sobre el Peñón de Gibraltar.",
+          "pagina": 48
+        },
+        {
+          "titular": "Narco y contrabando en el Peñón",
+          "texto": "Desmantelamiento de las redes de piratería, narcotráfico, contrabando y blanqueo de capitales que se originan en la colonia y afectan a España.",
+          "pagina": 48
+        },
+        {
+          "titular": "Aguas españolas",
+          "texto": "Recuperación del control de las aguas españolas. Plan de inversiones para recuperar la prosperidad del Campo de Gibraltar.",
+          "pagina": 48
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "Vox propone un plan nacional de natalidad que extienda las ventajas de las familias numerosas desde el primer hijo, con bonificaciones fiscales y cotización financiada por el Estado para quien cuide a sus hijos. Añade refuerzo del presupuesto de dependencia, ayuda al cuidado en el hogar, plazas residenciales y medidas contra la soledad no deseada. En el plano de la vida, defiende el derecho a la vida «desde su concepción» y la objeción de conciencia de sanitarios.",
+      "propuestas": [
+        {
+          "titular": "Plan nacional de natalidad",
+          "texto": "Plan nacional de natalidad y apoyo a las familias españolas. Las familias españolas, en el centro de las políticas públicas.",
+          "pagina": 51
+        },
+        {
+          "titular": "Cotización por cuidar a los hijos",
+          "texto": "Cotización a la Seguridad Social financiada por el Estado para los españoles dedicados al cuidado de sus hijos.",
+          "pagina": 51,
+          "nota": "Se presenta como medida para que criar hijos no penalice la pensión futura."
+        },
+        {
+          "titular": "Mayores y dependencia",
+          "texto": "Cuidado de nuestros mayores y dependientes. Reforzar el presupuesto en dependencia, las ayudas para el cuidado en el hogar, el apoyo a familiares a cargo.",
+          "pagina": 52
+        },
+        {
+          "titular": "Discapacidad sin barreras",
+          "texto": "Refuerzo de las bonificaciones y deducciones para personas con discapacidad, poner fin a las barreras arquitectónicas que dificultan su movilidad y desburocratizar los procedimientos de reconocimiento de la discapacidad o dependencia",
+          "pagina": 52
+        },
+        {
+          "titular": "Derecho a la vida",
+          "texto": "Defensa del derecho a la vida desde su concepción hasta la muerte natural y fin de la cultura de la muerte. Garantizar la objeción de conciencia de los profesionales sanitarios y farmacéuticos",
+          "pagina": 52
+        },
+        {
+          "titular": "Brecha maternal",
+          "texto": "Combatir la brecha maternal facilitando la formación, permanencia, promoción y reincorporación al trabajo de las madres que han interrumpido sus carreras por la maternidad",
+          "pagina": 52
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "Vox plantea «blindar» el sector primario frente a la Agenda 2030 y el Pacto Verde, con cláusulas espejo y preferencia comunitaria. Rechaza el acuerdo UE-Mercosur y la reducción del presupuesto de la PAC, cuyo reparto quiere ligar a la despoblación. Añade un fondo de compensación por «imposiciones de Bruselas» y defiende revisar la Política Pesquera Común y las cuotas.",
+      "propuestas": [
+        {
+          "titular": "Blindaje frente a la Agenda 2030",
+          "texto": "Blindaje del sector primario frente a la Agenda 2030 y lucha contra la competencia desleal.",
+          "pagina": 33,
+          "nota": "Se presenta como oposición a las medidas que perjudiquen al sector y a las «imposiciones» del Pacto Verde."
+        },
+        {
+          "titular": "No a Mercosur",
+          "texto": "Rechazo explícito al acuerdo UE-Mercosur y de todo acuerdo comercial que obligue a nuestros productores a competir en desigualdad de condiciones. Inclusión de cláusulas espejo.",
+          "pagina": 33
+        },
+        {
+          "titular": "Fondo frente a Bruselas",
+          "texto": "Fondo de compensación frente a imposiciones de Bruselas. Creación de un fondo de compensación destinado a mitigar el impacto negativo de las imposiciones normativas de Bruselas",
+          "pagina": 33
+        },
+        {
+          "titular": "PAC ligada a la despoblación",
+          "texto": "Rechazo frontal a la propuesta de reducción del presupuesto de la PAC. Vinculación del reparto de fondos de la PAC a una nueva variable que prime la despoblación.",
+          "pagina": 34
+        },
+        {
+          "titular": "Pesca española",
+          "texto": "Defensa del sector pesquero español. Promover la revisión de la Política Pesquera Común y de las cuotas y restricciones que perjudican injustificadamente a nuestros pescadores",
+          "pagina": 34
+        },
+        {
+          "titular": "Contra los macroparques en el campo",
+          "texto": "Impedir la destrucción de la riqueza agrícola y el patrimonio natural para la instalación descontrolada de macro plantas de energías renovables, solar y eólica.",
+          "pagina": 34
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "Vox propone un plan nacional de infraestructuras que incluya carreteras, red ferroviaria, infraestructuras hidráulicas, telecomunicaciones y nodos logísticos. Prioriza la seguridad ferroviaria, el mantenimiento de la red y Cercanías y Media Distancia, con auditoría y electrificación de líneas convencionales. Añade un Plan Nacional del Agua con interconexión de cuencas y obras contra inundaciones.",
+      "propuestas": [
+        {
+          "titular": "Plan nacional de infraestructuras",
+          "texto": "Plan nacional de infraestructuras. Las infraestructuras deben dejar de ser un negocio para políticos corruptos.",
+          "pagina": 61
+        },
+        {
+          "titular": "Trenes y España rural",
+          "texto": "Trenes rápidos, seguros y una España rural conectada. Prioridad a la seguridad ferroviaria, al mantenimiento de una red abandonada e infradotada y a los servicios de Cercanías y Media Distancia.",
+          "pagina": 61
+        },
+        {
+          "titular": "Inundaciones",
+          "texto": "Obras contra las inundaciones para proteger vidas y hogares. Poner fin al planeamiento y abandono ideológico de las infraestructuras esenciales contra las inundaciones.",
+          "pagina": 61
+        },
+        {
+          "titular": "Plan Nacional del Agua",
+          "texto": "Plan Nacional del Agua. Interconexión de todas las cuencas que permita una gestión más eficiente del agua",
+          "pagina": 61
+        },
+        {
+          "titular": "Modernizar regadíos",
+          "texto": "impulsar y modernizar los regadíos y la producción de energía. Al mismo tiempo, conclusión de las obras pendientes y desarrollo de las infraestructuras hidráulicas necesarias para garantizar la seguridad de los españoles ante las inundaciones.",
+          "pagina": 62
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "Vox propone una política cultural de afirmación nacional: difusión de la «historia común española», conservación del patrimonio —con atención al medio rural, sus iglesias y monumentos— y una nueva Ley de Mecenazgo. Defiende la tauromaquia como parte de la tradición y pide «despolitizar» el deporte, con las selecciones nacionales representando a España. Añade apoyo al deporte femenino con criterios «biológicos y deportivos objetivos».",
+      "propuestas": [
+        {
+          "titular": "Cultura nacional",
+          "texto": "Promoción de la cultura nacional. Afirmación y difusión de la historia común española.",
+          "pagina": 42
+        },
+        {
+          "titular": "Mecenazgo y arte",
+          "texto": "Reducción de impuestos para el arte y los espectáculos en vivo. Nueva Ley de Mecenazgo para elevar las deducciones del IRPF.",
+          "pagina": 43,
+          "nota": "El programa incluye, en la página anterior, conservación y rehabilitación del patrimonio nacional con atención al medio rural, sus iglesias y monumentos."
+        },
+        {
+          "titular": "Tauromaquia",
+          "texto": "Defensa de la Tauromaquia y promoción de la difusión del arte taurino y potenciación del conjunto de actividades alrededor de esta tradición.",
+          "pagina": 43
+        },
+        {
+          "titular": "Despolitizar el deporte",
+          "texto": "Fomento del deporte como motor de desarrollo y cohesión nacional. Despolitizar el deporte y garantizar que las selecciones nacionales representen a España en las competiciones internacionales",
+          "pagina": 43
+        },
+        {
+          "titular": "Deporte femenino",
+          "texto": "Compromiso con la defensa del deporte femenino, que debe regirse por criterios biológicos y deportivos objetivos para garantizar la igualdad real en la competición.",
+          "pagina": 43
+        }
+      ]
     }
   }
 }

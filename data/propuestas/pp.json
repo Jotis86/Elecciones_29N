@@ -333,6 +333,267 @@
           "nota": "Prioriza drones y sistemas antidrones, defensa antiaérea, munición, ciberdefensa, comunicaciones, inteligencia artificial y capacidades navales."
         }
       ]
+    },
+    "estado-instituciones": {
+      "resumen": "El PP centra su propuesta institucional en reforzar los controles del poder: más supervisión del voto por correo, incompatibilidades para condenados por terrorismo o corrupción grave, y límites a los indultos y aforamientos. Plantea que la igualdad básica, Hacienda, Seguridad Social, Defensa, exterior y fronteras no puedan cederse a cambio de apoyos parlamentarios. Anuncia la derogación de la Ley de Amnistía y una nueva Ley del Indulto con criterios objetivos.",
+      "propuestas": [
+        {
+          "titular": "Control reforzado del voto por correo",
+          "texto": "Reforzaremos el control del voto por correo en todo su recorrido. Garantizaremos el ejercicio efectivo y seguro del derecho al voto por correo.",
+          "pagina": 28
+        },
+        {
+          "titular": "Condenados por terrorismo, fuera de las instituciones",
+          "texto": "Los condenados por terrorismo no tendrán cabida en las instituciones. Ampliaremos las incompatibilidades e inelegibilidades aplicables a los condenados por terrorismo, así como a los condenados por corrupción grave",
+          "pagina": 29
+        },
+        {
+          "titular": "La igualdad no se negocia por una investidura",
+          "texto": "La igualdad de los españoles no será el precio de una investidura. No habrá cesiones en materia de igualdad básica, Hacienda general, Seguridad Social, Defensa y Fuerzas Armadas, política exterior y política migratoria y fronteras",
+          "pagina": 29
+        },
+        {
+          "titular": "Derogar la Ley de Amnistía",
+          "texto": "La impunidad no será moneda de cambio para gobernar. Derogaremos la Ley de Amnistía y prohibiremos que el derecho de gracia se utilice como contraprestación política",
+          "pagina": 29
+        },
+        {
+          "titular": "Revisar aforamientos",
+          "texto": "Reformaremos el suplicatorio y revisaremos los aforamientos. Evitaremos que el suplicatorio pueda convertirse en un instrumento de impunidad ante la Justicia.",
+          "pagina": 29
+        },
+        {
+          "titular": "Nueva Ley del Indulto",
+          "texto": "Aprobaremos una nueva Ley del Indulto con criterios objetivos y transparentes. No podrán ser indultados los condenados por corrupción, terrorismo, delitos contra la integridad territorial o el orden constitucional",
+          "pagina": 29
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "El PP propone una ciudadanía común con derechos iguales en toda España y una reconstrucción del pacto territorial con reglas multilaterales: nueva financiación autonómica en el Consejo de Política Fiscal y Financiera, ninguna comunidad fuera del régimen común y responsabilidad sobre la deuda propia. Añade prioridad a quienes mantengan arraigo verificable con España y un tratamiento específico para insularidad y ultraperiferia.",
+      "propuestas": [
+        {
+          "titular": "Derechos en cualquier lugar de España",
+          "texto": "Los derechos serán de la persona y la acompañarán a cualquier lugar de España. Cambiar de Comunidad Autónoma no significará perder prestaciones, empezar de cero un trámite o recibir peor atención.",
+          "pagina": 38
+        },
+        {
+          "titular": "Arraigo con España",
+          "texto": "El vínculo con España dará prioridad. Estableceremos criterios de prioridad en el acceso a determinadas ayudas, prestaciones y recursos públicos para procurar la asignación prioritaria a quienes mantengan un arraigo real, duradero y verificable con España.",
+          "pagina": 40,
+          "nota": "Se aplicarían dentro de los límites constitucionales y europeos, sin basarse solo en la nacionalidad."
+        },
+        {
+          "titular": "Reglas claras y sin privilegios",
+          "texto": "Mismas reglas, cuentas claras y ningún privilegio a cambio de apoyo político. Convocaremos la Conferencia de Presidentes al inicio de la legislatura para sentar las bases de un nuevo modelo de financiación autonómica",
+          "pagina": 40
+        },
+        {
+          "titular": "Ninguna comunidad fuera del sistema",
+          "texto": "Ninguna comunidad saldrá del sistema común. Ninguna de las Comunidades que actualmente integran el régimen común saldrá de él ni habrá nuevos regímenes singulares negociados bilateralmente",
+          "pagina": 41
+        },
+        {
+          "titular": "Cada comunidad responde de su deuda",
+          "texto": "Cada Comunidad Autónoma responderá de su deuda. Cada Comunidad responderá de sus decisiones y de su deuda.",
+          "pagina": 41
+        },
+        {
+          "titular": "Insularidad y ultraperiferia",
+          "texto": "La insularidad, la ultraperiferia y las ciudades autónomas no significarán menos oportunidades. Compensaremos las desventajas de la insularidad y la ultraperiferia",
+          "pagina": 42
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "El PP propone una política exterior «de Estado», con estrategia presentada en las Cortes y sin acuerdos que afecten a soberanía o fronteras sin autorización parlamentaria. Quiere situar a España «donde se decide Europa», con mercado único, interconexiones energéticas y compras conjuntas de defensa. En el presupuesto europeo 2028-2034 defiende mantener la PAC y la cohesión como políticas propias, y añade integridad territorial en el Magreb, solución para el Sáhara y apoyo a Ucrania.",
+      "propuestas": [
+        {
+          "titular": "Política exterior de Estado",
+          "texto": "La política exterior volverá a ser de Estado: defenderá el interés nacional, protegerá a los españoles y abrirá mercados a nuestras empresas.",
+          "pagina": 73
+        },
+        {
+          "titular": "Las Cortes, antes que Bruselas",
+          "texto": "No firmaremos ningún acuerdo que afecte a la soberanía o a las fronteras sin la autorización de las Cortes.",
+          "pagina": 73
+        },
+        {
+          "titular": "España en la mesa europea",
+          "texto": "España volverá a estar donde se decide Europa.",
+          "pagina": 73,
+          "nota": "Pide una Unión con mercado único sin barreras, interconexiones energéticas, compras conjuntas de defensa y tecnología propia."
+        },
+        {
+          "titular": "Defender la PAC y la cohesión",
+          "texto": "No nos levantaremos de la mesa sin un buen acuerdo para España en el próximo presupuesto europeo.",
+          "pagina": 74,
+          "nota": "Se opone a fundir PAC y cohesión en un único plan por país y pide que sigan siendo políticas propias con fondos propios."
+        },
+        {
+          "titular": "Ceuta, Melilla y Canarias",
+          "texto": "España defenderá su integridad territorial y sus intereses en el Magreb. Ceuta, Melilla y Canarias son España",
+          "pagina": 74
+        },
+        {
+          "titular": "Solución para el Sáhara",
+          "texto": "Apoyaremos los esfuerzos de Naciones Unidas en el Sáhara Occidental para alcanzar una solución política justa, duradera y mutuamente aceptable para las partes.",
+          "pagina": 74
+        },
+        {
+          "titular": "Apoyo a Ucrania",
+          "texto": "Estaremos siempre con Ucrania frente a Rusia. Hoy Ucrania resiste una agresión que afecta a toda Europa. Mantendremos el apoyo político, económico, militar y humanitario a Ucrania y las sanciones contra Rusia mientras dure su agresión.",
+          "pagina": 74
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "El PP centra su política social en la familia: mínimos familiares actualizados con la inflación, deducciones mensuales y apoyo a la maternidad, incluidas facilidades para la reproducción asistida. Promete gratuidad de la escuela infantil de 0 a 3 años, reconocimiento común de las familias monoparentales y un plan urgente contra la pobreza infantil. Añade bancos de horas y horarios flexibles para conciliar.",
+      "propuestas": [
+        {
+          "titular": "Ayudas familiares cada mes",
+          "texto": "Ampliaremos los actuales mínimos familiares y las ayudas fiscales llegarán cada mes a todas las familias.",
+          "pagina": 56,
+          "nota": "Los mínimos se actualizarían con la inflación y se refundirían las deducciones del IRPF en una sola, reembolsable y con abono mensual."
+        },
+        {
+          "titular": "Apoyo a la maternidad",
+          "texto": "Cualquier mujer que quiera ser madre será ayudada. Pondremos en marcha medidas que favorezcan que las personas puedan tener el número de hijos que desean",
+          "pagina": 56,
+          "nota": "Incluye mejorar el acceso a la reproducción asistida en el Sistema Nacional de Salud y facilitar la congelación de óvulos."
+        },
+        {
+          "titular": "Escuela infantil gratuita de 0 a 3",
+          "texto": "La escuela infantil de cero a tres años será gratuita. Acordaremos con las Comunidades Autónomas que el Estado financie la mitad del coste de cada plaza de cero a tres años",
+          "pagina": 57
+        },
+        {
+          "titular": "Familias monoparentales",
+          "texto": "Las familias monoparentales tendrán más apoyo y menos obstáculos. Quienes sacan adelante una familia en solitario asumen cada día responsabilidades que en otros hogares se comparten.",
+          "pagina": 57,
+          "nota": "El programa añade que se acordará con las comunidades un reconocimiento común válido en toda España."
+        },
+        {
+          "titular": "Pobreza infantil",
+          "texto": "Actuaremos con urgencia contra la pobreza infantil. Reduciremos drásticamente la pobreza infantil reforzando las ayudas a las familias vulnerables",
+          "pagina": 57
+        },
+        {
+          "titular": "Conciliación",
+          "texto": "Las familias tendrán más control sobre su tiempo. Extenderemos el uso de los bancos de horas para que los trabajadores con hijos o con personas dependientes a su cargo puedan adaptar parte de su jornada",
+          "pagina": 57
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "El PP propone un pacto nacional por el campo, el mar y el monte, con las cadenas agroalimentaria, mar-industria y forestal declaradas estratégicas. Promete mantener la PAC, la pesca y el POSEI en el marco 2028-2034, y bajar impuestos a quien vive e invierte en el medio rural, incluida la vivienda en municipios despoblados. Añade seguros de ingresos, agua para regadío, cláusulas espejo a las importaciones y apoyo a la incorporación de jóvenes.",
+      "propuestas": [
+        {
+          "titular": "Pacto por el campo, el mar y el monte",
+          "texto": "Un pacto nacional para el campo, el mar y el monte. El Pacto abarcará la agricultura, la ganadería, la pesca, los montes y sus cadenas de valor",
+          "pagina": 64
+        },
+        {
+          "titular": "Vivir en el medio rural tendrá futuro",
+          "texto": "Vivir en el medio rural tendrá futuro. Bajaremos los impuestos a quienes viven, invierten y producen en el medio rural.",
+          "pagina": 64,
+          "nota": "Los jóvenes no pagarían impuestos al comprar su vivienda habitual en municipios despoblados."
+        },
+        {
+          "titular": "PAC, pesca y POSEI sin recortes",
+          "texto": "Mantendremos la financiación de la PAC, la pesca y el programa POSEI de apoyo a las regiones ultraperiféricas en el nuevo marco financiero plurianual 2028-2034.",
+          "pagina": 64
+        },
+        {
+          "titular": "Seguro de ingresos para el campo",
+          "texto": "Protegeremos los ingresos de agricultores y ganaderos. Mejoraremos los seguros agrarios y crearemos un seguro de ingresos y rentas frente a alteraciones del mercado.",
+          "pagina": 65
+        },
+        {
+          "titular": "Agua para el campo",
+          "texto": "Garantizaremos el agua que necesitan el campo y la industria. En el marco del Pacto Nacional del Agua, modernizaremos embalses y conducciones, renovaremos los regadíos",
+          "pagina": 65
+        },
+        {
+          "titular": "Cláusulas espejo a las importaciones",
+          "texto": "Exigiremos a las importaciones lo mismo que a nuestros productores. Los alimentos importados cumplirán exigencias de seguridad alimentaria y producción equivalentes a las nuestras.",
+          "pagina": 65
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "El PP propone un Plan Nacional de Infraestructuras de más de 300.000 millones en 15 años, con prioridad al mantenimiento y la seguridad. Promete recuperar la fiabilidad del AVE y de Cercanías, acelerar los corredores Mediterráneo, Atlántico y Ruta de la Plata, y revertir el deterioro de 26.500 kilómetros de carreteras estatales. Añade un Pacto Nacional del Agua con 40.000 millones hasta 2030 y mejoras en puertos y aeropuertos.",
+      "propuestas": [
+        {
+          "titular": "Mantenimiento primero",
+          "texto": "El mantenimiento y la seguridad de las infraestructuras tendrán prioridad en los presupuestos.",
+          "pagina": 45
+        },
+        {
+          "titular": "300.000 millones en 15 años",
+          "texto": "Pondremos en marcha el mayor plan de infraestructuras en décadas: más de 300.000 millones de euros.",
+          "pagina": 45,
+          "nota": "Movilizaría autovías, alta velocidad, Cercanías e infraestructuras hidráulicas y energéticas con el sector privado."
+        },
+        {
+          "titular": "Recuperar el tren",
+          "texto": "Invertiremos especialmente en la red ferroviaria y mejoraremos la atención a los viajeros.",
+          "pagina": 45,
+          "nota": "Analizará las más de 1.000 limitaciones temporales de velocidad y las indemnizaciones por retrasos."
+        },
+        {
+          "titular": "Corredores ferroviarios",
+          "texto": "Aceleraremos los grandes corredores ferroviarios. Modernizaremos las infraestructuras clave de la red convencional y mejoraremos sus servicios.",
+          "pagina": 46
+        },
+        {
+          "titular": "Carreteras",
+          "texto": "Revertiremos el grave deterioro de las carreteras. Desplegaremos un programa de conservación para los más de 26.500 kilómetros de carreteras estatales",
+          "pagina": 46
+        },
+        {
+          "titular": "Pacto Nacional del Agua",
+          "texto": "Promoveremos un pacto nacional del agua. Dentro del Plan Nacional de Infraestructuras, movilizaremos hasta 40.000 millones de euros en inversiones hasta 2030.",
+          "pagina": 46
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "El PP propone que el castellano vuelva a ser lengua de trabajo en el Congreso y en los órganos de cooperación con las comunidades, manteniendo el uso de las cooficiales en el Senado. Plantea derogar la Ley de Memoria Democrática y sustituirla por una Ley de Concordia, y una historia «completa» en los colegios. En cultura, promete una Ley de Mecenazgo, protección del patrimonio y apoyo a las tradiciones.",
+      "propuestas": [
+        {
+          "titular": "Castellano en el Congreso",
+          "texto": "El castellano volverá a ser la lengua común de trabajo en el Congreso. Propondremos la reforma del Reglamento de la Cámara para que los debates parlamentarios se desarrollen en la lengua común de todos los españoles.",
+          "pagina": 47
+        },
+        {
+          "titular": "Ley de Concordia",
+          "texto": "Derogaremos la Ley de Memoria Democrática y aprobaremos una Ley de Concordia.",
+          "pagina": 47,
+          "nota": "La sustituiría una norma que, según el programa, proteja la investigación histórica y mantenga la búsqueda de desaparecidos."
+        },
+        {
+          "titular": "Historia completa",
+          "texto": "La historia se enseñará completa en los colegios. Los currículos de Historia se elaborarán con las Reales Academias y las sociedades científicas, y no con el Gobierno de turno.",
+          "pagina": 48
+        },
+        {
+          "titular": "Cultura en libertad",
+          "texto": "Cultura en libertad. Corregiremos los sesgos ideológicos que han excluido del apoyo institucional a determinados proyectos culturales y acabaremos con la censura y la cultura de la cancelación.",
+          "pagina": 48
+        },
+        {
+          "titular": "Patrimonio y mecenazgo",
+          "texto": "Protegeremos nuestro patrimonio y promoveremos el apoyo a la cultura. Actualizaremos las leyes que protegen el patrimonio material e inmaterial de España",
+          "pagina": 48,
+          "nota": "Incluye una nueva Ley de Mecenazgo y el impulso a los Museos Nacionales."
+        },
+        {
+          "titular": "Fiestas y tradiciones",
+          "texto": "Construiremos el futuro desde las raíces. Los diferentes folclores y cada una de nuestras fiestas y tradiciones populares también forman parte del patrimonio y el paisaje cultural común de España.",
+          "pagina": 48
+        }
+      ]
     }
   }
 }

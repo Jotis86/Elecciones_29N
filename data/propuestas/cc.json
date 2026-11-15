@@ -261,6 +261,203 @@
           "pagina": 17
         }
       ]
+    },
+    "estado-instituciones": {
+      "resumen": "Coalición Canaria plantea una democracia de rendición de cuentas: informe público anual que distinga lo presupuestado, transferido y ejecutado, y datos tributarios para evaluar el REF. Pide dar peso a municipios y cabildos en las decisiones estatales y flexibilidad para usar remanentes de tesorería en vivienda, sanidad o educación. Su marco de referencia es la Agenda Canaria y el Decreto Canarias, con financiación, plazos y responsables.",
+      "propuestas": [
+        {
+          "titular": "Rendir cuentas cada año",
+          "texto": "Rendir cuentas de lo conseguido y de lo pendiente. Impulsaremos un informe público anual sobre las obligaciones estatales con Canarias que distinga las cantidades presupuestadas, transferidas y efectivamente ejecutadas.",
+          "pagina": 21
+        },
+        {
+          "titular": "Datos para evaluar el REF",
+          "texto": "Disponer de datos para evaluar el REF. Impulsaremos los cambios estatales necesarios para que el Instituto Canario de Estadística pueda acceder a la información tributaria que permita evaluar el REF",
+          "pagina": 21
+        },
+        {
+          "titular": "Peso de municipios y cabildos",
+          "texto": "Dar peso a los municipios y los cabildos. Incorporaremos sus propuestas a la acción común en las Cortes Generales.",
+          "pagina": 20
+        },
+        {
+          "titular": "Usar los remanentes",
+          "texto": "Utilizar el ahorro público para atender las necesidades de Canarias. Defenderemos las reformas y los acuerdos estatales que permitan al Gobierno de Canarias, a los cabildos y a los ayuntamientos emplear sus remanentes de tesorería en vivienda, sanidad, educación",
+          "pagina": 20
+        },
+        {
+          "titular": "Agenda Canaria y Decreto Canarias",
+          "texto": "Defender y hacer cumplir la Agenda Canaria y el Decreto Canarias. Defenderemos en las Cortes Generales el cumplimiento íntegro de la Agenda Canaria",
+          "pagina": 21
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "Coalición Canaria reclama el cumplimiento del Estatuto de Autonomía con calendario verificable y traspasos pendientes, incluida la gestión del transporte aéreo interinsular y las autorizaciones de trabajo para extranjeros. Defiende el reconocimiento permanente de la singularidad canaria —lejanía, insularidad y ultraperiferia— y la participación efectiva de las islas en las decisiones estatales que les afectan. Pide capacidad de decisión en puertos y aeropuertos.",
+      "propuestas": [
+        {
+          "titular": "Cumplir el Estatuto",
+          "texto": "Cumplir el Estatuto. Exigiremos un calendario verificable para completar los traspasos y desarrollos pendientes del Estatuto de Autonomía, con medios económicos, personal y recursos materiales suficientes.",
+          "pagina": 8
+        },
+        {
+          "titular": "Singularidad canaria",
+          "texto": "Reconocer de forma permanente la singularidad canaria. Defenderemos que una eventual reforma constitucional recoja las singularidades derivadas de la lejanía, la insularidad y la ultraperiferia.",
+          "pagina": 8
+        },
+        {
+          "titular": "Participar en las decisiones",
+          "texto": "Participar en las decisiones que nos afectan. Reforzaremos la relación bilateral entre Canarias y el Estado. Las decisiones con un impacto singular en las islas deberán contar con la participación efectiva de nuestras instituciones.",
+          "pagina": 8
+        },
+        {
+          "titular": "Puertos y aeropuertos",
+          "texto": "Decisión canaria en puertos y aeropuertos. Desarrollaremos las previsiones del Estatuto para que el Gobierno de Canarias y los cabildos tengan un papel efectivo en la planificación, las inversiones, la estrategia y la gestión de los puertos y aeropuertos.",
+          "pagina": 8
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "Coalición Canaria centra su acción exterior en la condición de región ultraperiférica: mantener los fondos específicos RUP, aplicar el artículo 349 cuando las normas europeas causen impactos desproporcionados y sostener INTERREG con Madeira, Azores y África occidental. Defiende el reconocimiento estratégico de la Macaronesia y la participación canaria en la política exterior que afecta al archipiélago, incluida la relación con Marruecos y el Sáhara.",
+      "propuestas": [
+        {
+          "titular": "Fondos RUP",
+          "texto": "Conservar los fondos específicos de las regiones ultraperiféricas. Exigiremos que España defienda en el próximo marco financiero plurianual de la Unión Europea los instrumentos y las dotaciones específicas para las regiones ultraperiféricas (RUP).",
+          "pagina": 19
+        },
+        {
+          "titular": "Aplicar el artículo 349",
+          "texto": "Aplicar de forma efectiva el artículo 349. Reclamaremos evaluaciones específicas y las adaptaciones previstas para las regiones ultraperiféricas cuando las normas europeas sobre transporte, energía, emisiones, agricultura, residuos o industria causen impactos desproporcionados.",
+          "pagina": 20
+        },
+        {
+          "titular": "Cooperación territorial europea",
+          "texto": "Mantener la cooperación territorial europea. Defenderemos la continuidad y el fortalecimiento de INTERREG, los programas de cooperación territorial que conectan Canarias con Madeira, las Azores y África occidental.",
+          "pagina": 20
+        },
+        {
+          "titular": "Macaronesia",
+          "texto": "Promoveremos el reconocimiento estratégico europeo de la Macaronesia, con Canarias, Madeira y las Azores, en los ámbitos de la energía, los océanos, la biodiversidad, la protección civil, la conectividad y la ciencia.",
+          "pagina": 20
+        },
+        {
+          "titular": "Voz canaria en el exterior",
+          "texto": "Participar en la política exterior que afecta a las islas. Reclamaremos la participación de las instituciones canarias en los asuntos exteriores con impacto directo sobre el archipiélago.",
+          "pagina": 20
+        },
+        {
+          "titular": "Sáhara y Marruecos",
+          "texto": "En las relaciones con Marruecos, Canarias deberá estar presente en la formación de la posición española y en las negociaciones sobre delimitación de espacios marítimos, recursos naturales y migración.",
+          "pagina": 20
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "Coalición Canaria aborda los derechos sociales desde la financiación estatal: programas específicos contra la pobreza infantil mientras Canarias supere la media, y recursos para aplicar el Pacto de Estado contra la violencia de género en todas las islas. Pide que la accesibilidad universal se incorpore al diseño y financiación de vivienda, transporte, empleo y servicios públicos. Añade una política común de infancia con ayudas a la crianza y protección frente a la violencia digital.",
+      "propuestas": [
+        {
+          "titular": "Pobreza infantil",
+          "texto": "Reducir la pobreza infantil. Defenderemos programas estatales específicos mientras Canarias mantenga indicadores de pobreza superiores a la media.",
+          "pagina": 9
+        },
+        {
+          "titular": "Violencia de género en todas las islas",
+          "texto": "Igualdad y protección frente a la violencia de género. Reclamaremos financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas",
+          "pagina": 10,
+          "nota": "Los recursos deberán tener en cuenta la dispersión territorial y facilitar el acceso desde cualquier municipio."
+        },
+        {
+          "titular": "Accesibilidad universal",
+          "texto": "Accesibilidad en la vida diaria. Exigiremos que los programas estatales y europeos de vivienda, transporte, empleo y servicios públicos destinados a Canarias incorporen las necesidades de las personas con discapacidad.",
+          "pagina": 10
+        },
+        {
+          "titular": "Política común de infancia",
+          "texto": "una política común para reforzar la protección y el bienestar de la infancia mediante ayudas a la crianza, mayor acceso a la vivienda en hogares con menores, protección infantil frente a la violencia digital",
+          "pagina": 10
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "Coalición Canaria reclama mantener el POSEI y su dotación diferenciada en el presupuesto europeo, con el 100% de la aportación estatal a las ayudas adicionales. Pide compensar los sobrecostes de energía, alimentación animal, fertilizantes y transporte, y financiación para seguros agrarios y plagas. Añade apoyo al relevo generacional, protección de las producciones sensibles y reglas adaptadas a la flota artesanal canaria.",
+      "propuestas": [
+        {
+          "titular": "Mantener el POSEI",
+          "texto": "Mantener el POSEI y sus recursos. Exigiremos que España defienda íntegramente el programa europeo de apoyo al sector primario de las regiones ultraperiféricas",
+          "pagina": 13
+        },
+        {
+          "titular": "Compensar producir aquí",
+          "texto": "Compensar los costes de producir alimentos aquí. Actualizaremos las medidas estatales frente a los sobrecostes de energía, alimentación animal, fertilizantes y transporte.",
+          "pagina": 13
+        },
+        {
+          "titular": "Suelo agrícola y relevo",
+          "texto": "Suelo agrícola y relevo generacional. Reclamaremos financiación estatal y europea para incorporar jóvenes a la agricultura, la ganadería y la pesca",
+          "pagina": 13
+        },
+        {
+          "titular": "Pesca artesanal",
+          "texto": "Proteger nuestras producciones y la pesca artesanal. Exigiremos que España evalúe el impacto de los acuerdos comerciales internacionales sobre las producciones sensibles de Canarias",
+          "pagina": 13,
+          "nota": "Pide reglas adaptadas a la flota artesanal y posibilidades de pesca suficientes, especialmente de atún rojo y patudo."
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "Coalición Canaria plantea mantener el descuento del 75% para residentes y revisar las obligaciones de servicio público en las rutas esenciales, con frecuencias, capacidad y precios razonables. Pide financiación estable para la gratuidad del transporte público terrestre y un convenio de diez años para el Tren de Gran Canaria. Añade compensar el 100% del coste real del transporte de mercancías, incluida la doble insularidad.",
+      "propuestas": [
+        {
+          "titular": "Descuento del 75% para residentes",
+          "texto": "Consolidar el descuento del 75 % para residentes. Protegeremos la bonificación del 75 % en el transporte aéreo y marítimo de residentes.",
+          "pagina": 17
+        },
+        {
+          "titular": "Rutas esenciales",
+          "texto": "Rutas esenciales con garantías. Reclamaremos al Estado la revisión de las obligaciones de servicio público, que permiten exigir un servicio mínimo en las rutas necesarias.",
+          "pagina": 17
+        },
+        {
+          "titular": "Guaguas y tranvías gratis",
+          "texto": "Gratuidad de guaguas y tranvías con continuidad. Exigiremos financiación estatal estable que permita mantener la gratuidad del transporte público terrestre para los usuarios beneficiarios",
+          "pagina": 18
+        },
+        {
+          "titular": "Tren de Gran Canaria",
+          "texto": "Financiación para los proyectos ferroviarios. Reclamaremos un convenio estatal de diez años con financiación suficiente para ejecutar el Tren de Gran Canaria",
+          "pagina": 18
+        },
+        {
+          "titular": "Mercancías al coste real",
+          "texto": "Compensar el coste real del transporte de mercancías. Exigiremos la actualización de las compensaciones estatales para cubrir el 100 % del coste real y efectivo subvencionable",
+          "pagina": 18
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "Coalición Canaria pide ayudas estatales para que artistas y compañías canarias circulen por circuitos estatales e internacionales, y para eliminar obstáculos administrativos y fiscales a sus obras. Sitúa la cultura canaria en la proyección hacia Europa, América y África. En deporte, reclama financiación para los desplazamientos de deportistas y clubes canarios a competiciones oficiales: «la lejanía no debe limitar sus oportunidades».",
+      "propuestas": [
+        {
+          "titular": "Cultura canaria fuera de las islas",
+          "texto": "Cultura canaria dentro y fuera de las islas. Mantendremos ayudas estatales específicas para los desplazamientos de artistas y compañías canarias a circuitos estatales e internacionales.",
+          "pagina": 19
+        },
+        {
+          "titular": "Quitar trabas a las obras",
+          "texto": "Reclamaremos que se eliminen los obstáculos administrativos y fiscales que dificultan la circulación y exposición de las obras de artistas canarios.",
+          "pagina": 19
+        },
+        {
+          "titular": "Deporte sin penalización por la distancia",
+          "texto": "Deporte sin penalización por la distancia. Reclamaremos financiación estatal suficiente para los desplazamientos de deportistas y clubes canarios a las competiciones oficiales.",
+          "pagina": 19
+        },
+        {
+          "titular": "Canarios en el exterior",
+          "texto": "Proteger a los canarios del exterior y facilitar el retorno. Reclamaremos cooperación y recursos del Estado para la atención social y sanitaria de los canarios del exterior",
+          "pagina": 19
+        }
+      ]
     }
   }
 }

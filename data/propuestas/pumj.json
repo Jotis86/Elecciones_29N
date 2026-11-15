@@ -324,6 +324,183 @@
           "pagina": 14
         }
       ]
+    },
+    "estado-instituciones": {
+      "resumen": "M+J propone responsabilidad patrimonial de los partidos por corrupción, con devolución íntegra, suspensión del cargo al abrirse juicio oral y dimisión automática con condena firme. Añade prohibir el indulto en corrupción, reducir aforamientos, reforzar la Fiscalía Anticorrupción y excluir de listas y contratos a condenados. En participación, elimina la obligación de avales para partidos sin representación y propone democratizar la elección interna de cargos.",
+      "propuestas": [
+        {
+          "titular": "Los partidos devuelven lo defraudado",
+          "texto": "Tolerancia cero con la corrupción. Establecer la responsabilidad patrimonial de los partidos en casos de corrupción y financiación ilegal, con devolución íntegra de lo defraudado.",
+          "pagina": 69
+        },
+        {
+          "titular": "Sin indulto por corrupción",
+          "texto": "Prohibición del indulto en los delitos de corrupción.",
+          "pagina": 69,
+          "nota": "Se acompaña de inhabilitación reforzada, decomiso de patrimonio injustificado y refuerzo de la Fiscalía Anticorrupción."
+        },
+        {
+          "titular": "Menos aforamientos",
+          "texto": "Reducir los aforamientos al mínimo imprescindible.",
+          "pagina": 69
+        },
+        {
+          "titular": "Sin avales para partidos pequeños",
+          "texto": "Facilitar la participación electoral de los partidos sin representación parlamentaria, eliminando la obligación de recoger avales introducida en 2011",
+          "pagina": 69
+        },
+        {
+          "titular": "Democratizar los partidos",
+          "texto": "Democratizar el funcionamiento interno de los partidos políticos. Modificar la Ley de Partidos Políticos para garantizar la elección directa por la afiliación de determinados cargos orgánicos",
+          "pagina": 69
+        },
+        {
+          "titular": "Pacto por el diálogo",
+          "texto": "Impulsar un Pacto de Estado por el Diálogo y la Convivencia Democrática que fomente el respeto entre quienes piensan diferente",
+          "pagina": 68
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "M+J plantea una política exterior de paz: no aumentar el gasto militar y reorientar esas partidas a necesidades básicas, y acabar con el comercio de armas a países en guerra o que vulneren derechos humanos. Propone reforzar el multilateralismo con organismos internacionales vinculantes y una reforma democrática del Consejo de Seguridad de la ONU. Añade diplomacia preventiva, respeto al derecho internacional humanitario y suspender el acuerdo UE-Israel.",
+      "propuestas": [
+        {
+          "titular": "No a la escalada militar",
+          "texto": "No avanzar en la escalada armamentística incrementando el gasto militar a nivel estatal y europeo y reorientar estas partidas a la atención de las necesidades básicas de la ciudadanía.",
+          "pagina": 65
+        },
+        {
+          "titular": "Fin al comercio irresponsable de armas",
+          "texto": "Poner fin al comercio irresponsable de armas aplicando las normativas ya existentes (TCA y Normativa de la Unión Europea), prohibiendo la exportación a países en guerra o que vulneren sistemáticamente los derechos humanos",
+          "pagina": 66
+        },
+        {
+          "titular": "Multilateralismo vinculante",
+          "texto": "Reforzar el multilateralismo democrático apostando por organismos internacionales más fuertes y cohesionados, cuyos acuerdos y resoluciones sean vinculantes.",
+          "pagina": 66
+        },
+        {
+          "titular": "Derecho internacional sin dobles raseros",
+          "texto": "Defender el derecho internacional humanitario sin dobles raseros mediante el cumplimiento de las resoluciones de los tribunales internacionales como la CIJ (Corte Internacional de Justicia) y CPI (Corte Penal Internacional)",
+          "pagina": 66
+        },
+        {
+          "titular": "Suspender el acuerdo UE-Israel",
+          "texto": "Promover un acuerdo en la Unión Europea para suspender el Acuerdo de Asociación UE-Israel ante las graves violaciones de los derechos humanos y del derecho internacional cometidas por Israel",
+          "pagina": 66
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "M+J sitúa la igualdad como cuestión de derechos humanos: aplicar las 461 medidas del Pacto de Estado contra la violencia de género, reforzar la protección de las víctimas y su autonomía económica aunque no exista riesgo vital. En LGTBI, propone garantizar la aplicación de la legislación, financiar las estrategias estatales y llevar la diversidad sexual y de género al currículo. Añade equiparar las acreditaciones de violencia de género y sexual.",
+      "propuestas": [
+        {
+          "titular": "Igualdad como derecho humano",
+          "texto": "La igualdad entre mujeres y hombres es una cuestión de derechos humanos y de justicia elemental.",
+          "pagina": 78
+        },
+        {
+          "titular": "Aplicar las 461 medidas del Pacto de Estado",
+          "texto": "Garantizar una protección integral y efectiva frente a todas las formas de violencia de género y violencia sexual, asegurando la aplicación de las 461 medidas del Pacto de Estado contra la Violencia de Género",
+          "pagina": 78
+        },
+        {
+          "titular": "Autonomía económica de las víctimas",
+          "texto": "Garantizar la autonomía económica y la protección social de las mujeres víctimas de violencia de género, facilitando el acceso a ayudas económicas suficientes y a recursos residenciales, incluso cuando no exista riesgo vital.",
+          "pagina": 78
+        },
+        {
+          "titular": "Igualdad LGTBI",
+          "texto": "Garantizar la igualdad de derechos y combatir la discriminación de las personas LGTBI.",
+          "pagina": 81
+        },
+        {
+          "titular": "Diversidad en el currículo",
+          "texto": "Promover una educación inclusiva y respetuosa con la diversidad sexual y de género. Incorporar al currículo educativo común, en coordinación con las comunidades autónomas, contenidos adaptados a cada etapa educativa",
+          "pagina": 81
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "M+J propone un Plan Nacional de Agricultura Ecológica y Regenerativa que amplíe la superficie ecológica hasta 6 millones de hectáreas en 2030. Plantea una Ley de Restauración de la Naturaleza, corredores ecológicos y un plan de regeneración forestal que reduzca el riesgo de incendios. En agua, defiende su condición de bien público, prohíbe los cortes por incapacidad económica y propone un Plan Nacional de Siembra de Agua.",
+      "propuestas": [
+        {
+          "titular": "Agricultura ecológica y regenerativa",
+          "texto": "Impulsar un Plan Nacional de Agricultura Ecológica y Regenerativa.",
+          "pagina": 55
+        },
+        {
+          "titular": "6 millones de hectáreas ecológicas",
+          "texto": "Ampliar hasta los 6 millones de hectáreas la superficie agraria ecológica en 2030, promoviendo la adopción de prácticas regenerativas que recuperen la fertilidad de los suelos",
+          "pagina": 55
+        },
+        {
+          "titular": "Restaurar la naturaleza",
+          "texto": "Desarrollo de la Ley de Restauración de la Naturaleza para recuperar los ecosistemas terrestres y marinos que impacta en el bienestar de las personas.",
+          "pagina": 55
+        },
+        {
+          "titular": "El agua como bien público",
+          "texto": "Promover el agua como bien público y no solo como un producto comercial.",
+          "pagina": 56,
+          "nota": "Incluye evitar los cortes por incapacidad económica y garantizar el agua a los hogares vulnerables."
+        },
+        {
+          "titular": "Siembra de agua",
+          "texto": "Aprobar un Plan Nacional de Siembra de Agua y Restauración Hidrológica que recupere sistemas tradicionales de infiltración y recarga de acuíferos",
+          "pagina": 56
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "M+J aborda la movilidad desde la descarbonización: transporte público limpio y de calidad, ferrocarril entre países europeos y menos vuelos en rutas con alternativa ferroviaria. Plantea priorizar bicicleta y metro, y políticas de movilidad urbana y rural que favorezcan el transporte compartido, gratuito o a demanda. Su programa no incluye un plan de obra pública ni grandes infraestructuras viarias.",
+      "propuestas": [
+        {
+          "titular": "Transporte público limpio",
+          "texto": "Descarbonización del sector transporte. Apuesta por el transporte público limpio y de calidad.",
+          "pagina": 59
+        },
+        {
+          "titular": "Más tren, menos avión",
+          "texto": "Fomento del transporte ferroviario entre los países europeos y reducción de transporte aéreo en rutas con alternativas ferroviarias.",
+          "pagina": 59
+        },
+        {
+          "titular": "Bici y metro",
+          "texto": "Primar la inversión en medios más eficientes como bicicletas y metro.",
+          "pagina": 59
+        },
+        {
+          "titular": "Movilidad rural compartida",
+          "texto": "Establecer políticas a medio y largo plazo de movilidad urbana y rural, que favorezcan el transporte compartido (gratuito, a demanda y/o solidario).",
+          "pagina": 59
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "M+J propone una Ley del Derecho a la Cultura que reconozca a la ciudadanía como creadora, no solo como público, y complete el Estatuto del Artista. Plantea reservar una parte fija del presupuesto cultural a proyectos con personas excluidas: cárceles, residencias, hospitales, personas sin hogar y barrios olvidados. Su enfoque es de acceso universal frente a la barrera de la renta o el código postal.",
+      "propuestas": [
+        {
+          "titular": "Ley del Derecho a la Cultura",
+          "texto": "Una Ley del Derecho a la Cultura. La cultura es un derecho de toda persona (art. 27 de la DUDH), no un lujo para quien puede pagarlo.",
+          "pagina": 63
+        },
+        {
+          "titular": "Ciudadanía creadora",
+          "texto": "Reconocerá a la ciudadanía no solo como público, sino también como creadora de cultura, con cauces de participación en las decisiones culturales.",
+          "pagina": 63
+        },
+        {
+          "titular": "Estatuto del Artista",
+          "texto": "La ley completará además el desarrollo del Estatuto del Artista, para que quienes viven de la cultura tengan derechos laborales y protección social en los periodos sin trabajo.",
+          "pagina": 63
+        },
+        {
+          "titular": "Cultura sin exclusiones",
+          "texto": "Cultura sin exclusiones: que la renta no decida quién accede a la cultura. Destinar una parte fija del presupuesto cultural a proyectos artísticos realizados con y desde las personas más excluidas",
+          "pagina": 63
+        }
+      ]
     }
   }
 }
