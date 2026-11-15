@@ -8,16 +8,16 @@ const texto = 'Vivienda como derecho fundamental · PSOE';
 test('genera un enlace por red, sin duplicados', () => {
   const enlaces = enlacesCompartir({ texto, url });
   const ids = enlaces.map((e) => e.id);
-  assert.deepEqual(ids, ['whatsapp', 'x', 'bluesky', 'telegram', 'correo']);
+  assert.deepEqual(ids, ['whatsapp', 'x', 'telegram', 'correo']);
   assert.equal(new Set(ids).size, ids.length);
 });
 
 test('codifica acentos, almohadillas y ampersands', () => {
-  const [wa, x, bsky, tg] = enlacesCompartir({
+  const [wa, x, tg] = enlacesCompartir({
     texto: 'Vivienda & empleo: ¿qué proponen?',
     url,
   });
-  for (const enlace of [wa, x, bsky, tg]) {
+  for (const enlace of [wa, x, tg]) {
     assert.ok(!enlace.href.includes(' '), 'sin espacios sin codificar');
     assert.ok(!enlace.href.includes('#psoe'), 'la almohadilla va codificada');
   }
@@ -25,10 +25,9 @@ test('codifica acentos, almohadillas y ampersands', () => {
   assert.ok(x.href.includes('url=https%3A%2F%2Fejemplo.test'));
 });
 
-test('WhatsApp y Bluesky llevan texto y URL juntos; Telegram los separa', () => {
-  const [wa, , bsky, tg] = enlacesCompartir({ texto, url });
+test('WhatsApp lleva texto y URL juntos; Telegram los separa', () => {
+  const [wa, , tg] = enlacesCompartir({ texto, url });
   assert.ok(wa.href.includes(encodeURIComponent(`${texto} ${url}`)));
-  assert.ok(bsky.href.includes(encodeURIComponent(`${texto} ${url}`)));
   assert.ok(tg.href.includes(`url=${encodeURIComponent(url)}`));
   assert.ok(tg.href.includes(`text=${encodeURIComponent(texto)}`));
 });

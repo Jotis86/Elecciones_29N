@@ -4,7 +4,6 @@ import Compartir from '../components/Compartir.astro';
 import TarjetaPartido from '../components/TarjetaPartido.astro';import {
   partidos,
   temas,
-  fichas,
   partidosDisponibles,
   partidosPendientes,
   totalPropuestas,
@@ -26,11 +25,7 @@ import TarjetaPartido from '../components/TarjetaPartido.astro';import {
       <div class="cifras">
         <div class="cifra">
           <b>{partidosDisponibles.length}</b>
-          <span>programas publicados</span>
-        </div>
-        <div class="cifra">
-          <b>{fichas.length}</b>
-          <span>ya analizados</span>
+          <span>programas</span>
         </div>
         <div class="cifra">
           <b>{temas.length}</b>
@@ -93,23 +88,22 @@ import TarjetaPartido from '../components/TarjetaPartido.astro';import {
 
   <section class="seccion">
     <div class="wrap">
-      <h2>Cada promesa, comprobada en el PDF</h2>
+      <h2>Cada propuesta, con su página</h2>
       <p class="prosa">
-        No hace falta que nos creas. Cada ficha resume lo que propone un partido y,
-        justo debajo, muestra las frases exactas de su programa electoral que
-        sostienen ese resumen. Cada frase lleva su número de página y un enlace que
-        abre el PDF oficial en ese punto.
+        Cada ficha resume lo que propone un partido y, justo debajo, recoge las
+        frases de su programa electoral que sostienen ese resumen. Van con su número
+        de página y un enlace que abre el PDF justo en ese punto.
       </p>
       <p class="prosa">
-        Antes de publicar, un control automático compara cada frase con el texto de
-        esa página. Si no aparece tal cual —aunque falte una palabra—, la web no se
-        publica. Ahora mismo hay <strong>{totalPropuestas} citas comprobadas</strong> en{' '}
-        {partidosDisponibles.length} partidos: puedes auditar cualquier afirmación en
-        dos clics.
+        Antes de publicar, una comprobación automática busca cada frase en la página
+        indicada. Si no aparece tal cual, se revisa y se corrige. Solo se publican
+        citas que estén en el documento: ahora hay <strong>{totalPropuestas} citas</strong>{' '}
+        en {partidosDisponibles.length} partidos, y cualquiera se puede abrir y
+        comprobar.
       </p>
       <p class="prosa">
-        La cobertura está en curso: faltan partidos y algunos temas, y los añadimos
-        por tandas. <a href="/sobre">Aquí explicamos</a>{' '}el método y los criterios.
+        La cobertura está en curso: iremos añadiendo partidos y temas por tandas.{' '}
+        <a href="/sobre">Aquí explicamos</a> el método y los criterios.
       </p>
       <Compartir texto="Los programas del 29N, resumidos y verificables" />
     </div>

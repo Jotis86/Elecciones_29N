@@ -18,11 +18,6 @@ const REDES = [
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(texto)}&url=${encodeURIComponent(url)}`,
   },
   {
-    id: 'bluesky',
-    nombre: 'Bluesky',
-    url: (texto, url) => `https://bsky.app/intent/compose?text=${encodeURIComponent(`${texto} ${url}`)}`,
-  },
-  {
     id: 'telegram',
     nombre: 'Telegram',
     url: (texto, url) =>
