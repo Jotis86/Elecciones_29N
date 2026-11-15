@@ -29,7 +29,7 @@ programas/            PDFs originales (no se versionan, están en .gitignore)
 data/
   partidos.json       metadatos: siglas, color, programa, URLs, estado, escaños 2023
   temas.json          taxonomía de 16 temas + palabras clave
-  sitio.json          autor, contacto, fecha de actualización y correcciones
+  sitio.json          autor, contacto y fecha de actualización
   escanos.json        diputados por circunscripción (anexo RD 806/2026)
   texto/<slug>.json   texto extraído del PDF, página a página (generado)
   propuestas/<slug>.json  fichas curadas: resumen + citas con página

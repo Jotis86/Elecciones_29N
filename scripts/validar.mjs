@@ -53,18 +53,6 @@ if (!sitio) {
   ) {
     errores.push('sitio.json: contacto no válido');
   }
-  if (!Array.isArray(sitio.correcciones)) {
-    errores.push('sitio.json: correcciones debe ser un array');
-  } else {
-    sitio.correcciones.forEach((c, i) => {
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(c.fecha ?? '')) {
-        errores.push(`sitio.json: la corrección ${i + 1} no tiene fecha válida`);
-      }
-      if (!c.texto) {
-        errores.push(`sitio.json: la corrección ${i + 1} no tiene texto`);
-      }
-    });
-  }
 }
 const slugsTema = new Set(temas.map((t) => t.slug));
 const slugsPartido = new Set(partidos.map((p) => p.slug));

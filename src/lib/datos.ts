@@ -61,7 +61,6 @@ export interface Sitio {
   autor: string;
   contacto: string | null;
   actualizado: string;
-  correcciones: { fecha: string; texto: string }[];
 }
 
 export const sitio = leer<Sitio>('data/sitio.json');

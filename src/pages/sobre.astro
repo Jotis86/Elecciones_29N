@@ -13,7 +13,6 @@ import {
 
 const conRepresentacion = partidos.filter((p) => (p.escanos2023 ?? 0) > 0);
 const nuevas = partidos.filter((p) => !p.escanos2023);
-const correcciones = [...sitio.correcciones].reverse();
 ---
 
 <Base
@@ -53,7 +52,7 @@ const correcciones = [...sitio.correcciones].reverse();
               <a href={`mailto:${sitio.contacto}`}>{sitio.contacto}</a>
             </p>
           ) : (
-            <p class="aviso-legal">Contacto: pendiente de configurar.</p>
+            <p>Contacto: pendiente de configurar.</p>
           )
         }
 
@@ -165,26 +164,6 @@ const correcciones = [...sitio.correcciones].reverse();
           </li>
         </ul>
 
-        <h2>Cambios y correcciones</h2>
-        <p>
-          ¿Ves un error? Escribe al correo de contacto indicado arriba con la
-          página y la cita que quieres corregir.
-        </p>
-        {
-          correcciones.length > 0 ? (
-            <ul>
-              {correcciones.map((c) => (
-                <li>
-                  <time datetime={c.fecha}>{formatearFecha(c.fecha)}</time> ·{' '}
-                  {c.texto}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p class="aviso-legal">Sin correcciones registradas.</p>
-          )
-        }
-
         <h2>Privacidad</h2>
         <p>
           No usamos cookies, analítica ni rastreadores, y no hay formularios ni
@@ -194,7 +173,7 @@ const correcciones = [...sitio.correcciones].reverse();
         </p>
 
         <h2>Aviso legal</h2>
-        <p class="aviso-legal">
+        <p>
           Responsable: {sitio.autor}. Este sitio no está afiliado ni financiado
           por ningún partido, fundación o administración. Las citas son fragmentos
           de documentos públicos amparados por el derecho de cita, con indicación
