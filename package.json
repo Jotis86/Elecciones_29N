@@ -1,0 +1,16 @@
+{
+  "name": "elecciones-29n",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/validar.mjs && astro build",
+    "preview": "astro preview",
+    "validar": "node scripts/validar.mjs",
+    "texto": "python3 scripts/extraer_texto.py"
+  },
+  "devDependencies": {
+    "astro": "^7.4.12"
+  }
+}

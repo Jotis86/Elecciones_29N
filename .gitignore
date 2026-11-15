@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.venv/
+.DS_Store
+
+# Los PDFs no se versionan: se enlazan a la fuente oficial.
+programas/*.pdf
+programas/originales/
