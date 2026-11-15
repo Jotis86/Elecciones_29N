@@ -15,7 +15,10 @@ export interface Partido {
   /** Escaños en el Congreso salido del 23J; las candidaturas nuevas tienen 0. */
   escanos2023?: number;
   pdf: string | null;
+  /** PDF en la web del partido. Puede faltar si no lo publica. */
   pdf_oficial: string | null;
+  /** Copia en un medio o repositorio de terceros cuando no hay PDF oficial. */
+  pdf_fuente?: string | null;
   pdf_archivado: string | null;
   publicado: string | null;
   descargado: string | null;
@@ -108,10 +111,16 @@ export function fichasPorTema(temaSlug: string) {
     .filter((x): x is { partido: Partido; ficha: Ficha; bloque: BloqueTema } => x !== null);
 }
 
-/** Enlace a la página exacta del PDF oficial. */
+/** Enlace a la página exacta del PDF, sea el oficial o una copia de terceros. */
 export function enlacePdf(partido: Partido, pagina?: number) {
-  if (!partido.pdf_oficial) return null;
-  return pagina ? `${partido.pdf_oficial}#page=${pagina}` : partido.pdf_oficial;
+  const base = partido.pdf_oficial ?? partido.pdf_fuente;
+  if (!base) return null;
+  return pagina ? `${base}#page=${pagina}` : base;
+}
+
+/** Etiqueta del enlace, para no llamar «oficial» a una copia de terceros. */
+export function etiquetaPdf(partido: Partido) {
+  return partido.pdf_oficial ? 'PDF oficial' : 'PDF (copia de terceros)';
 }
 
 export interface DocumentoTexto {

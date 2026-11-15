@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { partidos, documentoDe, enlacePdf, formatearFecha } from '../lib/datos';
+import { partidos, documentoDe, enlacePdf, etiquetaPdf, formatearFecha } from '../lib/datos';
 
 const filas = partidos.map((partido) => ({
   partido,
@@ -20,9 +20,10 @@ const conPrograma = filas.filter((f) => f.partido.estado === 'disponible');
       <p class="kicker">Documentos</p>
       <h1>Programas electorales</h1>
       <p class="entradilla">
-        Enlaces a los documentos oficiales de cada partido. No alojamos copias:
-        la descarga va siempre a la web del partido, y cuando existe añadimos una
-        copia archivada por si el original desaparece.
+        Enlaces a los documentos de cada partido. No alojamos copias: la descarga
+        va a la web del partido o, cuando no publica el PDF, a la copia de un
+        tercero, indicándolo. Solo alojamos una copia archivada cuando el
+        original puede desaparecer.
       </p>
     </div>
   </header>
@@ -67,7 +68,7 @@ const conPrograma = filas.filter((f) => f.partido.estado === 'disponible');
                 <td>
                   {descarga ? (
                     <>
-                      <a href={descarga} target="_blank" rel="noopener noreferrer">PDF oficial ↗</a>
+                      <a href={descarga} target="_blank" rel="noopener noreferrer">{etiquetaPdf(partido)} ↗</a>
                       {partido.pdf_archivado && (
                         <>
                           {' · '}

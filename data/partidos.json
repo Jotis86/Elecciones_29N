@@ -20,16 +20,17 @@
     "siglas": "PSOE",
     "nombre": "Partido Socialista Obrero Español",
     "color": "#E30613",
-    "programa": null,
-    "estado": "pendiente",
+    "programa": "La fuerza de seguir avanzando",
+    "estado": "disponible",
     "ambito": "Estatal",
     "escanos2023": 121,
-    "pdf": null,
+    "pdf": "psoe.pdf",
     "pdf_oficial": null,
+    "pdf_fuente": "https://www.democrata.es/uploads/s1/35/40/05/6/programapsoe29n26.pdf",
     "pdf_archivado": null,
-    "publicado": null,
-    "descargado": null,
-    "notas": "Presentación prevista para el 15 de noviembre."
+    "publicado": "2026-11-15",
+    "descargado": "2026-11-15",
+    "notas": "El PSOE no publica el PDF en su web. El documento procede de una copia alojada por Demócrata; se usa la huella del PDF para detectar cambios."
   },
   {
     "slug": "vox",

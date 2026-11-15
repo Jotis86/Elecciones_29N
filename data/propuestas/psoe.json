@@ -1,0 +1,695 @@
+{
+  "partido": "psoe",
+  "revisado": "2026-11-15",
+  "temas": {
+    "vivienda": {
+      "resumen": "El PSOE sitúa la vivienda como quinto pilar del Estado del bienestar y promete reformar la Constitución para convertirla en derecho fundamental. Movilizaría un 1% del PIB al año y constituiría un parque público estatal de 100.000 viviendas mediante CASA 47. Mantiene las zonas tensionadas: amplía contratos, congela rentas por encima de los índices y crea un impuesto a grandes tenedores y fondos buitre. Para comprar, préstamos de hasta 50.000 euros sin intereses del programa TU CASA; para los vulnerables, un escudo estable frente al desahucio.",
+      "propuestas": [
+        {
+          "titular": "La vivienda, derecho fundamental",
+          "texto": "Reformar la Constitución Española para que la vivienda se considere un derecho fundamental, permitiendo así que la ciudadanía pueda exigir su cumplimiento a los poderes públicos.",
+          "pagina": 27
+        },
+        {
+          "titular": "Un 1% del PIB cada año",
+          "texto": "Movilizar anualmente un 1% del PIB para garantizar el acceso a la vivienda.",
+          "pagina": 27,
+          "nota": "Se sumarían todas las administraciones y el ICO a través del Fondo España Crece."
+        },
+        {
+          "titular": "100.000 viviendas públicas con CASA 47",
+          "texto": "Constituir un parque público estatal de 100.000 viviendas mediante la construcción y adquisición para incrementar la oferta de vivienda para la venta o alquiler estable a precio asequible",
+          "pagina": 28,
+          "nota": "Los ingresos del parque se reinvertirían en nuevas actuaciones de vivienda asequible."
+        },
+        {
+          "titular": "Contratos más largos y rentas congeladas",
+          "texto": "Ampliar la duración de los contratos de arrendamiento, reforzando la estabilidad residencial de las personas inquilinas.",
+          "pagina": 30,
+          "nota": "El compromiso 62 añade congelar temporalmente las rentas que superen los índices de referencia."
+        },
+        {
+          "titular": "Impuesto a fondos buitre y grandes tenedores",
+          "texto": "Se gravará con un impuesto progresivo la posesión de todas aquellas viviendas de grandes propietarios y fondos buitre que no se destinen a alquiler residencial",
+          "pagina": 31,
+          "nota": "El texto detalla que tributarán las viviendas turísticas, las vacías y las alquiladas a precio abusivo."
+        },
+        {
+          "titular": "Préstamos sin intereses para la primera vivienda",
+          "texto": "Desplegar el Programa TUCASA y ampliar su dotación en caso de que se agoten los 10.000 millones de euros de la línea de préstamos de hasta 50 mil euros sin intereses para adquisición de una primera vivienda.",
+          "pagina": 31
+        },
+        {
+          "titular": "Escudo frente al desahucio",
+          "texto": "Garantizar un marco estable de protección frente a los desahucios de personas en situación de vulnerabilidad sin alternativa habitacional",
+          "pagina": 33,
+          "nota": "Añade que el coste de esa prohibición lo asumirían las administraciones, no el pequeño propietario."
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "El PSOE propone un Fondo España Crece de 120.000 millones para inversión productiva tras los fondos europeos, una nueva Ley de Industria y Autonomía Estratégica y elevar la inversión pública en I+D al 1,25% del PIB, con meta del 1,5% en 2035. Extiende el Bono IA y un servicio público de herramientas de IA. En fiscalidad, sube el tipo máximo del ahorro al 35% a partir de 300.000 euros, crea una tasa a viajes de lujo y otra a empresas con ratios salariales superiores a 100 a 1.",
+      "propuestas": [
+        {
+          "titular": "Fondo España Crece: 120.000 millones",
+          "texto": "abriremos una nueva etapa de inversión productiva, apoyada en instrumentos como el Fondo España Crece, que movilizará 120.000 millones de euros para asegurar que la modernización continúe más allá de los fondos europeos",
+          "pagina": 13
+        },
+        {
+          "titular": "Ley de Industria y Autonomía Estratégica",
+          "texto": "Aprobaremos una nueva Ley de Industria y Autonomía Estratégica y apoyaremos la industria limpia y las cadenas de valor estratégicas mediante la electrificación, las energías renovables, el hidrógeno renovable, el almacenamiento energético, la economía circular, la simbiosis industrial y la modernización y ampliación de las redes eléctricas",
+          "pagina": 14
+        },
+        {
+          "titular": "I+D: del 1,25% al 1,5% del PIB",
+          "texto": "Seguiremos aumentando cada año la inversión pública en I+D con una senda plurianual incorporada al plan fiscal estructural hasta alcanzar el objetivo fijado por la Ley de la Ciencia de 2022 (1,25% del PIB), y aumentando la ambición en este objetivo hasta el 1,5% del PIB para 2035.",
+          "pagina": 16,
+          "nota": "Incluye incentivos fiscales a la I+D+i empresarial para pymes y startups tecnológicas."
+        },
+        {
+          "titular": "Bono IA y servicio público de IA",
+          "texto": "Ampliaremos el Bono IA, la Red NEURONA y los programas de apoyo dirigidos a pymes, autónomos, universidades y centros de investigación para acelerar la adopción de estas tecnologías.",
+          "pagina": 17,
+          "nota": "El compromiso 16 añade un servicio público de acceso a herramientas avanzadas de IA con formación y apoyo personalizado."
+        },
+        {
+          "titular": "35% a las rentas del capital altas",
+          "texto": "Incrementar la tributación de las rentas de capital más elevadas. Mantener intactos los dos primeros tramos (19% hasta 6.000€ y 21% hasta 50.000 €) y elevar los tipos a partir de ahí, llegando progresivamente a un tipo máximo del 35% para rentas del capital superiores a 300.000€.",
+          "pagina": 48
+        },
+        {
+          "titular": "Tasa a los viajes de lujo",
+          "texto": "Crear una tasa específica a viajes de lujo con fuerte huella de carbono. Gravar viajes de alto impacto en el medioambiente consumidos por el 0,1% más rico, como el transporte con megayates o jets privados, dejando fuera al transporte comercial del resto de la población.",
+          "pagina": 48
+        },
+        {
+          "titular": "Ley de Salarios Justos",
+          "texto": "Aprobar una Ley de Salarios Justos. Aumentar la tributación de las empresas cotizadas cuya ratio entre la retribución total de su ejecutivo principal y la mediana de su plantilla supere 100 a 1, con un tramo superior a partir de 200 a 1.",
+          "pagina": 48
+        },
+        {
+          "titular": "Tasa Tobin del 0,4%",
+          "texto": "Reforzar la tasa Tobin aumentando el tipo impositivo del 0,2% al 0,4%.",
+          "pagina": 49
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "El PSOE promete culminar la reducción de la jornada a 37,5 horas e incentivar por convenio las 35, con registro horario digital y más Inspección de Trabajo. Plantea reformar el despido improcedente para que la indemnización sea «disuasoria» y recuperar los salarios de tramitación. Incluye un Estatuto del Becario con derecho al paro, un plan para parados mayores de 45 años, una ley de negociación colectiva y el paso automático a jornada completa cuando la parcial supere el 80%.",
+      "propuestas": [
+        {
+          "titular": "Jornada de 37,5 horas",
+          "texto": "Completar la reducción de la jornada a 37,5 horas e incentivar los avances en la negociación colectiva hacia las 35 horas.",
+          "pagina": 41,
+          "nota": "Se aplicaría con calendario pactado en el diálogo social y periodos transitorios para pymes."
+        },
+        {
+          "titular": "Despido improcedente más caro",
+          "texto": "Reformar el despido improcedente para garantizar una reparación efectiva, proporcionada y disuasoria, teniendo en cuenta las circunstancias y los daños causados",
+          "pagina": 41,
+          "nota": "El texto cita el artículo 24.b de la Carta Social Europea revisada y las decisiones del Comité Europeo de Derechos Sociales."
+        },
+        {
+          "titular": "Recuperar los salarios de tramitación",
+          "texto": "Recuperar los salarios de tramitación en los supuestos legalmente establecidos y reforzar la protección frente a despidos discriminatorios o que vulneren derechos fundamentales.",
+          "pagina": 41
+        },
+        {
+          "titular": "Paro para los becarios",
+          "texto": "Reconoceremos su derecho a la protección por desempleo, tanto en las prácticas curriculares como en las extracurriculares.",
+          "pagina": 42,
+          "nota": "Se completa con un Estatuto del Becario que blinde las prácticas remuneradas."
+        },
+        {
+          "titular": "Plan Nuevo Rumbo para mayores de 45",
+          "texto": "Incentivar la contratación de personas mayores de 45 años con el Plan Nuevo Rumbo, a través de incentivos laborales para las empresas y formar en sectores estratégicos a desempleados de larga duración.",
+          "pagina": 43,
+          "nota": "Incluye un itinerario específico Mujer 45+ para reducir el desempleo femenino de larga duración."
+        },
+        {
+          "titular": "Ley de Negociación Colectiva",
+          "texto": "Aprobar una Ley de Negociación Colectiva que refuerce el papel de los sindicatos y las organizaciones empresariales, modernice los mecanismos de negociación y facilite la adaptación de los convenios colectivos a las nuevas realidades del mercado laboral",
+          "pagina": 43
+        },
+        {
+          "titular": "La parcial se convierte en completa al 80%",
+          "texto": "Reformar la regulación del contrato a tiempo parcial para exigir que se justifique de forma precisa la causa por la que no se formaliza un contrato a jornada completa y establecer que, cuando la jornada pactada, incluidas las horas complementarias, supere el 80 % de la jornada ordinaria, el contrato se considere celebrado a jornada completa.",
+          "pagina": 43
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "El PSOE defiende una migración «ordenada, legal y segura» y un Plan de Integración y Ciudadanía 2026-2030 con 500 millones iniciales. Promete ampliar las vías legales y el sistema de acogida y asilo, con atención especial a los menores que llegan solos, y agilizar homologación de títulos y contratación en origen. En discriminación, desarrolla la Ley Zerolo con una autoridad independiente y plantea un pacto de Estado contra los discursos de odio.",
+      "propuestas": [
+        {
+          "titular": "Plan de Integración y Ciudadanía",
+          "texto": "Desplegar el Plan de Integración y Ciudadanía 2026-2030, con una dotación inicial de 500 millones de euros y la colaboración de las administraciones públicas y los agentes sociales, para favorecer la integración y la convivencia",
+          "pagina": 92
+        },
+        {
+          "titular": "Más vías legales y de asilo",
+          "texto": "Ampliar las vías legales y seguras de protección internacional y reforzar el sistema público de acogida y asilo, con mecanismos para el reasentamiento y visados humanitarios, financiación estable y atención especializada en salud mental, educación, traducción e integración social.",
+          "pagina": 92
+        },
+        {
+          "titular": "Menores no acompañados, prioridad",
+          "texto": "Garantizar un sistema de acogida digno, robusto y una protección internacional efectiva, reforzando la protección especialmente de los niños, niñas y adolescentes que lleguen solos, situando siempre el interés superior del menor en el centro de nuestra política.",
+          "pagina": 93
+        },
+        {
+          "titular": "Autoridad independiente contra la discriminación",
+          "texto": "Desarrollar plenamente la Ley Zerolo, poniendo en funcionamiento la Autoridad Independiente para la Igualdad de Trato y la No Discriminación.",
+          "pagina": 93,
+          "nota": "El compromiso siguiente (395) promete dotación presupuestaria suficiente para esa autoridad, la AINODI."
+        },
+        {
+          "titular": "Pacto de Estado contra el odio",
+          "texto": "Promoveremos un Pacto de Estado contra los Discursos y Delitos de Odio con la participación de las fuerzas políticas y las organizaciones sociales para reforzar el compromiso político y social con la prevención, la sensibilización y la protección de las víctimas",
+          "pagina": 93
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "El PSOE promete acabar con las listas de espera y llevar la financiación sanitaria pública al 7% del PIB, con la gestión directa como fórmula preferente frente a la privatización. Incorpora a la sanidad pública la salud bucodental básica y garantiza atención psicológica gratuita en 30 días. Añade una Ley de Salud Digital, refuerza atención primaria y salud mental infantojuvenil, y restringe vapeadores y bolsas de nicotina, incluidos los sabores.",
+      "propuestas": [
+        {
+          "titular": "7% del PIB y adiós a las listas de espera",
+          "texto": "Acabar con las listas de espera, consolidando una financiación pública de la sanidad en torno al 7% del PIB, reforzando el carácter público del Sistema Nacional de Salud y aumentando progresivamente la inversión en prevención hasta converger con la media europea.",
+          "pagina": 49
+        },
+        {
+          "titular": "Dentista público",
+          "texto": "Incorporaremos progresivamente a la sanidad pública los tratamientos básicos para toda la población adulta, empezando por empastes, endodoncias, reconstrucciones y tratamientos periodontales.",
+          "pagina": 49,
+          "nota": "Mientras se despliega, prevé una ayuda de hasta 200 euros anuales, empezando por rentas medias y bajas."
+        },
+        {
+          "titular": "Gestión directa como norma",
+          "texto": "Limitar la privatización de la sanidad estableciendo la gestión directa como modalidad preferente en la prestación sanitaria.",
+          "pagina": 49,
+          "nota": "Se acompaña de una Ley de Buen Gobierno y Buena Gestión del SNS basada en transparencia y evaluación."
+        },
+        {
+          "titular": "Psicólogo en 30 días",
+          "texto": "Garantizar el derecho a la atención psicológica gratuita en la sanidad pública, con una primera consulta en un plazo máximo de 30 días.",
+          "pagina": 50,
+          "nota": "Incluye ampliar los programas de salud mental infantojuvenil y de prevención del suicidio."
+        },
+        {
+          "titular": "Ley de Salud Digital",
+          "texto": "Impulsar una Ley de Salud Digital, consolidando la interoperabilidad del sistema sanitario, la receta electrónica común y el despliegue del Espacio Europeo de Datos Sanitarios",
+          "pagina": 50,
+          "nota": "El compromiso añade garantizar la movilidad sanitaria entre comunidades autónomas."
+        },
+        {
+          "titular": "Vapeadores sin sabores",
+          "texto": "estableciendo información sobre sus componentes, dosis máximas de nicotina y la prohibición de sabores agradables",
+          "pagina": 51,
+          "nota": "Se refiere a la regulación del tabaco, los vapeadores y las bolsas de nicotina, con especial atención a menores."
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "El PSOE plantea universalizar la educación de 0 a 3 años y ampliar becas, con un máximo de alumnos por aula y refuerzo de la atención a la diversidad. Promete un Estatuto del Docente, bajar el abandono escolar temprano del 10% antes de 2030 y comedor gratuito para el alumnado en riesgo de exclusión. En FP quiere más plazas públicas y titulaciones ligadas a la IA y la transición energética; en universidad, matrícula gratuita en el primer curso de grado y una ley de equidad en el acceso.",
+      "propuestas": [
+        {
+          "titular": "Escuela infantil de 0 a 3 años para todos",
+          "texto": "Universalizar la educación de 0 a 3 años, promoviendo su inclusión plena en el sistema, aumentando progresivamente la oferta de escuelas infantiles públicas",
+          "pagina": 51,
+          "nota": "El compromiso incluye reducir el número de alumnos por aula y mejorar los espacios educativos."
+        },
+        {
+          "titular": "Más becas y aulas menos llenas",
+          "texto": "Ampliar y mejorar el sistema de becas y limitar la capacidad máxima por aula, incrementando la financiación y cobertura de las ayudas al estudio",
+          "pagina": 52
+        },
+        {
+          "titular": "Estatuto del Docente",
+          "texto": "Aprobar el Estatuto del Docente para dignificar y reforzar la profesión docente, simplificando las cargas burocráticas",
+          "pagina": 52,
+          "nota": "Incluye un plan nacional de bienestar docente y equiparación progresiva entre cuerpos."
+        },
+        {
+          "titular": "Abandono escolar por debajo del 10%",
+          "texto": "Reducir la tasa de abandono escolar temprano por debajo del 10% antes de 2030, reforzando la prevención, el apoyo, las segundas oportunidades y las unidades de acompañamiento y orientación familiar.",
+          "pagina": 52
+        },
+        {
+          "titular": "Comedor gratis en la pobreza",
+          "texto": "Impulsar la ampliación del servicio de comedor escolar, garantizando su gratuidad a todo el alumnado en situación de pobreza y/o exclusión social",
+          "pagina": 53
+        },
+        {
+          "titular": "Más plazas de FP",
+          "texto": "Fomentar la ampliación de las plazas públicas de Formación Profesional Media y Superior, asegurando que nadie quede sin acceso a la formación deseada por falta de oferta.",
+          "pagina": 53,
+          "nota": "Se propone adaptar titulaciones a inteligencia artificial, ciberseguridad, transición energética, biotecnología y microelectrónica."
+        },
+        {
+          "titular": "Primer curso de carrera gratis",
+          "texto": "Impulsar la gratuidad de la matrícula del primer curso de grado en las universidades públicas de todo el país.",
+          "pagina": 54,
+          "nota": "Se enmarca en una futura Ley de Equidad en el Acceso a la Universidad Pública."
+        }
+      ]
+    },
+    "pensiones": {
+      "resumen": "El PSOE quiere blindar en la Constitución el sistema público de pensiones y su revalorización con el IPC, y culminar la separación de fuentes de financiación. Mantiene el Pacto de Toledo y añade la cuota de solidaridad y nuevas fuentes ligadas a la productividad. Promete reducir la brecha de género con un año extra de cotización por hijo, elevar la pensión de orfandad del 20% al 30% y mejorar la baja en procesos oncológicos al 75% desde el primer día.",
+      "propuestas": [
+        {
+          "titular": "Blindaje constitucional y revalorización con el IPC",
+          "texto": "Blindar constitucionalmente el sistema público de pensiones y su revalorización conforme al IPC, garantizando el derecho de las personas mayores a una pensión digna, suficiente y actualizada.",
+          "pagina": 40
+        },
+        {
+          "titular": "Separar las fuentes de financiación",
+          "texto": "Culminar la separación de fuentes de financiación, asumiendo el Estado la financiación de prestaciones y complementos de naturaleza no contributiva",
+          "pagina": 40,
+          "nota": "El compromiso incluye revisar los mecanismos ligados al desempleo para adaptarlos al mercado laboral actual."
+        },
+        {
+          "titular": "Un año más de cotización por cada hijo",
+          "texto": "Reforzar el complemento por hijos para compensar los perjuicios sufridos en la carrera profesional tras su nacimiento o adopción, reconociendo además un año adicional de cotización por cada hijo o hija",
+          "pagina": 40,
+          "nota": "Se presenta como medida para reducir la brecha de género en las pensiones."
+        },
+        {
+          "titular": "Baja oncológica al 75% desde el inicio",
+          "texto": "Crear una situación especial de incapacidad temporal para personas trabajadoras con procesos oncológicos, con una prestación del 75 % de la base reguladora desde el inicio de la baja",
+          "pagina": 40,
+          "nota": "Permite la reincorporación progresiva a tiempo parcial con cobertura de la jornada no trabajada."
+        },
+        {
+          "titular": "Cuota de solidaridad y nuevas fuentes",
+          "texto": "Acelerar el despliegue de la cuota de solidaridad para completar su aplicación durante la próxima legislatura y fortalecer el carácter redistributivo del sistema.",
+          "pagina": 39
+        },
+        {
+          "titular": "Pensión de orfandad del 30%",
+          "texto": "Elevar del 20% al 30 % la pensión de orfandad, sin el límite del 100 % en supuestos de vulnerabilidad",
+          "pagina": 41
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "El PSOE se compromete a que el 81% de la electricidad sea renovable en 2030 y a mantener el cierre de las nucleares en 2035, con planes de transición justa en las comarcas afectadas. Electrifica consumo, almacenamiento e hidrógeno verde y descarta construir nuevas interconexiones de gas más allá del hidrógeno. En clima, promete una Ley de Adaptación, una agencia estatal de protección civil, un fondo de resiliencia y otro de reparación de productos; en agua, un mínimo vital blindado en la Constitución.",
+      "propuestas": [
+        {
+          "titular": "81% de electricidad renovable en 2030",
+          "texto": "Impulsar el despliegue de energías renovables, para alcanzar el 81% de generación eléctrica en 2030, priorizando su ubicación en las Zonas de Aceleración Renovable para garantizar el máximo consenso social y la compatibilidad con la preservación de la biodiversidad y la actividad agroganadera.",
+          "pagina": 65
+        },
+        {
+          "titular": "Cierre nuclear en 2035",
+          "texto": "Mantener el calendario de cierre de las centrales nucleares hasta 2035 y desarrollar proyectos de transición justa en las comarcas afectadas, preservando las capacidades tecnológicas y de conocimiento vinculadas al sector.",
+          "pagina": 66
+        },
+        {
+          "titular": "Menos del 30% de residuos a vertedero",
+          "texto": "Reducir el vertido de residuos por debajo del 30 % en 2030, impulsando la prevención, la reutilización y el reciclaje; fomentando el retorno de envases; y reforzando la transparencia y la trazabilidad en la gestión de residuos.",
+          "pagina": 66
+        },
+        {
+          "titular": "Fondo de Reparación",
+          "texto": "Reconocer el derecho a la reparación y crear un Fondo de Reparación financiado por los productores, para prolongar la vida útil de los productos y reducir residuos.",
+          "pagina": 67
+        },
+        {
+          "titular": "Ley de Adaptación al Cambio Climático",
+          "texto": "Aprobar una Ley de Adaptación al Cambio Climático y reforzar la ejecución del Plan Nacional de Adaptación con más recursos y mecanismos de seguimiento.",
+          "pagina": 67,
+          "nota": "Se acompaña de un Centro Estatal de Predicción de Fenómenos Extremos y de una Agencia Estatal de Protección Civil."
+        },
+        {
+          "titular": "Fondo Nacional de Resiliencia Climática",
+          "texto": "Crear un Fondo Nacional de Resiliencia Climática para proteger a las personas, territorios y comunidades más vulnerables, especialmente en zonas rurales y litorales.",
+          "pagina": 68
+        },
+        {
+          "titular": "Mínimo vital de agua en la Constitución",
+          "texto": "Garantizar el acceso universal al agua potable, consolidando su calidad, accesibilidad y asequibilidad mediante un mínimo vital para los hogares vulnerables con su blindaje en la Constitución.",
+          "pagina": 68
+        }
+      ]
+    },
+    "seguridad-defensa": {
+      "resumen": "El PSOE propone incrementar y redistribuir policías y guardias civiles según población y dispersión, con refuerzo de la seguridad rural. Crea un servicio estatal para víctimas de ciberestafas, un plan integral contra el narcotráfico y una nueva Ley de Seguridad Ciudadana que sustituya la de 2015. En defensa, promete más vigilancia marítima, modernización tecnológica de las Fuerzas Armadas en los cinco dominios y refuerzo de la UME y de los servicios de inteligencia.",
+      "propuestas": [
+        {
+          "titular": "Más agentes y seguridad rural",
+          "texto": "Incrementar y redistribuir los efectivos de Policía Nacional y Guardia Civil según la población, la dispersión territorial y las jubilaciones, reforzando la seguridad rural, las patrullas de proximidad y la coordinación con las policías locales para mejorar los tiempos de respuesta.",
+          "pagina": 99
+        },
+        {
+          "titular": "Servicio estatal contra las ciberestafas",
+          "texto": "Reforzar la lucha contra la ciberdelincuencia y las amenazas híbridas, creando un servicio estatal de atención a las víctimas de ciberestafas, ampliando la responsabilidad de bancos y operadoras en su prevención y reembolso",
+          "pagina": 99
+        },
+        {
+          "titular": "Plan Nacional contra el Narcotráfico",
+          "texto": "Intensificar la lucha contra el narcotráfico, la delincuencia organizada, la trata y el terrorismo, con el primer Plan Nacional Integral contra el Narcotráfico, el refuerzo del Plan Especial del Campo de Gibraltar y más prevención de la radicalización violenta",
+          "pagina": 99
+        },
+        {
+          "titular": "Nueva Ley de Seguridad Ciudadana",
+          "texto": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la Ley Orgánica 4/2015, garantizando los derechos de reunión y manifestación, un régimen sancionador preciso, identificaciones sin discriminación y cámaras corporales en toda la Policía Nacional y Guardia Civil",
+          "pagina": 99
+        },
+        {
+          "titular": "Vigilancia marítima y espacios de soberanía",
+          "texto": "Reforzar las capacidades de vigilancia marítima y protección de los espacios de soberanía, mejorando los medios y recursos destinados a la defensa de nuestros intereses estratégicos.",
+          "pagina": 113
+        },
+        {
+          "titular": "Fuerzas Armadas en los cinco dominios",
+          "texto": "Modernizar tecnológicamente las Fuerzas Armadas en los ámbitos terrestre, naval, aéreo, espacial y de ciberdefensa, y en la seguridad de las comunicaciones, fomentando la investigación, la innovación y la transferencia tecnológica",
+          "pagina": 113,
+          "nota": "El paquete incluye reforzar la UME y las agencias de inteligencia civil y militar (compromisos 497 y 498)."
+        }
+      ]
+    },
+    "estado-instituciones": {
+      "resumen": "El PSOE propone una nueva ronda de reforma constitucional para blindar derechos sociales, matrimonio igualitario, aborto y eutanasia, y bajar la edad de voto a 16 años. Suprimiría los aforamientos de cargos públicos y crearía la «unión de amistad» en el Código Civil. Plantea un Senado de representación territorial, lenguas cooficiales en las Cortes, juicios de despido y desahucio en tres meses, una Fiscalía con mandato fijo y una agencia independiente de integridad con ley de lobbies.",
+      "propuestas": [
+        {
+          "titular": "Voto a los 16 años",
+          "texto": "Impulsar la participación juvenil y la profundización democrática, rebajando la edad de voto a los 16 años, fortaleciendo los consejos de juventud y ampliando los mecanismos de participación ciudadana en las decisiones públicas.",
+          "pagina": 90
+        },
+        {
+          "titular": "Fin de los aforamientos",
+          "texto": "Suprimir los aforamientos de los cargos públicos para los delitos ajenos al ejercicio de su cargo.",
+          "pagina": 90
+        },
+        {
+          "titular": "Unión de amistad en el Código Civil",
+          "texto": "Incluir en el código civil la figura de la unión de amistad. Crearemos una nueva figura jurídica de unión de amistad que dotará de un amparo legal a aquellas situaciones en las que personas unidas por un vínculo de amistad o compañerismo deciden asumir un compromiso mutuo de cuidados.",
+          "pagina": 89
+        },
+        {
+          "titular": "Senado territorial",
+          "texto": "Reformar el Senado para convertirlo en una auténtica Cámara de representación territorial, haciendo coincidir sus circunscripciones con el ámbito autonómico.",
+          "pagina": 91
+        },
+        {
+          "titular": "Lenguas cooficiales en las Cortes",
+          "texto": "Reconocer la pluralidad lingüística en las instituciones comunes. Consolidaremos el uso de las lenguas cooficiales en las Cortes Generales y lo extenderemos a la atención de la Administración General del Estado en los territorios donde son oficiales.",
+          "pagina": 91
+        },
+        {
+          "titular": "Despidos y desahucios, en tres meses",
+          "texto": "juicios por despido y desahucio en un máximo de tres meses, desalojo de viviendas ocupadas en 48 horas y más jueces y fiscales",
+          "pagina": 100,
+          "nota": "Se enmarca en una reforma de la justicia que incluye sustituir la Ley de Enjuiciamiento Criminal de 1882."
+        },
+        {
+          "titular": "Fiscalía con mandato de cinco años",
+          "texto": "Reforzar la autonomía del Ministerio Fiscal, con un mandato de cinco años para la Fiscalía General del Estado desvinculado de la legislatura y la prohibición de instrucciones del Gobierno sobre casos concretos",
+          "pagina": 100
+        },
+        {
+          "titular": "Agencia Independiente de Integridad y ley de lobbies",
+          "texto": "Aprobar una Ley Orgánica de Integridad Pública y una Estrategia Nacional Anticorrupción con mapas de riesgos en todas las administraciones, y crear una Agencia Independiente de Integridad Pública que coordine los organismos de supervisión y refuerce la protección de quienes denuncian.",
+          "pagina": 102,
+          "nota": "El compromiso 446 añade una ley de grupos de interés con registro obligatorio y publicidad de reuniones."
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "El PSOE propone un nuevo sistema de financiación autonómica con 21.000 millones adicionales y que el Estado asuma 83.000 millones de deuda autonómica. Refuerza el Fondo de Compensación Interterritorial para reindustrialización, despoblación, turismo masivo e insularidad, y una financiación local «suficiente y justa». En el medio rural, promete el «País de los 30 minutos», garantía rural en leyes y presupuestos, vivienda asequible y empleo verde, además del REF canario y un plan para Ceuta y Melilla.",
+      "propuestas": [
+        {
+          "titular": "21.000 millones más para las autonomías",
+          "texto": "Impulsaremos el nuevo sistema de financiación autonómica propuesto por el Gobierno de España y aprobado en el Consejo de Política Fiscal y Financiera, que aporta 21.000 millones de euros adicionales",
+          "pagina": 60
+        },
+        {
+          "titular": "El Estado asume 83.000 millones de deuda autonómica",
+          "texto": "Avanzaremos en la asunción parcial por el Estado de 83.000 millones de euros de deuda autonómica, reduciendo la carga financiera de las Comunidades Autónomas y liberando recursos para reforzar los servicios públicos y el Estado del bienestar.",
+          "pagina": 61
+        },
+        {
+          "titular": "Fondo de Compensación Interterritorial",
+          "texto": "Actualizaremos y potenciaremos los mecanismos de cohesión y convergencia territorial como el Fondo de Compensación Interterritorial",
+          "pagina": 60,
+          "nota": "Cita reindustrialización, digitalización, despoblación, turismo masivo, masa forestal e insularidad."
+        },
+        {
+          "titular": "El país de los 30 minutos",
+          "texto": "Garantizar el acceso a servicios básicos y soluciones de movilidad en todo el territorio, avanzando hacia el “País de los 30 minutos” para reforzar la igualdad de oportunidades con independencia del lugar de residencia.",
+          "pagina": 70
+        },
+        {
+          "titular": "Garantía rural en todas las leyes",
+          "texto": "Incorporar la perspectiva rural en las leyes, presupuestos y políticas públicas, mediante la aplicación efectiva del mecanismo de garantía rural.",
+          "pagina": 70
+        },
+        {
+          "titular": "Vivienda asequible en los pueblos",
+          "texto": "Facilitar el acceso a una vivienda asequible en el medio rural, promoviendo el alquiler para nuevos residentes, la rehabilitación de viviendas vacías y la ampliación del parque público.",
+          "pagina": 71
+        },
+        {
+          "titular": "Mantener el REF canario",
+          "texto": "Atender las singularidades territoriales. Desarrollaremos plenamente el Régimen Económico y Fiscal de Canarias y su condición de región ultraperiférica, y aprobaremos un plan integral para Ceuta y Melilla",
+          "pagina": 92
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "El PSOE apuesta por el multilateralismo: reforma de la ONU y su Consejo de Seguridad, impuesto mínimo global a las grandes fortunas y un gravamen sobre los tokens de la IA. Mantiene el «no» al 5% del PIB en gasto militar, promete llegar al 0,7% de la renta nacional en cooperación y defender la solución de los dos Estados. En la UE, pide superar la unanimidad, ampliación a los Balcanes, una unión de la defensa y un mecanismo soberano de deuda común.",
+      "propuestas": [
+        {
+          "titular": "Reformar la ONU y limitar el veto",
+          "texto": "Defender el multilateralismo y promover la reforma de Naciones Unidas y de su Consejo de Seguridad, limitando el veto, reforzando la representación del Sur Global, fortaleciendo la Corte Penal Internacional",
+          "pagina": 107
+        },
+        {
+          "titular": "Impuesto global a las grandes fortunas",
+          "texto": "Impulsar la creación de un impuesto mínimo global sobre las grandes fortunas, como pieza central de una fiscalidad internacional más justa y capaz de financiar los bienes públicos mundiales.",
+          "pagina": 107
+        },
+        {
+          "titular": "Tasa a los tokens de la IA",
+          "texto": "promoveremos el debate internacional sobre la creación de un gravamen específico sobre los tokens utilizados por los modelos de inteligencia artificial",
+          "pagina": 107,
+          "nota": "El texto justifica que parte de la riqueza generada con los datos y el conocimiento revierta en la sociedad."
+        },
+        {
+          "titular": "0,7% de la renta nacional a cooperación",
+          "texto": "Consolidar la cooperación como política de Estado y cerrar la brecha con el 0,7 % de la RNB en Ayuda Oficial al Desarrollo",
+          "pagina": 107
+        },
+        {
+          "titular": "Dos Estados para Israel y Palestina",
+          "texto": "Promover la solución de los dos Estados en Israel y Palestina, como única forma posible para alcanzar una paz justa y duradera en Oriente Próximo.",
+          "pagina": 109,
+          "nota": "Añade impulsar sanciones de la UE a quienes obstaculicen esa solución y apoyo a la reconstrucción de Gaza."
+        },
+        {
+          "titular": "Ampliación a los Balcanes",
+          "texto": "Impulsar la ampliación de la Unión Europea con la entrada de los Balcanes Occidentales.",
+          "pagina": 110
+        },
+        {
+          "titular": "Unión Europea de la defensa",
+          "texto": "Impulsar la Unión Europea de la defensa, reforzando la autonomía estratégica y militar de Europa, mejorando la coordinación y eficiencia del gasto en defensa, y fortaleciendo nuestra protección frente a amenazas híbridas y convencionales.",
+          "pagina": 110
+        },
+        {
+          "titular": "Deuda común europea",
+          "texto": "Impulsar la creación de un Mecanismo Soberano Europeo, que centralice una parte de la emisión de deuda pública de los Estados miembro, para generar un activo seguro europeo suficientemente líquido y profundo, que refuerce el rol internacional del euro, sin aumentar la deuda total.",
+          "pagina": 111
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "El PSOE crea una prestación estatal por crianza para todos los hogares con menores y una «Cuenta de Futuro» de 1.000 euros al nacer, disponible a los 18 años. Promete la primera Ley de Servicios Sociales, reducir listas de espera de dependencia y eximir de copagos a los pacientes de ELA en grado III+. En igualdad, refuerza la transparencia salarial, una ley contra la violencia vicaria y la abolición de la prostitución; en LGTBI, blinda la Ley 4/2023 y penaliza las terapias de conversión.",
+      "propuestas": [
+        {
+          "titular": "Prestación por crianza para todos los hogares",
+          "texto": "Prestación estatal por crianza para todos los hogares con menores de edad, con un diseño fiscal redistributivo y una protección adicional para los hogares de renta baja integrada en el CAPI ya existente",
+          "pagina": 56,
+          "nota": "Se financiaría con la nueva tributación de grandes patrimonios y rentas del capital, según el texto."
+        },
+        {
+          "titular": "Cuenta de Futuro de 1.000 euros",
+          "texto": "Asignar al nacer a cada niño o niña una cuenta pública de 1.000 euros invertida en fondos públicos, complementada con aportaciones anuales para los hogares de menor renta",
+          "pagina": 56,
+          "nota": "El fondo estaría disponible a los 18 años para estudios o proyectos propios."
+        },
+        {
+          "titular": "Primera Ley de Servicios Sociales",
+          "texto": "Aprobar la primera Ley de Servicios Sociales para blindar el cuarto pilar del Estado de bienestar, pactando con las CC.AA. una cartera común de servicios y estándares de calidad y acceso, con financiación estable y seguimiento público.",
+          "pagina": 57
+        },
+        {
+          "titular": "Menos espera en dependencia",
+          "texto": "Asegurar la plena aplicación de la reforma de los sistemas de discapacidad y dependencia (Ley 4/2026), con una programación económica plurianual orientada a seguir reduciendo las listas de espera y un sistema de seguimiento por territorios.",
+          "pagina": 57,
+          "nota": "Incluye consolidar la ayuda a domicilio como servicio público esencial."
+        },
+        {
+          "titular": "ELA sin copagos",
+          "texto": "Promover la atención pública integral y personalizada a las personas con ELA en situación de dependencia extrema (Grado III+), acordando con las CC.AA. la exención de copagos, la atención domiciliaria continuada y la compatibilidad de las prestaciones de apoyo.",
+          "pagina": 58
+        },
+        {
+          "titular": "Visita domiciliaria a partir de 80 años",
+          "texto": "A partir de los 80 años, una visita periódica a domicilio de enfermería o trabajo social para detectar a tiempo la fragilidad y la soledad.",
+          "pagina": 58,
+          "nota": "Forma parte del plan «A Tu Lado» para envejecer en casa, que incluye ayudas para ascensores y barreras."
+        },
+        {
+          "titular": "Housing First contra el sinhogarismo",
+          "texto": "Avanzar en la prevención y erradicación del sinhogarismo, reforzando los recursos de emergencia en colaboración con las administraciones competentes e impulsando soluciones estables de alojamiento y acompañamiento social bajo el modelo Housing First.",
+          "pagina": 58
+        },
+        {
+          "titular": "Igualdad salarial con lupa",
+          "texto": "Reforzar la transparencia retributiva y la igualdad salarial, revisando categorías profesionales y complementos que infravaloran los trabajos feminizados, fortaleciendo la negociación colectiva, la Inspección de Trabajo y el cumplimiento efectivo de los planes de igualdad.",
+          "pagina": 78
+        },
+        {
+          "titular": "Ley contra la violencia vicaria",
+          "texto": "Aprobar una Ley Orgánica contra la Violencia Vicaria como manifestación de la violencia de género, para garantizar la protección, prevención y atención a las víctimas.",
+          "pagina": 82,
+          "nota": "Se suma a una nueva Estrategia Estatal contra las Violencias Machistas y a unidades para familiares de feminicidios."
+        },
+        {
+          "titular": "Abolición de la prostitución",
+          "texto": "Aprobar una Ley Orgánica contra la Trata de Seres Humanos, y una Ley Orgánica Abolicionista del Sistema Prostitucional, prohibiendo el proxenetismo en todas sus formas y reconociendo a las personas prostituidas como víctimas con plenos derechos",
+          "pagina": 83
+        },
+        {
+          "titular": "Ley 4/2023 como suelo común LGTBI",
+          "texto": "Garantizar que la Ley 4/2023 sea el suelo común de derechos de las personas LGTBI en toda España, de modo que ningún retroceso autonómico deje sin protección a nadie por razón de su lugar de residencia",
+          "pagina": 97
+        },
+        {
+          "titular": "Delito para las terapias de conversión",
+          "texto": "Culminar la reforma del Código Penal para penalizar las llamadas «terapias de conversión», retomando la iniciativa legislativa impulsada durante la anterior legislatura.",
+          "pagina": 97
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "El PSOE defiende una PAC fuerte centrada en explotaciones profesionales, familiares y pequeñas, con reciprocidad en estándares para las importaciones. Promete una Ley de Agricultura Familiar y Profesional, bancos de tierras para jóvenes, seguros agrarios y compensación a la ganadería extensiva y la agricultura regenerativa. En pesca, un plan de transición justa, más financiación de la política pesquera común y reparto transparente de cuotas, con lucha contra la pesca ilegal.",
+      "propuestas": [
+        {
+          "titular": "PAC para quien vive del campo",
+          "texto": "Defender una PAC fuerte, suficiente y orientada a quienes viven del campo, priorizando las explotaciones profesionales, familiares y de pequeña y mediana dimensión.",
+          "pagina": 69,
+          "nota": "Añade exigir en la UE reciprocidad en los estándares ambientales, sanitarios y laborales de las importaciones."
+        },
+        {
+          "titular": "Ley de Agricultura Familiar y Profesional",
+          "texto": "Aprobar un paquete de medidas para garantizar la viabilidad económica, el reconocimiento social y el papel estratégico del sector agrario. El paquete comenzará por la aprobación de una Ley de Agricultura Familiar y Profesional",
+          "pagina": 69,
+          "nota": "Entre sus objetivos: maquinaria, seguros agrarios, cooperativas, relevo generacional y freno a los fondos de inversión sobre tierra fértil."
+        },
+        {
+          "titular": "Bancos de tierras para jóvenes",
+          "texto": "Promover una política nacional de bancos de tierras, facilitando el acceso de jóvenes y nuevos agricultores a explotaciones viables y sostenibles",
+          "pagina": 69
+        },
+        {
+          "titular": "Pagar la ganadería extensiva",
+          "texto": "Recompensar las prácticas de agroganadería sostenible y en particular en la ganadería extensiva y la agricultura regenerativa.",
+          "pagina": 70,
+          "nota": "Se articula con certificación, asesoramiento y compensación económica."
+        },
+        {
+          "titular": "Transición justa para la pesca",
+          "texto": "Impulsar un Plan de Transición Justa para una pesca y una acuicultura sostenibles, resilientes y competitivas.",
+          "pagina": 70
+        },
+        {
+          "titular": "Cuotas pesqueras transparentes",
+          "texto": "Reforzar la financiación de la Política Pesquera Común y sus cuotas pesqueras, garantizando un reparto justo y transparente de las cuotas pesqueras e intensificando la lucha contra la pesca ilegal y la explotación insostenible de los recursos marinos.",
+          "pagina": 70
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "El PSOE promete culminar los corredores Mediterráneo y Atlántico, impulsar el transporte de mercancías por ferrocarril y destinar unos 19.000 millones hasta 2030 al mantenimiento de la red ferroviaria. Añade 1.629 millones para reparar 5.000 km de firmes de la red estatal, modernización de puertos y aeropuertos con el programa DORA III, y refuerzo de las redes eléctricas con nuevos concursos de acceso para industria y vivienda.",
+      "propuestas": [
+        {
+          "titular": "Corredores Mediterráneo y Atlántico",
+          "texto": "culminaremos los corredores Mediterráneo y Atlántico, conectando puertos, plataformas logísticas y polos industriales con la red europea; impulsaremos el transporte de mercancías por ferrocarril y la intermodalidad para descarbonizar la logística",
+          "pagina": 13
+        },
+        {
+          "titular": "19.000 millones para el ferrocarril",
+          "texto": "daremos prioridad al mantenimiento y la fiabilidad de toda la red ferroviaria, con unos 19.000 millones de euros comprometidos hasta 2030",
+          "pagina": 13
+        },
+        {
+          "titular": "5.000 km de firmes reparados",
+          "texto": "Este plan incluirá el compromiso de reparar los firmes de 5.000 km de la red estatal en los próximos cuatro años, con una inversión de 1.629 millones de euros.",
+          "pagina": 21
+        },
+        {
+          "titular": "Puertos y aeropuertos: DORA III",
+          "texto": "Desplegaremos el programa DORA III en aeropuertos y los planes de inversión de las autoridades portuarias para modernizar las infraestructuras, adaptarlas al cambio climático y facilitar las conexiones intermodales.",
+          "pagina": 21
+        },
+        {
+          "titular": "Más capacidad en las redes eléctricas",
+          "texto": "Aceleraremos la ampliación y digitalización de las redes de transporte y distribución eléctrica, incrementaremos su capacidad mediante nuevas inversiones y convocaremos nuevos concursos de acceso para facilitar el desarrollo de proyectos industriales, tecnológicos, de creación de nueva vivienda y energéticos estratégicos en todo el territorio.",
+          "pagina": 21
+        },
+        {
+          "titular": "Cercanías y Media Distancia",
+          "texto": "Reforzar la red ferroviaria de Cercanías, Media Distancia y corredores estratégicos, mejorando la conectividad territorial y la integración con la red europea.",
+          "pagina": 71
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "El PSOE promete una Ley General de Cultura con financiación estable, culminar el Estatuto del Artista y garantizar que los creadores cobren cuando la IA use sus obras. Crea un abono de cine de 15 euros al mes para menores de 25 años y reforza bibliotecas, archivos y el INAEM. En deporte, un Estatuto del Deportista con protección social y salud mental, una estrategia contra el sedentarismo con «receta deportiva» y un Mundial 2030 con legado de instalaciones abiertas.",
+      "propuestas": [
+        {
+          "titular": "Ley General de Cultura",
+          "texto": "Aprobar una Ley General de Cultura que garantice los derechos culturales, la libertad de creación y una financiación estable, y reformar la ley de mecenazgo para movilizar más inversión privada en cultura.",
+          "pagina": 103
+        },
+        {
+          "titular": "Cobrar por las obras usadas por la IA",
+          "texto": "Culminar el Estatuto del Artista y crear la Oficina Española de Derechos de Autor, reforzando la lucha contra la piratería y garantizando que los creadores autoricen y cobren por el uso de sus obras en el desarrollo de la inteligencia artificial.",
+          "pagina": 103
+        },
+        {
+          "titular": "Abono de cine de 15 euros",
+          "texto": "Crear un abono de cine de 15 euros al mes para menores de 25 años, en colaboración con el sector, y reforzar el Bono Cultural Joven.",
+          "pagina": 103
+        },
+        {
+          "titular": "Bibliotecas y archivos abiertos",
+          "texto": "Impulsar una Estrategia Nacional de Competencia Lectora y reforzar las bibliotecas públicas y escolares y las librerías de proximidad. Abrir la Biblioteca Nacional a toda la ciudadanía, permitir el alta en línea en bibliotecas, archivos y centros de investigación del Estado y digitalizar los archivos históricos.",
+          "pagina": 103
+        },
+        {
+          "titular": "Catalán, euskera y gallego en la UE",
+          "texto": "Seguir impulsando el reconocimiento del catalán, el euskera y el gallego como lenguas oficiales de la Unión Europea, y promover su enseñanza mediante cátedras, lectorados y acuerdos con universidades extranjeras.",
+          "pagina": 111
+        },
+        {
+          "titular": "Estatuto del Deportista",
+          "texto": "Desplegar el Estatuto del Deportista, garantizando su salud física y mental, su protección social, la compatibilidad con los estudios en todas las etapas y el acompañamiento al final de su carrera deportiva.",
+          "pagina": 55
+        },
+        {
+          "titular": "Receta deportiva contra el sedentarismo",
+          "texto": "Impulsar una Estrategia Integral contra el Sedentarismo y de Promoción de la Actividad Física, extendiendo la receta deportiva y la actividad física supervisada desde la atención primaria, fomentando el deporte extraescolar.",
+          "pagina": 55
+        },
+        {
+          "titular": "Legado del Mundial 2030",
+          "texto": "Garantizar que el Mundial 2030 y los grandes eventos deportivos dejen un legado social: instalaciones abiertas a la ciudadanía, impulso al deporte base y empleo en el territorio.",
+          "pagina": 56
+        }
+      ]
+    }
+  }
+}

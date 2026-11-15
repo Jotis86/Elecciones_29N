@@ -65,7 +65,14 @@ for (const p of partidos) {
   if (!/^[a-z0-9-]+$/.test(p.slug)) errores.push(`Slug no válido: «${p.slug}»`);
   if (!p.color?.match(/^#[0-9A-Fa-f]{6}$/)) errores.push(`${p.slug}: color no válido`);
   if (p.estado === 'disponible') {
-    if (!p.pdf_oficial) errores.push(`${p.slug}: disponible pero sin pdf_oficial`);
+    // Algunos partidos no publican el PDF en su web; en ese caso se enlaza una
+    // copia de terceros y la procedencia queda anotada en «notas».
+    if (!p.pdf_oficial && !p.pdf_fuente) {
+      errores.push(`${p.slug}: disponible pero sin pdf_oficial ni pdf_fuente`);
+    }
+    if (!p.pdf_oficial && !p.notas) {
+      errores.push(`${p.slug}: sin PDF oficial pero sin nota de procedencia`);
+    }
     if (!p.programa) errores.push(`${p.slug}: disponible pero sin nombre de programa`);
   }
   if (p.estado !== 'disponible' && p.estado !== 'pendiente') {
