@@ -117,6 +117,11 @@ y 163 de la LOREG:
 Las barras miden los escaños de cada partido sobre el total de la
 circunscripción, de modo que todas juntas suman el 100% de los escaños.
 
+Los porcentajes tampoco pueden sumar más de 100: cada campo tiene como tope lo
+que queda libre, los campos sin margen se deshabilitan y el resto se muestra
+como «sin asignar». No hay normalización silenciosa: lo que ves es lo que se
+reparte.
+
 El botón **Reproducir 2023** carga los votos oficiales del 23J guardados en
 `data/resultados_2023.json`, usa los escaños de 2023 y marca la página con un
 distintivo de «resultado oficial». En ese modo el cálculo emplea los votos
