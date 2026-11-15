@@ -250,6 +250,82 @@
         }
       ]
     },
+    "pensiones": {
+      "resumen": "El BNG propone derogar las reformas de pensiones de 2011, 2013, 2021 y 2023, y subir las mínimas hasta equipararlas al SMI. Plantea recuperar la jubilación ordinaria a los 65 años y la parcial a los 61, con coeficientes para profesiones penosas, y eliminar el tope máximo de las bases de cotización para sostener el sistema con impuestos sobre la riqueza. Añade elevar las no contributivas al 75% del umbral de pobreza de un hogar unipersonal.",
+      "propuestas": [
+        {
+          "titular": "Derogar las reformas",
+          "texto": "Derogación de las reformas de las pensiones aprobadas en 2011, 2013, 2021 y 2023.",
+          "texto_original": "Derrogación das reformas das pensións aprobadas en 2011, 2013, 2021 e 2023.",
+          "pagina": 18
+        },
+        {
+          "titular": "Mínimas hasta el SMI",
+          "texto": "Incremento de las pensiones mínimas hasta situarlas como mínimo en la misma cuantía que el Salario Mínimo Interprofesional.",
+          "texto_original": "Incremento das pensións mínimas até situalas como mínimo na mesma contía que o Salario Mínimo Interprofesional",
+          "pagina": 18
+        },
+        {
+          "titular": "Jubilación a los 65 y parcial a los 61",
+          "texto": "Recuperación de la jubilación ordinaria a los 65 años y la parcial a los 61 años.",
+          "texto_original": "Recuperación da xubilación ordinaria aos 65 anos e a parcial aos 61 anos.",
+          "pagina": 19
+        },
+        {
+          "titular": "Sin veto al financiamiento público",
+          "texto": "Garantía de sostenimiento del sistema público de pensiones mediante la supresión del veto al financiamiento público, eliminando el tope máximo a las bases de cotización.",
+          "texto_original": "Garantía de sostemento do sistema público de pensións a través da supresión do veto ao financiamento público",
+          "pagina": 19
+        },
+        {
+          "titular": "No contributivas al 75% del umbral de pobreza",
+          "texto": "Elevación de las pensiones no contributivas hasta el 75% del umbral de pobreza de un hogar unipersonal, de forma inmediata.",
+          "texto_original": "Elevación das pensións non contributivas até o 75 % do limiar de pobreza dun fogar unipersoal",
+          "pagina": 19
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "El BNG reclama para Galicia todas las competencias ambientales y energéticas, incluida la planificación eléctrica, y rechaza los parques eólicos marinos en su litoral. Propone una tarifa eléctrica gallega que compense ser territorio excedentario en producción, y reformar el sistema para acabar con la especulación de las grandes eléctricas. En biodiversidad, se compromete con conservar el 30% de las zonas terrestres y marinas y restaurar el 20% de los ecosistemas degradados.",
+      "propuestas": [
+        {
+          "titular": "Decidir en materia ambiental",
+          "texto": "Apuesta por una Galicia con plena capacidad para decidir en materia ambiental, que pueda aplicar políticas avanzadas y transformadoras.",
+          "texto_original": "aposta por unha Galiza con plena capacidade para decidir en materia ambiental, que poida aplicar políticas avanzadas e transformadoras neste ámbito.",
+          "pagina": 65
+        },
+        {
+          "titular": "Traspaso de competencias ambientales",
+          "texto": "Transferencia a Galicia de todas las competencias en materia de medio ambiente, incluidas costas, salvamento marítimo, meteorología, puertos de interés general y cuencas hidrográficas.",
+          "texto_original": "O traspaso a Galiza de todas as competencias en materia de ambiente; nomeadamente as seguintes: Costas, Salvamento Marítimo e loita contra a contaminación, servizos de meteoroloxía, centros de investigación, portos de interese xeral e bacías hidrográficas.",
+          "pagina": 66
+        },
+        {
+          "titular": "Participación en proyectos renovables",
+          "texto": "Garantizar la participación social, la información pública y el procedimiento de evaluación ambiental, especialmente en la tramitación de proyectos industriales de energías renovables y de explotación minera.",
+          "texto_original": "garantir a participación social, a información pública e o procedemento de avaliación ambiental, nomeadamente na tramitación de proxectos industriais de implantación de enerxías renovábeis e nos proxectos de explotación de recursos minerais.",
+          "pagina": 66
+        },
+        {
+          "titular": "No a la eólica marina en el litoral gallego",
+          "texto": "Retirar los planes de ordenación del espacio marítimo y declarar el litoral gallego como espacio no apto para instalar parques eólicos marinos, por su incompatibilidad con la pesca y el marisqueo.",
+          "texto_original": "Retirar os POEM e declarar o litoral galego como espazo non apto para a instalación de parques eólicos mariños offshore",
+          "pagina": 54
+        },
+        {
+          "titular": "Tarifa eléctrica gallega",
+          "texto": "Impulsar una tarifa eléctrica gallega que reconozca, mediante reducciones en las peajes de transporte, el papel de Galicia como nación excedentaria en producción eléctrica.",
+          "texto_original": "Impulsar unha tarifa eléctrica galega que considere, a través de redución nas peaxes do transporte, o papel de Galiza de nación excedentaria na produción eléctrica",
+          "pagina": 54
+        },
+        {
+          "titular": "30% protegido",
+          "texto": "Conservar al menos el 30% de las zonas terrestres, marinas y costeras, y restaurar al menos el 20% de los ecosistemas degradados.",
+          "texto_original": "Conservar polo menos o 30% das zonas terrestres, mariñas e costeiras. Restaurar polo menos o 20% dos ecosistemas degradados.",
+          "pagina": 67
+        }
+      ]
+    },
     "seguridad-defensa": {
       "resumen": "El BNG plantea la seguridad desde los derechos civiles: derogar la Ley Mordaza, el delito de desórdenes públicos agravado y la prisión permanente revisable, y prohibir las pelotas de goma y las devoluciones en caliente. Propone asumir en Galicia las competencias penitenciarias y que las penas de personas gallegas se cumplan en Galicia. Añade la derogación de la Ley de Amnistía de 1977 y medidas de memoria democrática.",
       "propuestas": [

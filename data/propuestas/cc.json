@@ -191,6 +191,57 @@
         }
       ]
     },
+    "pensiones": {
+      "resumen": "Coalición Canaria no desarrolla una propuesta propia sobre el sistema de pensiones: su programa se limita a reclamar que los complementos de renta que establezca Canarias sean compatibles con las pensiones no contributivas. Pide que estén exentos de tributación y no computen para reducir la prestación, de modo que las ayudas autonómicas mejoren de verdad los ingresos. No plantea cambios en revalorización, edad de jubilación ni cálculo.",
+      "propuestas": [
+        {
+          "titular": "Compatibilidad con las no contributivas",
+          "texto": "Proteger las pensiones no contributivas. Reclamaremos al Estado que los complementos de renta que establezca Canarias sean compatibles con las pensiones no contributivas, estén exentos de tributación",
+          "pagina": 10
+        },
+        {
+          "titular": "Que la ayuda llegue de verdad",
+          "texto": "Las ayudas canarias deben mejorar de forma efectiva los ingresos de las personas que las reciben.",
+          "pagina": 10
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "Coalición Canaria plantea renovar las centrales térmicas obsoletas a medida que avancen las renovables y el almacenamiento, y desarrollar la eólica marina en Gran Canaria con consenso social. Pide un programa estatal extraordinario para reforzar las redes, impulsar el autoconsumo y las comunidades energéticas, y compensar el sobrecoste del agua desalada. Añade fondos para adaptar pueblos y equipamientos al calor extremo.",
+      "propuestas": [
+        {
+          "titular": "Renovar las centrales",
+          "texto": "Renovar las centrales y asegurar el suministro. Exigiremos una planificación estatal que sustituya progresivamente las instalaciones térmicas obsoletas por soluciones más eficientes, renovables y flexibles.",
+          "pagina": 15
+        },
+        {
+          "titular": "Eólica marina con consenso",
+          "texto": "Desarrollar la eólica marina con garantías. Impulsaremos la eólica marina en Gran Canaria con planificación, subastas, conexión y retribución adaptadas a los sistemas insulares.",
+          "pagina": 15,
+          "nota": "Exige suficiente consenso social, político e institucional y compatibilidad ambiental y territorial."
+        },
+        {
+          "titular": "Reforzar las redes",
+          "texto": "Reforzar las redes antes de que se saturen. Reclamaremos un programa estatal extraordinario para redes de transporte y distribución, subestaciones, digitalización y nueva capacidad de conexión.",
+          "pagina": 15
+        },
+        {
+          "titular": "Autoconsumo y servicios esenciales",
+          "texto": "Autoconsumo y servicios esenciales con energía segura. Defenderemos un marco estatal favorable al autoconsumo colectivo y a las comunidades energéticas",
+          "pagina": 15
+        },
+        {
+          "titular": "Agua y coste energético",
+          "texto": "Asegurar el agua y reducir su coste energético. Defenderemos inversiones y normas estatales adaptadas a las islas para garantizar el abastecimiento a los hogares y al sector agrícola.",
+          "pagina": 16
+        },
+        {
+          "titular": "Ciudades preparadas para el calor",
+          "texto": "Pueblos y ciudades mejor preparados para el calor. Impulsaremos un fondo estatal para arbolado, corredores verdes, sombra, refugios climáticos, pavimentos permeables y sistemas de drenaje urbano sostenible",
+          "pagina": 17
+        }
+      ]
+    },
     "seguridad-defensa": {
       "resumen": "Coalición Canaria aborda la seguridad desde la realidad insular: financiación estatal para desplegar las 1.400 plazas de la Policía Canaria y recuperación de espacios militares para uso civil. Pide cambios en el marco estatal para que Canarias pueda activar antes la Unidad Militar de Emergencias ante incendios y episodios extremos. Su programa no entra en delincuencia ni en justicia penal.",
       "propuestas": [

@@ -226,6 +226,77 @@
         }
       ]
     },
+    "pensiones": {
+      "resumen": "El PP propone reconstruir el Pacto de Toledo, mantener el poder adquisitivo de las pensiones con subida anual según el IPC y extender esa garantía a los futuros pensionistas. Añade incentivos fiscales a la jubilación activa y enmarca la sostenibilidad en no hipotecar a las siguientes generaciones. Su programa no plantea cambios en la edad de jubilación ni en el modelo de cálculo.",
+      "propuestas": [
+        {
+          "titular": "Reconstruir el Pacto de Toledo",
+          "texto": "Reconstruiremos el Pacto de Toledo sobre un principio claro: las pensiones son un compromiso de Estado, por encima de la confrontación partidista.",
+          "pagina": 42
+        },
+        {
+          "titular": "Subida con el IPC",
+          "texto": "Aseguraremos que mantengan su poder adquisitivo",
+          "pagina": 42,
+          "nota": "El texto continúa en la página siguiente: «…y suban cada año con el IPC»."
+        },
+        {
+          "titular": "También para los jóvenes",
+          "texto": "Aseguraremos a los más jóvenes que sus futuras pensiones también mantendrán su poder adquisitivo.",
+          "pagina": 43
+        },
+        {
+          "titular": "Jubilación activa",
+          "texto": "Incentivaremos la jubilación activa mediante deducciones en el IRPF.",
+          "pagina": 43
+        },
+        {
+          "titular": "No hipotecar a los siguientes",
+          "texto": "No hipotecaremos a quienes vienen detrás. Reduciremos el déficit estructural y la deuda.",
+          "pagina": 42
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "El PP propone mantener abiertas las centrales nucleares eliminando el calendario de cierre, bajar la fiscalidad del recibo de la luz con una tarifa social única y desbloquear el acceso a la red eléctrica. Anuncia un plan para reforzar el sistema y evitar apagones, y sitúa la política climática en «la ciencia, sin dogmatismos», revisando los ritmos de descarbonización según la tecnología disponible. Prioriza la neutralidad tecnológica frente a elegir qué fuente de energía debe ganar.",
+      "propuestas": [
+        {
+          "titular": "Prorrogar las nucleares",
+          "texto": "Eliminaremos el calendario de cierre de Almaraz, Ascó, Vandellòs, Cofrentes y Trillo.",
+          "pagina": 71,
+          "nota": "Tramitaría la extensión de la vida útil en los primeros cien días, con el visto bueno del Consejo de Seguridad Nuclear."
+        },
+        {
+          "titular": "Tarifa social única",
+          "texto": "Reduciremos la carga fiscal del recibo de la luz y crearemos una tarifa social única.",
+          "pagina": 71,
+          "nota": "Incluye eliminar el impuesto del 7% a la producción eléctrica y un Estatuto del Consumidor Energético."
+        },
+        {
+          "titular": "Desbloquear la red eléctrica",
+          "texto": "Desbloquearemos el acceso a la red eléctrica.",
+          "pagina": 72,
+          "nota": "Promete resolver en 18 meses los problemas que frenan la conexión de proyectos industriales, logísticos, tecnológicos y de centros de datos."
+        },
+        {
+          "titular": "Evitar otro apagón",
+          "texto": "Reforzaremos el sistema eléctrico para evitar otro apagón.",
+          "pagina": 72,
+          "nota": "Ninguna central de gas o hidroeléctrica cerrará sin una alternativa acreditada técnicamente."
+        },
+        {
+          "titular": "Clima «con rigor científico»",
+          "texto": "Afrontaremos el cambio climático con rigor científico.",
+          "pagina": 72,
+          "nota": "Defiende revisar los ritmos por sector según lo que ocurra en el resto del mundo, la tecnología disponible y la demanda."
+        },
+        {
+          "titular": "Respaldo al sistema",
+          "texto": "Ninguna central de gas o hidroeléctrica que permita disponer de electricidad cuando se necesita cerrará sin una alternativa cuya capacidad para sustituirla esté técnicamente acreditada.",
+          "pagina": 72
+        }
+      ]
+    },
     "seguridad-defensa": {
       "resumen": "El PP plantea una ofensiva contra el crimen organizado y la multirreincidencia: unidad central permanente en la frontera sur, más medios navales y aéreos, juicios rápidos y multas mínimas de 3.000 euros por vandalismo. Anuncia un plan contra las bandas juveniles y el uso de menores para delinquir, y refuerzo de la protección de las víctimas de violencia de género. En defensa, propone una ley de programación y financiación plurianual, más efectivos y una industria nacional orientada a drones, ciberdefensa y munición.",
       "propuestas": [

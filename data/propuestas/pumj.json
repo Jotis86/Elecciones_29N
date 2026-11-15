@@ -226,6 +226,75 @@
         }
       ]
     },
+    "pensiones": {
+      "resumen": "M+J propone reformar la Constitución para reconocer las pensiones públicas como derecho fundamental, prohibir su privatización y garantizar que no pierdan poder adquisitivo. Plantea elevar progresivamente las mínimas y no contributivas hasta el coste real de una vida digna, y seguir destopando la base máxima de cotización manteniendo un límite en la pensión máxima. Añade una contribución de las empresas muy automatizadas y una aportación estable de los Presupuestos del Estado.",
+      "propuestas": [
+        {
+          "titular": "Derecho fundamental",
+          "texto": "Reformar la Constitución para reconocer las pensiones públicas como derecho fundamental, prohibir su privatización y garantizar que nunca pierdan poder adquisitivo.",
+          "pagina": 24
+        },
+        {
+          "titular": "Subir las mínimas y no contributivas",
+          "texto": "Elevar de forma progresiva las pensiones mínimas y no contributivas hasta una cuantía que permita vivir con dignidad",
+          "pagina": 24,
+          "nota": "Toma como referencia el coste real de una vida digna, no solo la trayectoria laboral."
+        },
+        {
+          "titular": "Destope de la base máxima",
+          "texto": "Profundizar en el camino abierto por la reforma de 2023 con la cuota de solidaridad y la subida de la base máxima de cotización",
+          "pagina": 24
+        },
+        {
+          "titular": "Contribución de la automatización",
+          "texto": "Crear una contribución a la Seguridad Social para las empresas que generan mucho valor con poco empleo gracias a la automatización y la tecnología.",
+          "pagina": 25
+        },
+        {
+          "titular": "Aportación del Estado por ley",
+          "texto": "Garantizar por ley una aportación estable de los Presupuestos Generales del Estado para financiar el suelo de suficiencia.",
+          "pagina": 25
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "M+J propone reducir un 55% las emisiones respecto a 1990 en 2030 y alcanzar la neutralidad en 2050, con presupuestos de carbono anuales y un organismo independiente de verificación. Añade un Plan Estatal de Adaptación a la Emergencia Climática, verde urbano a menos de 15 minutos y un 30% de cubierta arbórea. En energía, plantea eliminar los combustibles fósiles, renovables con criterios de biodiversidad y un Fondo Generacional de la Energía.",
+      "propuestas": [
+        {
+          "titular": "−55% de emisiones en 2030",
+          "texto": "Respaldar el compromiso de la Unión Europea de reducir al menos un 55% las emisiones de gases efecto invernadero para el año 2030 con respecto a 1990",
+          "pagina": 53,
+          "nota": "Incluye una hoja de ruta sectorial con presupuestos de carbono anuales y un organismo independiente de verificación."
+        },
+        {
+          "titular": "Plan de adaptación climática",
+          "texto": "Impulsar un Plan Estatal de Adaptación a la Emergencia Climática.",
+          "pagina": 53,
+          "nota": "Prioriza a mayores, infancia, personas con discapacidad y trabajadores expuestos a condiciones extremas."
+        },
+        {
+          "titular": "Un parque a 15 minutos",
+          "texto": "Garantizar que todo barrio tenga un parque o zona verde a menos de 15 minutos a pie y que cada municipio alcance una cubierta arbórea urbana del 30%.",
+          "pagina": 54
+        },
+        {
+          "titular": "La energía como derecho",
+          "texto": "La energía es un derecho social, no un lujo.",
+          "pagina": 58
+        },
+        {
+          "titular": "Salir de los combustibles fósiles",
+          "texto": "Apoyar la transición ecológica que permita eliminar todas aquellas fuentes de energía que utilizan combustibles fósiles (carbón, petróleo y gas).",
+          "pagina": 58
+        },
+        {
+          "titular": "Fondo Generacional de la Energía",
+          "texto": "Crear un Fondo Generacional de la Energía.",
+          "pagina": 59,
+          "nota": "El Estado participaría en renovables, almacenamiento e hidroeléctricas, y los beneficios financiarían vivienda pública y pensiones."
+        }
+      ]
+    },
     "seguridad-defensa": {
       "resumen": "M+J aborda la seguridad desde la prevención y la justicia restaurativa: propone un modelo penitenciario orientado a la reinserción, con normas comunes de accesibilidad y visitas en todas las cárceles. Añade un Pacto de Estado contra los discursos de odio y un Plan Nacional contra el racismo, la islamofobia, el antisemitismo y el antigitanismo. Plantea una Red Pública de Memoria, Reparación y Justicia Restaurativa para las víctimas de violencias políticas.",
       "propuestas": [

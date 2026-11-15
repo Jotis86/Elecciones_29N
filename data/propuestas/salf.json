@@ -251,6 +251,44 @@
         }
       ]
     },
+    "pensiones": {
+      "resumen": "SALF propone blindar en la Constitución las pensiones actuales, con revalorización por IPC y prohibición de recortes, y un sistema mixto para los menores de 45: una cuenta individual obligatoria, heredable, con el 2% del salario. Añade una «mochila austriaca» del 1,53% a cargo de la empresa, pensión mínima de 1.000 euros con 35 años cotizados y la supresión de complementos y pensiones de políticos. Plantea sacar el Fondo de Reserva del control del Gobierno.",
+      "propuestas": [
+        {
+          "titular": "Blindaje constitucional",
+          "texto": "Las pensiones de hoy, blindadas en la Constitución. Revalorización con el IPC y prohibición de recortes, con rango constitucional.",
+          "pagina": 20,
+          "nota": "Añade que «a quien ya cobra no se le toca un euro»."
+        },
+        {
+          "titular": "Cuenta individual heredable",
+          "texto": "Sistema mixto: tu cuenta, a tu nombre, heredable. Menores de 45 años: el 2 % del salario a una cuenta individual obligatoria, tuya, heredable, con comisión máxima del 0,3 %.",
+          "pagina": 20,
+          "nota": "Cifra el coste de transición en unos 6.000 M€/año hasta 2030."
+        },
+        {
+          "titular": "Mochila austriaca",
+          "texto": "Mochila austriaca. El 1,53 % del salario, a cargo de la empresa, a tu cuenta desde el primer día.",
+          "pagina": 20
+        },
+        {
+          "titular": "Pensión mínima de 1.000 euros",
+          "texto": "Pensión mínima de 1.000 euros con 35 años cotizados.",
+          "pagina": 21,
+          "nota": "Calcula un coste de unos 2.000 M€/año."
+        },
+        {
+          "titular": "Fuera las pensiones de políticos",
+          "texto": "Pensiones de políticos: fuera. Sin complemento parlamentario (la pensión máxima con siete años de escaño), sin cesantías",
+          "pagina": 21
+        },
+        {
+          "titular": "Fondo de Reserva independiente",
+          "texto": "Fondo de Reserva fuera del Gobierno. Fondo soberano con gestión profesional independiente y mandato de rentabilidad.",
+          "pagina": 21
+        }
+      ]
+    },
     "seguridad-defensa": {
       "resumen": "SALF propone una macrocárcel de máxima seguridad para delitos graves y corrupción, cumplimiento íntegro sin permisos y registro público de agresores sexuales con castración química voluntaria. Anuncia equiparación salarial de policías y guardias civiles, un «Plan Estrecho» con la Armada contra el narcotráfico y juicios rápidos en 72 horas. Añade presunción legal de legítima defensa en vivienda o negocio y más medios para las unidades de investigación.",
       "propuestas": [

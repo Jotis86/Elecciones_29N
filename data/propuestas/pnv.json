@@ -243,6 +243,82 @@
         }
       ]
     },
+    "pensiones": {
+      "resumen": "El PNV defiende revalorizar las pensiones cada año con el IPC y mejorar progresivamente las mínimas y no contributivas. Plantea eliminar las penalizaciones de la jubilación anticipada para carreras de más de 40 años y reducir la brecha de género compensando los periodos dedicados a cuidados. Añade reconocer la cotización por cuidados familiares y reclamar la gestión del régimen económico de la Seguridad Social para Euskadi.",
+      "propuestas": [
+        {
+          "titular": "Revalorización con el IPC",
+          "texto": "Que las pensiones no pierdan poder adquisitivo: revalorización anual según el IPC, protegiendo el poder de compra frente al aumento del coste de vida.",
+          "texto_original": "Pentsioek ez dezatela galdu erosteko ahalmena: urtero KPIaren arabera errebalorizatzea, erosteko ahalmena babestuz bizitzaren kostua handitzetik.",
+          "pagina": 31
+        },
+        {
+          "titular": "Subir las mínimas",
+          "texto": "Mejorar progresivamente las pensiones mínimas y no contributivas, con atención especial a quienes tienen menores ingresos y están en situación de vulnerabilidad.",
+          "texto_original": "Pentsio minimoak eta ez-kontributiboak pixkanaka hobetzea, diru-sarrera txikienak dituzten eta kalteberatasun-egoeran dauden pertsonei arreta berezia eskainiz.",
+          "pagina": 31
+        },
+        {
+          "titular": "Carreras largas sin penalización",
+          "texto": "Eliminar las penalizaciones de la jubilación anticipada para quienes han cotizado más de 40 años, y corregir los castigos que afectan también a personas ya jubiladas.",
+          "texto_original": "40 urte baino gehiago kotizatuta dituzten pertsonentzako erretiro aurreratuaren penalizazioak ezabatzea",
+          "pagina": 31
+        },
+        {
+          "titular": "Brecha de género",
+          "texto": "Reducir la brecha de género en las pensiones compensando las interrupciones laborales, reducciones de jornada y lagunas de cotización derivadas de los cuidados.",
+          "texto_original": "Pentsioetan generoen arteko aldea murriztea, ondorengoen eta mendeko senideen zaintzatik eratorritako lan-etenaldiak, lanaldi-murrizketak eta kotizazio-hutsuneak konpentsatuz.",
+          "pagina": 31
+        },
+        {
+          "titular": "Gestión de la Seguridad Social",
+          "texto": "Garantizar que la gestión del régimen económico de la Seguridad Social se transfiera a Euskadi, conforme al Estatuto de Gernika.",
+          "texto_original": "Gizarte Segurantzaren araubide ekonomikoaren kudeaketa Euskadira transferituko dela ziurtatzea, Gernikako Estatutuaren arabera",
+          "pagina": 31
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "El PNV propone acelerar la inversión en las redes eléctricas vascas, facilitar el acceso y la conexión de proyectos industriales y activar mecanismos de almacenamiento para estabilizar el sistema. Pide bajar el impuesto especial de la electricidad al 0,5%, mantener la protección de los consumidores vulnerables y restituir la Comisión Nacional de la Energía como regulador independiente. En clima, plantea adaptación con financiación, autoconsumo compartido y comunidades energéticas.",
+      "propuestas": [
+        {
+          "titular": "Acelerar las redes eléctricas",
+          "texto": "Acelerar las inversiones en las redes eléctricas de Euskadi, garantizando capacidad suficiente para las nuevas industrias, la ampliación de empresas, la electrificación y la demanda residencial.",
+          "texto_original": "Euskadiko sare elektrikoetako inbertsioak azkartzea, industria berrietarako, enpresazabalkuntzetarako, elektrifikaziorako eta bizitegi-eskarirako gaitasun nahikoa bermatuz.",
+          "pagina": 15
+        },
+        {
+          "titular": "Almacenamiento",
+          "texto": "Impulsar el almacenamiento de energía y activar los mecanismos de capacidad necesarios para reforzar la estabilidad del sistema y garantizar el suministro eléctrico.",
+          "texto_original": "Energia-biltegiratzea bultzatzea eta beharrezko gaitasun-mekanismoak aktibatzea, sistemaren egonkortasuna indartzeko eta hornidura elektrikoa bermatzeko.",
+          "pagina": 16
+        },
+        {
+          "titular": "Impuesto eléctrico al 0,5%",
+          "texto": "Reducir de forma permanente el Impuesto Especial sobre la Electricidad al 0,5%, dentro de los límites que permite la normativa europea.",
+          "texto_original": "Elektrizitatearen gaineko Zerga Berezia modu iraunkorrean %0,5era murriztea, Europako araudiak baimendutako mugen barruan.",
+          "pagina": 16
+        },
+        {
+          "titular": "Proteger al consumidor vulnerable",
+          "texto": "Mantener la protección de los consumidores de energía en situación de vulnerabilidad, incluidos el bono social eléctrico y térmico.",
+          "texto_original": "Kalteberatasun-egoeran dauden energia-kontsumitzaileei ematen zaien babesari eustea, bonu sozial elektriko eta termikoak barne",
+          "pagina": 16
+        },
+        {
+          "titular": "Autoconsumo compartido",
+          "texto": "Facilitar el autoconsumo compartido y la creación de comunidades energéticas, reduciendo plazos administrativos e impulsando generación renovable cerca del consumo.",
+          "texto_original": "Autokontsumo partekatua ahalbidetzea eta energia-komunitateak sortzeko erraztasunak ematea, izapidetze-epeak murriztuz eta kontsumotik hurbil dagoen sorkuntza berriztagarria bultzatuz.",
+          "pagina": 17
+        },
+        {
+          "titular": "Adaptación climática",
+          "texto": "Impulsar una estrategia de adaptación al cambio climático con financiación suficiente, priorizando la prevención de inundaciones, temporales, incendios y fenómenos meteorológicos extremos.",
+          "texto_original": "Klima-aldaketara egokitzeko estrategia bat bultzatzea, finantzaketa nahikoarekin, uholdeak, denboraleak, suteak eta muturreko fenomeno meteorologikoak prebenitzeari lehentasuna emanez.",
+          "pagina": 17
+        }
+      ]
+    },
     "seguridad-defensa": {
       "resumen": "El PNV reclama que la seguridad se gestione desde Euskadi, con una Ertzaintza reconocida como policía integral y participación directa en la cooperación policial europea. Plantea acceso recíproco a las bases de datos policiales europeas y una respuesta judicial rápida y proporcionada a la multirreincidencia, con protección a las víctimas. Pide también reforzar la coordinación entre la Ertzaintza y la Administración de Justicia.",
       "propuestas": [

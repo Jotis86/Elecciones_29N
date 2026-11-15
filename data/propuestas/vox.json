@@ -227,6 +227,63 @@
         }
       ]
     },
+    "pensiones": {
+      "resumen": "Vox apenas desarrolla el capítulo de pensiones: lo aborda en dos líneas dentro del bloque económico. Apuesta por garantizar su sostenibilidad mediante crecimiento, empleo y salarios, y por medidas de apoyo a la familia y la natalidad para revertir el envejecimiento demográfico. No concreta revalorización, edad de jubilación ni cambios en el cálculo de la pensión.",
+      "propuestas": [
+        {
+          "titular": "Sostenibilidad del sistema",
+          "texto": "Garantizar la sostenibilidad del sistema de pensiones.",
+          "pagina": 10
+        },
+        {
+          "titular": "Crecimiento como garantía",
+          "texto": "Revitalizar la economía, impulsar el empleo, mejorar los salarios y aumentar la riqueza.",
+          "pagina": 10
+        },
+        {
+          "titular": "Economía más productiva",
+          "texto": "Una economía más productiva es la garantía de sostenibilidad de las pensiones",
+          "pagina": 10
+        },
+        {
+          "titular": "Natalidad y familia",
+          "texto": "es necesario impulsar medidas de apoyo a las familias, fomento de la natalidad y ayuda a la crianza, contribuyendo a revertir el envejecimiento demográfico",
+          "pagina": 11
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "Vox propone un Plan Nacional de Soberanía Energética con bajada masiva de impuestos eléctricos, fin del tope a la inversión en redes y recuperación del plan nuclear, derogando el calendario de cierre. Plantea revertir las normas climáticas que atribuye al Pacto Verde y a la Agenda 2030, incluidas las que limitan motores de combustión o gravan emisiones. Añade levantar las restricciones para explorar y explotar recursos naturales y yacimientos minerales.",
+      "propuestas": [
+        {
+          "titular": "Soberanía energética",
+          "texto": "Aprovechamiento de nuestros recursos energéticos, la mejora de las redes y la reducción de cargas fiscales y regulatorias. Plan Nacional de Soberanía Energética.",
+          "pagina": 11,
+          "nota": "Incluye aprovechar recursos propios, mejorar las redes y reducir cargas fiscales y regulatorias."
+        },
+        {
+          "titular": "Fin del tope a invertir en redes",
+          "texto": "Fin del tope regulatorio a la inversión en redes eléctricas.",
+          "pagina": 11,
+          "nota": "Las autorizaciones para líneas, subestaciones y puntos de conexión se resolverían con plazos cerrados y silencio positivo."
+        },
+        {
+          "titular": "Bajar los impuestos de la luz",
+          "texto": "Bajada masiva de los impuestos de la energía eléctrica a familias, empresas e industrias españolas. Fin de la doble imposición.",
+          "pagina": 11
+        },
+        {
+          "titular": "Recuperar el plan nuclear",
+          "texto": "Recuperar urgentemente el plan nuclear nacional. Se garantizará la supervivencia de las centrales nucleares actuales, derogando el calendario de cierre.",
+          "pagina": 12
+        },
+        {
+          "titular": "Explotar recursos propios",
+          "texto": "Fin a las restricciones para poder explorar, investigar y explotar nuestros recursos naturales y yacimientos minerales.",
+          "pagina": 12
+        }
+      ]
+    },
     "seguridad-defensa": {
       "resumen": "Vox propone reforzar las Fuerzas Armadas y los cuerpos de seguridad con más medios y equiparación salarial, y ampliar la prisión permanente revisable. Anuncia reducir la edad de responsabilidad penal y un «combate total» al narcotráfico con el restablecimiento del organismo de coordinación en el Sur. En defensa, apuesta por más inversión, reconocimiento como profesión de riesgo y protección de fronteras con apoyo de las Fuerzas Armadas.",
       "propuestas": [
