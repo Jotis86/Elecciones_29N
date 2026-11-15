@@ -278,6 +278,19 @@ nav.sitio-nav a[aria-current='page'] {
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
+/* En las tarjetas de tema el recuento se pega abajo: así queda a la misma
+   altura en toda la fila aunque la descripción ocupe más o menos líneas. */
+.grid-temas .tarjeta {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid-temas .tarjeta .cuenta {
+  margin-top: auto;
+  padding-top: 0.9rem;
+}
+
 .grid-partidos {
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 }
