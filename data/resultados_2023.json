@@ -1,0 +1,3983 @@
+{
+  "eleccion": "Congreso 23J 2023",
+  "fuente": "https://infoelectoral.interior.gob.es/estaticos/docxl/apliextr/02202307_TOTA.zip",
+  "nota": "Resultados oficiales Ministerio del Interior. censo_ine excluye CERA.",
+  "provincias": [
+    {
+      "cod_ine": "01",
+      "nombre": "Araba/Álava",
+      "censo_ine": 260213,
+      "votos_blanco": 722,
+      "votos_nulos": 1431,
+      "votos_candidaturas": 168385,
+      "votos_validos": 169107,
+      "votantes": 170538,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PSE-EE (PSOE)",
+          "agrupacion_nacional": "PSOE",
+          "votos": 46775,
+          "escanos": 1
+        },
+        {
+          "siglas": "EH Bildu",
+          "agrupacion_nacional": "EH Bildu",
+          "votos": 32987,
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 30212,
+          "escanos": 1
+        },
+        {
+          "siglas": "EAJ-PNV",
+          "agrupacion_nacional": "EAJ-PNV",
+          "votos": 28075,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 21561,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 6573,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 773,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 619,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 354,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 185,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 165,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 106,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "02",
+      "nombre": "Albacete",
+      "censo_ine": 307985,
+      "votos_blanco": 1834,
+      "votos_nulos": 2726,
+      "votos_candidaturas": 219357,
+      "votos_validos": 221191,
+      "votantes": 223917,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 88299,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 76322,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 36750,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 15834,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1261,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 381,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 325,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 185,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "03",
+      "nombre": "Alacant/Alicante",
+      "censo_ine": 1306268,
+      "votos_blanco": 6575,
+      "votos_nulos": 9650,
+      "votos_candidaturas": 892617,
+      "votos_validos": 899192,
+      "votantes": 908842,
+      "escanos": 12,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 330293,
+          "escanos": 5
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 287737,
+          "escanos": 4
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 146133,
+          "escanos": 2
+        },
+        {
+          "siglas": "SUMAR - COMPROMÍS",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 115787,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 7335,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1724,
+          "escanos": 0
+        },
+        {
+          "siglas": "PARTIDO AUTÓNOMOS",
+          "agrupacion_nacional": "PARTIDO AUTÓNOMOS",
+          "votos": 1446,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 1135,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 1027,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "04",
+      "nombre": "Almería",
+      "censo_ine": 516108,
+      "votos_blanco": 2464,
+      "votos_nulos": 3163,
+      "votos_candidaturas": 318778,
+      "votos_validos": 321242,
+      "votantes": 324405,
+      "escanos": 6,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 131524,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 93282,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 68364,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 21485,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1962,
+          "escanos": 0
+        },
+        {
+          "siglas": "ALM",
+          "agrupacion_nacional": "ALM",
+          "votos": 874,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 500,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 371,
+          "escanos": 0
+        },
+        {
+          "siglas": "LB",
+          "agrupacion_nacional": "LB",
+          "votos": 210,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 206,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "05",
+      "nombre": "Ávila",
+      "censo_ine": 136669,
+      "votos_blanco": 632,
+      "votos_nulos": 1164,
+      "votos_candidaturas": 97324,
+      "votos_validos": 97956,
+      "votantes": 99120,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 42369,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 26828,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 15068,
+          "escanos": 0
+        },
+        {
+          "siglas": "XAV",
+          "agrupacion_nacional": "XAV",
+          "votos": 7362,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 5027,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 275,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 100,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 91,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 85,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 77,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 42,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "06",
+      "nombre": "Badajoz",
+      "censo_ine": 550685,
+      "votos_blanco": 3225,
+      "votos_nulos": 6772,
+      "votos_candidaturas": 388236,
+      "votos_validos": 391461,
+      "votantes": 398233,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 153473,
+          "escanos": 2
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 148068,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 53492,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 26778,
+          "escanos": 0
+        },
+        {
+          "siglas": "BQEX",
+          "agrupacion_nacional": "BQEX",
+          "votos": 3885,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1395,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 477,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 464,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 204,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "07",
+      "nombre": "Illes Balears",
+      "censo_ine": 828742,
+      "votos_blanco": 4704,
+      "votos_nulos": 4953,
+      "votos_candidaturas": 498576,
+      "votos_validos": 503280,
+      "votantes": 508233,
+      "escanos": 8,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 179303,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSIB-PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 151786,
+          "escanos": 3
+        },
+        {
+          "siglas": "MÉS PER MALLORCA-MÉS PER MENORCA-SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 83487,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 76547,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 4969,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1039,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 726,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 719,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "08",
+      "nombre": "Barcelona",
+      "censo_ine": 4243485,
+      "votos_blanco": 21059,
+      "votos_nulos": 21242,
+      "votos_candidaturas": 2646419,
+      "votos_validos": 2667478,
+      "votantes": 2688720,
+      "escanos": 32,
+      "partidos": [
+        {
+          "siglas": "PSC",
+          "agrupacion_nacional": "PSOE",
+          "votos": 952347,
+          "escanos": 13
+        },
+        {
+          "siglas": "SUMAR - ECP",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 405993,
+          "escanos": 5
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 367519,
+          "escanos": 5
+        },
+        {
+          "siglas": "ERC",
+          "agrupacion_nacional": "ERC",
+          "votos": 328697,
+          "escanos": 4
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "agrupacion_nacional": "JxCAT - JUNTS",
+          "votos": 258159,
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 201775,
+          "escanos": 2
+        },
+        {
+          "siglas": "CUP-PR",
+          "agrupacion_nacional": "CUP-PR",
+          "votos": 67266,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 28201,
+          "escanos": 0
+        },
+        {
+          "siglas": "PDeCAT-E-CiU",
+          "agrupacion_nacional": "PDeCAT-E-CiU",
+          "votos": 24452,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 6048,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 3104,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTC",
+          "agrupacion_nacional": "PCTE",
+          "votos": 2858,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "09",
+      "nombre": "Burgos",
+      "censo_ine": 296401,
+      "votos_blanco": 1851,
+      "votos_nulos": 2317,
+      "votos_candidaturas": 200718,
+      "votos_validos": 202569,
+      "votantes": 204886,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 82329,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 69775,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 25858,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 17508,
+          "escanos": 0
+        },
+        {
+          "siglas": "VB",
+          "agrupacion_nacional": "VB",
+          "votos": 1774,
+          "escanos": 0
+        },
+        {
+          "siglas": "EV-PCAS-TC",
+          "agrupacion_nacional": "EV-PCAS-TC",
+          "votos": 1184,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 943,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 490,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 354,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 349,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 154,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "10",
+      "nombre": "Cáceres",
+      "censo_ine": 339482,
+      "votos_blanco": 1721,
+      "votos_nulos": 3896,
+      "votos_candidaturas": 234130,
+      "votos_validos": 235851,
+      "votantes": 239747,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 91692,
+          "escanos": 2
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 89633,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 32076,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 16354,
+          "escanos": 0
+        },
+        {
+          "siglas": "BQEX",
+          "agrupacion_nacional": "BQEX",
+          "votos": 1922,
+          "escanos": 0
+        },
+        {
+          "siglas": "Somos Cc",
+          "agrupacion_nacional": "Somos Cc",
+          "votos": 963,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 814,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 316,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 249,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 111,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "11",
+      "nombre": "Cádiz",
+      "censo_ine": 1017956,
+      "votos_blanco": 7103,
+      "votos_nulos": 7703,
+      "votos_candidaturas": 629995,
+      "votos_validos": 637098,
+      "votantes": 644801,
+      "escanos": 9,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 221703,
+          "escanos": 4
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 211200,
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 96720,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 82115,
+          "escanos": 1
+        },
+        {
+          "siglas": "ADELANTE ANDALUCÍA",
+          "agrupacion_nacional": "ADELANTE ANDALUCÍA",
+          "votos": 9191,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 5937,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1225,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 745,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 673,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 486,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "12",
+      "nombre": "Castelló/Castellón",
+      "censo_ine": 430826,
+      "votos_blanco": 2655,
+      "votos_nulos": 3651,
+      "votos_candidaturas": 305275,
+      "votos_validos": 307930,
+      "votantes": 311581,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 108302,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 100530,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 48913,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR - COMPROMÍS",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 44187,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1968,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 721,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 493,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 161,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "13",
+      "nombre": "Ciudad Real",
+      "censo_ine": 391481,
+      "votos_blanco": 2353,
+      "votos_nulos": 3916,
+      "votos_candidaturas": 280626,
+      "votos_validos": 282979,
+      "votantes": 286895,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 114709,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 100102,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 46046,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 17405,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1319,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 447,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 365,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 233,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "14",
+      "nombre": "Córdoba",
+      "censo_ine": 645288,
+      "votos_blanco": 4348,
+      "votos_nulos": 6962,
+      "votos_candidaturas": 444254,
+      "votos_validos": 448602,
+      "votantes": 455564,
+      "escanos": 6,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 169976,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 144080,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 62526,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 61594,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 2699,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 942,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 746,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 701,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 598,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 392,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "15",
+      "nombre": "A Coruña",
+      "censo_ine": 1085673,
+      "votos_blanco": 5197,
+      "votos_nulos": 5485,
+      "votos_candidaturas": 672505,
+      "votos_validos": 677702,
+      "votantes": 683187,
+      "escanos": 8,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 292272,
+          "escanos": 4
+        },
+        {
+          "siglas": "PSdeG-PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 190897,
+          "escanos": 2
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 82618,
+          "escanos": 1
+        },
+        {
+          "siglas": "B.N.G.",
+          "agrupacion_nacional": "B.N.G.",
+          "votos": 67653,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 34410,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 3096,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1011,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 548,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "16",
+      "nombre": "Cuenca",
+      "censo_ine": 152679,
+      "votos_blanco": 969,
+      "votos_nulos": 1472,
+      "votos_candidaturas": 112839,
+      "votos_validos": 113808,
+      "votantes": 115280,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 45255,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 42528,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 17700,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 6325,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 387,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 207,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 168,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 111,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 100,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 58,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "17",
+      "nombre": "Girona",
+      "censo_ine": 546371,
+      "votos_blanco": 2981,
+      "votos_nulos": 4171,
+      "votos_candidaturas": 320007,
+      "votos_validos": 322988,
+      "votantes": 327159,
+      "escanos": 6,
+      "partidos": [
+        {
+          "siglas": "PSC",
+          "agrupacion_nacional": "PSOE",
+          "votos": 93448,
+          "escanos": 2
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "agrupacion_nacional": "JxCAT - JUNTS",
+          "votos": 63251,
+          "escanos": 2
+        },
+        {
+          "siglas": "ERC",
+          "agrupacion_nacional": "ERC",
+          "votos": 47531,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR - ECP",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 35344,
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 31341,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 22706,
+          "escanos": 0
+        },
+        {
+          "siglas": "CUP-PR",
+          "agrupacion_nacional": "CUP-PR",
+          "votos": 18229,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 3531,
+          "escanos": 0
+        },
+        {
+          "siglas": "PDeCAT-E-CiU",
+          "agrupacion_nacional": "PDeCAT-E-CiU",
+          "votos": 3388,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 570,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTC",
+          "agrupacion_nacional": "PCTE",
+          "votos": 420,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 248,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "18",
+      "nombre": "Granada",
+      "censo_ine": 765477,
+      "votos_blanco": 4057,
+      "votos_nulos": 6641,
+      "votos_candidaturas": 498788,
+      "votos_validos": 502845,
+      "votantes": 509486,
+      "escanos": 7,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 185996,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 165862,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 81080,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 58567,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 3143,
+          "escanos": 0
+        },
+        {
+          "siglas": "JxG",
+          "agrupacion_nacional": "JxG",
+          "votos": 1218,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 765,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 695,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 658,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 461,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 343,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "19",
+      "nombre": "Guadalajara",
+      "censo_ine": 196983,
+      "votos_blanco": 1143,
+      "votos_nulos": 1831,
+      "votos_candidaturas": 139770,
+      "votos_validos": 140913,
+      "votantes": 142744,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 51195,
+          "escanos": 1
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 46479,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 27126,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 12907,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1039,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 304,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 249,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 191,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 162,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 118,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "20",
+      "nombre": "Gipuzkoa",
+      "censo_ine": 585878,
+      "votos_blanco": 2005,
+      "votos_nulos": 2344,
+      "votos_candidaturas": 374616,
+      "votos_validos": 376621,
+      "votantes": 378965,
+      "escanos": 6,
+      "partidos": [
+        {
+          "siglas": "EH Bildu",
+          "agrupacion_nacional": "EH Bildu",
+          "votos": 117321,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSE-EE (PSOE)",
+          "agrupacion_nacional": "PSOE",
+          "votos": 87709,
+          "escanos": 2
+        },
+        {
+          "siglas": "EAJ-PNV",
+          "agrupacion_nacional": "EAJ-PNV",
+          "votos": 85026,
+          "escanos": 2
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 40081,
+          "escanos": 0
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 32721,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 7877,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1568,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 933,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 530,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 442,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE/ELAK",
+          "agrupacion_nacional": "PCTE",
+          "votos": 259,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 149,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "21",
+      "nombre": "Huelva",
+      "censo_ine": 402491,
+      "votos_blanco": 2410,
+      "votos_nulos": 4057,
+      "votos_candidaturas": 254394,
+      "votos_validos": 256804,
+      "votantes": 260861,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 93565,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 92326,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 37572,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 26752,
+          "escanos": 0
+        },
+        {
+          "siglas": "XH",
+          "agrupacion_nacional": "XH",
+          "votos": 1931,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1663,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 368,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 217,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "22",
+      "nombre": "Huesca",
+      "censo_ine": 173388,
+      "votos_blanco": 1217,
+      "votos_nulos": 1253,
+      "votos_candidaturas": 118678,
+      "votos_validos": 119895,
+      "votantes": 121148,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 45783,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 40307,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 15155,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR ARAGÓN",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 13774,
+          "escanos": 0
+        },
+        {
+          "siglas": "EXISTE",
+          "agrupacion_nacional": "EXISTE",
+          "votos": 1312,
+          "escanos": 0
+        },
+        {
+          "siglas": "PAR",
+          "agrupacion_nacional": "PAR",
+          "votos": 717,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 498,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 475,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 258,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 137,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 114,
+          "escanos": 0
+        },
+        {
+          "siglas": "F.I.A.",
+          "agrupacion_nacional": "F.I.A.",
+          "votos": 84,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 64,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "23",
+      "nombre": "Jaén",
+      "censo_ine": 518369,
+      "votos_blanco": 2497,
+      "votos_nulos": 4926,
+      "votos_candidaturas": 366234,
+      "votos_validos": 368731,
+      "votantes": 373657,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 137617,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 133819,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 54400,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 29461,
+          "escanos": 0
+        },
+        {
+          "siglas": "JM+",
+          "agrupacion_nacional": "JM+",
+          "votos": 8293,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1671,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 410,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 360,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 203,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "24",
+      "nombre": "León",
+      "censo_ine": 422911,
+      "votos_blanco": 1577,
+      "votos_nulos": 2486,
+      "votos_candidaturas": 273663,
+      "votos_validos": 275240,
+      "votantes": 277726,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 101605,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 92578,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 35451,
+          "escanos": 0
+        },
+        {
+          "siglas": "U.P.L.",
+          "agrupacion_nacional": "U.P.L.",
+          "votos": 22675,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 18577,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 895,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 541,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESPAÑA VACIADA",
+          "agrupacion_nacional": "ESPAÑA VACIADA",
+          "votos": 486,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 319,
+          "escanos": 0
+        },
+        {
+          "siglas": "PREPAL",
+          "agrupacion_nacional": "PREPAL",
+          "votos": 309,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 155,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 72,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "25",
+      "nombre": "Lleida",
+      "censo_ine": 317224,
+      "votos_blanco": 2059,
+      "votos_nulos": 2390,
+      "votos_candidaturas": 182480,
+      "votos_validos": 184539,
+      "votantes": 186929,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PSC",
+          "agrupacion_nacional": "PSOE",
+          "votos": 54414,
+          "escanos": 2
+        },
+        {
+          "siglas": "ERC",
+          "agrupacion_nacional": "ERC",
+          "votos": 34331,
+          "escanos": 1
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "agrupacion_nacional": "JxCAT - JUNTS",
+          "votos": 33228,
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 23699,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR - ECP",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 14561,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 12560,
+          "escanos": 0
+        },
+        {
+          "siglas": "CUP-PR",
+          "agrupacion_nacional": "CUP-PR",
+          "votos": 5449,
+          "escanos": 0
+        },
+        {
+          "siglas": "PDeCAT-E-CiU",
+          "agrupacion_nacional": "PDeCAT-E-CiU",
+          "votos": 1865,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1352,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCONS EN BLANC",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 462,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 247,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTC",
+          "agrupacion_nacional": "PCTE",
+          "votos": 192,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 120,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "26",
+      "nombre": "La Rioja",
+      "censo_ine": 252092,
+      "votos_blanco": 1608,
+      "votos_nulos": 2282,
+      "votos_candidaturas": 173055,
+      "votos_validos": 174663,
+      "votantes": 176945,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 79715,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 62322,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 17056,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 11470,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 723,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 608,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 295,
+          "escanos": 0
+        },
+        {
+          "siglas": "3e",
+          "agrupacion_nacional": "3e",
+          "votos": 286,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 232,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 224,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 124,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "27",
+      "nombre": "Lugo",
+      "censo_ine": 337754,
+      "votos_blanco": 1251,
+      "votos_nulos": 2143,
+      "votos_candidaturas": 197315,
+      "votos_validos": 198566,
+      "votantes": 200709,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 99769,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSdeG-PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 60163,
+          "escanos": 1
+        },
+        {
+          "siglas": "B.N.G.",
+          "agrupacion_nacional": "B.N.G.",
+          "votos": 17197,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 10287,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 8643,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 645,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 233,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 149,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTG",
+          "agrupacion_nacional": "PCTE",
+          "votos": 116,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 113,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "28",
+      "nombre": "Madrid",
+      "censo_ine": 5224533,
+      "votos_blanco": 28960,
+      "votos_nulos": 30827,
+      "votos_candidaturas": 3579713,
+      "votos_validos": 3608673,
+      "votantes": 3639500,
+      "escanos": 37,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 1463183,
+          "escanos": 16
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 1004599,
+          "escanos": 10
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 557780,
+          "escanos": 6
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 506164,
+          "escanos": 5
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 21742,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 7652,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 6749,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 3784,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 3407,
+          "escanos": 0
+        },
+        {
+          "siglas": "PH",
+          "agrupacion_nacional": "PH",
+          "votos": 2902,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 1751,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "29",
+      "nombre": "Málaga",
+      "censo_ine": 1239843,
+      "votos_blanco": 7509,
+      "votos_nulos": 10219,
+      "votos_candidaturas": 780829,
+      "votos_validos": 788338,
+      "votantes": 798557,
+      "escanos": 11,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 302000,
+          "escanos": 5
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 239172,
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 129758,
+          "escanos": 2
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 96652,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 8487,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1662,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 1519,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 888,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 691,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "30",
+      "nombre": "Murcia",
+      "censo_ine": 1099700,
+      "votos_blanco": 5034,
+      "votos_nulos": 7458,
+      "votos_candidaturas": 742763,
+      "votos_validos": 747797,
+      "votantes": 755255,
+      "escanos": 10,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 307972,
+          "escanos": 4
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 189210,
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 163124,
+          "escanos": 2
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 71578,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 5063,
+          "escanos": 0
+        },
+        {
+          "siglas": "POR MI REGIÓN",
+          "agrupacion_nacional": "POR MI REGIÓN",
+          "votos": 1698,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 1377,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1201,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 546,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 453,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 376,
+          "escanos": 0
+        },
+        {
+          "siglas": "+RDS+",
+          "agrupacion_nacional": "+RDS+",
+          "votos": 165,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "31",
+      "nombre": "Navarra",
+      "censo_ine": 519913,
+      "votos_blanco": 2890,
+      "votos_nulos": 3251,
+      "votos_candidaturas": 338954,
+      "votos_validos": 341844,
+      "votantes": 345095,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PSN-PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 93553,
+          "escanos": 2
+        },
+        {
+          "siglas": "EH Bildu",
+          "agrupacion_nacional": "EH Bildu",
+          "votos": 58954,
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 57134,
+          "escanos": 1
+        },
+        {
+          "siglas": "U.P.N.",
+          "agrupacion_nacional": "U.P.N.",
+          "votos": 52188,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 43922,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 19491,
+          "escanos": 0
+        },
+        {
+          "siglas": "GBAI",
+          "agrupacion_nacional": "GBAI",
+          "votos": 9938,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1530,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 1002,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 679,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 311,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 252,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "32",
+      "nombre": "Ourense",
+      "censo_ine": 355765,
+      "votos_blanco": 1109,
+      "votos_nulos": 1794,
+      "votos_candidaturas": 185162,
+      "votos_validos": 186271,
+      "votantes": 188065,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 93182,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSdeG-PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 56035,
+          "escanos": 1
+        },
+        {
+          "siglas": "B.N.G.",
+          "agrupacion_nacional": "B.N.G.",
+          "votos": 15317,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 10171,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 9080,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 700,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 182,
+          "escanos": 0
+        },
+        {
+          "siglas": "CCD",
+          "agrupacion_nacional": "CCD",
+          "votos": 153,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 144,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTG",
+          "agrupacion_nacional": "PCTE",
+          "votos": 101,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 97,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "33",
+      "nombre": "Asturias",
+      "censo_ine": 959016,
+      "votos_blanco": 6079,
+      "votos_nulos": 6151,
+      "votos_candidaturas": 590953,
+      "votos_validos": 597032,
+      "votantes": 603183,
+      "escanos": 7,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 212816,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 205049,
+          "escanos": 2
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 88630,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 74571,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 3167,
+          "escanos": 0
+        },
+        {
+          "siglas": "ASTURIAS EXISTE EV",
+          "agrupacion_nacional": "ASTURIAS EXISTE EV",
+          "votos": 2314,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 1598,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1176,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 773,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 590,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUEDE",
+          "agrupacion_nacional": "PUEDE",
+          "votos": 269,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "34",
+      "nombre": "Palencia",
+      "censo_ine": 137642,
+      "votos_blanco": 833,
+      "votos_nulos": 1117,
+      "votos_candidaturas": 96129,
+      "votos_validos": 96962,
+      "votantes": 98079,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 40709,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 33613,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 12504,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 5877,
+          "escanos": 0
+        },
+        {
+          "siglas": "VP",
+          "agrupacion_nacional": "VP",
+          "votos": 1917,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESPAÑA VACIADA",
+          "agrupacion_nacional": "ESPAÑA VACIADA",
+          "votos": 384,
+          "escanos": 0
+        },
+        {
+          "siglas": "GITV",
+          "agrupacion_nacional": "GITV",
+          "votos": 366,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 295,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 139,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 99,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 80,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 71,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 42,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 33,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "35",
+      "nombre": "Las Palmas",
+      "censo_ine": 898871,
+      "votos_blanco": 3062,
+      "votos_nulos": 5575,
+      "votos_candidaturas": 526275,
+      "votos_validos": 529337,
+      "votantes": 534912,
+      "escanos": 8,
+      "partidos": [
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 175671,
+          "escanos": 3
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 136857,
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 77343,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 54369,
+          "escanos": 1
+        },
+        {
+          "siglas": "NC-bc",
+          "agrupacion_nacional": "NC-bc",
+          "votos": 42430,
+          "escanos": 0
+        },
+        {
+          "siglas": "CCa",
+          "agrupacion_nacional": "CCa",
+          "votos": 33558,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 3570,
+          "escanos": 0
+        },
+        {
+          "siglas": "AHORA CANARIAS-PCPC",
+          "agrupacion_nacional": "AHORA CANARIAS-PCPC",
+          "votos": 883,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 635,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 563,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 396,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "36",
+      "nombre": "Pontevedra",
+      "censo_ine": 909433,
+      "votos_blanco": 3865,
+      "votos_nulos": 6001,
+      "votos_candidaturas": 569259,
+      "votos_validos": 573124,
+      "votantes": 579125,
+      "escanos": 7,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 227658,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSdeG-PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 179737,
+          "escanos": 3
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 75615,
+          "escanos": 1
+        },
+        {
+          "siglas": "B.N.G.",
+          "agrupacion_nacional": "B.N.G.",
+          "votos": 53828,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 27539,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 3003,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 884,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 510,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTG",
+          "agrupacion_nacional": "PCTE",
+          "votos": 485,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "37",
+      "nombre": "Salamanca",
+      "censo_ine": 300502,
+      "votos_blanco": 1649,
+      "votos_nulos": 2309,
+      "votos_candidaturas": 197461,
+      "votos_validos": 199110,
+      "votantes": 201419,
+      "escanos": 4,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 93318,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 60718,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 29203,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 11012,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESPAÑA VACIADA",
+          "agrupacion_nacional": "ESPAÑA VACIADA",
+          "votos": 1062,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 631,
+          "escanos": 0
+        },
+        {
+          "siglas": "PREPAL",
+          "agrupacion_nacional": "PREPAL",
+          "votos": 489,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 325,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 278,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 205,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 140,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 80,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "38",
+      "nombre": "Santa Cruz de Tenerife",
+      "censo_ine": 881216,
+      "votos_blanco": 5088,
+      "votos_nulos": 6404,
+      "votos_candidaturas": 489285,
+      "votos_validos": 494373,
+      "votantes": 500777,
+      "escanos": 7,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 174770,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 165590,
+          "escanos": 3
+        },
+        {
+          "siglas": "CCa",
+          "agrupacion_nacional": "CCa",
+          "votos": 82805,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 53632,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 6147,
+          "escanos": 0
+        },
+        {
+          "siglas": "NC-bc",
+          "agrupacion_nacional": "NC-bc",
+          "votos": 3165,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1619,
+          "escanos": 0
+        },
+        {
+          "siglas": "AHORA CANARIAS-PCPC",
+          "agrupacion_nacional": "AHORA CANARIAS-PCPC",
+          "votos": 791,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 766,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "39",
+      "nombre": "Cantabria",
+      "censo_ine": 507819,
+      "votos_blanco": 3262,
+      "votos_nulos": 4995,
+      "votos_candidaturas": 346888,
+      "votos_validos": 350150,
+      "votantes": 355145,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 147326,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 116596,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 49243,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 29713,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 2089,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 790,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 598,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 533,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "40",
+      "nombre": "Segovia",
+      "censo_ine": 119453,
+      "votos_blanco": 875,
+      "votos_nulos": 1332,
+      "votos_candidaturas": 87738,
+      "votos_validos": 88613,
+      "votantes": 89945,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 39894,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 27113,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 12510,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 7137,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 307,
+          "escanos": 0
+        },
+        {
+          "siglas": "3e",
+          "agrupacion_nacional": "3e",
+          "votos": 198,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 183,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 136,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 102,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 94,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 64,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "41",
+      "nombre": "Sevilla",
+      "censo_ine": 1564064,
+      "votos_blanco": 10951,
+      "votos_nulos": 15775,
+      "votos_candidaturas": 1048407,
+      "votos_validos": 1059358,
+      "votantes": 1075133,
+      "escanos": 12,
+      "partidos": [
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 387760,
+          "escanos": 5
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 353663,
+          "escanos": 4
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 148745,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 141087,
+          "escanos": 1
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 9288,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1950,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 1765,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 1522,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 1034,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 912,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 681,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "42",
+      "nombre": "Soria",
+      "censo_ine": 75766,
+      "votos_blanco": 285,
+      "votos_nulos": 388,
+      "votos_candidaturas": 50484,
+      "votos_validos": 50769,
+      "votantes": 51157,
+      "escanos": 2,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 18895,
+          "escanos": 1
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 14966,
+          "escanos": 1
+        },
+        {
+          "siglas": "SY",
+          "agrupacion_nacional": "SY",
+          "votos": 9697,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 4978,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 1711,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 94,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 68,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 43,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 23,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 9,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "43",
+      "nombre": "Tarragona",
+      "censo_ine": 596657,
+      "votos_blanco": 3168,
+      "votos_nulos": 4402,
+      "votos_candidaturas": 364856,
+      "votos_validos": 368024,
+      "votantes": 372426,
+      "escanos": 6,
+      "partidos": [
+        {
+          "siglas": "PSC",
+          "agrupacion_nacional": "PSOE",
+          "votos": 121126,
+          "escanos": 2
+        },
+        {
+          "siglas": "ERC",
+          "agrupacion_nacional": "ERC",
+          "votos": 55461,
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 51061,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR - ECP",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 41719,
+          "escanos": 1
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "agrupacion_nacional": "JxCAT - JUNTS",
+          "votos": 40791,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 38039,
+          "escanos": 0
+        },
+        {
+          "siglas": "CUP-PR",
+          "agrupacion_nacional": "CUP-PR",
+          "votos": 8700,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 3797,
+          "escanos": 0
+        },
+        {
+          "siglas": "PDeCAT-E-CiU",
+          "agrupacion_nacional": "PDeCAT-E-CiU",
+          "votos": 2311,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 661,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTC",
+          "agrupacion_nacional": "PCTE",
+          "votos": 405,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 267,
+          "escanos": 0
+        },
+        {
+          "siglas": "EVC",
+          "agrupacion_nacional": "EVC",
+          "votos": 265,
+          "escanos": 0
+        },
+        {
+          "siglas": "UNIDOS SI",
+          "agrupacion_nacional": "UNIDOS SI",
+          "votos": 253,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "44",
+      "nombre": "Teruel",
+      "censo_ine": 106352,
+      "votos_blanco": 410,
+      "votos_nulos": 648,
+      "votos_candidaturas": 75503,
+      "votos_validos": 75913,
+      "votantes": 76561,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 26586,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 22226,
+          "escanos": 1
+        },
+        {
+          "siglas": "EXISTE",
+          "agrupacion_nacional": "EXISTE",
+          "votos": 11348,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 9932,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 4126,
+          "escanos": 0
+        },
+        {
+          "siglas": "PAR",
+          "agrupacion_nacional": "PAR",
+          "votos": 711,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 172,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 135,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 94,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 60,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 49,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 36,
+          "escanos": 0
+        },
+        {
+          "siglas": "F.I.A.",
+          "agrupacion_nacional": "F.I.A.",
+          "votos": 28,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "45",
+      "nombre": "Toledo",
+      "censo_ine": 542563,
+      "votos_blanco": 2611,
+      "votos_nulos": 5788,
+      "votos_candidaturas": 384589,
+      "votos_validos": 387200,
+      "votantes": 392988,
+      "escanos": 6,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 146533,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 126072,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 76044,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 31876,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 2024,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 985,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 499,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 281,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 275,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "46",
+      "nombre": "València/Valencia",
+      "censo_ine": 1999314,
+      "votos_blanco": 10810,
+      "votos_nulos": 14026,
+      "votos_candidaturas": 1426351,
+      "votos_validos": 1437161,
+      "votantes": 1451187,
+      "escanos": 16,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 483469,
+          "escanos": 6
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 461353,
+          "escanos": 5
+        },
+        {
+          "siglas": "SUMAR - COMPROMÍS",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 242839,
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 218657,
+          "escanos": 2
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 10334,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 2919,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 1778,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 1773,
+          "escanos": 0
+        },
+        {
+          "siglas": "EVB",
+          "agrupacion_nacional": "EVB",
+          "votos": 1442,
+          "escanos": 0
+        },
+        {
+          "siglas": "CJ",
+          "agrupacion_nacional": "CJ",
+          "votos": 1056,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 731,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "47",
+      "nombre": "Valladolid",
+      "censo_ine": 431375,
+      "votos_blanco": 2419,
+      "votos_nulos": 3003,
+      "votos_candidaturas": 313890,
+      "votos_validos": 316309,
+      "votantes": 319312,
+      "escanos": 5,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 129170,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 103596,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 47948,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 28049,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESPAÑA VACIADA",
+          "agrupacion_nacional": "ESPAÑA VACIADA",
+          "votos": 1226,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 1105,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 601,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 583,
+          "escanos": 0
+        },
+        {
+          "siglas": "Ud.Ca",
+          "agrupacion_nacional": "Ud.Ca",
+          "votos": 463,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 376,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 335,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 164,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 159,
+          "escanos": 0
+        },
+        {
+          "siglas": "FUERZA CÍVICA",
+          "agrupacion_nacional": "FUERZA CÍVICA",
+          "votos": 115,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "48",
+      "nombre": "Bizkaia",
+      "censo_ine": 942980,
+      "votos_blanco": 3391,
+      "votos_nulos": 5251,
+      "votos_candidaturas": 606302,
+      "votos_validos": 609693,
+      "votantes": 614944,
+      "escanos": 8,
+      "partidos": [
+        {
+          "siglas": "EAJ-PNV",
+          "agrupacion_nacional": "EAJ-PNV",
+          "votos": 164188,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSE-EE (PSOE)",
+          "agrupacion_nacional": "PSOE",
+          "votos": 157448,
+          "escanos": 2
+        },
+        {
+          "siglas": "EH Bildu",
+          "agrupacion_nacional": "EH Bildu",
+          "votos": 125867,
+          "escanos": 2
+        },
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 70533,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 66592,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 16069,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 2729,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 929,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 804,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 618,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 525,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "49",
+      "nombre": "Zamora",
+      "censo_ine": 162997,
+      "votos_blanco": 922,
+      "votos_nulos": 1261,
+      "votos_candidaturas": 102488,
+      "votos_validos": 103410,
+      "votantes": 104671,
+      "escanos": 3,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 46196,
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 33601,
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 13652,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 5839,
+          "escanos": 0
+        },
+        {
+          "siglas": "Zsi",
+          "agrupacion_nacional": "Zsi",
+          "votos": 1843,
+          "escanos": 0
+        },
+        {
+          "siglas": "U.P.L.",
+          "agrupacion_nacional": "U.P.L.",
+          "votos": 526,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 313,
+          "escanos": 0
+        },
+        {
+          "siglas": "PREPAL",
+          "agrupacion_nacional": "PREPAL",
+          "votos": 166,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 121,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 100,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 81,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 50,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "50",
+      "nombre": "Zaragoza",
+      "censo_ine": 740060,
+      "votos_blanco": 4693,
+      "votos_nulos": 4705,
+      "votos_candidaturas": 514012,
+      "votos_validos": 518705,
+      "votantes": 523410,
+      "escanos": 7,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 186776,
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 159858,
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 79376,
+          "escanos": 1
+        },
+        {
+          "siglas": "SUMAR ARAGÓN",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 69925,
+          "escanos": 1
+        },
+        {
+          "siglas": "EXISTE",
+          "agrupacion_nacional": "EXISTE",
+          "votos": 7780,
+          "escanos": 0
+        },
+        {
+          "siglas": "PAR",
+          "agrupacion_nacional": "PAR",
+          "votos": 2745,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 2428,
+          "escanos": 0
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "agrupacion_nacional": "ESCAÑOS EN BLANCO",
+          "votos": 2146,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 1026,
+          "escanos": 0
+        },
+        {
+          "siglas": "PCTE",
+          "agrupacion_nacional": "PCTE",
+          "votos": 561,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 419,
+          "escanos": 0
+        },
+        {
+          "siglas": "F.I.A.",
+          "agrupacion_nacional": "F.I.A.",
+          "votos": 394,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 306,
+          "escanos": 0
+        },
+        {
+          "siglas": "FE de las JONS",
+          "agrupacion_nacional": "FE de las JONS",
+          "votos": 272,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "51",
+      "nombre": "Ceuta",
+      "censo_ine": 63310,
+      "votos_blanco": 328,
+      "votos_nulos": 353,
+      "votos_candidaturas": 32993,
+      "votos_validos": 33321,
+      "votantes": 33674,
+      "escanos": 1,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 12918,
+          "escanos": 1
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 11332,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 7752,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 821,
+          "escanos": 0
+        },
+        {
+          "siglas": "FO",
+          "agrupacion_nacional": "FO",
+          "votos": 53,
+          "escanos": 0
+        },
+        {
+          "siglas": "LB",
+          "agrupacion_nacional": "LB",
+          "votos": 53,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 33,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 31,
+          "escanos": 0
+        }
+      ]
+    },
+    {
+      "cod_ine": "52",
+      "nombre": "Melilla",
+      "censo_ine": 61118,
+      "votos_blanco": 253,
+      "votos_nulos": 300,
+      "votos_candidaturas": 27096,
+      "votos_validos": 27349,
+      "votantes": 27649,
+      "escanos": 1,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "agrupacion_nacional": "PP",
+          "votos": 13446,
+          "escanos": 1
+        },
+        {
+          "siglas": "PSOE",
+          "agrupacion_nacional": "PSOE",
+          "votos": 6943,
+          "escanos": 0
+        },
+        {
+          "siglas": "VOX",
+          "agrupacion_nacional": "VOX",
+          "votos": 4359,
+          "escanos": 0
+        },
+        {
+          "siglas": "CpM",
+          "agrupacion_nacional": "CpM",
+          "votos": 1298,
+          "escanos": 0
+        },
+        {
+          "siglas": "SUMAR",
+          "agrupacion_nacional": "SUMAR",
+          "votos": 827,
+          "escanos": 0
+        },
+        {
+          "siglas": "PACMA",
+          "agrupacion_nacional": "PACMA",
+          "votos": 160,
+          "escanos": 0
+        },
+        {
+          "siglas": "PUM+J",
+          "agrupacion_nacional": "PUM+J",
+          "votos": 40,
+          "escanos": 0
+        },
+        {
+          "siglas": "RECORTES CERO",
+          "agrupacion_nacional": "RECORTES CERO",
+          "votos": 23,
+          "escanos": 0
+        }
+      ]
+    }
+  ]
+}
