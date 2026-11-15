@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro';
+import { partidos, documentoDe, enlacePdf, formatearFecha } from '../lib/datos';
+
+const filas = partidos.map((partido) => ({
+  partido,
+  documento: documentoDe(partido.slug),
+  descarga: enlacePdf(partido),
+}));
+
+const conPrograma = filas.filter((f) => f.partido.estado === 'disponible');
+---
+
+<Base
+  titulo="Programas"
+  descripcion="Descargas de los programas electorales del 29N, con enlace al PDF oficial, fecha de publicación y páginas."
+>
+  <header class="pagina-cabecera">
+    <div class="wrap">
+      <p class="kicker">Documentos</p>
+      <h1>Programas electorales</h1>
+      <p class="entradilla">
+        Enlaces a los documentos oficiales de cada partido. No alojamos copias:
+        la descarga va siempre a la web del partido, y cuando existe añadimos una
+        copia archivada por si el original desaparece.
+      </p>
+    </div>
+  </header>
+
+  <section class="seccion">
+    <div class="wrap">
+      <table class="tabla-programas">
+        <thead>
+          <tr>
+            <th>Partido</th>
+            <th>Programa</th>
+            <th class="ocultar-movil">Publicado</th>
+            <th class="ocultar-movil">Páginas</th>
+            <th>Documento</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            filas.map(({ partido, documento, descarga }) => (
+              <tr>
+                <td>
+                  <a href={`/partido/${partido.slug}`} style={`color:var(--tinta);text-decoration:none;border-bottom:2px solid ${partido.color}`}>
+                    <strong>{partido.siglas}</strong>
+                  </a>
+                </td>
+                <td>
+                  {partido.estado === 'disponible' ? (
+                    <>
+                      <em>{partido.programa}</em>
+                      {documento && <div class="estado ok" style="margin-top:0.3rem">texto analizado</div>}
+                    </>
+                  ) : (
+                    <span style="color:var(--tenue)">Aún no publicado</span>
+                  )}
+                </td>
+                <td class="ocultar-movil num">{formatearFecha(partido.publicado) ?? '—'}</td>
+                <td class="ocultar-movil num">{documento?.paginas ?? '—'}</td>
+                <td>
+                  {descarga ? (
+                    <>
+                      <a href={descarga} target="_blank" rel="noopener noreferrer">PDF oficial ↗</a>
+                      {partido.pdf_archivado && (
+                        <>
+                          {' · '}
+                          <a href={partido.pdf_archivado} target="_blank" rel="noopener noreferrer">
+                            archivado ↗
+                          </a>
+                        </>
+                      )}
+                    </>
+                  ) : (
+                    '—'
+                  )}
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+
+      <p class="aviso-legal" style="margin-top:1.8rem">
+        <strong>{conPrograma.length} programas publicados.</strong> Los documentos
+        cambian a veces sin aviso: cada ficha guarda una huella (SHA-256) del PDF con
+        el que se elaboró, y el proceso de verificación avisa si el archivo ya no
+        coincide.
+      </p>
+    </div>
+  </section>
+</Base>

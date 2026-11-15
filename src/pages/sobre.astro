@@ -1,0 +1,124 @@
+---
+import Base from '../layouts/Base.astro';
+import { partidos, temas, fichas, totalPropuestas, partidosDisponibles, partidosPendientes } from '../lib/datos';
+
+const temasCubiertos = new Set(fichas.flatMap((f) => Object.keys(f.temas))).size;
+const porPartido = fichas.map((f) => Object.keys(f.temas).length);
+---
+
+<Base
+  titulo="Metodología"
+  descripcion="Cómo se elaboran los resúmenes, cómo se verifican las citas y cuáles son los límites de este proyecto."
+>
+  <header class="pagina-cabecera">
+    <div class="wrap">
+      <p class="kicker">Sobre este sitio</p>
+      <h1>Metodología y aviso legal</h1>
+      <p class="entradilla">
+        Un proyecto para leer los programas electorales sin tener que leer 400
+        páginas, pero pudiendo comprobar cada afirmación en su origen.
+      </p>
+    </div>
+  </header>
+
+  <section class="seccion">
+    <div class="wrap">
+      <div class="prosa">
+        <h2>Qué es</h2>
+        <p>
+          Una web informativa e independiente sobre las elecciones generales del
+          29 de noviembre de 2026. Reúne los programas que publican los partidos y
+          los organiza por temas para que se puedan comparar. No hay publicidad,
+          ni trackers, ni financiación de partidos.
+        </p>
+
+        <h2>Cómo se elabora cada ficha</h2>
+        <ul>
+          <li>
+            <strong>Se parte del documento oficial.</strong> Se descarga el PDF
+            desde la web del partido y se extrae su texto página a página.
+          </li>
+          <li>
+            <strong>Se localizan los capítulos relevantes.</strong> Los programas
+            suelen tener índice; cuando no lo tienen, se buscan los pasajes por
+            palabras clave.
+          </li>
+          <li>
+            <strong>Se redacta un resumen</strong> en lenguaje claro y se seleccionan
+            las frases literales que sostienen cada propuesta, anotando la página.
+          </li>
+          <li>
+            <strong>Se verifica automáticamente.</strong> Un programa compara cada
+            cita con el texto de la página indicada. Si una cita no aparece, el
+            sitio no se construye.
+          </li>
+        </ul>
+        <p>
+          Los partidos cuyo programa está en gallego o euskera se resumen y citan
+          en castellano, indicándolo, y el enlace a la página original permite
+          cotejar el texto.
+        </p>
+
+        <h2>Qué no es</h2>
+        <ul>
+          <li>
+            <strong>No es una valoración.</strong> Los resúmenes describen lo que
+            el partido escribe, sin juzgar si es mejor o peor, viable o no. Cuando
+            un programa no cuantifica una medida, se dice.
+          </li>
+          <li>
+            <strong>No está completo.</strong> Hay {fichas.length} programas
+            analizados de {partidosDisponibles.length} publicados, y entre{' '}
+            {Math.min(...porPartido)} y {Math.max(...porPartido)} temas por partido
+            ({temasCubiertos} de {temas.length} temas con alguna ficha). Las fichas
+            se publican por tandas.
+          </li>
+          <li>
+            <strong>No sustituye al documento.</strong> Un resumen siempre recorta.
+            Si un tema te importa, abre el PDF en la página citada: está a un clic.
+          </li>
+          <li>
+            <strong>No es un agregador de promesas electorales.</strong> Solo se
+            incluye lo que está por escrito en el programa, no declaraciones de
+            mítines ni entrevistas.
+          </li>
+        </ul>
+
+        <h2>Límites conocidos</h2>
+        <ul>
+          <li>
+            Un mismo tema puede estar repartido por varias partes del programa; el
+            resumen intenta recogerlo, pero puede quedarse corto.
+          </li>
+          <li>
+            Los programas cambian: algunos partidos publican versiones corregidas o
+            ampliadas. Guardamos la huella del PDF usado y la fecha de revisión.
+          </li>
+          <li>
+            {partidosPendientes.length} partidos no tienen programa publicado
+            todavía ({partidosPendientes.map((p) => p.siglas).join(', ')}). Sus
+            páginas existen para que los enlaces no se rompan y se completarán
+            cuando haya documento.
+          </li>
+        </ul>
+
+        <h2>Aviso legal</h2>
+        <p class="aviso-legal">
+          Este sitio no está afiliado ni financiado por ningún partido, fundación
+          o administración. Las citas son fragmentos de documentos públicos
+          amparados por el derecho de cita, con indicación de autor y fuente. Los
+          nombres y logotipos de los partidos pertenecen a sus titulares y se usan
+          únicamente con fines informativos.
+        </p>
+
+        <h2>Estado del proyecto</h2>
+        <p>
+          {partidosDisponibles.length} programas publicados, {fichas.length}
+          analizados, {totalPropuestas} propuestas citadas y verificadas. El
+          objetivo es cubrir los {temas.length} temas en todos los partidos antes
+          del 29N.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

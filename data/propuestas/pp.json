@@ -1,0 +1,230 @@
+{
+  "partido": "pp",
+  "revisado": "2026-11-15",
+  "temas": {
+    "vivienda": {
+      "resumen": "El PP propone elevar la producción hasta un millón de viviendas nuevas, con una nueva Ley del Suelo que agilice licencias y movilice suelo público y privado. Derogaría la Ley de Vivienda estatal, incluidas las zonas tensionadas y el índice de precios de referencia. Para jóvenes plantea rebajas fiscales (IVA del 4%, ITP reducido), avales públicos de hasta el 20% y una cuenta de ahorro con deducción. En alquiler ofrece deducciones a inquilinos y a propietarios que renueven contratos, y un desalojo por ocupación en 48 horas.",
+      "propuestas": [
+        {
+          "titular": "Un millón de viviendas más",
+          "texto": "Construiremos un millón de viviendas. Movilizaremos suelo público y privado en colaboración con las Comunidades Autónomas y las entidades locales.",
+          "pagina": 53
+        },
+        {
+          "titular": "Derogar la Ley de Vivienda",
+          "texto": "Derogaremos la Ley de Vivienda. Recuperaremos la seguridad jurídica que necesitan propietarios e inquilinos. Eliminaremos las zonas tensionadas y el índice de precios…",
+          "pagina": 53
+        },
+        {
+          "titular": "IVA del 4% para la primera vivienda de los menores de 40",
+          "texto": "Reduciremos el IVA de la compra de primera vivienda del 10% al 4% para menores de 40 años…",
+          "pagina": 54,
+          "nota": "El mismo apartado prevé acordar con las CCAA una rebaja del ITP para la primera vivienda usada de los jóvenes."
+        },
+        {
+          "titular": "Aval público del 20% para comprar",
+          "texto": "El Estado avalará la entrada a quien pueda pagar la hipoteca. Ampliaremos el aval público, que cubre hasta el 20% del valor de la vivienda, a los compradores menores de 40 años…",
+          "pagina": 55
+        },
+        {
+          "titular": "Deducción para inquilinos y propietarios que renueven",
+          "texto": "Daremos a las familias que viven de alquiler la posibilidad de estabilidad que hoy pierden cada vez que vence su contrato.",
+          "pagina": 55,
+          "nota": "La medida «Tres años+» combina deducción en el IRPF para el inquilino y para el propietario que renueve subiendo la renta por debajo del IPC."
+        },
+        {
+          "titular": "Desalojo por ocupación en 48 horas",
+          "texto": "El ocupa saldrá en 48 horas por orden judicial. Aprobaremos una ley para que el propietario pueda recuperar su vivienda en 48 horas desde el primer día.",
+          "pagina": 55
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "El PP plantea una rebaja generalizada de impuestos: menores tipos de IRPF para rentas medias y bajas, exención para quien cobre el SMI, deflactación de la tarifa para evitar la subida por inflación y menos Impuesto de Sociedades vía libertad de amortización. Añade IVA del 0% a alimentos básicos, eliminación de impuestos que considera que frenan la inversión y un Estatuto del Contribuyente. Sitúa la financiación en el control del gasto, la lucha contra el fraude y el crecimiento económico.",
+      "propuestas": [
+        {
+          "titular": "Bajada del IRPF a rentas medias y bajas",
+          "texto": "Las rentas medias y bajas, las familias, los autónomos y los jóvenes pagarán menos IRPF.",
+          "pagina": 60
+        },
+        {
+          "titular": "Quien cobre el SMI no pagará IRPF",
+          "texto": "Quien cobre el salario mínimo no pagará IRPF: por ley, el umbral subirá automáticamente cada vez que suba el SMI…",
+          "pagina": 60
+        },
+        {
+          "titular": "Un joven no pagará IRPF el primer año",
+          "texto": "Un joven no pagará IRPF en el primer año y pagará mucho menos en los tres siguientes.",
+          "pagina": 60
+        },
+        {
+          "titular": "Deflactar la tarifa para no pagar más por la inflación",
+          "texto": "Deflactaremos la tarifa y actualizaremos los principales parámetros del impuesto para impedir que la inflación vuelva a utilizarse como una subida encubierta de impuestos.",
+          "pagina": 60
+        },
+        {
+          "titular": "IVA del 0% a los alimentos básicos",
+          "texto": "Rebajaremos el IVA de los alimentos básicos. Mientras persista la actual crisis de inflación y de poder adquisitivo, aplicaremos un IVA del 0% a los alimentos básicos, incluidos la carne, el pescado y las conservas.",
+          "pagina": 61
+        },
+        {
+          "titular": "Amortización libre para invertir",
+          "texto": "La empresa que invierta para crecer pagará menos Impuesto sobre Sociedades.",
+          "pagina": 61,
+          "nota": "Concreta que lo invertido en maquinaria, digitalización, IA, ciberseguridad, software o patentes podrá descontarse entero el mismo año."
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "El PP centra su oferta laboral en autónomos y empresas: cuota cero el primer año para nuevos autónomos, exención de IVA hasta 85.000 euros de facturación y menos obligaciones trimestrales. Para los trabajadores propone un cheque de formación en inteligencia artificial que se conserva al cambiar de empresa, y bonificaciones a las empresas que mantengan plantillas estables. Añade protección de la vivienda habitual del autónomo y una segunda oportunidad para negocios fallidos.",
+      "propuestas": [
+        {
+          "titular": "Cuota cero para nuevos autónomos",
+          "texto": "Dejaremos emprender a quien quiera emprender. Los nuevos autónomos no pagarán cuota a la Seguridad Social durante su primer año…",
+          "pagina": 59
+        },
+        {
+          "titular": "Sin IVA hasta 85.000 euros de facturación",
+          "texto": "Si eres autónomo y facturas menos de 85.000 euros, no tendrás que cobrar ni declarar el IVA.",
+          "pagina": 59
+        },
+        {
+          "titular": "Cheque de formación en IA para cada trabajador",
+          "texto": "La inteligencia artificial ampliará las oportunidades de trabajar, y cada trabajador tendrá un cheque para formarse en ella.",
+          "pagina": 58,
+          "nota": "El cheque se conserva aunque el trabajador cambie de empresa y se financia con las cuotas de formación ya existentes."
+        },
+        {
+          "titular": "Bonificación por contratar",
+          "texto": "Contratar dejará de ser un salto al vacío: bonificaremos el 100% de las cotizaciones empresariales por el primer trabajador durante un año y el 50% por el segundo.",
+          "pagina": 59
+        },
+        {
+          "titular": "Cotizar menos por plantillas estables",
+          "texto": "Las empresas que den estabilidad a sus trabajadores pagarán menos.",
+          "pagina": 59,
+          "nota": "Se aplicaría a las empresas con plantillas más estables que la media de su sector, vía cotización por desempleo."
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "El PP propone concentrar la política migratoria en una autoridad única, reforzar el control de fronteras con más medios policiales y apoyo de las Fuerzas Armadas, e identificar y devolver en plazos cortos a quien entre irregularmente. Apuesta por la migración legal con visados por puntos y cupos anuales ajustados a la capacidad de acogida, y prohíbe por ley las regularizaciones masivas, dejando el arraigo como vía excepcional. Exige un compromiso de integración para renovar la residencia y establece la expulsión como regla para condenados por determinados delitos.",
+      "propuestas": [
+        {
+          "titular": "Autoridad única de política migratoria",
+          "texto": "Habrá una autoridad única para toda la política migratoria.",
+          "pagina": 21,
+          "nota": "Dirigiría entrada, permanencia, retorno e integración, y publicaría un informe anual sobre el efecto de la inmigración en empleo, salarios, vivienda y servicios públicos."
+        },
+        {
+          "titular": "Rechazo en frontera también en Ceuta y Melilla",
+          "texto": "Reformaremos la Ley de Extranjería para que el rechazo en frontera cubra también las entradas a nado en Ceuta y Melilla.",
+          "pagina": 21
+        },
+        {
+          "titular": "Identificación en siete días y devolución sin demora",
+          "texto": "Quienes entren irregularmente por la frontera serán identificados en un máximo de siete días y las devoluciones se producirán sin demora.",
+          "pagina": 21
+        },
+        {
+          "titular": "Visados por puntos",
+          "texto": "Implantaremos visados por puntos que valoren la formación, la experiencia, el idioma y la integración.",
+          "pagina": 22
+        },
+        {
+          "titular": "Cupos anuales según capacidad de acogida",
+          "texto": "La inmigración se ajustará a la capacidad real de acogida de nuestro país. Fijaremos cupos anuales que determinen cuántos trabajadores pueden venir y para qué sectores.",
+          "pagina": 22
+        },
+        {
+          "titular": "Prohibir regularizaciones masivas",
+          "texto": "Prohibiremos por ley las regularizaciones masivas e indiscriminadas y el arraigo será excepcional.",
+          "pagina": 22
+        },
+        {
+          "titular": "Compromiso de integración para renovar la residencia",
+          "texto": "Residir en España exigirá un compromiso de integración.",
+          "pagina": 23,
+          "nota": "Incluye aprender español y conocer la Constitución y los valores de la UE; su cumplimiento se acreditaría para renovar el permiso."
+        },
+        {
+          "titular": "Expulsión por delitos graves",
+          "texto": "Quien delinque será expulsado de España. La expulsión será la regla para los extranjeros condenados por delitos sexuales, delitos de sangre y multirreincidencia.",
+          "pagina": 23
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "El PP promete un Pacto de Estado por la sanidad pública con las comunidades, un plan urgente de reducción de listas de espera y un nuevo sistema de financiación autonómica con la sanidad como pilar. Se compromete a incorporar más profesionales —al menos 4.500 médicos más en Atención Primaria— y a mejorar sus condiciones, incluidas las guardias. Anuncia un Plan Nacional de Salud Mental 2027-2037, una ley de cuidados paliativos y deducciones fiscales por gastos de enfermedad grave.",
+      "propuestas": [
+        {
+          "titular": "Pacto de Estado y plan contra las listas de espera",
+          "texto": "Reduciremos las listas de espera y aseguraremos la financiación sanitaria.",
+          "pagina": 68,
+          "nota": "El Pacto de Estado por la Sanidad Pública se impulsaría con las comunidades autónomas, respetando sus competencias de gestión."
+        },
+        {
+          "titular": "4.500 médicos más en Atención Primaria",
+          "texto": "En Atención Primaria, al menos 4.500 médicos más.",
+          "pagina": 69
+        },
+        {
+          "titular": "Mejores condiciones y menos guardias",
+          "texto": "Aumentaremos la oferta de formación sanitaria especializada para cubrir las necesidades asistenciales de los españoles, mejoraremos las condiciones de trabajo, la conciliación y la retribución de los médicos y demás profesionales…",
+          "pagina": 69
+        },
+        {
+          "titular": "Plan Nacional de Salud Mental 2027-2037",
+          "texto": "Aprobaremos un Plan Nacional de Salud Mental 2027-2037, con financiación garantizada…",
+          "pagina": 70
+        },
+        {
+          "titular": "Ley nacional de cuidados paliativos",
+          "texto": "Aseguraremos el acceso a los cuidados paliativos para que ninguna persona se quede sin la atención y el acompañamiento que necesita hasta el último momento.",
+          "pagina": 70
+        },
+        {
+          "titular": "Deducción por enfermedad grave",
+          "texto": "Las familias con un enfermo de cáncer, ELA u otra enfermedad grave se deducirán en el IRPF los gastos acreditados derivados del tratamiento y los cuidados.",
+          "pagina": 70
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "El PP propone sustituir la LOMLOE por un nuevo marco educativo acordado con docentes y familias, con refuerzo en lectura y cálculo desde Primaria. Defiende la libre elección de centro y garantiza los conciertos educativos donde haya demanda, además de mantener los centros de educación especial. Plantea una FP con plazas en sectores con empleo, universidades con autonomía y rendición de cuentas, y becas ligadas al talento y el esfuerzo.",
+      "propuestas": [
+        {
+          "titular": "Nuevo marco educativo en lugar de la LOMLOE",
+          "texto": "Acordaremos con docentes, inspectores, expertos y familias un nuevo marco educativo que sustituya a la LOMLOE.",
+          "pagina": 67
+        },
+        {
+          "titular": "Libre elección de centro y conciertos garantizados",
+          "texto": "Los padres elegirán colegio, y ningún concierto educativo se eliminará donde haya demanda suficiente.",
+          "pagina": 67
+        },
+        {
+          "titular": "Los centros de educación especial no se cierran",
+          "texto": "Los centros de educación especial no se cerrarán.",
+          "pagina": 67
+        },
+        {
+          "titular": "FP como primera opción",
+          "texto": "La FP será una primera opción, con plazas donde hay de verdad empleo.",
+          "pagina": 68
+        },
+        {
+          "titular": "Universidades autónomas y que rindan cuentas",
+          "texto": "Las universidades tendrán autonomía y responsabilidad.",
+          "pagina": 68
+        },
+        {
+          "titular": "Becas por talento y esfuerzo",
+          "texto": "Estudiar dependerá del talento y el esfuerzo, no de la renta.",
+          "pagina": 68,
+          "nota": "La beca se configuraría como derecho por ley para quien la necesite y apruebe, con los mismos umbrales en universidad y FP."
+        }
+      ]
+    }
+  }
+}

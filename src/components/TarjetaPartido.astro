@@ -1,0 +1,25 @@
+---
+import type { Partido } from '../lib/datos';
+import { fichaDe } from '../lib/datos';
+
+interface Props {
+  partido: Partido;
+}
+
+const { partido } = Astro.props;
+const ficha = fichaDe(partido.slug);
+const nTemas = ficha ? Object.keys(ficha.temas).length : 0;
+---
+
+<a class="tarjeta tarjeta-partido" href={`/partido/${partido.slug}`} style={`--acento:${partido.color}`}>
+  <div class="siglas">{partido.siglas}</div>
+  <div class="nombre">{partido.nombre}</div>
+  {
+    partido.estado === 'disponible' ? (
+      <span class="estado ok">Programa disponible</span>
+    ) : (
+      <span class="estado pendiente">Programa pendiente</span>
+    )
+  }
+  {nTemas > 0 && <span class="cuenta">{nTemas} temas analizados</span>}
+</a>

@@ -1,0 +1,66 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  titulo?: string;
+  descripcion?: string;
+}
+
+const { titulo, descripcion } = Astro.props;
+const nombreCompleto = titulo ? `${titulo} · Programas 29N` : 'Programas electorales · 29N';
+const descripcionFinal =
+  descripcion ??
+  'Los programas de los partidos que concurren a las elecciones generales del 29 de noviembre de 2026, resumidos por temas y con cada propuesta enlazada a la página exacta del documento oficial.';
+
+const ruta = Astro.url.pathname;
+const activo = (href: string) =>
+  href === '/' ? ruta === '/' : ruta.startsWith(href.split('#')[0]);
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{nombreCompleto}</title>
+    <meta name="description" content={descripcionFinal} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content={nombreCompleto} />
+    <meta property="og:description" content={descripcionFinal} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <header class="sitio-cabecera">
+      <div class="wrap">
+        <a class="marca" href="/">
+          <strong>29N</strong>
+          <span>Programas electorales</span>
+        </a>
+        <nav class="sitio-nav" aria-label="Principal">
+          <a href="/temas" aria-current={activo('/temas') ? 'page' : undefined}>Temas</a>
+          <a href="/programas" aria-current={activo('/programas') ? 'page' : undefined}>Programas</a>
+          <a href="/sobre" aria-current={activo('/sobre') ? 'page' : undefined}>Metodología</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <slot />
+    </main>
+
+    <footer class="pie">
+      <div class="wrap">
+        <p>
+          Proyecto independiente, sin afiliación política. Los resúmenes son una
+          interpretación de los programas oficiales: cada cita enlaza a la página
+          exacta del documento para que puedas comprobarla.
+        </p>
+        <p>
+          <a href="/sobre">Metodología y aviso legal</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

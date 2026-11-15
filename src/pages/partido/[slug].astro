@@ -1,0 +1,157 @@
+---
+import Base from '../../layouts/Base.astro';
+import FichaTema from '../../components/FichaTema.astro';
+import {
+  partidos,
+  temas,
+  fichaDe,
+  documentoDe,
+  enlacePdf,
+  formatearFecha,
+} from '../../lib/datos';
+
+export function getStaticPaths() {
+  return partidos.map((partido) => ({ params: { slug: partido.slug }, props: { partido } }));
+}
+
+const { partido } = Astro.props;
+const ficha = fichaDe(partido.slug);
+const documento = documentoDe(partido.slug);
+const descarga = enlacePdf(partido);
+
+const temasConFicha = ficha
+  ? temas.filter((t) => Boolean(ficha.temas[t.slug]))
+  : [];
+const temasSinFicha = ficha
+  ? temas.filter((t) => !ficha.temas[t.slug])
+  : [];
+---
+
+<Base
+  titulo={partido.siglas}
+  descripcion={
+    partido.estado === 'disponible'
+      ? `Programa electoral de ${partido.nombre} para el 29N: resumen por temas con citas literales y enlace al PDF oficial.`
+      : `${partido.nombre} aún no ha publicado su programa electoral para el 29N.`
+  }
+>
+  <header class="pagina-cabecera">
+    <div class="wrap">
+      <p class="migas"><a href="/">Inicio</a> / {partido.siglas}</p>
+      <h1>{partido.nombre}</h1>
+
+      {
+        partido.estado === 'disponible' ? (
+          <p class="entradilla">«{partido.programa}»</p>
+        ) : (
+          <p class="entradilla">Programa electoral todavía no publicado.</p>
+        )
+      }
+
+      <div class="datos-partido">
+        <span>Ámbito: <b>{partido.ambito}</b></span>
+        {partido.publicado && (
+          <span>Publicado: <b>{formatearFecha(partido.publicado)}</b></span>
+        )}
+        {documento && (
+          <span><b>{documento.paginas}</b> páginas</span>
+        )}
+        {ficha && (
+          <span>Ficha revisada: <b>{formatearFecha(ficha.revisado)}</b></span>
+        )}
+        {documento && (
+          <span title="Huella del PDF para detectar si el documento cambia">
+            Huella: <b>{documento.sha256.slice(0, 10)}</b>
+          </span>
+        )}
+      </div>
+
+      {
+        partido.estado === 'disponible' && descarga && (
+          <div class="acciones">
+            <a class="boton" href={descarga} target="_blank" rel="noopener noreferrer">
+              Descargar programa (PDF) ↗
+            </a>
+            {partido.pdf_archivado && (
+              <a class="boton secundario" href={partido.pdf_archivado} target="_blank" rel="noopener noreferrer">
+                Copia archivada ↗
+              </a>
+            )}
+          </div>
+        )
+      }
+
+      {
+        partido.notas && (
+          <p class="nota" style="margin-top:1.2rem">{partido.notas}</p>
+        )
+      }
+
+      {
+        partido.estado === 'pendiente' && (
+          <p class="aviso-legal" style="margin-top:1.4rem">
+            En cuanto el partido publique el documento, lo descargaremos, extraeremos
+            su texto y añadiremos sus fichas. Mientras tanto, la página queda
+            preparada para no romper los enlaces.
+          </p>
+        )
+      }
+    </div>
+  </header>
+
+  {
+    temasConFicha.length > 0 && (
+      <section class="seccion">
+        <div class="wrap">
+          <div class="seccion-cabecera">
+            <h2>Propuestas por tema</h2>
+            <p>{temasConFicha.length} de {temas.length} temas analizados.</p>
+          </div>
+
+          {temasConFicha.map((tema) => {
+            const bloque = ficha!.temas[tema.slug];
+            return (
+              <div id={`tema-${tema.slug}`} style="margin-bottom:2rem">
+                <FichaTema partido={partido} bloque={bloque} titulo={tema.nombre} />
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    ficha && temasSinFicha.length > 0 && (
+      <section class="seccion">
+        <div class="wrap">
+          <h2>Temas pendientes de analizar</h2>
+          <p class="prosa">
+            El programa puede contener medidas sobre estas materias, pero todavía no
+            hemos publicado su ficha:
+          </p>
+          <ul class="indice-temas">
+            {temasSinFicha.map((tema) => (
+              <li>
+                <a href={`/tema/${tema.slug}`}>{tema.nombre}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    !ficha && partido.estado === 'disponible' && (
+      <section class="seccion">
+        <div class="wrap">
+          <p class="ficha-vacia">
+            El PDF ya está disponible para descargar, pero su análisis por temas
+            todavía no se ha publicado. Se irá añadiendo por tandas.
+          </p>
+        </div>
+      </section>
+    )
+  }
+</Base>

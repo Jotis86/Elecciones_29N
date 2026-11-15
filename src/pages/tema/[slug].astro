@@ -1,0 +1,112 @@
+---
+import Base from '../../layouts/Base.astro';
+import FichaTema from '../../components/FichaTema.astro';
+import {
+  temas,
+  partidos,
+  partidosDisponibles,
+  partidosPendientes,
+  temaPorSlug,
+  fichasPorTema,
+  fichaDe,
+} from '../../lib/datos';
+
+export function getStaticPaths() {
+  return temas.map((tema) => ({ params: { slug: tema.slug }, props: { tema } }));
+}
+
+const { tema } = Astro.props;
+const fichas = fichasPorTema(tema.slug);
+const slugsConFicha = new Set(fichas.map((f) => f.partido.slug));
+
+const disponiblesSinFicha = partidosDisponibles.filter((p) => !slugsConFicha.has(p.slug));
+const sinFicha = disponiblesSinFicha.filter((p) => fichaDe(p.slug));
+const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
+---
+
+<Base
+  titulo={tema.nombre}
+  descripcion={`Qué propone cada partido sobre ${tema.nombre.toLowerCase()} en las elecciones del 29N, con citas literales y enlace a la página del programa.`}
+>
+  <header class="pagina-cabecera">
+    <div class="wrap">
+      <p class="migas"><a href="/temas">Temas</a> / {tema.nombre}</p>
+      <h1>{tema.nombre}</h1>
+      <p class="entradilla">{tema.descripcion}</p>
+      <div class="datos-partido">
+        <span><b>{fichas.length}</b> programas analizados</span>
+        <span><b>{partidosDisponibles.length}</b> programas publicados</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="seccion">
+    <div class="wrap">
+      <ul class="indice-temas" aria-label="Otros temas">
+        {
+          temas.map((otro) => (
+            <li>
+              <a
+                href={`/tema/${otro.slug}`}
+                aria-current={otro.slug === tema.slug ? 'page' : undefined}
+                style={otro.slug === tema.slug ? 'color:var(--tinta);border-color:var(--tinta)' : undefined}
+              >
+                {otro.nombre}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap">
+      {
+        fichas.length === 0 ? (
+          <p class="ficha-vacia">
+            Todavía no hay fichas de este tema. Los programas ya están descargados
+            y el análisis se irá publicando por tandas.
+          </p>
+        ) : (
+          fichas.map(({ partido, bloque }) => <FichaTema partido={partido} bloque={bloque} />)
+        )
+      }
+
+      {
+        sinFicha.length > 0 && (
+          <div class="ficha-vacia" style="margin-top:1.5rem">
+            <strong>Sin propuestas localizadas en este tema:</strong>{' '}
+            {sinFicha.map((p) => p.siglas).join(', ')}. Puede que el programa no aborde
+            la materia o que lo haga de forma indirecta; si encuentras una referencia,
+            escríbenos.
+          </div>
+        )
+      }
+
+      {
+        sinAnalizar.length > 0 && (
+          <div class="ficha-vacia" style="margin-top:0.75rem">
+            <strong>Programa disponible, ficha en preparación:</strong>{' '}
+            {sinAnalizar.map((p, i) => (
+              <>
+                {i > 0 && ', '}
+                <a href={`/partido/${p.slug}`}>{p.siglas}</a>
+              </>
+            ))}
+            .
+          </div>
+        )
+      }
+
+      {
+        partidosPendientes.length > 0 && (
+          <div class="ficha-vacia" style="margin-top:0.75rem">
+            <strong>Aún sin programa publicado:</strong>{' '}
+            {partidosPendientes.map((p) => p.siglas).join(', ')}.
+          </div>
+        )
+      }
+    </div>
+  </section>
+</Base>

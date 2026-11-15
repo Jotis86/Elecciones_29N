@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import { temas, fichasPorTema, partidosDisponibles } from '../../lib/datos';
+---
+
+<Base titulo="Temas" descripcion="Explora por tema lo que propone cada partido: vivienda, economía, inmigración, sanidad, educación y más.">
+  <header class="pagina-cabecera">
+    <div class="wrap">
+      <p class="kicker">Explorar</p>
+      <h1>Temas</h1>
+      <p class="entradilla">
+        Dieciséis bloques para comparar propuestas. Cada uno reúne a los partidos
+        cuyo programa contiene medidas sobre esa materia.
+      </p>
+    </div>
+  </header>
+
+  <section class="seccion">
+    <div class="wrap">
+      <div class="grid grid-temas">
+        {
+          temas.map((tema) => {
+            const n = fichasPorTema(tema.slug).length;
+            return (
+              <a class="tarjeta" href={`/tema/${tema.slug}`}>
+                <h3>{tema.nombre}</h3>
+                <p>{tema.descripcion}</p>
+                <span class="cuenta">
+                  {n > 0
+                    ? `${n} de ${partidosDisponibles.length} programas analizados`
+                    : 'En preparación'}
+                </span>
+              </a>
+            );
+          })
+        }
+      </div>
+    </div>
+  </section>
+</Base>

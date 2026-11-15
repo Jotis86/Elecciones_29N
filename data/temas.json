@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "vivienda",
+    "nombre": "Vivienda",
+    "descripcion": "Acceso a la vivienda, alquiler, vivienda protegida, suelo y ocupación.",
+    "palabras": [
+      "vivienda", "alquiler", "alquileres", "hipoteca", "okupación", "ocupación ilegal",
+      "vivienda protegida", "VPO", "suelo", "desahucio", "arrendamiento", "promoción pública"
+    ]
+  },
+  {
+    "slug": "economia-fiscalidad",
+    "nombre": "Economía y fiscalidad",
+    "descripcion": "Impuestos, gasto público, deuda, empresas y política económica.",
+    "palabras": [
+      "impuesto", "impuestos", "fiscal", "fiscalidad", "IRPF", "IVA", "cotizaciones",
+      "presupuesto", "deuda pública", "déficit", "empresa", "autónomo", "PIB", "inflación"
+    ]
+  },
+  {
+    "slug": "empleo",
+    "nombre": "Empleo y salarios",
+    "descripcion": "Mercado laboral, salario mínimo, contratos, desempleo y derechos de los trabajadores.",
+    "palabras": [
+      "empleo", "trabajo", "salario", "SMI", "salario mínimo", "contrato", "paro",
+      "desempleo", "sindicato", "negociación colectiva", "jornada", "cotización"
+    ]
+  },
+  {
+    "slug": "inmigracion",
+    "nombre": "Inmigración",
+    "descripcion": "Política migratoria, fronteras, regularización, asilo y extranjería.",
+    "palabras": [
+      "inmigración", "inmigrantes", "migratoria", "extranjería", "frontera", "fronteras",
+      "regularización", "asilo", "refugiados", "expulsión", "irregular", "papeles"
+    ]
+  },
+  {
+    "slug": "sanidad",
+    "nombre": "Sanidad",
+    "descripcion": "Sistema sanitario, atención primaria, listas de espera, salud mental y dependencia.",
+    "palabras": [
+      "sanidad", "sanitario", "sanitarios", "salud", "hospital", "atención primaria",
+      "lista de espera", "medicamento", "dependencia", "salud mental", "vacuna"
+    ]
+  },
+  {
+    "slug": "educacion",
+    "nombre": "Educación",
+    "descripcion": "Escuela, universidad, formación profesional, ciencia e investigación.",
+    "palabras": [
+      "educación", "educativo", "escuela", "colegio", "instituto", "universidad",
+      "formación profesional", "FP", "profesor", "alumnado", "beca", "ciencia", "investigación"
+    ]
+  },
+  {
+    "slug": "pensiones",
+    "nombre": "Pensiones",
+    "descripcion": "Sistema público de pensiones, jubilación, viudedad y sostenibilidad.",
+    "palabras": [
+      "pensión", "pensiones", "jubilación", "jubilados", "viudedad", "cotización",
+      "sistema público de pensiones", "pacto de Toledo", "revalorización"
+    ]
+  },
+  {
+    "slug": "energia-medioambiente",
+    "nombre": "Energía y medioambiente",
+    "descripcion": "Transición energética, cambio climático, agua, biodiversidad y residuos.",
+    "palabras": [
+      "energía", "energética", "renovable", "renovables", "clima", "climático",
+      "medio ambiente", "medioambiental", "biodiversidad", "agua", "residuos", "nuclear"
+    ]
+  },
+  {
+    "slug": "seguridad-defensa",
+    "nombre": "Seguridad y defensa",
+    "descripcion": "Fuerzas de seguridad, delincuencia, justicia penal y defensa nacional.",
+    "palabras": [
+      "seguridad", "policía", "guardia civil", "delincuencia", "delito", "criminalidad",
+      "defensa", "ejército", "fuerzas armadas", "OTAN", "justicia penal", "prisiones"
+    ]
+  },
+  {
+    "slug": "estado-instituciones",
+    "nombre": "Estado e instituciones",
+    "descripcion": "Regeneración democrática, administración, anticorrupción y poder judicial.",
+    "palabras": [
+      "corrupción", "transparencia", "administración", "administraciones", "justicia",
+      "poder judicial", "congreso", "senado", "democracia", "regeneración", "indulto", "amnistía"
+    ]
+  },
+  {
+    "slug": "territorio",
+    "nombre": "Modelo territorial",
+    "descripcion": "Autonomías, financiación territorial, independentismo y cohesión del Estado.",
+    "palabras": [
+      "autonomía", "autonomías", "autonómico", "estatuto", "financiación autonómica",
+      "independencia", "independentismo", "referéndum", "secesión", "nación", "territorial"
+    ]
+  },
+  {
+    "slug": "europa-exterior",
+    "nombre": "Europa y exterior",
+    "descripcion": "Unión Europea, política exterior, cooperación y defensa internacional.",
+    "palabras": [
+      "Unión Europea", "Bruselas", "comisario", "exterior", "cooperación", "diplomacia",
+      "OTAN", "ONU", "Marruecos", "Gibraltar", "ayuda al desarrollo"
+    ]
+  },
+  {
+    "slug": "derechos-sociales",
+    "nombre": "Derechos sociales",
+    "descripcion": "Igualdad, violencia de género, derechos LGTBI, familia, mayores e infancia.",
+    "palabras": [
+      "igualdad", "violencia de género", "LGTBI", "familia", "familias", "mayores",
+      "infancia", "adolescencia", "discapacidad", "dependencia", "natalidad", "aborto"
+    ]
+  },
+  {
+    "slug": "campo-pesca",
+    "nombre": "Campo, pesca y rural",
+    "descripcion": "Agricultura, ganadería, pesca, mundo rural y reto demográfico.",
+    "palabras": [
+      "agricultura", "agricultores", "ganadería", "ganaderos", "pesca", "pescadores",
+      "rural", "mundo rural", "despoblación", "reto demográfico", "regadío", "PAC"
+    ]
+  },
+  {
+    "slug": "infraestructuras",
+    "nombre": "Infraestructuras y transporte",
+    "descripcion": "Carreteras, ferrocarril, transporte público, movilidad y obra pública.",
+    "palabras": [
+      "infraestructura", "infraestructuras", "transporte", "ferrocarril", "tren",
+      "carretera", "aeropuerto", "puerto", "movilidad", "AVE", "autovía"
+    ]
+  },
+  {
+    "slug": "cultura-deporte",
+    "nombre": "Cultura, lengua y deporte",
+    "descripcion": "Cultura, industrias creativas, lenguas oficiales, deporte y patrimonio.",
+    "palabras": [
+      "cultura", "cultural", "lengua", "lenguas", "patrimonio", "deporte", "deportistas",
+      "musica", "cine", "biblioteca", "cooficial"
+    ]
+  }
+]

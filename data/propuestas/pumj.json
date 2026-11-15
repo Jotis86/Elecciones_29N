@@ -1,0 +1,230 @@
+{
+  "partido": "pumj",
+  "revisado": "2026-11-15",
+  "temas": {
+    "vivienda": {
+      "resumen": "M+J parte de la vivienda como derecho y no como activo financiero. Propone un parque público de alquiler que pase del 1,1% al 5% del parque en 2030 —unos 1,35 millones de viviendas— con alquileres limitados al 30% de la renta familiar. Plantea vivienda protegida de carácter permanente, prohibición de vender viviendas públicas a empresas privadas, alquiler de referencia en el mercado privado y contratos indefinidos. Para pequeños propietarios ofrece incentivos fiscales.",
+      "propuestas": [
+        {
+          "titular": "La vivienda como derecho, no como activo",
+          "texto": "Para M+J la vivienda es un derecho humano y una condición necesaria para desarrollar una vida digna, autónoma y en comunidad, y nunca un activo financiero ni un instrumento de acumulación patrimonial.",
+          "pagina": 4
+        },
+        {
+          "titular": "Gran parque público de alquiler asequible",
+          "texto": "Crear un gran parque público de vivienda asequible en alquiler.",
+          "pagina": 5
+        },
+        {
+          "titular": "Del 1,1% al 5% del parque en 2030",
+          "texto": "Objetivo 5% (desde el 1,1% actual): alcanzar al menos 1,35 millones de viviendas sociales y asequibles de carácter permanente en 2030…",
+          "pagina": 5
+        },
+        {
+          "titular": "Alquiler máximo del 30% de la renta",
+          "texto": "Las personas inquilinas de estas viviendas pagarán un alquiler en función de su renta, que se revisará anualmente adecuándolo a las condiciones económicas en ese momento, ya sea al alza o a la baja, y que nunca superaría el 30% de la renta familiar.",
+          "pagina": 5
+        },
+        {
+          "titular": "Vivienda protegida permanente",
+          "texto": "Toda vivienda protegida mantendrá esa calificación de forma permanente.",
+          "pagina": 7
+        },
+        {
+          "titular": "No vender vivienda pública a empresas",
+          "texto": "Prohibiremos la venta, cesión o transferencia de viviendas públicas en alquiler a empresas privadas…",
+          "pagina": 7
+        },
+        {
+          "titular": "Alquiler de referencia en el mercado privado",
+          "texto": "Establecer un alquiler de referencia y limitar el precio en función de las características y localización de la vivienda.",
+          "pagina": 8
+        },
+        {
+          "titular": "Contratos de alquiler indefinidos",
+          "texto": "Los contratos de alquiler de vivienda habitual serán indefinidos…",
+          "pagina": 8,
+          "nota": "Solo podrían terminar por necesidad acreditada del propietario o por incumplimiento del inquilino; la venta no extinguiría el contrato."
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "M+J plantea una reforma fiscal para equiparar la tributación del capital y del trabajo y reforzar la progresividad. Propone aumentar un 40% los recursos de inspección de la Agencia Tributaria, combatir paraísos fiscales y limitar deducciones como la exención de empresa familiar. Añade un tipo efectivo mínimo del 3% sobre patrimonios superiores a 50 millones, mantener el impuesto a las grandes fortunas y ampliar la tasa Google.",
+      "propuestas": [
+        {
+          "titular": "Los impuestos como base de la sociedad que cuida",
+          "texto": "Los impuestos son el precio de vivir en una sociedad que cuida de todas las personas.",
+          "pagina": 26
+        },
+        {
+          "titular": "Sistema progresivo de verdad",
+          "texto": "Proponemos un sistema progresivo de verdad, que persiga el fraude y los paraísos fiscales y garantice que quien más tiene contribuya en proporción.",
+          "pagina": 26
+        },
+        {
+          "titular": "+40% de recursos contra el fraude",
+          "texto": "Reforzar la lucha contra el fraude fiscal incrementando al menos un 40% los recursos humanos y materiales de la Agencia Tributaria…",
+          "pagina": 26
+        },
+        {
+          "titular": "Tipo efectivo mínimo del 3% a los grandes patrimonios",
+          "texto": "Establecer una tributación efectiva mínima del 3 % sobre el patrimonio neto superior a 50 millones de euros…",
+          "pagina": 27,
+          "nota": "Se aplicaría como gravamen complementario, sin exenciones ni bonificaciones, cuando la tributación efectiva conjunta de IRPF y Patrimonio quede por debajo de ese 3%."
+        },
+        {
+          "titular": "Mantener el impuesto a las grandes fortunas",
+          "texto": "Mantener el Impuesto de Solidaridad sobre las Grandes Fortunas como garantía de equidad territorial…",
+          "pagina": 27
+        },
+        {
+          "titular": "Ampliar la tasa Google",
+          "texto": "Mantener y ampliar el Impuesto sobre Determinados Servicios Digitales (Tasa Google)",
+          "pagina": 27
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "M+J propone avanzar hacia una renta básica de justicia social ampliando el Ingreso Mínimo Vital y reducir la jornada a 35 horas semanales sin bajar el salario. Incluye reforzar la Inspección de Trabajo contra la explotación y la economía sumergida, cláusulas de revisión salarial en la negociación colectiva y reconocimiento del trabajo de cuidados como tiempo cotizado. Su objetivo declarado es que el SMI se mantenga en el 60% del salario medio.",
+      "propuestas": [
+        {
+          "titular": "Renta básica de justicia social",
+          "texto": "Avanzar hacia una renta básica de justicia social, ampliando progresivamente la cobertura, las cuantías y la accesibilidad del Ingreso Mínimo Vital…",
+          "pagina": 29
+        },
+        {
+          "titular": "Jornada de 35 horas sin bajar el salario",
+          "texto": "Reducir progresivamente la jornada laboral hasta las 35 horas semanales, sin reducción salarial…",
+          "pagina": 29
+        },
+        {
+          "titular": "Reforzar la Inspección de Trabajo",
+          "texto": "Combatir la explotación laboral y la economía sumergida, reforzando la Inspección de Trabajo…",
+          "pagina": 30
+        },
+        {
+          "titular": "Cláusulas de revisión salarial",
+          "texto": "Garantizar salarios dignos y una estructura salarial justa, promoviendo en la negociación colectiva cláusulas de revisión…",
+          "pagina": 30
+        },
+        {
+          "titular": "Cuidados que cotizan",
+          "texto": "Reconocer el trabajo de cuidados como una contribución esencial a la sociedad, ampliando los períodos computables como cotizados para la jubilación por crianza de menores…",
+          "pagina": 30
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "M+J considera la migración un fenómeno estructural y propone gestionarla desde los derechos: salvamento marítimo reforzado y fin de la criminalización de las ONG. Plantea vías legales y seguras con permisos de trabajo en origen, fin de la externalización de fronteras y eliminación de las devoluciones en caliente. Apuesta por sustituir los CIE por recursos abiertos, una regularización accesible y acceso a sanidad, educación y servicios sociales en igualdad.",
+      "propuestas": [
+        {
+          "titular": "La migración como oportunidad",
+          "texto": "Para M+J, el fenómeno migratorio debe gestionarse como una oportunidad y no como un problema.",
+          "pagina": 50
+        },
+        {
+          "titular": "Reforzar el salvamento marítimo",
+          "texto": "Garantizar el salvamento de vidas humanas. Reforzar Salvamento Marítimo…",
+          "pagina": 51
+        },
+        {
+          "titular": "Vías legales y permisos en origen",
+          "texto": "Facilitar vías legales y seguras de migración y permisos de trabajo en origen.",
+          "pagina": 51
+        },
+        {
+          "titular": "Fin de la externalización de fronteras",
+          "texto": "Poner fin a la externalización de fronteras…",
+          "pagina": 51
+        },
+        {
+          "titular": "Eliminar las devoluciones en caliente",
+          "texto": "Eliminar las devoluciones en caliente sin garantías.",
+          "pagina": 51
+        },
+        {
+          "titular": "Sustituir los CIE",
+          "texto": "Sustituir los Centros de Internamiento de Extranjeros (CIE) por alternativas abiertas y comunitarias…",
+          "pagina": 51
+        },
+        {
+          "titular": "Regularización accesible",
+          "texto": "Facilitar la regularización y eliminar las barreras administrativas. Establecer vías accesibles y permanentes de regularización…",
+          "pagina": 52
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "M+J defiende una sanidad pública universal, incluida la atención a personas en situación irregular, y reforzar la Atención Primaria hasta el 25% del gasto sanitario público. Propone frenar la privatización y recuperar servicios externalizados, un nuevo Estatuto Marco para el personal sanitario y más plantillas. Añade una ley estatal de cuidados paliativos, refuerzo de salud mental y adicciones, y consolidar la agencia estatal de salud pública.",
+      "propuestas": [
+        {
+          "titular": "La sanidad pública como bien común",
+          "texto": "La sanidad pública es una de las mejores cosas que hemos construido entre todas las personas, y una de las más frágiles.",
+          "pagina": 37
+        },
+        {
+          "titular": "Universalidad también en situación irregular",
+          "texto": "Consolidar y avanzar en la universalidad de la atención sanitaria reconocida en el Real Decreto-ley 7/2018…",
+          "pagina": 37,
+          "nota": "El texto añade «eliminando las barreras administrativas que dificultan el acceso a la atención sanitaria, especialmente para las personas en situación administrativa irregular»."
+        },
+        {
+          "titular": "Atención Primaria al 25% del gasto",
+          "texto": "Reforzar la Atención Primaria como pilar fundamental del sistema sanitario público.",
+          "pagina": 38,
+          "nota": "El objetivo cuantificado es elevar su financiación al 20% en 2028 y al 25% en 2030."
+        },
+        {
+          "titular": "Frenar la privatización",
+          "texto": "Frenar la privatización y recuperar progresivamente los servicios externalizados, priorizando la gestión pública directa.",
+          "pagina": 38
+        },
+        {
+          "titular": "Estatuto Marco del personal sanitario",
+          "texto": "Promover un Estatuto Marco del Personal Estatutario de los Servicios de Salud que nazca del diálogo y el acuerdo con todos los colectivos profesionales y con las comunidades autónomas…",
+          "pagina": 38
+        },
+        {
+          "titular": "Ley estatal de cuidados paliativos",
+          "texto": "Garantizar el acceso universal y equitativo a cuidados paliativos integrales y de calidad en todo el territorio.",
+          "pagina": 39
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "M+J propone elevar la inversión educativa al 6% del PIB y reforzar la escuela pública, reconociendo la aportación de la concertada en contextos de precariedad. Plantea reducir ratios a 20 alumnos en Infantil y Primaria y 25 en ESO y Bachillerato, limitar la jornada lectiva a 23 horas y garantizar un orientador por cada 250 estudiantes. Incluye gratuidad de 0 a 3 años, más becas y refuerzo de la FP pública.",
+      "propuestas": [
+        {
+          "titular": "Educación pública, inclusiva y gratuita",
+          "texto": "Defendemos una educación pública fuerte y de calidad, inclusiva, gratuita y equitativa…",
+          "pagina": 45
+        },
+        {
+          "titular": "6% del PIB en educación",
+          "texto": "incremento progresivo de la inversión pública en educación hasta alcanzar al menos el 6 % del PIB…",
+          "pagina": 45
+        },
+        {
+          "titular": "Jornada lectiva máxima de 23 horas",
+          "texto": "Establecer por ley una jornada lectiva máxima de 23 horas semanales en Infantil, Primaria y Educación Especial, y de 18 horas en el resto de enseñanzas…",
+          "pagina": 46
+        },
+        {
+          "titular": "Menos alumnos por aula",
+          "texto": "Aprobar una ley básica que reduzca progresivamente las ratios máximas a 20 estudiantes por aula en Infantil y Primaria y 25 en ESO y Bachillerato…",
+          "pagina": 46
+        },
+        {
+          "titular": "Gratuidad de 0 a 3 años",
+          "texto": "Avanzar hacia la gratuidad universal de la Educación Infantil de 0 a 3 años…",
+          "pagina": 46
+        },
+        {
+          "titular": "Reforzar la FP pública",
+          "texto": "Fortalecer la Formación Profesional pública. Ampliar las plazas, los equipamientos, los talleres y el profesorado especializado…",
+          "pagina": 46
+        }
+      ]
+    }
+  }
+}

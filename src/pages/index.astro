@@ -1,0 +1,106 @@
+---
+import Base from '../layouts/Base.astro';
+import TarjetaPartido from '../components/TarjetaPartido.astro';
+import {
+  partidos,
+  temas,
+  fichas,
+  partidosDisponibles,
+  partidosPendientes,
+  totalPropuestas,
+  totalFichas,
+  fichasPorTema,
+} from '../lib/datos';
+---
+
+<Base>
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">Elecciones generales · 29 de noviembre de 2026</p>
+      <h1>Qué propone cada partido, tema por tema.</h1>
+      <p class="entradilla">
+        Los programas electorales, resumidos en lenguaje claro y con cada
+        propuesta enlazada a la página exacta del documento oficial. Sin
+        interpretaciones sin respaldo: si una cita está aquí, está en el PDF.
+      </p>
+
+      <div class="cifras">
+        <div class="cifra">
+          <b>{partidosDisponibles.length}</b>
+          <span>programas publicados</span>
+        </div>
+        <div class="cifra">
+          <b>{fichas.length}</b>
+          <span>ya analizados</span>
+        </div>
+        <div class="cifra">
+          <b>{totalFichas}</b>
+          <span>fichas por tema</span>
+        </div>
+        <div class="cifra">
+          <b>{totalPropuestas}</b>
+          <span>propuestas citadas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap">
+      <div class="seccion-cabecera">
+        <h2>Los partidos</h2>
+        <p>
+          {partidosDisponibles.length} con programa publicado y{' '}
+          {partidosPendientes.length} pendientes de que lo presenten.
+        </p>
+      </div>
+
+      <div class="grid grid-partidos">
+        {partidos.map((partido) => <TarjetaPartido partido={partido} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap">
+      <div class="seccion-cabecera">
+        <h2>Explorar por tema</h2>
+        <p>Compara lo que proponen todos los partidos sobre lo que te importa.</p>
+      </div>
+
+      <div class="grid grid-temas">
+        {
+          temas.map((tema) => {
+            const n = fichasPorTema(tema.slug).length;
+            return (
+              <a class="tarjeta" href={`/tema/${tema.slug}`}>
+                <h3>{tema.nombre}</h3>
+                <p>{tema.descripcion}</p>
+                <span class="cuenta">
+                  {n > 0 ? `${n} partido${n === 1 ? '' : 's'} analizado${n === 1 ? '' : 's'}` : 'En preparación'}
+                </span>
+              </a>
+            );
+          })
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap">
+      <h2>Cómo funciona</h2>
+      <p class="prosa">
+        Cada ficha tiene dos partes: un <strong>resumen</strong> de la posición del
+        partido y las <strong>citas literales</strong> que la sostienen, con el número
+        de página del programa. Los resúmenes los redacta una persona a partir del
+        documento; las citas se comprueban automáticamente contra el PDF antes de
+        publicar, y el sitio no se construye si alguna no coincide.
+      </p>
+      <p class="prosa">
+        Faltan partidos y temas por completar. <a href="/sobre">Aquí explicamos</a>
+        el método, los criterios y cómo se irá ampliando.
+      </p>
+    </div>
+  </section>
+</Base>

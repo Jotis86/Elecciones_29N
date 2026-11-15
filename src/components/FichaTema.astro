@@ -1,0 +1,61 @@
+---
+import type { BloqueTema, Partido } from '../lib/datos';
+import { enlacePdf } from '../lib/datos';
+
+interface Props {
+  partido: Partido;
+  bloque: BloqueTema;
+  titulo?: string;
+}
+
+const { partido, bloque, titulo } = Astro.props;
+---
+
+<article class="ficha" style={`--acento:${partido.color}`}>
+  <header class="ficha-cabecera">
+    <h2>
+      {
+        titulo ? (
+          titulo
+        ) : (
+          <a href={`/partido/${partido.slug}`} style="text-decoration:none">
+            {partido.siglas}
+          </a>
+        )
+      }
+    </h2>
+    {!titulo && <span class="programa">{partido.programa}</span>}
+  </header>
+
+  <p class="resumen">{bloque.resumen}</p>
+
+  <ol class="propuestas">
+    {
+      bloque.propuestas.map((propuesta) => {
+        const enlace = enlacePdf(partido, propuesta.pagina);
+        return (
+          <li>
+            <h3>{propuesta.titular}</h3>
+            <blockquote>{propuesta.texto}</blockquote>
+            <p class="cita-pie">
+              {enlace ? (
+                <a
+                  class="cita-pagina"
+                  href={enlace}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={`Abrir la página ${propuesta.pagina} del programa original`}
+                >
+                  pág. {propuesta.pagina} · ver en el PDF ↗
+                </a>
+              ) : (
+                <span class="cita-pagina">pág. {propuesta.pagina}</span>
+              )}
+            </p>
+            {propuesta.nota && <p class="nota">{propuesta.nota}</p>}
+          </li>
+        );
+      })
+    }
+  </ol>
+</article>

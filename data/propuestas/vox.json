@@ -1,0 +1,231 @@
+{
+  "partido": "vox",
+  "revisado": "2026-11-15",
+  "temas": {
+    "vivienda": {
+      "resumen": "Vox vincula la política de vivienda al control de fronteras y a una «prioridad nacional» en el acceso a vivienda protegida y ayudas al alquiler. Propone derogar la Ley de Vivienda, reformar la Ley del Suelo para ampliar suelo y agilizar licencias, y aumentar la construcción de vivienda protegida con colaboración público-privada. Anuncia desalojo de viviendas ocupadas en menos de 24 horas, IVA del 0% en la primera vivienda de nueva construcción y bonificación total del ITP en la de segunda mano.",
+      "propuestas": [
+        {
+          "titular": "La vivienda empieza por el control de fronteras",
+          "texto": "Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada para satisfacer sus necesidades y las de su familia. El punto de partida de todo programa de vivienda es el control férreo de las fronteras.",
+          "pagina": 23
+        },
+        {
+          "titular": "«Las casas, en España, para los españoles»",
+          "texto": "Las casas, en España, para los españoles. Prioridad nacional para acceder a una vivienda protegida, social o a una ayuda al alquiler.",
+          "pagina": 23
+        },
+        {
+          "titular": "Reforma de la Ley del Suelo",
+          "texto": "Reforma de la Ley del Suelo. Volver a ver grúas en los cielos.",
+          "pagina": 23,
+          "nota": "Incluye ampliar suelo disponible, agilizar procedimientos y suprimir trabas regulatorias."
+        },
+        {
+          "titular": "Derogar la Ley de Vivienda",
+          "texto": "Recuperar la seguridad jurídica y una oferta de alquileres estable, abundante y asequible. Derogación de la Ley de Vivienda.",
+          "pagina": 23
+        },
+        {
+          "titular": "Desalojo en 24 horas",
+          "texto": "Mano dura contra la okupación y la inquiocupación. Desalojo de la vivienda okupada en menos de 24 horas…",
+          "pagina": 24
+        },
+        {
+          "titular": "Prohibir alquilar a inmigrantes irregulares",
+          "texto": "Prohibición del arrendamiento a inmigrantes ilegales.",
+          "pagina": 24,
+          "nota": "Exigiría verificar la residencia legal como requisito para formalizar el contrato de alquiler."
+        },
+        {
+          "titular": "IVA 0% en la primera vivienda",
+          "texto": "La primera vivienda habitual de una familia española no paga impuestos. Tipo 0% de IVA para la compra de tu primera vivienda habitual…",
+          "pagina": 24,
+          "nota": "Se acompaña de bonificación del 100% del ITP para la primera vivienda usada y de la recuperación de la deducción por inversión en vivienda habitual."
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "Vox propone una «rebaja masiva de impuestos»: simplificación y bajada del IRPF según el número de hijos, reducción del IVA en productos esenciales y del Impuesto de Sociedades. Añade reducción de deuda pública mediante control del déficit y eliminación de lo que llama gasto ideológico, y fiscalidad diferenciada para zonas despobladas. No cuantifica el coste de las rebajas ni el ajuste de gasto que las compensaría.",
+      "propuestas": [
+        {
+          "titular": "«Rebaja masiva de impuestos»",
+          "texto": "Rebaja masiva de impuestos para proteger a los españoles del infierno fiscal y burocrático que impide la prosperidad de los españoles.",
+          "pagina": 9
+        },
+        {
+          "titular": "Bajar el IRPF según los hijos",
+          "texto": "Reforma del sistema de tributación sobre la renta (IRPF). Simplificación y bajada del IRPF. Reducción del tipo aplicable del IRPF para cada contribuyente o familia en función del número de hijos.",
+          "pagina": 9
+        },
+        {
+          "titular": "Bajar el IVA de productos esenciales",
+          "texto": "Rebaja del tipo reducido y del tipo general del IVA atendiendo prioritariamente a productos esenciales y de primera necesidad.",
+          "pagina": 9
+        },
+        {
+          "titular": "Bajar el Impuesto de Sociedades",
+          "texto": "Reducir el tipo del Impuesto de Sociedades con el fin de promover la dinamización de nuestra economía, el crecimiento de nuestras empresas y la creación efectiva de empleo.",
+          "pagina": 9
+        },
+        {
+          "titular": "Reducir la deuda pública",
+          "texto": "Reducción de la deuda pública. Compatibilizar la rebaja de impuestos con la financiación de los servicios…",
+          "pagina": 9,
+          "nota": "La vía que plantea es compatibilizar la rebaja fiscal con el control del déficit y la eliminación del «gasto superfluo e ideológico»."
+        },
+        {
+          "titular": "Fiscalidad mínima en la España vaciada",
+          "texto": "Fiscalidad mínima y diferenciada en las zonas en riesgo de despoblación.",
+          "pagina": 10
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "Vox no dedica un capítulo propio al empleo: sus medidas aparecen dentro del bloque económico. Propone derogar la legislación laboral vigente, que considera causante de precariedad, y fomentar el empleo turístico con medidas fiscales. Para autónomos plantea cuota cero por debajo del SMI y cuota progresiva desde 50 euros por encima de ese umbral. El programa no fija cifras de salario mínimo ni de jornada laboral.",
+      "propuestas": [
+        {
+          "titular": "Trabajo estable y salarios dignos",
+          "texto": "Trabajo estable y salarios dignos para los españoles.",
+          "pagina": 12
+        },
+        {
+          "titular": "Derogar la legislación laboral",
+          "texto": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad, desincentivado la contratación…",
+          "pagina": 13,
+          "nota": "El programa la acusa de maquillar las cifras de temporalidad y de beneficiar al «duopolio sindical»."
+        },
+        {
+          "titular": "Cuota cero para autónomos bajo el SMI",
+          "texto": "Apoyo a los trabajadores autónomos. Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional…",
+          "pagina": 9,
+          "nota": "Por encima del SMI propone una cuota progresiva desde 50 euros en función de los ingresos."
+        },
+        {
+          "titular": "Empleo turístico de calidad",
+          "texto": "Fomentar la industria turística mediante empleos de calidad y garantizando la convivencia y la preservación de la identidad de nuestros barrios.",
+          "pagina": 13
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "Vox plantea cerrar la inmigración con el lema «ni uno más» y prohíbe las regularizaciones masivas: quien entre de forma ilegal no podría regularizar su situación. Propone suprimir el arraigo, repatriar a quienes estén en situación irregular y un plan de «remigración» para extranjeros que no trabajen o vivan de subsidios. También anuncia la devolución de menores no acompañados, el fin de subvenciones a ONG que considere vinculadas a la inmigración irregular y cortar la cooperación con países que no colaboren en el control de flujos.",
+      "propuestas": [
+        {
+          "titular": "«Ni uno más»",
+          "texto": "Ni uno más. Después de recibir a 5 millones de personas en 5 años España no puede acoger a más inmigrantes.",
+          "pagina": 15
+        },
+        {
+          "titular": "Prohibir regularizaciones",
+          "texto": "Prohibición de las regularizaciones masivas. Quien entra de forma ilegal jamás podrá regularizar su situación.",
+          "pagina": 15
+        },
+        {
+          "titular": "Suprimir el arraigo",
+          "texto": "Supresión de la institución del arraigo como forma de atajar la inmigración ilegal…",
+          "pagina": 15,
+          "nota": "El mismo punto incluye la revocación de las que llama «pasarelas rápidas» para adquirir la nacionalidad."
+        },
+        {
+          "titular": "Plan de «remigración»",
+          "texto": "Remigración. Plan para facilitar el retorno a sus países de los extranjeros que no contribuyan o vivan de subsidios públicos que no alcanzan a los españoles.",
+          "pagina": 15
+        },
+        {
+          "titular": "Deportación por delitos",
+          "texto": "Deportación de quienes cometan delitos graves o hagan del delito leve su forma de vida…",
+          "pagina": 15
+        },
+        {
+          "titular": "Menores no acompañados, devueltos",
+          "texto": "Devolución de menores extranjeros no acompañados a sus padres…",
+          "pagina": 15,
+          "nota": "El texto continúa en la página siguiente con la referencia a las instituciones de tutela de los países de origen."
+        },
+        {
+          "titular": "Ni un euro a ONG del «efecto llamada»",
+          "texto": "Ni un euro a ONGs que colaboren con el efecto llamada.",
+          "pagina": 16
+        },
+        {
+          "titular": "Cortar cooperación a países que no controlen flujos",
+          "texto": "Fin de la cooperación al desarrollo con los países que no colaboren en la gestión de los flujos migratorios.",
+          "pagina": 16
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "Vox propone una tarjeta sanitaria única con historia clínica compartida en toda España y reforzar la atención primaria y pediátrica, especialmente en zonas rurales. Anuncia un plan nacional contra las listas de espera con publicación de indicadores y colaboración público-privada cuando reduzca demoras. Incluye mejora retributiva y de plantillas, un plan para repatriar sanitarios españoles, refuerzo de salud mental y oncología, y el fin del «turismo sanitario».",
+      "propuestas": [
+        {
+          "titular": "Tarjeta sanitaria única",
+          "texto": "Misma atención de calidad para todos los españoles: tarjeta sanitaria única con historia clínica compartida en todo el territorio nacional.",
+          "pagina": 37
+        },
+        {
+          "titular": "Reforzar atención primaria y pediatría",
+          "texto": "Refuerzo de la atención primaria y pediátrica en todo el territorio nacional.",
+          "pagina": 37
+        },
+        {
+          "titular": "Plan nacional contra las listas de espera",
+          "texto": "Plan nacional de reducción de listas de espera y mejora de la atención sanitaria.",
+          "pagina": 37,
+          "nota": "Incluye publicación periódica de indicadores comparables de espera, actividad y resultados."
+        },
+        {
+          "titular": "Colaboración público-privada si reduce demoras",
+          "texto": "Fomento de la colaboración público-privada cuando ayude efectivamente a reducir demoras…",
+          "pagina": 37
+        },
+        {
+          "titular": "Fin del «turismo sanitario»",
+          "texto": "Plan para promover el retorno de los profesionales sanitarios que se han marchado al extranjero en busca de las oportunidades que no han tenido en España. Fin del turismo sanitario.",
+          "pagina": 38
+        },
+        {
+          "titular": "Reforzar salud mental",
+          "texto": "Refuerzo de la Estrategia Nacional de Salud Mental.",
+          "pagina": 38
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "Vox propone unificar currículo, evaluaciones nacionales e inspección, con reválidas y EVAU única, y garantizar la enseñanza en español en todo el territorio. Defiende derogar la LOMLOE, la libre elección de centro y la «prioridad nacional» en ayudas y admisión, con límites de alumnado de otras culturas o con dominio insuficiente del español. Anuncia el fin de los móviles en clase y refuerzo de la autoridad del profesor.",
+      "propuestas": [
+        {
+          "titular": "Currículo y EVAU comunes",
+          "texto": "Igualar las oportunidades para todos los alumnos españoles: unificar currículo, evaluaciones nacionales e inspección. Reválidas y EVAU única.",
+          "pagina": 41
+        },
+        {
+          "titular": "Educación en español en todo el territorio",
+          "texto": "Se garantizará la educación en español en todo el territorio nacional.",
+          "pagina": 41
+        },
+        {
+          "titular": "Libre elección de centro",
+          "texto": "Garantizar los derechos de las familias en la educación de sus hijos. Garantizar la libre elección de centro educativo en todos los niveles…",
+          "pagina": 41
+        },
+        {
+          "titular": "Derogar la LOMLOE",
+          "texto": "Eliminación de contenidos ideológicos ajenos a las materias académicas. Derogación de la LOMLOE…",
+          "pagina": 41
+        },
+        {
+          "titular": "Límite de alumnado con dominio insuficiente del español",
+          "texto": "Establecimiento de un número máximo por aula de alumnos procedentes de otras culturas o con dominio insuficiente del español.",
+          "pagina": 42,
+          "nota": "Se acompaña de aulas específicas de nivelación antes de integrarse en la clase ordinaria."
+        },
+        {
+          "titular": "«Prioridad nacional» en becas y admisión",
+          "texto": "Prioridad nacional para escoger centro para los hijos, en la concesión de ayudas y subvenciones educativas…",
+          "pagina": 42
+        }
+      ]
+    }
+  }
+}
