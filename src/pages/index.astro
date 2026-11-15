@@ -93,16 +93,19 @@ import TarjetaPartido from '../components/TarjetaPartido.astro';import {
 
   <section class="seccion">
     <div class="wrap">
-      <h2>Cómo leer una ficha</h2>
+      <h2>Cada promesa, comprobada en el PDF</h2>
       <p class="prosa">
-        Cada partido tiene una ficha por tema. Arriba, un resumen en lenguaje llano
-        de lo que propone. Debajo, las frases exactas de su programa en las que se
-        basa ese resumen, con la página y un enlace para abrirla en el PDF.
+        No hace falta que nos creas. Cada ficha resume lo que propone un partido y,
+        justo debajo, muestra las frases exactas de su programa electoral que
+        sostienen ese resumen. Cada frase lleva su número de página y un enlace que
+        abre el PDF oficial en ese punto.
       </p>
       <p class="prosa">
-        Antes de publicar, un programa revisa cada frase: si una no aparece tal cual
-        en la página indicada, la web no se publica. Así puedes comprobar cualquier
-        afirmación en dos clics.
+        Antes de publicar, un control automático compara cada frase con el texto de
+        esa página. Si no aparece tal cual —aunque falte una palabra—, la web no se
+        publica. Ahora mismo hay <strong>{totalPropuestas} citas comprobadas</strong> en{' '}
+        {partidosDisponibles.length} partidos: puedes auditar cualquier afirmación en
+        dos clics.
       </p>
       <p class="prosa">
         La cobertura está en curso: faltan partidos y algunos temas, y los añadimos
