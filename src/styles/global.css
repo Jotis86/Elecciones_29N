@@ -348,6 +348,16 @@ a.tarjeta:hover {
   margin-bottom: 0.7rem;
 }
 
+/* El distintivo y el recuento van en líneas distintas: juntos se pegaban. */
+.tarjeta-partido .estado {
+  margin-bottom: 0;
+}
+
+.tarjeta-partido .cuenta {
+  display: block;
+  margin-top: 0.55rem;
+}
+
 .estado {
   display: inline-block;
   font-size: 0.72rem;
