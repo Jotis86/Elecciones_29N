@@ -204,7 +204,6 @@ nav.sitio-nav a[aria-current='page'] {
 .entradilla {
   font-size: clamp(1.05rem, 1.9vw, 1.28rem);
   color: var(--tenue);
-  max-width: 46ch;
   line-height: 1.6;
 }
 
@@ -408,8 +407,6 @@ details.original blockquote {
   background: var(--papel);
   position: relative;
   overflow: hidden;
-  /* La caja termina donde termina el texto: resumen y citas comparten medida. */
-  max-width: 48rem;
 }
 
 .ficha::before {
@@ -423,11 +420,6 @@ details.original blockquote {
 
 .ficha + .ficha {
   margin-top: 1.25rem;
-}
-
-/* La cabecera de la lista de fichas comparte su ancho para no quedar suelta. */
-.seccion-cabecera.estrecha {
-  max-width: 48rem;
 }
 
 .ficha-cabecera {
@@ -603,7 +595,6 @@ blockquote::after {
   border-radius: var(--radio);
   color: var(--tenue);
   font-size: 0.92rem;
-  max-width: 48rem;
 }
 
 .ficha-vacia + .ficha,
@@ -627,10 +618,6 @@ blockquote::after {
 .pagina-cabecera {
   padding-block: clamp(2.2rem, 5vw, 3.4rem) clamp(1.4rem, 3vw, 2rem);
   border-bottom: 1px solid var(--linea);
-}
-
-.pagina-cabecera .entradilla {
-  max-width: 60ch;
 }
 
 .migas {
@@ -758,15 +745,10 @@ blockquote::after {
 .aviso-legal {
   font-size: 0.88rem;
   color: var(--tenue);
-  max-width: 70ch;
 }
 
 .aviso-legal strong {
   color: var(--tinta);
-}
-
-.prosa {
-  max-width: 68ch;
 }
 
 .prosa h2 {
