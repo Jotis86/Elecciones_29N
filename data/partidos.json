@@ -49,22 +49,6 @@
     "notas": "Pendiente de confirmar que el PDF oficial es la versión completa."
   },
   {
-    "slug": "sumar",
-    "siglas": "Sumar",
-    "nombre": "Sumar",
-    "color": "#E51C55",
-    "programa": null,
-    "estado": "pendiente",
-    "ambito": "Estatal",
-    "escanos2023": 31,
-    "pdf": null,
-    "pdf_oficial": null,
-    "pdf_archivado": null,
-    "publicado": null,
-    "descargado": null,
-    "notas": "Sin programa publicado en la fecha de revisión."
-  },
-  {
     "slug": "erc",
     "siglas": "ERC",
     "nombre": "Esquerra Republicana de Catalunya",
@@ -136,13 +120,13 @@
     "programa": null,
     "estado": "pendiente",
     "ambito": "Estatal",
-    "escanos2023": 0,
+    "escanos2023": 31,
     "pdf": null,
     "pdf_oficial": null,
     "pdf_archivado": null,
     "publicado": null,
     "descargado": null,
-    "notas": "Sin programa publicado."
+    "notas": "Sumar concurre dentro de esta candidatura; se contabiliza una sola vez y se le asignan los 31 escaños de ese espacio en 2023."
   },
   {
     "slug": "pumj",
