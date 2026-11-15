@@ -48,8 +48,8 @@ export interface BloqueTema {
 
 export interface Ficha {
   partido: string;
-  /** Idioma original del programa: es, gl (gallego) o eu (euskera). */
-  idioma?: 'es' | 'gl' | 'eu';
+  /** Idioma original del programa: es, gl (gallego), eu (euskera) o ca (catalán). */
+  idioma?: 'es' | 'gl' | 'eu' | 'ca';
   revisado: string;
   temas: Record<string, BloqueTema>;
 }
@@ -58,6 +58,7 @@ export const NOMBRE_IDIOMA: Record<string, string> = {
   es: 'castellano',
   gl: 'gallego',
   eu: 'euskera',
+  ca: 'catalán',
 };
 
 export interface Sitio {

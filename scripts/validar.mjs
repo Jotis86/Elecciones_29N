@@ -124,7 +124,7 @@ for (const fichero of ficheros) {
   // Los programas que no están en castellano se traducen, pero se guarda la
   // cita original y se verifica contra el PDF.
   const idioma = ficha.idioma ?? 'es';
-  if (!['es', 'gl', 'eu'].includes(idioma)) {
+  if (!['es', 'gl', 'eu', 'ca'].includes(idioma)) {
     errores.push(`${slug}: idioma desconocido «${idioma}»`);
   }
 

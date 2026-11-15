@@ -69,16 +69,16 @@
     "siglas": "ERC",
     "nombre": "Esquerra Republicana de Catalunya",
     "color": "#F2A20C",
-    "programa": "Programa electoral Congrés 2026",
-    "estado": "pendiente",
+    "programa": "Pel país. Per la gent. Pel futur.",
+    "estado": "disponible",
     "ambito": "Cataluña",
     "escanos2023": 7,
-    "pdf": null,
-    "pdf_oficial": null,
+    "pdf": "ERC.pdf",
+    "pdf_oficial": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
     "pdf_archivado": null,
-    "publicado": null,
-    "descargado": null,
-    "notas": "Programa anunciado; PDF no localizado en la web del partido."
+    "publicado": "2026-11-10",
+    "descargado": "2026-11-15",
+    "notas": "Documento en catalán."
   },
   {
     "slug": "pnv",

@@ -27,7 +27,8 @@ npm test         # pruebas del reparto D'Hondt
 ```
 programas/            PDFs originales (no se versionan, están en .gitignore)
 data/
-  partidos.json       metadatos: siglas, color, programa, URLs, estado, escaños 2023
+  partidos.json       metadatos: siglas, color, programa, URLs, estado, escaños 2023;
+                      pdf_fuente si el partido no aloja el PDF y se usa una copia
   temas.json          taxonomía de 16 temas + palabras clave
   sitio.json          autor, contacto y fecha de actualización
   escanos.json        diputados por circunscripción (anexo RD 806/2026)
@@ -57,9 +58,11 @@ la portada, en los temas y en la tabla de programas.
 
 ## Añadir un partido
 
-1. Descarga el PDF oficial a `programas/`.
+1. Descarga el PDF a `programas/`.
 2. Añade su entrada en `data/partidos.json` con `estado: "disponible"`,
-   `pdf` (nombre del archivo), `pdf_oficial` y `programa`.
+   `pdf` (nombre del archivo), `pdf_oficial` y `programa`. Si el partido no
+   publica el PDF, indica `pdf_fuente` con la copia de terceros y explica la
+   procedencia en `notas`.
 3. Extrae el texto:
    ```bash
    .venv/bin/python scripts/extraer_texto.py --solo <slug>

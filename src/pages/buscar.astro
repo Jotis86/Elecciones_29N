@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { fichas, partidoPorSlug, temaPorSlug } from '../lib/datos';
+import { fichas, partidoPorSlug, temaPorSlug, enlacePdf } from '../lib/datos';
 
 const indice = fichas.flatMap((ficha) => {
   const partido = partidoPorSlug(ficha.partido);
@@ -16,7 +16,7 @@ const indice = fichas.flatMap((ficha) => {
       titular: propuesta.titular,
       texto: propuesta.texto,
       pagina: propuesta.pagina,
-      pdf: partido.pdf_oficial,
+      pdf: enlacePdf(partido, propuesta.pagina),
     }));
   });
 });
@@ -139,7 +139,7 @@ const indice = fichas.flatMap((ficha) => {
         if (d.pdf) {
           const a = document.createElement('a');
           a.className = 'cita-pagina';
-          a.href = `${d.pdf}#page=${d.pagina}`;
+          a.href = d.pdf;
           a.target = '_blank';
           a.rel = 'noopener noreferrer';
           a.textContent = `pág. ${d.pagina} · ver en el PDF ↗`;
