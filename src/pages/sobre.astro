@@ -68,8 +68,10 @@ const porPartido = fichas.map((f) => Object.keys(f.temas).length);
           </li>
           <li>
             <strong>No está completo.</strong> Hay {fichas.length} programas
-            analizados de {partidosDisponibles.length} publicados, y entre{' '}
-            {Math.min(...porPartido)} y {Math.max(...porPartido)} temas por partido
+            analizados de {partidosDisponibles.length} publicados, con{' '}
+            {Math.min(...porPartido) === Math.max(...porPartido)
+              ? `${porPartido[0]} temas por partido`
+              : `entre ${Math.min(...porPartido)} y ${Math.max(...porPartido)} temas por partido`}{' '}
             ({temasCubiertos} de {temas.length} temas con alguna ficha). Las fichas
             se publican por tandas.
           </li>

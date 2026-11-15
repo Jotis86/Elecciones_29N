@@ -52,7 +52,11 @@ const conPrograma = filas.filter((f) => f.partido.estado === 'disponible');
                   {partido.estado === 'disponible' ? (
                     <>
                       <em>{partido.programa}</em>
-                      {documento && <div class="estado ok" style="margin-top:0.3rem">texto analizado</div>}
+                      {documento && (
+                        <div style="margin-top:0.35rem">
+                          <span class="estado ok">texto extraído</span>
+                        </div>
+                      )}
                     </>
                   ) : (
                     <span style="color:var(--tenue)">Aún no publicado</span>
