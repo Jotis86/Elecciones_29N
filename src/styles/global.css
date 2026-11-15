@@ -408,6 +408,8 @@ details.original blockquote {
   background: var(--papel);
   position: relative;
   overflow: hidden;
+  /* La caja termina donde termina el texto: resumen y citas comparten medida. */
+  max-width: 48rem;
 }
 
 .ficha::before {
@@ -421,6 +423,11 @@ details.original blockquote {
 
 .ficha + .ficha {
   margin-top: 1.25rem;
+}
+
+/* La cabecera de la lista de fichas comparte su ancho para no quedar suelta. */
+.seccion-cabecera.estrecha {
+  max-width: 48rem;
 }
 
 .ficha-cabecera {
@@ -444,7 +451,6 @@ details.original blockquote {
 
 .resumen {
   padding-left: 0.4rem;
-  max-width: 68ch;
   font-size: 1.02rem;
 }
 
@@ -597,6 +603,7 @@ blockquote::after {
   border-radius: var(--radio);
   color: var(--tenue);
   font-size: 0.92rem;
+  max-width: 48rem;
 }
 
 .ficha-vacia + .ficha,
