@@ -3,7 +3,7 @@
   "revisado": "2026-11-15",
   "temas": {
     "vivienda": {
-      "resumen": "Vox vincula la política de vivienda al control de fronteras y a una «prioridad nacional» en el acceso a vivienda protegida y ayudas al alquiler. Propone derogar la Ley de Vivienda, reformar la Ley del Suelo para ampliar suelo y agilizar licencias, y aumentar la construcción de vivienda protegida con colaboración público-privada. Anuncia desalojo de viviendas ocupadas en menos de 24 horas, IVA del 0% en la primera vivienda de nueva construcción y bonificación total del ITP en la de segunda mano.",
+      "resumen": "Vox vincula la política de vivienda al control de fronteras y a una «prioridad nacional» en el acceso a vivienda protegida y ayudas al alquiler. Propone derogar la Ley de Vivienda, reformar la Ley del Suelo para ampliar suelo y agilizar licencias, y aumentar la construcción de vivienda protegida con colaboración público-privada. Anuncia desalojo de viviendas ocupadas en menos de 24 horas, IVA del 0% en la primera vivienda de nueva construcción y bonificación total del ITP en la de segunda mano. Exigiría verificar la residencia legal como requisito para formalizar el contrato de alquiler.",
       "propuestas": [
         {
           "titular": "La vivienda empieza por el control de fronteras",
@@ -18,8 +18,7 @@
         {
           "titular": "Reforma de la Ley del Suelo",
           "texto": "Reforma de la Ley del Suelo. Volver a ver grúas en los cielos.",
-          "pagina": 23,
-          "nota": "Incluye ampliar suelo disponible, agilizar procedimientos y suprimir trabas regulatorias."
+          "pagina": 23
         },
         {
           "titular": "Derogar la Ley de Vivienda",
@@ -34,14 +33,12 @@
         {
           "titular": "Prohibir alquilar a inmigrantes irregulares",
           "texto": "Prohibición del arrendamiento a inmigrantes ilegales.",
-          "pagina": 24,
-          "nota": "Exigiría verificar la residencia legal como requisito para formalizar el contrato de alquiler."
+          "pagina": 24
         },
         {
           "titular": "IVA 0% en la primera vivienda",
           "texto": "La primera vivienda habitual de una familia española no paga impuestos. Tipo 0% de IVA para la compra de tu primera vivienda habitual…",
-          "pagina": 24,
-          "nota": "Se acompaña de bonificación del 100% del ITP para la primera vivienda usada y de la recuperación de la deducción por inversión en vivienda habitual."
+          "pagina": 24
         }
       ]
     },
@@ -71,8 +68,7 @@
         {
           "titular": "Reducir la deuda pública",
           "texto": "Reducción de la deuda pública. Compatibilizar la rebaja de impuestos con la financiación de los servicios…",
-          "pagina": 9,
-          "nota": "La vía que plantea es compatibilizar la rebaja fiscal con el control del déficit y la eliminación del «gasto superfluo e ideológico»."
+          "pagina": 9
         },
         {
           "titular": "Fiscalidad mínima en la España vaciada",
@@ -82,7 +78,7 @@
       ]
     },
     "empleo": {
-      "resumen": "Vox no dedica un capítulo propio al empleo: sus medidas aparecen dentro del bloque económico. Propone derogar la legislación laboral vigente, que considera causante de precariedad, y fomentar el empleo turístico con medidas fiscales. Para autónomos plantea cuota cero por debajo del SMI y cuota progresiva desde 50 euros por encima de ese umbral. El programa no fija cifras de salario mínimo ni de jornada laboral.",
+      "resumen": "Vox no dedica un capítulo propio al empleo: sus medidas aparecen dentro del bloque económico. Propone derogar la legislación laboral vigente, que considera causante de precariedad, y fomentar el empleo turístico con medidas fiscales. Para autónomos plantea cuota cero por debajo del SMI y cuota progresiva desde 50 euros por encima de ese umbral. El programa no fija cifras de salario mínimo ni de jornada laboral. Vox acusa a esa legislación de maquillar las cifras de temporalidad y de beneficiar al «duopolio sindical».",
       "propuestas": [
         {
           "titular": "Trabajo estable y salarios dignos",
@@ -92,14 +88,12 @@
         {
           "titular": "Derogar la legislación laboral",
           "texto": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad, desincentivado la contratación…",
-          "pagina": 13,
-          "nota": "El programa la acusa de maquillar las cifras de temporalidad y de beneficiar al «duopolio sindical»."
+          "pagina": 13
         },
         {
           "titular": "Cuota cero para autónomos bajo el SMI",
           "texto": "Apoyo a los trabajadores autónomos. Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional…",
-          "pagina": 9,
-          "nota": "Por encima del SMI propone una cuota progresiva desde 50 euros en función de los ingresos."
+          "pagina": 9
         },
         {
           "titular": "Empleo turístico de calidad",
@@ -109,7 +103,7 @@
       ]
     },
     "inmigracion": {
-      "resumen": "Vox plantea cerrar la inmigración con el lema «ni uno más» y prohíbe las regularizaciones masivas: quien entre de forma ilegal no podría regularizar su situación. Propone suprimir el arraigo, repatriar a quienes estén en situación irregular y un plan de «remigración» para extranjeros que no trabajen o vivan de subsidios. También anuncia la devolución de menores no acompañados, el fin de subvenciones a ONG que considere vinculadas a la inmigración irregular y cortar la cooperación con países que no colaboren en el control de flujos.",
+      "resumen": "Vox plantea cerrar la inmigración con el lema «ni uno más» y prohíbe las regularizaciones masivas: quien entre de forma ilegal no podría regularizar su situación. Propone suprimir el arraigo, repatriar a quienes estén en situación irregular y un plan de «remigración» para extranjeros que no trabajen o vivan de subsidios. También anuncia la devolución de menores no acompañados, el fin de subvenciones a ONG que considere vinculadas a la inmigración irregular y cortar la cooperación con países que no colaboren en el control de flujos. El mismo punto incluye la revocación de las que llama «pasarelas rápidas» para adquirir la nacionalidad.",
       "propuestas": [
         {
           "titular": "«Ni uno más»",
@@ -124,8 +118,7 @@
         {
           "titular": "Suprimir el arraigo",
           "texto": "Supresión de la institución del arraigo como forma de atajar la inmigración ilegal…",
-          "pagina": 15,
-          "nota": "El mismo punto incluye la revocación de las que llama «pasarelas rápidas» para adquirir la nacionalidad."
+          "pagina": 15
         },
         {
           "titular": "Plan de «remigración»",
@@ -140,8 +133,7 @@
         {
           "titular": "Menores no acompañados, devueltos",
           "texto": "Devolución de menores extranjeros no acompañados a sus padres…",
-          "pagina": 15,
-          "nota": "El texto continúa en la página siguiente con la referencia a las instituciones de tutela de los países de origen."
+          "pagina": 15
         },
         {
           "titular": "Ni un euro a ONG del «efecto llamada»",
@@ -171,8 +163,7 @@
         {
           "titular": "Plan nacional contra las listas de espera",
           "texto": "Plan nacional de reducción de listas de espera y mejora de la atención sanitaria.",
-          "pagina": 37,
-          "nota": "Incluye publicación periódica de indicadores comparables de espera, actividad y resultados."
+          "pagina": 37
         },
         {
           "titular": "Colaboración público-privada si reduce demoras",
@@ -192,7 +183,7 @@
       ]
     },
     "educacion": {
-      "resumen": "Vox propone unificar currículo, evaluaciones nacionales e inspección, con reválidas y EVAU única, y garantizar la enseñanza en español en todo el territorio. Defiende derogar la LOMLOE, la libre elección de centro y la «prioridad nacional» en ayudas y admisión, con límites de alumnado de otras culturas o con dominio insuficiente del español. Anuncia el fin de los móviles en clase y refuerzo de la autoridad del profesor.",
+      "resumen": "Vox propone unificar currículo, evaluaciones nacionales e inspección, con reválidas y EVAU única, y garantizar la enseñanza en español en todo el territorio. Defiende derogar la LOMLOE, la libre elección de centro y la «prioridad nacional» en ayudas y admisión, con límites de alumnado de otras culturas o con dominio insuficiente del español. Anuncia el fin de los móviles en clase y refuerzo de la autoridad del profesor. Se acompaña de aulas específicas de nivelación antes de integrarse en la clase ordinaria.",
       "propuestas": [
         {
           "titular": "Currículo y EVAU comunes",
@@ -217,8 +208,7 @@
         {
           "titular": "Límite de alumnado con dominio insuficiente del español",
           "texto": "Establecimiento de un número máximo por aula de alumnos procedentes de otras culturas o con dominio insuficiente del español.",
-          "pagina": 42,
-          "nota": "Se acompaña de aulas específicas de nivelación antes de integrarse en la clase ordinaria."
+          "pagina": 42
         },
         {
           "titular": "«Prioridad nacional» en becas y admisión",
@@ -253,19 +243,17 @@
       ]
     },
     "energia-medioambiente": {
-      "resumen": "Vox propone un Plan Nacional de Soberanía Energética con bajada masiva de impuestos eléctricos, fin del tope a la inversión en redes y recuperación del plan nuclear, derogando el calendario de cierre. Plantea revertir las normas climáticas que atribuye al Pacto Verde y a la Agenda 2030, incluidas las que limitan motores de combustión o gravan emisiones. Añade levantar las restricciones para explorar y explotar recursos naturales y yacimientos minerales.",
+      "resumen": "Vox propone un Plan Nacional de Soberanía Energética con bajada masiva de impuestos eléctricos, fin del tope a la inversión en redes y recuperación del plan nuclear, derogando el calendario de cierre. Plantea revertir las normas climáticas que atribuye al Pacto Verde y a la Agenda 2030, incluidas las que limitan motores de combustión o gravan emisiones. Añade levantar las restricciones para explorar y explotar recursos naturales y yacimientos minerales. Las autorizaciones para líneas, subestaciones y puntos de conexión se resolverían con plazos cerrados y silencio positivo.",
       "propuestas": [
         {
           "titular": "Soberanía energética",
           "texto": "Aprovechamiento de nuestros recursos energéticos, la mejora de las redes y la reducción de cargas fiscales y regulatorias. Plan Nacional de Soberanía Energética.",
-          "pagina": 11,
-          "nota": "Incluye aprovechar recursos propios, mejorar las redes y reducir cargas fiscales y regulatorias."
+          "pagina": 11
         },
         {
           "titular": "Fin del tope a invertir en redes",
           "texto": "Fin del tope regulatorio a la inversión en redes eléctricas.",
-          "pagina": 11,
-          "nota": "Las autorizaciones para líneas, subestaciones y puntos de conexión se resolverían con plazos cerrados y silencio positivo."
+          "pagina": 11
         },
         {
           "titular": "Bajar los impuestos de la luz",
@@ -305,8 +293,7 @@
         {
           "titular": "«Combate total» al narcotráfico",
           "texto": "Combate total al narcotráfico. Refuerzo urgente de los medios humanos y recursos materiales, técnicos y operativos dedicados a la lucha contra el narcotráfico y la criminalidad organizada",
-          "pagina": 46,
-          "nota": "Incluye el restablecimiento inmediato del Organismo de Coordinación del Narcotráfico (OCON) Sur."
+          "pagina": 46
         },
         {
           "titular": "Fronteras con apoyo militar",
@@ -316,8 +303,7 @@
         {
           "titular": "Más inversión en defensa",
           "texto": "Aumento de la inversión en Defensa, sueldos dignos y ayudas a la movilidad geográfica y a la vivienda y alojamiento.",
-          "pagina": 47,
-          "nota": "Propone reconocer la profesión militar como profesión de riesgo y reforzar la ciberseguridad y las infraestructuras críticas."
+          "pagina": 47
         }
       ]
     },
@@ -377,7 +363,7 @@
       ]
     },
     "derechos-sociales": {
-      "resumen": "Vox propone un plan nacional de natalidad que extienda las ventajas de las familias numerosas desde el primer hijo, con bonificaciones fiscales y cotización financiada por el Estado para quien cuide a sus hijos. Añade refuerzo del presupuesto de dependencia, ayuda al cuidado en el hogar, plazas residenciales y medidas contra la soledad no deseada. En el plano de la vida, defiende el derecho a la vida «desde su concepción» y la objeción de conciencia de sanitarios.",
+      "resumen": "Vox propone un plan nacional de natalidad que extienda las ventajas de las familias numerosas desde el primer hijo, con bonificaciones fiscales y cotización financiada por el Estado para quien cuide a sus hijos. Añade refuerzo del presupuesto de dependencia, ayuda al cuidado en el hogar, plazas residenciales y medidas contra la soledad no deseada. En el plano de la vida, defiende el derecho a la vida «desde su concepción» y la objeción de conciencia de sanitarios. Se presenta como medida para que criar hijos no penalice la pensión futura.",
       "propuestas": [
         {
           "titular": "Plan nacional de natalidad",
@@ -387,8 +373,7 @@
         {
           "titular": "Cotización por cuidar a los hijos",
           "texto": "Cotización a la Seguridad Social financiada por el Estado para los españoles dedicados al cuidado de sus hijos.",
-          "pagina": 51,
-          "nota": "Se presenta como medida para que criar hijos no penalice la pensión futura."
+          "pagina": 51
         },
         {
           "titular": "Mayores y dependencia",
@@ -418,8 +403,7 @@
         {
           "titular": "Blindaje frente a la Agenda 2030",
           "texto": "Blindaje del sector primario frente a la Agenda 2030 y lucha contra la competencia desleal.",
-          "pagina": 33,
-          "nota": "Se presenta como oposición a las medidas que perjudiquen al sector y a las «imposiciones» del Pacto Verde."
+          "pagina": 33
         },
         {
           "titular": "No a Mercosur",
@@ -489,8 +473,7 @@
         {
           "titular": "Mecenazgo y arte",
           "texto": "Reducción de impuestos para el arte y los espectáculos en vivo. Nueva Ley de Mecenazgo para elevar las deducciones del IRPF.",
-          "pagina": 43,
-          "nota": "El programa incluye, en la página anterior, conservación y rehabilitación del patrimonio nacional con atención al medio rural, sus iglesias y monumentos."
+          "pagina": 43
         },
         {
           "titular": "Tauromaquia",

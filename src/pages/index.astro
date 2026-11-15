@@ -1,8 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Compartir from '../components/Compartir.astro';
-import TarjetaPartido from '../components/TarjetaPartido.astro';
-import {
+import TarjetaPartido from '../components/TarjetaPartido.astro';import {
   partidos,
   temas,
   fichas,
@@ -94,17 +93,20 @@ import {
 
   <section class="seccion">
     <div class="wrap">
-      <h2>Cómo funciona</h2>
+      <h2>Cómo leer una ficha</h2>
       <p class="prosa">
-        Cada ficha tiene dos partes: un <strong>resumen</strong> de la posición del
-        partido y las <strong>citas literales</strong> que la sostienen, con el número
-        de página del programa. Los resúmenes los redacta una persona a partir del
-        documento; las citas se comprueban automáticamente contra el PDF antes de
-        publicar, y el sitio no se construye si alguna no coincide.
+        Cada partido tiene una ficha por tema. Arriba, un resumen en lenguaje llano
+        de lo que propone. Debajo, las frases exactas de su programa en las que se
+        basa ese resumen, con la página y un enlace para abrirla en el PDF.
       </p>
       <p class="prosa">
-        Faltan partidos y temas por completar. <a href="/sobre">Aquí explicamos</a>
-        el método, los criterios y cómo se irá ampliando.
+        Antes de publicar, un programa revisa cada frase: si una no aparece tal cual
+        en la página indicada, la web no se publica. Así puedes comprobar cualquier
+        afirmación en dos clics.
+      </p>
+      <p class="prosa">
+        La cobertura está en curso: faltan partidos y algunos temas, y los añadimos
+        por tandas. <a href="/sobre">Aquí explicamos</a>{' '}el método y los criterios.
       </p>
       <Compartir texto="Los programas del 29N, resumidos y verificables" />
     </div>

@@ -4,21 +4,19 @@
   "revisado": "2026-11-15",
   "temas": {
     "vivienda": {
-      "resumen": "ERC quiere que la Generalitat tenga competencia plena para aprobar una ley catalana de arrendamientos y que el Estado le transfiera los pisos de la SAREB y de Casa 47. Exige que la política estatal de vivienda llegue al 1,5% del PIB y que los fondos se transfieran a las comunidades. Sube el IVA del alquiler turístico al 21%, grava a fondos buitre y grandes tenedores que no destinen a vivienda habitual y mantiene la protección frente a desahucios de vulnerables.",
+      "resumen": "ERC quiere que la Generalitat tenga competencia plena para aprobar una ley catalana de arrendamientos y que el Estado le transfiera los pisos de la SAREB y de Casa 47. Exige que la política estatal de vivienda llegue al 1,5% del PIB y que los fondos se transfieran a las comunidades. Sube el IVA del alquiler turístico al 21%, grava a fondos buitre y grandes tenedores que no destinen a vivienda habitual y mantiene la protección frente a desahucios de vulnerables. Se articularía mediante una ley estatal del artículo 150.1 de la Constitución que delegue la competencia. Mantiene compensaciones para los pequeños propietarios afectados.",
       "propuestas": [
         {
           "titular": "Ley catalana de arrendamientos",
           "texto": "Dotar a la Generalitat de competencias para desplegar una ley catalana de arrendamientos urbanos.",
           "texto_original": "Dotar la Generalitat de Catalunya de competències per al desplegament d’una llei d’arrendaments urbans catalana.",
-          "pagina": 19,
-          "nota": "Se articularía mediante una ley estatal del artículo 150.1 de la Constitución que delegue la competencia."
+          "pagina": 19
         },
         {
           "titular": "1,5% del PIB para vivienda",
           "texto": "Que los presupuestos del Estado dediquen a políticas de vivienda al menos el 1,5% del PIB, multiplicando los recursos actuales.",
           "texto_original": "que dediqui a aquestes polítiques almenys l’1,5 % del Producte Interior Brut (PIB)",
-          "pagina": 19,
-          "nota": "El texto exige que esos recursos se transfieran a las comunidades autónomas."
+          "pagina": 19
         },
         {
           "titular": "SAREB y Casa 47, para la Generalitat",
@@ -42,27 +40,24 @@
           "titular": "Frenar desahucios de vulnerables",
           "texto": "Mejorar la regulación de los arrendamientos para proteger a los inquilinos y evitar los desahucios de personas vulnerables sin vivienda alternativa.",
           "texto_original": "evitar els desnonaments de les persones vulnerables sense habitatge alternatiu",
-          "pagina": 19,
-          "nota": "El compromiso mantiene compensaciones para los pequeños propietarios afectados."
+          "pagina": 19
         }
       ]
     },
     "economia-fiscalidad": {
-      "resumen": "ERC propone subir el tipo máximo del IRPF del ahorro del 30% al 35% y bajar el IRPF a quienes cobran menos de 35.000 euros, además de rebajar el IVA de alimentos básicos e higiene. Quiere hacer permanentes el impuesto a las grandes fortunas y el gravamen a la banca, y aumentar el tramo de patrimonios superiores a 100 millones. Añade fiscalidad verde al queroseno y al transporte marítimo, elimina la ley Beckham y pide licencia bancaria plena para el ICF.",
+      "resumen": "ERC propone subir el tipo máximo del IRPF del ahorro del 30% al 35% y bajar el IRPF a quienes cobran menos de 35.000 euros, además de rebajar el IVA de alimentos básicos e higiene. Quiere hacer permanentes el impuesto a las grandes fortunas y el gravamen a la banca, y aumentar el tramo de patrimonios superiores a 100 millones. Añade fiscalidad verde al queroseno y al transporte marítimo, elimina la ley Beckham y pide licencia bancaria plena para el ICF. El texto argumenta que España tiene más reducciones y deducciones que la media europea. Se completa con una revisión de la fiscalidad del gas y de los cargos de la tarifa eléctrica. El compromiso 84 también veta el régimen fiscal favorable a teletrabajadores internacionales.",
       "propuestas": [
         {
           "titular": "35% a las rentas del capital",
           "texto": "Aumentar el tipo máximo del IRPF sobre las ganancias de capital del 30% al 35% para acabar con el trato de favor frente a las rentas del trabajo.",
           "texto_original": "Augmentar el tipus màxim de l’IRPF sobre els guanys de capital del 30 % al 35 % per acabar amb el tracte de favor respecte a les rendes del treball.",
-          "pagina": 21,
-          "nota": "La misma medida rebaja los tipos del trabajo para los tramos inferiores a 35.000 euros."
+          "pagina": 21
         },
         {
           "titular": "IVA más bajo en alimentos básicos",
           "texto": "Rebajar el IVA de los alimentos básicos y los productos de higiene.",
           "texto_original": "Rebaixar l’IVA aplicable a aliments bàsics i productes d’higiene",
-          "pagina": 21,
-          "nota": "El texto argumenta que España tiene más reducciones y deducciones que la media europea."
+          "pagina": 21
         },
         {
           "titular": "Impuesto permanente a las grandes fortunas",
@@ -80,15 +75,13 @@
           "titular": "Fiscalidad verde al transporte",
           "texto": "Eliminar las exenciones al combustible de aviación y navegación, con los cambios normativos europeos necesarios.",
           "texto_original": "Eliminar les exempcions al combustible d’aviació i navegació",
-          "pagina": 22,
-          "nota": "Se completa con una revisión de la fiscalidad del gas y de los cargos de la tarifa eléctrica."
+          "pagina": 22
         },
         {
           "titular": "Fin de la ley Beckham",
           "texto": "Poner fin a la ley Beckham, que permite tributar como no residente durante seis años.",
           "texto_original": "Posar fi a la llei Beckham",
-          "pagina": 22,
-          "nota": "El compromiso 84 también veta el régimen fiscal favorable a teletrabajadores internacionales."
+          "pagina": 22
         },
         {
           "titular": "Banca pública con el ICF",
@@ -99,7 +92,7 @@
       ]
     },
     "empleo": {
-      "resumen": "ERC quiere un salario mínimo catalán de 1.460 euros y llevar el SMI estatal al 60% del salario medio. Propone jornada de 37,5 horas sin bajar sueldo, recuperar la indemnización de 45 días por año y los salarios de tramitación, y exigir autorización administrativa previa para los despidos colectivos. Añade cuota cero para autónomos con enfermedad grave, equiparación de su protección social y medidas para sectores feminizados como las camareras de piso.",
+      "resumen": "ERC quiere un salario mínimo catalán de 1.460 euros y llevar el SMI estatal al 60% del salario medio. Propone jornada de 37,5 horas sin bajar sueldo, recuperar la indemnización de 45 días por año y los salarios de tramitación, y exigir autorización administrativa previa para los despidos colectivos. Añade cuota cero para autónomos con enfermedad grave, equiparación de su protección social y medidas para sectores feminizados como las camareras de piso. Incluye un registro horario digital y fiable accesible a la Inspección de Trabajo. Añade bonificaciones por contratar sustitutos para mantener la actividad. Estas medidas forman parte de un paquete para dignificar el SAD y reconocer periodos de las empleadas del hogar anteriores a 2022.",
       "propuestas": [
         {
           "titular": "Salario mínimo catalán de 1.460 euros",
@@ -117,41 +110,36 @@
           "titular": "Jornada de 37,5 horas",
           "texto": "Reducir la jornada máxima semanal a 37,5 horas sin reducir el salario, reformando el artículo 34 del Estatuto de los Trabajadores.",
           "texto_original": "Reduir la durada màxima de la jornada laboral setmanal a 37 hores i mitja sense reducció salarial.",
-          "pagina": 26,
-          "nota": "Incluye un registro horario digital y fiable accesible a la Inspección de Trabajo."
+          "pagina": 26
         },
         {
           "titular": "Indemnización de 45 días",
           "texto": "Recuperar la indemnización por despido improcedente de 45 días por año trabajado, con un máximo de 42 mensualidades, y los salarios de tramitación.",
           "texto_original": "recuperant la indemnització per acomiadament improcedent de 45 dies per any treballat, amb un màxim de 42 mensualitats, i els salaris de tramitació",
-          "pagina": 26,
-          "nota": "También reclama autorización administrativa previa para despidos colectivos y ERE."
+          "pagina": 26
         },
         {
           "titular": "Cuota cero si el autónomo enferma",
           "texto": "Eximir a los autónomos del pago de cuotas desde que se produzca una enfermedad grave.",
           "texto_original": "Eximir els treballadors autònoms del pagament de les quotes des del moment en què es produeixi una situació de malaltia greu",
-          "pagina": 27,
-          "nota": "Añade bonificaciones por contratar sustitutos para mantener la actividad."
+          "pagina": 27
         },
         {
           "titular": "Camareras de piso, sin externalizar",
           "texto": "Prohibir la externalización de las tareas ordinarias de las camareras de piso en el sector hotelero.",
           "texto_original": "Prohibir l’externalització de les tasques ordinàries de les cambreres de pis en el sector hoteler",
-          "pagina": 28,
-          "nota": "Forma parte de un paquete para dignificar el SAD y reconocer periodos de las empleadas del hogar anteriores a 2022."
+          "pagina": 28
         }
       ]
     },
     "inmigracion": {
-      "resumen": "ERC reclama el traspaso integral de las competencias de migración y asilo a Cataluña para gestionar acogida e integración con enfoque de derechos. Rechaza los centros de retorno en terceros países y la externalización de fronteras, y pide una ley de asilo que no derive solicitudes a países sin vínculo. En el ámbito antidiscriminatorio, propone igualdad de trato por origen y perseguir las organizaciones racistas.",
+      "resumen": "ERC reclama el traspaso integral de las competencias de migración y asilo a Cataluña para gestionar acogida e integración con enfoque de derechos. Rechaza los centros de retorno en terceros países y la externalización de fronteras, y pide una ley de asilo que no derive solicitudes a países sin vínculo. En el ámbito antidiscriminatorio, propone igualdad de trato por origen y perseguir las organizaciones racistas. El compromiso condiciona la aplicación del Reglamento europeo de Retorno a garantías de derechos fundamentales. Incluye mejorar la investigación judicial de los delitos de odio racistas y xenófobos.",
       "propuestas": [
         {
           "titular": "Migración y asilo, para la Generalitat",
           "texto": "Transferir a Cataluña las competencias integrales en migración y asilo para gestionar la acogida, evaluar necesidades e impulsar la integración.",
           "texto_original": "Transferir les competències integrals en matèria de migració i asil.",
-          "pagina": 14,
-          "nota": "El compromiso condiciona la aplicación del Reglamento europeo de Retorno a garantías de derechos fundamentales."
+          "pagina": 14
         },
         {
           "titular": "No a los centros de retorno",
@@ -175,13 +163,12 @@
           "titular": "Igualdad de trato por origen",
           "texto": "Garantizar la igualdad de trato y oportunidades con independencia del origen, combatiendo la discriminación racial y étnica en empleo, vivienda y servicios.",
           "texto_original": "Garantir la igualtat de tracte i oportunitats independentment de l’origen.",
-          "pagina": 25,
-          "nota": "Incluye mejorar la investigación judicial de los delitos de odio racistas y xenófobos."
+          "pagina": 25
         }
       ]
     },
     "sanidad": {
-      "resumen": "ERC defiende una sanidad pública, universal y de gestión pública, con más financiación estatal para reducir listas de espera y mejorar las condiciones de los profesionales. Quiere blindar las competencias sanitarias de la Generalitat frente a cualquier recentralización. Amplía la cartera pública con salud visual (gafas y lentillas), atención bucodental integral y atención psicológica gratuita, con el coste asumido por el Estado.",
+      "resumen": "ERC defiende una sanidad pública, universal y de gestión pública, con más financiación estatal para reducir listas de espera y mejorar las condiciones de los profesionales. Quiere blindar las competencias sanitarias de la Generalitat frente a cualquier recentralización. Amplía la cartera pública con salud visual (gafas y lentillas), atención bucodental integral y atención psicológica gratuita, con el coste asumido por el Estado. El texto exige que el reparto respete las competencias de la Generalitat y la población real.",
       "propuestas": [
         {
           "titular": "Sanidad pública y sin privatizar",
@@ -193,8 +180,7 @@
           "titular": "Más financiación estatal",
           "texto": "Aumentar de forma estructural los recursos que el Estado transfiere a las administraciones sanitarias para ampliar plantillas y mejorar salarios y guardias.",
           "texto_original": "Incrementar el finançament estatal del sistema públic de salut per garantir una atenció sanitària de qualitat i unes condicions laborals dignes.",
-          "pagina": 41,
-          "nota": "El texto exige que el reparto respete las competencias de la Generalitat y la población real."
+          "pagina": 41
         },
         {
           "titular": "Gafas y lentillas públicas",
@@ -217,7 +203,7 @@
       ]
     },
     "educacion": {
-      "resumen": "ERC defiende la escuela catalana y la inmersión lingüística frente a lo que considera injerencias judiciales y estatales, y pide competencias exclusivas en educación. Exige al Estado el 6% del PIB para educación, la gratuidad de 0 a 3 años y financiación para reducir ratios. En universidad, reclama elevar la inversión pública al 1% del PIB en 2030 y al 1,5% en investigación, además de eliminar el distrito único y reforzar las becas.",
+      "resumen": "ERC defiende la escuela catalana y la inmersión lingüística frente a lo que considera injerencias judiciales y estatales, y pide competencias exclusivas en educación. Exige al Estado el 6% del PIB para educación, la gratuidad de 0 a 3 años y financiación para reducir ratios. En universidad, reclama elevar la inversión pública al 1% del PIB en 2030 y al 1,5% en investigación, además de eliminar el distrito único y reforzar las becas. El compromiso liga esos recursos a reducir ratios y mejorar las condiciones salariales del profesorado. El texto concreta un aumento del 0,07% del PIB en universidades y del 0,14% en investigación.",
       "propuestas": [
         {
           "titular": "Escuela catalana e inmersión",
@@ -229,8 +215,7 @@
           "titular": "6% del PIB para educación",
           "texto": "Destinar el 6% del PIB estatal a educación y acabar con la infrafinanciación del sistema.",
           "texto_original": "Destinar el 6 % del PIB estatal a l’educació",
-          "pagina": 11,
-          "nota": "El compromiso liga esos recursos a reducir ratios y mejorar las condiciones salariales del profesorado."
+          "pagina": 11
         },
         {
           "titular": "0 a 3 años gratuito",
@@ -242,8 +227,7 @@
           "titular": "Universidad al 1% del PIB",
           "texto": "Incrementar la inversión estatal en universidades hasta el 1% del PIB en 2030 y en investigación hasta el 1,5%.",
           "texto_original": "Incrementar el finançament de les universitats públiques i la recerca fins al 2030",
-          "pagina": 45,
-          "nota": "El texto concreta un aumento del 0,07% del PIB en universidades y del 0,14% en investigación."
+          "pagina": 45
         },
         {
           "titular": "Fin del distrito único",
@@ -260,7 +244,7 @@
       ]
     },
     "pensiones": {
-      "resumen": "ERC defiende un sistema público de pensiones con revalorización según el IPC y rechaza expresamente recortar derechos o privatizarlas. Propone actualizar las pensiones con el IPC de cada territorio para tener en cuenta el coste de la vida, y reconocer la jubilación anticipada sin penalización en sectores penosos, peligrosos o insalubres, con atención expresa a los conductores profesionales y a los agentes rurales.",
+      "resumen": "ERC defiende un sistema público de pensiones con revalorización según el IPC y rechaza expresamente recortar derechos o privatizarlas. Propone actualizar las pensiones con el IPC de cada territorio para tener en cuenta el coste de la vida, y reconocer la jubilación anticipada sin penalización en sectores penosos, peligrosos o insalubres, con atención expresa a los conductores profesionales y a los agentes rurales. El texto vincula la medida a reducir las desigualdades territoriales. Plantea que los grandes beneficios empresariales y las rentas del capital contribuyan al sistema.",
       "propuestas": [
         {
           "titular": "Blindaje con el IPC",
@@ -272,27 +256,24 @@
           "titular": "IPC de cada territorio",
           "texto": "Revalorizar las pensiones según el IPC de cada territorio y revisar el sistema para tener en cuenta las diferencias de coste de vida.",
           "texto_original": "Revalorar les pensions d’acord amb l’IPC de cada territori.",
-          "pagina": 26,
-          "nota": "El texto vincula la medida a reducir las desigualdades territoriales."
+          "pagina": 26
         },
         {
           "titular": "Jubilación anticipada en trabajos penosos",
           "texto": "Garantizar la jubilación anticipada sin penalización a quienes trabajan en sectores o profesiones especialmente penosos, peligrosos, tóxicos o insalubres.",
           "texto_original": "Garantir l’accés a la jubilació anticipada sense penalitzacions en la pensió a les persones treballadores de sectors i professions especialment penosos",
-          "pagina": 26,
-          "nota": "Cita expresamente a los conductores profesionales y pide aprobar la del cuerpo de Agentes Rurales."
+          "pagina": 26
         },
         {
           "titular": "Ni recortes ni privatización",
           "texto": "Frente al envejecimiento, la respuesta no puede ser recortar derechos ni privatizar las pensiones, sino reforzar su financiación.",
           "texto_original": "la resposta no pot ser retallar drets ni privatitzar les pensions, sinó reforçar-ne el finançament",
-          "pagina": 25,
-          "nota": "Plantea que los grandes beneficios empresariales y las rentas del capital contribuyan al sistema."
+          "pagina": 25
         }
       ]
     },
     "energia-medioambiente": {
-      "resumen": "ERC quiere un modelo energético 100% renovable, descentralizado y de proximidad, con la Generalitat decidiendo sobre la red eléctrica. Propone recuperar las hidroeléctricas cuando caduquen las concesiones, ampliar el autoconsumo compartido a 10 km (20 en zonas rurales) y eliminar privilegios del oligopolio. En clima, fija reducciones de CO2 del 65% en 2030 y 95% en 2040, y exige un plan para el Delta del Ebro y financiación para el Fondo de Transición Nuclear.",
+      "resumen": "ERC quiere un modelo energético 100% renovable, descentralizado y de proximidad, con la Generalitat decidiendo sobre la red eléctrica. Propone recuperar las hidroeléctricas cuando caduquen las concesiones, ampliar el autoconsumo compartido a 10 km (20 en zonas rurales) y eliminar privilegios del oligopolio. En clima, fija reducciones de CO2 del 65% en 2030 y 95% en 2040, y exige un plan para el Delta del Ebro y financiación para el Fondo de Transición Nuclear. Se redefinen los peajes de acceso en proporción a lo que se induce a la red. Incluye modificar el Plan Hidrológico del Ebro para garantizar caudales ecológicos.",
       "propuestas": [
         {
           "titular": "100% renovable y descentralizado",
@@ -310,8 +291,7 @@
           "titular": "Autoconsumo compartido a 10 km",
           "texto": "Ampliar el autoconsumo colectivo hasta 10 km con carácter general y hasta 20 km en áreas rurales.",
           "texto_original": "Modificar la legislació per ampliar l’àmbit de l’autoconsum col·lectiu fins als 10 km amb caràcter general i fins als 20.000 metres (20 km) en àrees rurals",
-          "pagina": 30,
-          "nota": "Se redefine los peajes de acceso en proporción a lo que se induce a la red."
+          "pagina": 30
         },
         {
           "titular": "CO2: -65% en 2030 y -95% en 2040",
@@ -323,8 +303,7 @@
           "titular": "Plan para el Delta del Ebro",
           "texto": "Aprobar un plan estatal anual acordado con el territorio contra la regresión, la subsidencia y la subida del mar en el Delta del Ebro.",
           "texto_original": "Exigir un pla estatal anual acordat amb el territori per combatre la regressió, la subsidència i la pujada del mar al delta de l’Ebre",
-          "pagina": 32,
-          "nota": "Incluye modificar el Plan Hidrológico del Ebro para garantizar caudales ecológicos."
+          "pagina": 32
         },
         {
           "titular": "Fondo de Transición Nuclear",
@@ -335,7 +314,7 @@
       ]
     },
     "seguridad-defensa": {
-      "resumen": "ERC quiere completar las competencias de los Mossos d'Esquadra, incluida la seguridad en puertos y aeropuertos, y su acceso a bases de datos estatales e internacionales como Interpol y Europol. Pide 180 plazas judiciales nuevas entre 2026 y 2027 y endurecer penas por armas y robo de cable. En defensa, reclama fiscalizar el gasto militar y los programas especiales de armamento, sin ocultar partidas.",
+      "resumen": "ERC quiere completar las competencias de los Mossos d'Esquadra, incluida la seguridad en puertos y aeropuertos, y su acceso a bases de datos estatales e internacionales como Interpol y Europol. Pide 180 plazas judiciales nuevas entre 2026 y 2027 y endurecer penas por armas y robo de cable. En defensa, reclama fiscalizar el gasto militar y los programas especiales de armamento, sin ocultar partidas. El texto cifra el coste en 20 millones de euros anuales y pide reparto según carga de trabajo. El compromiso también denuncia adjudicaciones a empresas condenadas por corrupción.",
       "propuestas": [
         {
           "titular": "Mossos en puertos y aeropuertos",
@@ -347,15 +326,13 @@
           "titular": "Mossos en Interpol y Europol",
           "texto": "Garantizar el acceso efectivo de los Mossos d'Esquadra a las bases de datos y a los mecanismos de cooperación policial internacional.",
           "texto_original": "Garantir l’accés efectiu dels Mossos d’Esquadra a les bases de dades i als mecanismes de cooperació policial internacional.",
-          "pagina": 42,
-          "nota": "El texto pide integrar el cuerpo en Interpol y Europol en igualdad con el resto de policías españolas."
+          "pagina": 42
         },
         {
           "titular": "180 jueces y juezas más",
           "texto": "Incorporar 180 plazas judiciales entre 2026 y 2027 para agilizar los procedimientos y acabar con la impunidad.",
           "texto_original": "incorporar 180 places entre 2026 i 2027 per accelerar els tràmits judicials",
-          "pagina": 43,
-          "nota": "El texto cifra el coste en 20 millones de euros anuales y pide reparto según carga de trabajo."
+          "pagina": 43
         },
         {
           "titular": "Más penas por armas y robo de cable",
@@ -367,13 +344,12 @@
           "titular": "Fiscalizar el gasto en defensa",
           "texto": "Fiscalizar el modelo de Defensa español y sus programas especiales de armamento, evitando la ocultación de gasto por motivos políticos.",
           "texto_original": "Fiscalitzar el model de Defensa espanyol i els seus programes especials d’armament.",
-          "pagina": 16,
-          "nota": "El compromiso también denuncia adjudicaciones a empresas condenadas por corrupción."
+          "pagina": 16
         }
       ]
     },
     "estado-instituciones": {
-      "resumen": "ERC plantea negociar un referéndum de autodeterminación con acompañamiento internacional, derogar la Ley Mordaza y suprimir los delitos de ofensa a la Corona y a los sentimientos religiosos. Promete una ley estatal sobre desaparición forzosa de menores, reparación de las víctimas del servicio militar obligatorio y convertir la comisaría de Via Laietana en un espacio de memoria. Añade un Consell de Justícia de Catalunya y control parlamentario de la monarquía.",
+      "resumen": "ERC plantea negociar un referéndum de autodeterminación con acompañamiento internacional, derogar la Ley Mordaza y suprimir los delitos de ofensa a la Corona y a los sentimientos religiosos. Promete una ley estatal sobre desaparición forzosa de menores, reparación de las víctimas del servicio militar obligatorio y convertir la comisaría de Via Laietana en un espacio de memoria. Añade un Consell de Justícia de Catalunya y control parlamentario de la monarquía. Mientras no se derogue, ERC pide no aplicarla en territorios con competencias de seguridad transferidas. El texto alude a segrestos, adopciones irregulares y desapariciones durante el franquismo. Requiere reformar la Ley Orgánica del Poder Judicial.",
       "propuestas": [
         {
           "titular": "Referéndum de autodeterminación",
@@ -385,8 +361,7 @@
           "titular": "Derogar la Ley Mordaza",
           "texto": "Derogar la Ley Orgánica 4/2015 de seguridad ciudadana y revisar el marco que restringe derechos de protesta y libertad de expresión.",
           "texto_original": "Derogar la Llei mordassa.",
-          "pagina": 8,
-          "nota": "Mientras no se derogue, pide no aplicarla en territorios con competencias de seguridad transferidas."
+          "pagina": 8
         },
         {
           "titular": "Fin de los delitos de ofensa a la Corona",
@@ -398,15 +373,13 @@
           "titular": "Ley sobre menores desaparecidos",
           "texto": "Aprobar una ley estatal sobre desaparición forzosa de menores para garantizar verdad, justicia y reparación.",
           "texto_original": "Aprovar una llei estatal de desaparició forçosa de menors per garantir veritat, justícia i reparació.",
-          "pagina": 8,
-          "nota": "El texto alude a segrestos, adopciones irregulares y desapariciones durante el franquismo."
+          "pagina": 8
         },
         {
           "titular": "Consell de Justícia de Catalunya",
           "texto": "Crear el Consell de Justícia de Catalunya como órgano desconcentrado del CGPJ, con competencias sobre gobierno judicial, nombramientos e inspección.",
           "texto_original": "Crear el Consell de Justícia de Catalunya.",
-          "pagina": 15,
-          "nota": "Requiere reformar la Ley Orgánica del Poder Judicial."
+          "pagina": 15
         },
         {
           "titular": "Fiscalizar la monarquía",
@@ -417,7 +390,7 @@
       ]
     },
     "territorio": {
-      "resumen": "ERC reclama un concierto económico solidario para Cataluña, con capacidad de recaudar todos los impuestos, y condonar los más de 17.100 millones del FLA. Exige el traspaso de la recaudación de impuestos estatales a la Agència Tributària de Catalunya y una reforma de la financiación local que dé más recursos a los ayuntamientos. Plantea derogar la LRSAL y permitir endeudamiento municipal para inversiones hasta el 50% de los ingresos corrientes.",
+      "resumen": "ERC reclama un concierto económico solidario para Cataluña, con capacidad de recaudar todos los impuestos, y condonar los más de 17.100 millones del FLA. Exige el traspaso de la recaudación de impuestos estatales a la Agència Tributària de Catalunya y una reforma de la financiación local que dé más recursos a los ayuntamientos. Plantea derogar la LRSAL y permitir endeudamiento municipal para inversiones hasta el 50% de los ingresos corrientes. El texto cifra el ahorro en unos 1.500 millones anuales en intereses. Busca más flexibilidad para ayuntamientos saneados y anticipos ante emergencias.",
       "propuestas": [
         {
           "titular": "Concierto económico solidario",
@@ -429,8 +402,7 @@
           "titular": "Condonar 17.100 millones del FLA",
           "texto": "Condonar de forma efectiva los más de 17.100 millones de euros del Fondo de Liquidez Autonómica.",
           "texto_original": "Condonar de forma efectiva els més de 17.100 milions d’euros del FLA.",
-          "pagina": 12,
-          "nota": "El texto cifra el ahorro en unos 1.500 millones anuales en intereses."
+          "pagina": 12
         },
         {
           "titular": "Recaudar todos los impuestos",
@@ -448,8 +420,7 @@
           "titular": "Derogar la LRSAL",
           "texto": "Derogar la Ley de Racionalización y Sostenibilidad de la Administración Local y reformar la Ley de Estabilidad Presupuestaria.",
           "texto_original": "Derogar la Llei de Racionalització i Sostenibilitat de l’Administració Local (LRSAL)",
-          "pagina": 44,
-          "nota": "Busca más flexibilidad para ayuntamientos saneados y anticipos ante emergencias."
+          "pagina": 44
         },
         {
           "titular": "Endeudamiento municipal para invertir",
@@ -460,7 +431,7 @@
       ]
     },
     "europa-exterior": {
-      "resumen": "ERC pide cumplir el 0,7% de la renta nacional en cooperación y un embargo completo de armas a Israel, con suspensión del acuerdo UE-Israel. Defiende el derecho de autodeterminación de los pueblos y revertir la posición española sobre el Sáhara, condicionando la relación con Marruecos a los derechos humanos. En la UE, apuesta por una seguridad propia basada en la diplomacia, un presupuesto ambicioso y menos dependencia de la OTAN.",
+      "resumen": "ERC pide cumplir el 0,7% de la renta nacional en cooperación y un embargo completo de armas a Israel, con suspensión del acuerdo UE-Israel. Defiende el derecho de autodeterminación de los pueblos y revertir la posición española sobre el Sáhara, condicionando la relación con Marruecos a los derechos humanos. En la UE, apuesta por una seguridad propia basada en la diplomacia, un presupuesto ambicioso y menos dependencia de la OTAN. Incluye apoyo a la Corte Internacional de Justicia y a la Corte Penal Internacional. El texto exige asumir las resoluciones del TJUE que anularon los acuerdos UE-Marruecos.",
       "propuestas": [
         {
           "titular": "0,7% para cooperación",
@@ -472,15 +443,13 @@
           "titular": "Embargo de armas a Israel",
           "texto": "Promover un embargo completo de armas a Israel y que la UE suspenda el acuerdo de asociación mientras dure la ocupación y el genocidio en Palestina.",
           "texto_original": "Promoure un embargament complet d’armes a Israel per part de l’Estat.",
-          "pagina": 16,
-          "nota": "Incluye apoyo a la Corte Internacional de Justicia y a la Corte Penal Internacional."
+          "pagina": 16
         },
         {
           "titular": "Autodeterminación y Sáhara",
           "texto": "Defender el derecho de autodeterminación de los pueblos y revertir la posición del Gobierno español sobre el Sáhara de 2022.",
           "texto_original": "Defensar el dret a l’autodeterminació arreu.",
-          "pagina": 16,
-          "nota": "El texto exige asumir las resoluciones del TJUE que anularon los acuerdos UE-Marruecos."
+          "pagina": 16
         },
         {
           "titular": "Apoyo a Ucrania",
@@ -503,14 +472,13 @@
       ]
     },
     "derechos-sociales": {
-      "resumen": "ERC promete reformar la ley integral contra la violencia de género para cubrir la violencia económica, vicaria y digital, con regulación específica de la vicaria y peritajes digitales gratuitos. Reconoce legalmente las identidades no binarias y el derecho al duelo gestacional, e iguala las familias monoparentales a las numerosas. Añade el reconocimiento penal de las terapias de conversión, financiación de la dependencia y regulación de la presión estética en publicidad y redes.",
+      "resumen": "ERC promete reformar la ley integral contra la violencia de género para cubrir la violencia económica, vicaria y digital, con regulación específica de la vicaria y peritajes digitales gratuitos. Reconoce legalmente las identidades no binarias y el derecho al duelo gestacional, e iguala las familias monoparentales a las numerosas. Añade el reconocimiento penal de las terapias de conversión, financiación de la dependencia y regulación de la presión estética en publicidad y redes. El texto excluye de la penalización el acompañamiento psicológico voluntario y afirmativo.",
       "propuestas": [
         {
           "titular": "Violencia machista: económica, vicaria y digital",
           "texto": "Reformar la Ley Orgánica 1/2004 y el resto de la legislación estatal para cubrir la prevención, detección, protección y reparación de todas las violencias machistas, incluidas la económica, la vicaria y la digital.",
           "texto_original": "Reformar la Llei orgànica 1/2004 i la resta de legislació estatal per garantir la prevenció, detecció, protecció i reparació davant totes les violències masclistes, incloses l’econòmica, la vicària i la digital.",
-          "pagina": 24,
-          "nota": "Incluye peritajes digitales gratuitos y retirada rápida de contenidos ilícitos."
+          "pagina": 24
         },
         {
           "titular": "Identidades no binarias",
@@ -534,8 +502,7 @@
           "titular": "Terapias de conversión, delito",
           "texto": "Reforzar la prohibición de las prácticas de conversión y perseguirlas penalmente, también cuando se amparen en motivos religiosos.",
           "texto_original": "Reforçar la prohibició de les pràctiques de conversió i perseguir-les penalment.",
-          "pagina": 24,
-          "nota": "El texto excluye de la penalización el acompañamiento psicológico voluntario y afirmativo."
+          "pagina": 24
         },
         {
           "titular": "Financiar la dependencia",
@@ -552,7 +519,7 @@
       ]
     },
     "campo-pesca": {
-      "resumen": "ERC pide descentralizar la PAC y que Cataluña gestione directamente los fondos europeos agrarios y pesqueros. Rechaza ratificar el acuerdo UE-Mercosur y exige reciprocidad y cláusulas de salvaguarda. Promete precios justos con una ley de cadena alimentaria reforzada, más financiación de los seguros agrarios y de la modernización de regadíos, y regularizar la potencia de la flota pesquera sin aumentar el esfuerzo.",
+      "resumen": "ERC pide descentralizar la PAC y que Cataluña gestione directamente los fondos europeos agrarios y pesqueros. Rechaza ratificar el acuerdo UE-Mercosur y exige reciprocidad y cláusulas de salvaguarda. Promete precios justos con una ley de cadena alimentaria reforzada, más financiación de los seguros agrarios y de la modernización de regadíos, y regularizar la potencia de la flota pesquera sin aumentar el esfuerzo. Plantea metodologías objetivas por sector y observatorios agroalimentarios. Prioriza los Canales de Urgell y la conexión con el Segarra-Garrigues. Pide revisar los criterios de GT y kW ante la UE sin aumentar el esfuerzo pesquero.",
       "propuestas": [
         {
           "titular": "PAC gestionada desde Cataluña",
@@ -564,15 +531,13 @@
           "titular": "No al acuerdo con Mercosur",
           "texto": "Rechazar la ratificación del acuerdo de libre comercio UE-Mercosur y oponerse a su aplicación provisional hasta que se pronuncie el TJUE.",
           "texto_original": "El govern espanyol ha de rebutjar la ratificació de l’acord de lliure comerç UE-Mercosur",
-          "pagina": 32,
-          "nota": "Añade cláusulas de salvaguarda y reciprocidad de normas para los productos importados."
+          "pagina": 32
         },
         {
           "titular": "Precios justos para la payesía",
           "texto": "Reformar y aplicar la Ley de la Cadena Alimentaria para garantizar precios que cubran los costes de producción.",
           "texto_original": "Reformar i garantir l’aplicació efectiva de la Llei de la cadena alimentària per assegurar preus justos a la pagesia.",
-          "pagina": 33,
-          "nota": "Plantea metodologías objetivas por sector y observatorios agroalimentarios."
+          "pagina": 33
         },
         {
           "titular": "Seguros agrarios más baratos",
@@ -584,20 +549,18 @@
           "titular": "Regadíos y Canales de Urgell",
           "texto": "Exigir financiación estatal suficiente y sostenida para modernizar los regadíos de Cataluña y adaptarlos a la sequía.",
           "texto_original": "Garantir el finançament estatal de la modernització dels regadius de Catalunya.",
-          "pagina": 33,
-          "nota": "Prioriza los Canales de Urgell y la conexión con el Segarra-Garrigues."
+          "pagina": 33
         },
         {
           "titular": "Regularizar la flota pesquera",
           "texto": "Regularizar la potencia real de las embarcaciones pesqueras y adaptar los límites de capacidad de la flota.",
           "texto_original": "Regularitzar la potència real de les embarcacions pesqueres i adaptar els límits de capacitat de la flota.",
-          "pagina": 33,
-          "nota": "Pide revisar los criterios de GT y kW ante la UE sin aumentar el esfuerzo pesquero."
+          "pagina": 33
         }
       ]
     },
     "infraestructuras": {
-      "resumen": "ERC quiere transferir a la Generalitat la titularidad y gestión de los aeropuertos de Girona, Reus y Sabadell, y crear un consorcio de inversiones con el Estado para ejecutar obra pública en Cataluña. Propone una viñeta para financiar las vías de alta capacidad y el traspaso integral de Rodalies, con la R1 incluida. Exige cumplir el Plan de Rodalies 2026-2030, los 1.400 millones adicionales y culminar el Corredor Mediterráneo y el transporte de mercancías.",
+      "resumen": "ERC quiere transferir a la Generalitat la titularidad y gestión de los aeropuertos de Girona, Reus y Sabadell, y crear un consorcio de inversiones con el Estado para ejecutar obra pública en Cataluña. Propone una viñeta para financiar las vías de alta capacidad y el traspaso integral de Rodalies, con la R1 incluida. Exige cumplir el Plan de Rodalies 2026-2030, los 1.400 millones adicionales y culminar el Corredor Mediterráneo y el transporte de mercancías. El texto denuncia que la inversión estatal ejecutada en Cataluña fue del 8,6%, el porcentaje más bajo en diez años.",
       "propuestas": [
         {
           "titular": "Aeropuertos para la Generalitat",
@@ -609,8 +572,7 @@
           "titular": "Consorcio de Inversiones",
           "texto": "Constituir el Consorcio de Inversiones de Cataluña y la sociedad mixta de inversiones para planificar y ejecutar las inversiones estatales.",
           "texto_original": "Constituir el Consorci d’Inversions de Catalunya i la societat mixta d’inversions.",
-          "pagina": 38,
-          "nota": "El texto denuncia que la inversión estatal ejecutada en Cataluña fue del 8,6%, el porcentaje más bajo en diez años."
+          "pagina": 38
         },
         {
           "titular": "Viñeta para las vías de alta capacidad",
@@ -639,14 +601,13 @@
       ]
     },
     "cultura-deporte": {
-      "resumen": "ERC propone una ley de plurilingüismo para reforzar los derechos lingüísticos y reclamar el catalán, el occitano y la lengua de signos catalana como oficiales en la UE. Defiende un plan de soberanía cultural con traspaso de museos y equipamientos, y completar el Estatuto del Artista. En audiovisual, reserva el 25% de las obras europeas de TVE a lenguas cooficiales; en deporte, pide selecciones catalanas oficiales y que las pinturas de Sixena no se muevan.",
+      "resumen": "ERC propone una ley de plurilingüismo para reforzar los derechos lingüísticos y reclamar el catalán, el occitano y la lengua de signos catalana como oficiales en la UE. Defiende un plan de soberanía cultural con traspaso de museos y equipamientos, y completar el Estatuto del Artista. En audiovisual, reserva el 25% de las obras europeas de TVE a lenguas cooficiales; en deporte, pide selecciones catalanas oficiales y que las pinturas de Sixena no se muevan. Incluye exigir el conocimiento de las lenguas oficiales propias a los empleados del Estado en cada territorio. El plan incluye el Museo Nacional Arqueológico de Tarragona y revisar la gobernanza del MNAC y el MACBA. Pide reformar la ley de patrimonio para exigir dictamen técnico previo ante bienes frágiles.",
       "propuestas": [
         {
           "titular": "Ley de plurilingüismo",
           "texto": "Aprobar una ley de plurilingüismo para reforzar los derechos lingüísticos y garantizar que cualquiera pueda relacionarse con el Estado en cualquier lengua oficial.",
           "texto_original": "Aprovar una Llei del plurilingüisme per reforçar els drets lingüístics i garantir una protecció més efectiva de les llengües oficials diferents del castellà.",
-          "pagina": 9,
-          "nota": "Incluye exigir el conocimiento de las lenguas oficiales propias a los empleados del Estado en cada territorio."
+          "pagina": 9
         },
         {
           "titular": "Catalán oficial en la UE",
@@ -658,8 +619,7 @@
           "titular": "Pla de Sobirania Cultural",
           "texto": "Impulsar un plan de soberanía cultural para culminar el traspaso de museos y equipamientos culturales a Cataluña.",
           "texto_original": "Impulsar un Pla de Sobirania Cultural per culminar el traspàs dels museus i equipaments culturals transferibles a Catalunya",
-          "pagina": 13,
-          "nota": "Cita el Museo Nacional Arqueológico de Tarragona y revisar la gobernanza del MNAC y el MACBA."
+          "pagina": 13
         },
         {
           "titular": "Estatuto del Artista",
@@ -683,8 +643,7 @@
           "titular": "Sixena: las pinturas no se mueven",
           "texto": "Exigir que las pinturas murales de Sixena no se desmonten ni se trasladen del MNAC.",
           "texto_original": "Sixena: les pintures no es mouen.",
-          "pagina": 13,
-          "nota": "Pide reformar la ley de patrimonio para exigir dictamen técnico previo ante bienes frágiles."
+          "pagina": 13
         }
       ]
     }

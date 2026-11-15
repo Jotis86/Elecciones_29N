@@ -38,7 +38,6 @@ export interface Propuesta {
   /** Cita literal en el idioma original cuando el programa no está en castellano. */
   texto_original?: string;
   pagina: number;
-  nota?: string;
 }
 
 export interface BloqueTema {

@@ -3,7 +3,7 @@
   "revisado": "2026-11-15",
   "temas": {
     "vivienda": {
-      "resumen": "M+J parte de la vivienda como derecho y no como activo financiero. Propone un parque público de alquiler que pase del 1,1% al 5% del parque en 2030 —unos 1,35 millones de viviendas— con alquileres limitados al 30% de la renta familiar. Plantea vivienda protegida de carácter permanente, prohibición de vender viviendas públicas a empresas privadas, alquiler de referencia en el mercado privado y contratos indefinidos. Para pequeños propietarios ofrece incentivos fiscales.",
+      "resumen": "M+J parte de la vivienda como derecho y no como activo financiero. Propone un parque público de alquiler que pase del 1,1% al 5% del parque en 2030 —unos 1,35 millones de viviendas— con alquileres limitados al 30% de la renta familiar. Plantea vivienda protegida de carácter permanente, prohibición de vender viviendas públicas a empresas privadas, alquiler de referencia en el mercado privado y contratos indefinidos. Para pequeños propietarios ofrece incentivos fiscales. Solo podrían terminar por necesidad acreditada del propietario o por incumplimiento del inquilino; la venta no extinguiría el contrato.",
       "propuestas": [
         {
           "titular": "La vivienda como derecho, no como activo",
@@ -43,13 +43,12 @@
         {
           "titular": "Contratos de alquiler indefinidos",
           "texto": "Los contratos de alquiler de vivienda habitual serán indefinidos…",
-          "pagina": 8,
-          "nota": "Solo podrían terminar por necesidad acreditada del propietario o por incumplimiento del inquilino; la venta no extinguiría el contrato."
+          "pagina": 8
         }
       ]
     },
     "economia-fiscalidad": {
-      "resumen": "M+J plantea una reforma fiscal para equiparar la tributación del capital y del trabajo y reforzar la progresividad. Propone aumentar un 40% los recursos de inspección de la Agencia Tributaria, combatir paraísos fiscales y limitar deducciones como la exención de empresa familiar. Añade un tipo efectivo mínimo del 3% sobre patrimonios superiores a 50 millones, mantener el impuesto a las grandes fortunas y ampliar la tasa Google.",
+      "resumen": "M+J plantea una reforma fiscal para equiparar la tributación del capital y del trabajo y reforzar la progresividad. Propone aumentar un 40% los recursos de inspección de la Agencia Tributaria, combatir paraísos fiscales y limitar deducciones como la exención de empresa familiar. Añade un tipo efectivo mínimo del 3% sobre patrimonios superiores a 50 millones, mantener el impuesto a las grandes fortunas y ampliar la tasa Google. Se aplicaría como gravamen complementario, sin exenciones ni bonificaciones, cuando la tributación efectiva conjunta de IRPF y Patrimonio quede por debajo de ese 3%.",
       "propuestas": [
         {
           "titular": "Los impuestos como base de la sociedad que cuida",
@@ -69,8 +68,7 @@
         {
           "titular": "Tipo efectivo mínimo del 3% a los grandes patrimonios",
           "texto": "Establecer una tributación efectiva mínima del 3 % sobre el patrimonio neto superior a 50 millones de euros…",
-          "pagina": 27,
-          "nota": "Se aplicaría como gravamen complementario, sin exenciones ni bonificaciones, cuando la tributación efectiva conjunta de IRPF y Patrimonio quede por debajo de ese 3%."
+          "pagina": 27
         },
         {
           "titular": "Mantener el impuesto a las grandes fortunas",
@@ -155,7 +153,7 @@
       ]
     },
     "sanidad": {
-      "resumen": "M+J defiende una sanidad pública universal, incluida la atención a personas en situación irregular, y reforzar la Atención Primaria hasta el 25% del gasto sanitario público. Propone frenar la privatización y recuperar servicios externalizados, un nuevo Estatuto Marco para el personal sanitario y más plantillas. Añade una ley estatal de cuidados paliativos, refuerzo de salud mental y adicciones, y consolidar la agencia estatal de salud pública.",
+      "resumen": "M+J defiende una sanidad pública universal, incluida la atención a personas en situación irregular, y reforzar la Atención Primaria hasta el 25% del gasto sanitario público. Propone frenar la privatización y recuperar servicios externalizados, un nuevo Estatuto Marco para el personal sanitario y más plantillas. Añade una ley estatal de cuidados paliativos, refuerzo de salud mental y adicciones, y consolidar la agencia estatal de salud pública. El texto añade eliminar las barreras administrativas que dificultan el acceso, especialmente para las personas en situación irregular. El objetivo cuantificado es elevar su financiación al 20% en 2028 y al 25% en 2030.",
       "propuestas": [
         {
           "titular": "La sanidad pública como bien común",
@@ -165,14 +163,12 @@
         {
           "titular": "Universalidad también en situación irregular",
           "texto": "Consolidar y avanzar en la universalidad de la atención sanitaria reconocida en el Real Decreto-ley 7/2018…",
-          "pagina": 37,
-          "nota": "El texto añade «eliminando las barreras administrativas que dificultan el acceso a la atención sanitaria, especialmente para las personas en situación administrativa irregular»."
+          "pagina": 37
         },
         {
           "titular": "Atención Primaria al 25% del gasto",
           "texto": "Reforzar la Atención Primaria como pilar fundamental del sistema sanitario público.",
-          "pagina": 38,
-          "nota": "El objetivo cuantificado es elevar su financiación al 20% en 2028 y al 25% en 2030."
+          "pagina": 38
         },
         {
           "titular": "Frenar la privatización",
@@ -227,7 +223,7 @@
       ]
     },
     "pensiones": {
-      "resumen": "M+J propone reformar la Constitución para reconocer las pensiones públicas como derecho fundamental, prohibir su privatización y garantizar que no pierdan poder adquisitivo. Plantea elevar progresivamente las mínimas y no contributivas hasta el coste real de una vida digna, y seguir destopando la base máxima de cotización manteniendo un límite en la pensión máxima. Añade una contribución de las empresas muy automatizadas y una aportación estable de los Presupuestos del Estado.",
+      "resumen": "M+J propone reformar la Constitución para reconocer las pensiones públicas como derecho fundamental, prohibir su privatización y garantizar que no pierdan poder adquisitivo. Plantea elevar progresivamente las mínimas y no contributivas hasta el coste real de una vida digna, y seguir destopando la base máxima de cotización manteniendo un límite en la pensión máxima. Añade una contribución de las empresas muy automatizadas y una aportación estable de los Presupuestos del Estado. Toma como referencia el coste real de una vida digna, no solo la trayectoria laboral.",
       "propuestas": [
         {
           "titular": "Derecho fundamental",
@@ -237,8 +233,7 @@
         {
           "titular": "Subir las mínimas y no contributivas",
           "texto": "Elevar de forma progresiva las pensiones mínimas y no contributivas hasta una cuantía que permita vivir con dignidad",
-          "pagina": 24,
-          "nota": "Toma como referencia el coste real de una vida digna, no solo la trayectoria laboral."
+          "pagina": 24
         },
         {
           "titular": "Destope de la base máxima",
@@ -258,19 +253,17 @@
       ]
     },
     "energia-medioambiente": {
-      "resumen": "M+J propone reducir un 55% las emisiones respecto a 1990 en 2030 y alcanzar la neutralidad en 2050, con presupuestos de carbono anuales y un organismo independiente de verificación. Añade un Plan Estatal de Adaptación a la Emergencia Climática, verde urbano a menos de 15 minutos y un 30% de cubierta arbórea. En energía, plantea eliminar los combustibles fósiles, renovables con criterios de biodiversidad y un Fondo Generacional de la Energía.",
+      "resumen": "M+J propone reducir un 55% las emisiones respecto a 1990 en 2030 y alcanzar la neutralidad en 2050, con presupuestos de carbono anuales y un organismo independiente de verificación. Añade un Plan Estatal de Adaptación a la Emergencia Climática, verde urbano a menos de 15 minutos y un 30% de cubierta arbórea. En energía, plantea eliminar los combustibles fósiles, renovables con criterios de biodiversidad y un Fondo Generacional de la Energía. Prioriza a mayores, infancia, personas con discapacidad y trabajadores expuestos a condiciones extremas. El Estado participaría en renovables, almacenamiento e hidroeléctricas, y los beneficios financiarían vivienda pública y pensiones.",
       "propuestas": [
         {
           "titular": "−55% de emisiones en 2030",
           "texto": "Respaldar el compromiso de la Unión Europea de reducir al menos un 55% las emisiones de gases efecto invernadero para el año 2030 con respecto a 1990",
-          "pagina": 53,
-          "nota": "Incluye una hoja de ruta sectorial con presupuestos de carbono anuales y un organismo independiente de verificación."
+          "pagina": 53
         },
         {
           "titular": "Plan de adaptación climática",
           "texto": "Impulsar un Plan Estatal de Adaptación a la Emergencia Climática.",
-          "pagina": 53,
-          "nota": "Prioriza a mayores, infancia, personas con discapacidad y trabajadores expuestos a condiciones extremas."
+          "pagina": 53
         },
         {
           "titular": "Un parque a 15 minutos",
@@ -290,8 +283,7 @@
         {
           "titular": "Fondo Generacional de la Energía",
           "texto": "Crear un Fondo Generacional de la Energía.",
-          "pagina": 59,
-          "nota": "El Estado participaría en renovables, almacenamiento e hidroeléctricas, y los beneficios financiarían vivienda pública y pensiones."
+          "pagina": 59
         }
       ]
     },
@@ -336,8 +328,7 @@
         {
           "titular": "Sin indulto por corrupción",
           "texto": "Prohibición del indulto en los delitos de corrupción.",
-          "pagina": 69,
-          "nota": "Se acompaña de inhabilitación reforzada, decomiso de patrimonio injustificado y refuerzo de la Fiscalía Anticorrupción."
+          "pagina": 69
         },
         {
           "titular": "Menos aforamientos",
@@ -442,8 +433,7 @@
         {
           "titular": "El agua como bien público",
           "texto": "Promover el agua como bien público y no solo como un producto comercial.",
-          "pagina": 56,
-          "nota": "Incluye evitar los cortes por incapacidad económica y garantizar el agua a los hogares vulnerables."
+          "pagina": 56
         },
         {
           "titular": "Siembra de agua",

@@ -3,7 +3,7 @@
   "revisado": "2026-11-15",
   "temas": {
     "vivienda": {
-      "resumen": "El PP propone elevar la producción hasta un millón de viviendas nuevas, con una nueva Ley del Suelo que agilice licencias y movilice suelo público y privado. Derogaría la Ley de Vivienda estatal, incluidas las zonas tensionadas y el índice de precios de referencia. Para jóvenes plantea rebajas fiscales (IVA del 4%, ITP reducido), avales públicos de hasta el 20% y una cuenta de ahorro con deducción. En alquiler ofrece deducciones a inquilinos y a propietarios que renueven contratos, y un desalojo por ocupación en 48 horas.",
+      "resumen": "El PP propone elevar la producción hasta un millón de viviendas nuevas, con una nueva Ley del Suelo que agilice licencias y movilice suelo público y privado. Derogaría la Ley de Vivienda estatal, incluidas las zonas tensionadas y el índice de precios de referencia. Para jóvenes plantea rebajas fiscales (IVA del 4%, ITP reducido), avales públicos de hasta el 20% y una cuenta de ahorro con deducción. En alquiler ofrece deducciones a inquilinos y a propietarios que renueven contratos, y un desalojo por ocupación en 48 horas. La medida «Tres años+» combina deducción en el IRPF para el inquilino y para el propietario que renueve subiendo la renta por debajo del IPC.",
       "propuestas": [
         {
           "titular": "Un millón de viviendas más",
@@ -18,8 +18,7 @@
         {
           "titular": "IVA del 4% para la primera vivienda de los menores de 40",
           "texto": "Reduciremos el IVA de la compra de primera vivienda del 10% al 4% para menores de 40 años…",
-          "pagina": 54,
-          "nota": "El mismo apartado prevé acordar con las CCAA una rebaja del ITP para la primera vivienda usada de los jóvenes."
+          "pagina": 54
         },
         {
           "titular": "Aval público del 20% para comprar",
@@ -29,8 +28,7 @@
         {
           "titular": "Deducción para inquilinos y propietarios que renueven",
           "texto": "Daremos a las familias que viven de alquiler la posibilidad de estabilidad que hoy pierden cada vez que vence su contrato.",
-          "pagina": 55,
-          "nota": "La medida «Tres años+» combina deducción en el IRPF para el inquilino y para el propietario que renueve subiendo la renta por debajo del IPC."
+          "pagina": 55
         },
         {
           "titular": "Desalojo por ocupación en 48 horas",
@@ -40,7 +38,7 @@
       ]
     },
     "economia-fiscalidad": {
-      "resumen": "El PP plantea una rebaja generalizada de impuestos: menores tipos de IRPF para rentas medias y bajas, exención para quien cobre el SMI, deflactación de la tarifa para evitar la subida por inflación y menos Impuesto de Sociedades vía libertad de amortización. Añade IVA del 0% a alimentos básicos, eliminación de impuestos que considera que frenan la inversión y un Estatuto del Contribuyente. Sitúa la financiación en el control del gasto, la lucha contra el fraude y el crecimiento económico.",
+      "resumen": "El PP plantea una rebaja generalizada de impuestos: menores tipos de IRPF para rentas medias y bajas, exención para quien cobre el SMI, deflactación de la tarifa para evitar la subida por inflación y menos Impuesto de Sociedades vía libertad de amortización. Añade IVA del 0% a alimentos básicos, eliminación de impuestos que considera que frenan la inversión y un Estatuto del Contribuyente. Sitúa la financiación en el control del gasto, la lucha contra el fraude y el crecimiento económico. Concreta que lo invertido en maquinaria, digitalización, IA, ciberseguridad, software o patentes podrá descontarse entero el mismo año.",
       "propuestas": [
         {
           "titular": "Bajada del IRPF a rentas medias y bajas",
@@ -70,13 +68,12 @@
         {
           "titular": "Amortización libre para invertir",
           "texto": "La empresa que invierta para crecer pagará menos Impuesto sobre Sociedades.",
-          "pagina": 61,
-          "nota": "Concreta que lo invertido en maquinaria, digitalización, IA, ciberseguridad, software o patentes podrá descontarse entero el mismo año."
+          "pagina": 61
         }
       ]
     },
     "empleo": {
-      "resumen": "El PP centra su oferta laboral en autónomos y empresas: cuota cero el primer año para nuevos autónomos, exención de IVA hasta 85.000 euros de facturación y menos obligaciones trimestrales. Para los trabajadores propone un cheque de formación en inteligencia artificial que se conserva al cambiar de empresa, y bonificaciones a las empresas que mantengan plantillas estables. Añade protección de la vivienda habitual del autónomo y una segunda oportunidad para negocios fallidos.",
+      "resumen": "El PP centra su oferta laboral en autónomos y empresas: cuota cero el primer año para nuevos autónomos, exención de IVA hasta 85.000 euros de facturación y menos obligaciones trimestrales. Para los trabajadores propone un cheque de formación en inteligencia artificial que se conserva al cambiar de empresa, y bonificaciones a las empresas que mantengan plantillas estables. Añade protección de la vivienda habitual del autónomo y una segunda oportunidad para negocios fallidos. Se aplicaría a las empresas con plantillas más estables que la media de su sector, vía cotización por desempleo.",
       "propuestas": [
         {
           "titular": "Cuota cero para nuevos autónomos",
@@ -91,8 +88,7 @@
         {
           "titular": "Cheque de formación en IA para cada trabajador",
           "texto": "La inteligencia artificial ampliará las oportunidades de trabajar, y cada trabajador tendrá un cheque para formarse en ella.",
-          "pagina": 58,
-          "nota": "El cheque se conserva aunque el trabajador cambie de empresa y se financia con las cuotas de formación ya existentes."
+          "pagina": 58
         },
         {
           "titular": "Bonificación por contratar",
@@ -102,19 +98,17 @@
         {
           "titular": "Cotizar menos por plantillas estables",
           "texto": "Las empresas que den estabilidad a sus trabajadores pagarán menos.",
-          "pagina": 59,
-          "nota": "Se aplicaría a las empresas con plantillas más estables que la media de su sector, vía cotización por desempleo."
+          "pagina": 59
         }
       ]
     },
     "inmigracion": {
-      "resumen": "El PP propone concentrar la política migratoria en una autoridad única, reforzar el control de fronteras con más medios policiales y apoyo de las Fuerzas Armadas, e identificar y devolver en plazos cortos a quien entre irregularmente. Apuesta por la migración legal con visados por puntos y cupos anuales ajustados a la capacidad de acogida, y prohíbe por ley las regularizaciones masivas, dejando el arraigo como vía excepcional. Exige un compromiso de integración para renovar la residencia y establece la expulsión como regla para condenados por determinados delitos.",
+      "resumen": "El PP propone concentrar la política migratoria en una autoridad única, reforzar el control de fronteras con más medios policiales y apoyo de las Fuerzas Armadas, e identificar y devolver en plazos cortos a quien entre irregularmente. Apuesta por la migración legal con visados por puntos y cupos anuales ajustados a la capacidad de acogida, y prohíbe por ley las regularizaciones masivas, dejando el arraigo como vía excepcional. Exige un compromiso de integración para renovar la residencia y establece la expulsión como regla para condenados por determinados delitos. Dirigiría entrada, permanencia, retorno e integración, y publicaría un informe anual sobre el efecto de la inmigración en empleo, salarios, vivienda y servicios públicos. Incluye aprender español y conocer la Constitución y los valores de la UE; su cumplimiento se acreditaría para renovar el permiso.",
       "propuestas": [
         {
           "titular": "Autoridad única de política migratoria",
           "texto": "Habrá una autoridad única para toda la política migratoria.",
-          "pagina": 21,
-          "nota": "Dirigiría entrada, permanencia, retorno e integración, y publicaría un informe anual sobre el efecto de la inmigración en empleo, salarios, vivienda y servicios públicos."
+          "pagina": 21
         },
         {
           "titular": "Rechazo en frontera también en Ceuta y Melilla",
@@ -144,8 +138,7 @@
         {
           "titular": "Compromiso de integración para renovar la residencia",
           "texto": "Residir en España exigirá un compromiso de integración.",
-          "pagina": 23,
-          "nota": "Incluye aprender español y conocer la Constitución y los valores de la UE; su cumplimiento se acreditaría para renovar el permiso."
+          "pagina": 23
         },
         {
           "titular": "Expulsión por delitos graves",
@@ -160,8 +153,7 @@
         {
           "titular": "Pacto de Estado y plan contra las listas de espera",
           "texto": "Reduciremos las listas de espera y aseguraremos la financiación sanitaria.",
-          "pagina": 68,
-          "nota": "El Pacto de Estado por la Sanidad Pública se impulsaría con las comunidades autónomas, respetando sus competencias de gestión."
+          "pagina": 68
         },
         {
           "titular": "4.500 médicos más en Atención Primaria",
@@ -191,7 +183,7 @@
       ]
     },
     "educacion": {
-      "resumen": "El PP propone sustituir la LOMLOE por un nuevo marco educativo acordado con docentes y familias, con refuerzo en lectura y cálculo desde Primaria. Defiende la libre elección de centro y garantiza los conciertos educativos donde haya demanda, además de mantener los centros de educación especial. Plantea una FP con plazas en sectores con empleo, universidades con autonomía y rendición de cuentas, y becas ligadas al talento y el esfuerzo.",
+      "resumen": "El PP propone sustituir la LOMLOE por un nuevo marco educativo acordado con docentes y familias, con refuerzo en lectura y cálculo desde Primaria. Defiende la libre elección de centro y garantiza los conciertos educativos donde haya demanda, además de mantener los centros de educación especial. Plantea una FP con plazas en sectores con empleo, universidades con autonomía y rendición de cuentas, y becas ligadas al talento y el esfuerzo. La beca se configuraría como derecho por ley para quien la necesite y apruebe, con los mismos umbrales en universidad y FP.",
       "propuestas": [
         {
           "titular": "Nuevo marco educativo en lugar de la LOMLOE",
@@ -221,8 +213,7 @@
         {
           "titular": "Becas por talento y esfuerzo",
           "texto": "Estudiar dependerá del talento y el esfuerzo, no de la renta.",
-          "pagina": 68,
-          "nota": "La beca se configuraría como derecho por ley para quien la necesite y apruebe, con los mismos umbrales en universidad y FP."
+          "pagina": 68
         }
       ]
     },
@@ -237,8 +228,7 @@
         {
           "titular": "Subida con el IPC",
           "texto": "Aseguraremos que mantengan su poder adquisitivo",
-          "pagina": 42,
-          "nota": "El texto continúa en la página siguiente: «…y suban cada año con el IPC»."
+          "pagina": 42
         },
         {
           "titular": "También para los jóvenes",
@@ -258,37 +248,32 @@
       ]
     },
     "energia-medioambiente": {
-      "resumen": "El PP propone mantener abiertas las centrales nucleares eliminando el calendario de cierre, bajar la fiscalidad del recibo de la luz con una tarifa social única y desbloquear el acceso a la red eléctrica. Anuncia un plan para reforzar el sistema y evitar apagones, y sitúa la política climática en «la ciencia, sin dogmatismos», revisando los ritmos de descarbonización según la tecnología disponible. Prioriza la neutralidad tecnológica frente a elegir qué fuente de energía debe ganar.",
+      "resumen": "El PP propone mantener abiertas las centrales nucleares eliminando el calendario de cierre, bajar la fiscalidad del recibo de la luz con una tarifa social única y desbloquear el acceso a la red eléctrica. Anuncia un plan para reforzar el sistema y evitar apagones, y sitúa la política climática en «la ciencia, sin dogmatismos», revisando los ritmos de descarbonización según la tecnología disponible. Prioriza la neutralidad tecnológica frente a elegir qué fuente de energía debe ganar. Tramitaría la extensión de la vida útil en los primeros cien días, con el visto bueno del Consejo de Seguridad Nuclear. Incluye eliminar el impuesto del 7% a la producción eléctrica y un Estatuto del Consumidor Energético. Promete resolver en 18 meses los problemas que frenan la conexión de proyectos industriales, logísticos, tecnológicos y de centros de datos. Ninguna central de gas o hidroeléctrica cerrará sin una alternativa acreditada técnicamente. Defiende revisar los ritmos por sector según lo que ocurra en el resto del mundo, la tecnología disponible y la demanda.",
       "propuestas": [
         {
           "titular": "Prorrogar las nucleares",
           "texto": "Eliminaremos el calendario de cierre de Almaraz, Ascó, Vandellòs, Cofrentes y Trillo.",
-          "pagina": 71,
-          "nota": "Tramitaría la extensión de la vida útil en los primeros cien días, con el visto bueno del Consejo de Seguridad Nuclear."
+          "pagina": 71
         },
         {
           "titular": "Tarifa social única",
           "texto": "Reduciremos la carga fiscal del recibo de la luz y crearemos una tarifa social única.",
-          "pagina": 71,
-          "nota": "Incluye eliminar el impuesto del 7% a la producción eléctrica y un Estatuto del Consumidor Energético."
+          "pagina": 71
         },
         {
           "titular": "Desbloquear la red eléctrica",
           "texto": "Desbloquearemos el acceso a la red eléctrica.",
-          "pagina": 72,
-          "nota": "Promete resolver en 18 meses los problemas que frenan la conexión de proyectos industriales, logísticos, tecnológicos y de centros de datos."
+          "pagina": 72
         },
         {
           "titular": "Evitar otro apagón",
           "texto": "Reforzaremos el sistema eléctrico para evitar otro apagón.",
-          "pagina": 72,
-          "nota": "Ninguna central de gas o hidroeléctrica cerrará sin una alternativa acreditada técnicamente."
+          "pagina": 72
         },
         {
           "titular": "Clima «con rigor científico»",
           "texto": "Afrontaremos el cambio climático con rigor científico.",
-          "pagina": 72,
-          "nota": "Defiende revisar los ritmos por sector según lo que ocurra en el resto del mundo, la tecnología disponible y la demanda."
+          "pagina": 72
         },
         {
           "titular": "Respaldo al sistema",
@@ -298,13 +283,12 @@
       ]
     },
     "seguridad-defensa": {
-      "resumen": "El PP plantea una ofensiva contra el crimen organizado y la multirreincidencia: unidad central permanente en la frontera sur, más medios navales y aéreos, juicios rápidos y multas mínimas de 3.000 euros por vandalismo. Anuncia un plan contra las bandas juveniles y el uso de menores para delinquir, y refuerzo de la protección de las víctimas de violencia de género. En defensa, propone una ley de programación y financiación plurianual, más efectivos y una industria nacional orientada a drones, ciberdefensa y munición.",
+      "resumen": "El PP plantea una ofensiva contra el crimen organizado y la multirreincidencia: unidad central permanente en la frontera sur, más medios navales y aéreos, juicios rápidos y multas mínimas de 3.000 euros por vandalismo. Anuncia un plan contra las bandas juveniles y el uso de menores para delinquir, y refuerzo de la protección de las víctimas de violencia de género. En defensa, propone una ley de programación y financiación plurianual, más efectivos y una industria nacional orientada a drones, ciberdefensa y munición. Incluye renovar la flota marítima, más helicópteros nocturnos y drones, y escáneres en Algeciras, Valencia, Barcelona y Vigo. Prioriza drones y sistemas antidrones, defensa antiaérea, munición, ciberdefensa, comunicaciones, inteligencia artificial y capacidades navales.",
       "propuestas": [
         {
           "titular": "Golpe al crimen organizado",
           "texto": "El crimen organizado no campará a sus anchas en ningún territorio de España. Reforzaremos las unidades contra el crimen organizado, con una unidad central permanente en la frontera sur.",
-          "pagina": 17,
-          "nota": "Incluye renovar la flota marítima, más helicópteros nocturnos y drones, y escáneres en Algeciras, Valencia, Barcelona y Vigo."
+          "pagina": 17
         },
         {
           "titular": "Multirreincidencia con juicios rápidos",
@@ -329,8 +313,7 @@
         {
           "titular": "Industria de defensa nacional",
           "texto": "La industria de defensa creará empleo y reforzará nuestra soberanía tecnológica. Impulsaremos la industria española de defensa para dotar a nuestras Fuerzas Armadas de las capacidades que necesitan",
-          "pagina": 26,
-          "nota": "Prioriza drones y sistemas antidrones, defensa antiaérea, munición, ciberdefensa, comunicaciones, inteligencia artificial y capacidades navales."
+          "pagina": 26
         }
       ]
     },
@@ -370,7 +353,7 @@
       ]
     },
     "territorio": {
-      "resumen": "El PP propone una ciudadanía común con derechos iguales en toda España y una reconstrucción del pacto territorial con reglas multilaterales: nueva financiación autonómica en el Consejo de Política Fiscal y Financiera, ninguna comunidad fuera del régimen común y responsabilidad sobre la deuda propia. Añade prioridad a quienes mantengan arraigo verificable con España y un tratamiento específico para insularidad y ultraperiferia.",
+      "resumen": "El PP propone una ciudadanía común con derechos iguales en toda España y una reconstrucción del pacto territorial con reglas multilaterales: nueva financiación autonómica en el Consejo de Política Fiscal y Financiera, ninguna comunidad fuera del régimen común y responsabilidad sobre la deuda propia. Añade prioridad a quienes mantengan arraigo verificable con España y un tratamiento específico para insularidad y ultraperiferia. Se aplicarían dentro de los límites constitucionales y europeos, sin basarse solo en la nacionalidad.",
       "propuestas": [
         {
           "titular": "Derechos en cualquier lugar de España",
@@ -380,8 +363,7 @@
         {
           "titular": "Arraigo con España",
           "texto": "El vínculo con España dará prioridad. Estableceremos criterios de prioridad en el acceso a determinadas ayudas, prestaciones y recursos públicos para procurar la asignación prioritaria a quienes mantengan un arraigo real, duradero y verificable con España.",
-          "pagina": 40,
-          "nota": "Se aplicarían dentro de los límites constitucionales y europeos, sin basarse solo en la nacionalidad."
+          "pagina": 40
         },
         {
           "titular": "Reglas claras y sin privilegios",
@@ -406,7 +388,7 @@
       ]
     },
     "europa-exterior": {
-      "resumen": "El PP propone una política exterior «de Estado», con estrategia presentada en las Cortes y sin acuerdos que afecten a soberanía o fronteras sin autorización parlamentaria. Quiere situar a España «donde se decide Europa», con mercado único, interconexiones energéticas y compras conjuntas de defensa. En el presupuesto europeo 2028-2034 defiende mantener la PAC y la cohesión como políticas propias, y añade integridad territorial en el Magreb, solución para el Sáhara y apoyo a Ucrania.",
+      "resumen": "El PP propone una política exterior «de Estado», con estrategia presentada en las Cortes y sin acuerdos que afecten a soberanía o fronteras sin autorización parlamentaria. Quiere situar a España «donde se decide Europa», con mercado único, interconexiones energéticas y compras conjuntas de defensa. En el presupuesto europeo 2028-2034 defiende mantener la PAC y la cohesión como políticas propias, y añade integridad territorial en el Magreb, solución para el Sáhara y apoyo a Ucrania. Pide una Unión con mercado único sin barreras, interconexiones energéticas, compras conjuntas de defensa y tecnología propia. Se opone a fundir PAC y cohesión en un único plan por país y pide que sigan siendo políticas propias con fondos propios.",
       "propuestas": [
         {
           "titular": "Política exterior de Estado",
@@ -421,14 +403,12 @@
         {
           "titular": "España en la mesa europea",
           "texto": "España volverá a estar donde se decide Europa.",
-          "pagina": 73,
-          "nota": "Pide una Unión con mercado único sin barreras, interconexiones energéticas, compras conjuntas de defensa y tecnología propia."
+          "pagina": 73
         },
         {
           "titular": "Defender la PAC y la cohesión",
           "texto": "No nos levantaremos de la mesa sin un buen acuerdo para España en el próximo presupuesto europeo.",
-          "pagina": 74,
-          "nota": "Se opone a fundir PAC y cohesión en un único plan por país y pide que sigan siendo políticas propias con fondos propios."
+          "pagina": 74
         },
         {
           "titular": "Ceuta, Melilla y Canarias",
@@ -448,19 +428,17 @@
       ]
     },
     "derechos-sociales": {
-      "resumen": "El PP centra su política social en la familia: mínimos familiares actualizados con la inflación, deducciones mensuales y apoyo a la maternidad, incluidas facilidades para la reproducción asistida. Promete gratuidad de la escuela infantil de 0 a 3 años, reconocimiento común de las familias monoparentales y un plan urgente contra la pobreza infantil. Añade bancos de horas y horarios flexibles para conciliar.",
+      "resumen": "El PP centra su política social en la familia: mínimos familiares actualizados con la inflación, deducciones mensuales y apoyo a la maternidad, incluidas facilidades para la reproducción asistida. Promete gratuidad de la escuela infantil de 0 a 3 años, reconocimiento común de las familias monoparentales y un plan urgente contra la pobreza infantil. Añade bancos de horas y horarios flexibles para conciliar. Los mínimos se actualizarían con la inflación y se refundirían las deducciones del IRPF en una sola, reembolsable y con abono mensual. Incluye mejorar el acceso a la reproducción asistida en el Sistema Nacional de Salud y facilitar la congelación de óvulos. El programa añade que se acordará con las comunidades un reconocimiento común válido en toda España.",
       "propuestas": [
         {
           "titular": "Ayudas familiares cada mes",
           "texto": "Ampliaremos los actuales mínimos familiares y las ayudas fiscales llegarán cada mes a todas las familias.",
-          "pagina": 56,
-          "nota": "Los mínimos se actualizarían con la inflación y se refundirían las deducciones del IRPF en una sola, reembolsable y con abono mensual."
+          "pagina": 56
         },
         {
           "titular": "Apoyo a la maternidad",
           "texto": "Cualquier mujer que quiera ser madre será ayudada. Pondremos en marcha medidas que favorezcan que las personas puedan tener el número de hijos que desean",
-          "pagina": 56,
-          "nota": "Incluye mejorar el acceso a la reproducción asistida en el Sistema Nacional de Salud y facilitar la congelación de óvulos."
+          "pagina": 56
         },
         {
           "titular": "Escuela infantil gratuita de 0 a 3",
@@ -470,8 +448,7 @@
         {
           "titular": "Familias monoparentales",
           "texto": "Las familias monoparentales tendrán más apoyo y menos obstáculos. Quienes sacan adelante una familia en solitario asumen cada día responsabilidades que en otros hogares se comparten.",
-          "pagina": 57,
-          "nota": "El programa añade que se acordará con las comunidades un reconocimiento común válido en toda España."
+          "pagina": 57
         },
         {
           "titular": "Pobreza infantil",
@@ -486,7 +463,7 @@
       ]
     },
     "campo-pesca": {
-      "resumen": "El PP propone un pacto nacional por el campo, el mar y el monte, con las cadenas agroalimentaria, mar-industria y forestal declaradas estratégicas. Promete mantener la PAC, la pesca y el POSEI en el marco 2028-2034, y bajar impuestos a quien vive e invierte en el medio rural, incluida la vivienda en municipios despoblados. Añade seguros de ingresos, agua para regadío, cláusulas espejo a las importaciones y apoyo a la incorporación de jóvenes.",
+      "resumen": "El PP propone un pacto nacional por el campo, el mar y el monte, con las cadenas agroalimentaria, mar-industria y forestal declaradas estratégicas. Promete mantener la PAC, la pesca y el POSEI en el marco 2028-2034, y bajar impuestos a quien vive e invierte en el medio rural, incluida la vivienda en municipios despoblados. Añade seguros de ingresos, agua para regadío, cláusulas espejo a las importaciones y apoyo a la incorporación de jóvenes. Los jóvenes no pagarían impuestos al comprar su vivienda habitual en municipios despoblados.",
       "propuestas": [
         {
           "titular": "Pacto por el campo, el mar y el monte",
@@ -496,8 +473,7 @@
         {
           "titular": "Vivir en el medio rural tendrá futuro",
           "texto": "Vivir en el medio rural tendrá futuro. Bajaremos los impuestos a quienes viven, invierten y producen en el medio rural.",
-          "pagina": 64,
-          "nota": "Los jóvenes no pagarían impuestos al comprar su vivienda habitual en municipios despoblados."
+          "pagina": 64
         },
         {
           "titular": "PAC, pesca y POSEI sin recortes",
@@ -522,7 +498,7 @@
       ]
     },
     "infraestructuras": {
-      "resumen": "El PP propone un Plan Nacional de Infraestructuras de más de 300.000 millones en 15 años, con prioridad al mantenimiento y la seguridad. Promete recuperar la fiabilidad del AVE y de Cercanías, acelerar los corredores Mediterráneo, Atlántico y Ruta de la Plata, y revertir el deterioro de 26.500 kilómetros de carreteras estatales. Añade un Pacto Nacional del Agua con 40.000 millones hasta 2030 y mejoras en puertos y aeropuertos.",
+      "resumen": "El PP propone un Plan Nacional de Infraestructuras de más de 300.000 millones en 15 años, con prioridad al mantenimiento y la seguridad. Promete recuperar la fiabilidad del AVE y de Cercanías, acelerar los corredores Mediterráneo, Atlántico y Ruta de la Plata, y revertir el deterioro de 26.500 kilómetros de carreteras estatales. Añade un Pacto Nacional del Agua con 40.000 millones hasta 2030 y mejoras en puertos y aeropuertos. Movilizaría autovías, alta velocidad, Cercanías e infraestructuras hidráulicas y energéticas con el sector privado. Analizará las más de 1.000 limitaciones temporales de velocidad y las indemnizaciones por retrasos.",
       "propuestas": [
         {
           "titular": "Mantenimiento primero",
@@ -532,14 +508,12 @@
         {
           "titular": "300.000 millones en 15 años",
           "texto": "Pondremos en marcha el mayor plan de infraestructuras en décadas: más de 300.000 millones de euros.",
-          "pagina": 45,
-          "nota": "Movilizaría autovías, alta velocidad, Cercanías e infraestructuras hidráulicas y energéticas con el sector privado."
+          "pagina": 45
         },
         {
           "titular": "Recuperar el tren",
           "texto": "Invertiremos especialmente en la red ferroviaria y mejoraremos la atención a los viajeros.",
-          "pagina": 45,
-          "nota": "Analizará las más de 1.000 limitaciones temporales de velocidad y las indemnizaciones por retrasos."
+          "pagina": 45
         },
         {
           "titular": "Corredores ferroviarios",
@@ -559,7 +533,7 @@
       ]
     },
     "cultura-deporte": {
-      "resumen": "El PP propone que el castellano vuelva a ser lengua de trabajo en el Congreso y en los órganos de cooperación con las comunidades, manteniendo el uso de las cooficiales en el Senado. Plantea derogar la Ley de Memoria Democrática y sustituirla por una Ley de Concordia, y una historia «completa» en los colegios. En cultura, promete una Ley de Mecenazgo, protección del patrimonio y apoyo a las tradiciones.",
+      "resumen": "El PP propone que el castellano vuelva a ser lengua de trabajo en el Congreso y en los órganos de cooperación con las comunidades, manteniendo el uso de las cooficiales en el Senado. Plantea derogar la Ley de Memoria Democrática y sustituirla por una Ley de Concordia, y una historia «completa» en los colegios. En cultura, promete una Ley de Mecenazgo, protección del patrimonio y apoyo a las tradiciones. La Ley de Concordia, según el programa, protegería la investigación histórica y mantendría la búsqueda de desaparecidos. Impulsaría además los Museos Nacionales.",
       "propuestas": [
         {
           "titular": "Castellano en el Congreso",
@@ -569,8 +543,7 @@
         {
           "titular": "Ley de Concordia",
           "texto": "Derogaremos la Ley de Memoria Democrática y aprobaremos una Ley de Concordia.",
-          "pagina": 47,
-          "nota": "La sustituiría una norma que, según el programa, proteja la investigación histórica y mantenga la búsqueda de desaparecidos."
+          "pagina": 47
         },
         {
           "titular": "Historia completa",
@@ -585,8 +558,7 @@
         {
           "titular": "Patrimonio y mecenazgo",
           "texto": "Protegeremos nuestro patrimonio y promoveremos el apoyo a la cultura. Actualizaremos las leyes que protegen el patrimonio material e inmaterial de España",
-          "pagina": 48,
-          "nota": "Incluye una nueva Ley de Mecenazgo y el impulso a los Museos Nacionales."
+          "pagina": 48
         },
         {
           "titular": "Fiestas y tradiciones",

@@ -3,13 +3,12 @@
   "revisado": "2026-11-15",
   "temas": {
     "vivienda": {
-      "resumen": "SALF plantea abaratar por ley un 35% la primera vivienda con impuestos a cero (ITP y AJD al 0%, IVA del 4% devuelto) y suelo público sin coste. Propone desalojo policial en 48 horas con denuncia y título de propiedad, y 30 días para el impago de alquiler. Añade aval público del 20% de la entrada para menores de 40, seguro público de impago para propietarios y eliminación total del IBI.",
+      "resumen": "SALF plantea abaratar por ley un 35% la primera vivienda con impuestos a cero (ITP y AJD al 0%, IVA del 4% devuelto) y suelo público sin coste. Propone desalojo policial en 48 horas con denuncia y título de propiedad, y 30 días para el impago de alquiler. Añade aval público del 20% de la entrada para menores de 40, seguro público de impago para propietarios y eliminación total del IBI. El programa cifra el coste en unos 5.000 M€/año y dice financiarlo con el «sobrecoste autonómico». La garantía de 2.000 M€ se presenta como aval, no como gasto. Calcula 13.400 M€/año de menores ingresos municipales, que dice que los ayuntamientos absorberían con ahorro.",
       "propuestas": [
         {
           "titular": "Primera vivienda un 35% más barata «por ley»",
           "texto": "Tu primera vivienda, un 35 % más barata. Por ley. Cero impuestos (ITP y AJD al 0 %; IVA al 4 % devuelto íntegro en la renta), licencia en plazo y suelo público sin coste.",
-          "pagina": 5,
-          "nota": "El programa cifra el coste en unos 5.000 M€/año y dice financiarlo con el «sobrecoste autonómico»."
+          "pagina": 5
         },
         {
           "titular": "Okupa fuera en 48 horas",
@@ -29,8 +28,7 @@
         {
           "titular": "Aval del 20% de la entrada",
           "texto": "Aval público del 20 % de entrada para menores de 40 en su primera vivienda.",
-          "pagina": 6,
-          "nota": "El programa habla de una garantía de 2.000 M€ y lo presenta como aval, no como gasto."
+          "pagina": 6
         },
         {
           "titular": "Seguro público de impago para el casero",
@@ -40,19 +38,17 @@
         {
           "titular": "Eliminación total del IBI",
           "texto": "Eliminación total del IBI. El IBI se elimina por completo, para todos.",
-          "pagina": 7,
-          "nota": "Calcula 13.400 M€/año de menores ingresos municipales, que dice que los ayuntamientos absorberían con ahorro."
+          "pagina": 7
         }
       ]
     },
     "economia-fiscalidad": {
-      "resumen": "SALF propone elevar el mínimo exento de IRPF de 5.550 a 35.000 euros en cuatro años, con 5.000 euros más por hijo para cada progenitor, y deflactar la tarifa por ley. Añade cuota cero permanente para autónomos, Impuesto de Sociedades al 20% (15% si se reinvierte, 10% para startups) y supresión de Sucesiones, Donaciones, Patrimonio y grandes fortunas. Su regla de financiación es que ninguna rebaja entre en vigor sin un ahorro equivalente certificado por la AIReF.",
+      "resumen": "SALF propone elevar el mínimo exento de IRPF de 5.550 a 35.000 euros en cuatro años, con 5.000 euros más por hijo para cada progenitor, y deflactar la tarifa por ley. Añade cuota cero permanente para autónomos, Impuesto de Sociedades al 20% (15% si se reinvierte, 10% para startups) y supresión de Sucesiones, Donaciones, Patrimonio y grandes fortunas. Su regla de financiación es que ninguna rebaja entre en vigor sin un ahorro equivalente certificado por la AIReF. Calendario: 15.000 en 2027, 22.000 en 2028, 28.000 en 2029 y 35.000 en 2030; coste estimado de 43.000 M€/año al final.",
       "propuestas": [
         {
           "titular": "35.000 euros libres de IRPF",
           "texto": "35.000 euros libres de IRPF para todos. Mínimo exento de 35.000 euros (hoy, 5.550), con reducción gradual hasta 50.000 para que ganar un euro más nunca cueste dinero.",
-          "pagina": 12,
-          "nota": "Calendario: 15.000 en 2027, 22.000 en 2028, 28.000 en 2029 y 35.000 en 2030; coste estimado de 43.000 M€/año al final."
+          "pagina": 12
         },
         {
           "titular": "5.000 euros más por hijo para cada progenitor",
@@ -92,13 +88,12 @@
       ]
     },
     "empleo": {
-      "resumen": "SALF propone reducir la cuña fiscal del 41% al 29% y sustituir la contratación temporal por un contrato único indefinido con indemnización creciente de 12 a 33 días y una «mochila» del 1,53%. Añade cuota cero y ventanilla única para autónomos, FP dual remunerada al 50% del convenio, bajas pagadas por la Seguridad Social desde el primer día y cómputo como parado del fijo discontinuo inactivo. También limita la prestación a quien rechace dos ofertas adecuadas.",
+      "resumen": "SALF propone reducir la cuña fiscal del 41% al 29% y sustituir la contratación temporal por un contrato único indefinido con indemnización creciente de 12 a 33 días y una «mochila» del 1,53%. Añade cuota cero y ventanilla única para autónomos, FP dual remunerada al 50% del convenio, bajas pagadas por la Seguridad Social desde el primer día y cómputo como parado del fijo discontinuo inactivo. También limita la prestación a quien rechace dos ofertas adecuadas. Cifra el coste en unos 2.600 M€/año y un aumento de 80 euros netos al mes en el salario mínimo. El programa cifra en 640.900 las personas fijas discontinuas sin actividad que hoy no aparecen como paradas.",
       "propuestas": [
         {
           "titular": "Cuña fiscal del 41% al 29%",
           "texto": "Cuña fiscal del 41 al 29 %. Mínimo exento de 35.000, deflactación, el 0,9 % a tu cuenta y cero cotización del trabajador en el salario mínimo.",
-          "pagina": 30,
-          "nota": "Cifra el coste en unos 2.600 M€/año y un aumento de 80 euros netos al mes en el salario mínimo."
+          "pagina": 30
         },
         {
           "titular": "Contrato único con mochila",
@@ -123,19 +118,17 @@
         {
           "titular": "El fijo discontinuo inactivo cuenta como parado",
           "texto": "Un fijo discontinuo cuenta como trabajador solo cuando trabaja; el resto del tiempo, como lo que es: un parado.",
-          "pagina": 32,
-          "nota": "El programa cifra en 640.900 las personas fijas discontinuas sin actividad que hoy no aparecen como paradas."
+          "pagina": 32
         }
       ]
     },
     "inmigracion": {
-      "resumen": "SALF propone ejecutar el 100% de las órdenes de expulsión en 48 horas y derogar la regularización de 2026, prohibiendo por ley orgánica las regularizaciones masivas. Plantea moratoria migratoria para países que no colaboren contra las mafias o no readmitan a sus nacionales, visados solo con contrato y cupo votado en el Congreso, y nacionalidad a los diez años con examen. Añade prueba de edad radiológica antes de entrar en centros de menores y retirada de ayudas no contributivas sin cinco años de residencia legal y cotización.",
+      "resumen": "SALF propone ejecutar el 100% de las órdenes de expulsión en 48 horas y derogar la regularización de 2026, prohibiendo por ley orgánica las regularizaciones masivas. Plantea moratoria migratoria para países que no colaboren contra las mafias o no readmitan a sus nacionales, visados solo con contrato y cupo votado en el Congreso, y nacionalidad a los diez años con examen. Añade prueba de edad radiológica antes de entrar en centros de menores y retirada de ayudas no contributivas sin cinco años de residencia legal y cotización. El objetivo declarado es ejecutar el 100% de las órdenes en 90 días. Para el resto de países: solo visados con contrato previo y cupo anual votado en el Congreso.",
       "propuestas": [
         {
           "titular": "Orden de expulsión = expulsión en 48 horas",
           "texto": "Orden de expulsión = expulsión. En 48 horas. Identificación, orden y salida en 48 horas.",
-          "pagina": 17,
-          "nota": "El objetivo declarado es ejecutar el 100% de las órdenes en 90 días."
+          "pagina": 17
         },
         {
           "titular": "Fin de las regularizaciones",
@@ -150,8 +143,7 @@
         {
           "titular": "Moratoria para países no colaboradores",
           "texto": "Paralización total de inmigración de países no colaboradores contra las mafias de trata de personas.",
-          "pagina": 18,
-          "nota": "Para el resto de países: solo visados con contrato previo y cupo anual votado en el Congreso."
+          "pagina": 18
         },
         {
           "titular": "Nacionalidad a los diez años",
@@ -176,13 +168,12 @@
       ]
     },
     "sanidad": {
-      "resumen": "SALF propone una central única de compras sanitarias con la que financiar subidas salariales, y garantizar por ley 60 días para operarse, 30 para el especialista y 7 para pruebas prioritarias, con libertad de centro (público o privado) si se incumple. Añade tarjeta e historia clínica únicas, 10.000 camas y 1.500 UCI más, cita en 48 horas, y una sanidad reservada a españoles y residentes legales con cotización, con urgencias para todos.",
+      "resumen": "SALF propone una central única de compras sanitarias con la que financiar subidas salariales, y garantizar por ley 60 días para operarse, 30 para el especialista y 7 para pruebas prioritarias, con libertad de centro (público o privado) si se incumple. Añade tarjeta e historia clínica únicas, 10.000 camas y 1.500 UCI más, cita en 48 horas, y una sanidad reservada a españoles y residentes legales con cotización, con urgencias para todos. Calcula un ahorro de 6.000 M€/año que destinaría íntegro a sueldos y plazas.",
       "propuestas": [
         {
           "titular": "Una sola central de compras",
           "texto": "Una sola central de compras, no diecisiete. El 40 % del gasto sanitario son compras: 41.000 millones.",
-          "pagina": 22,
-          "nota": "Calcula un ahorro de 6.000 M€/año que destinaría íntegro a sueldos y plazas."
+          "pagina": 22
         },
         {
           "titular": "60 días para operarte o eliges centro",
@@ -252,19 +243,17 @@
       ]
     },
     "pensiones": {
-      "resumen": "SALF propone blindar en la Constitución las pensiones actuales, con revalorización por IPC y prohibición de recortes, y un sistema mixto para los menores de 45: una cuenta individual obligatoria, heredable, con el 2% del salario. Añade una «mochila austriaca» del 1,53% a cargo de la empresa, pensión mínima de 1.000 euros con 35 años cotizados y la supresión de complementos y pensiones de políticos. Plantea sacar el Fondo de Reserva del control del Gobierno.",
+      "resumen": "SALF propone blindar en la Constitución las pensiones actuales, con revalorización por IPC y prohibición de recortes, y un sistema mixto para los menores de 45: una cuenta individual obligatoria, heredable, con el 2% del salario. Añade una «mochila austriaca» del 1,53% a cargo de la empresa, pensión mínima de 1.000 euros con 35 años cotizados y la supresión de complementos y pensiones de políticos. Plantea sacar el Fondo de Reserva del control del Gobierno. Añade que «a quien ya cobra no se le toca un euro». Cifra el coste de transición en unos 6.000 M€/año hasta 2030. Calcula un coste de unos 2.000 M€/año.",
       "propuestas": [
         {
           "titular": "Blindaje constitucional",
           "texto": "Las pensiones de hoy, blindadas en la Constitución. Revalorización con el IPC y prohibición de recortes, con rango constitucional.",
-          "pagina": 20,
-          "nota": "Añade que «a quien ya cobra no se le toca un euro»."
+          "pagina": 20
         },
         {
           "titular": "Cuenta individual heredable",
           "texto": "Sistema mixto: tu cuenta, a tu nombre, heredable. Menores de 45 años: el 2 % del salario a una cuenta individual obligatoria, tuya, heredable, con comisión máxima del 0,3 %.",
-          "pagina": 20,
-          "nota": "Cifra el coste de transición en unos 6.000 M€/año hasta 2030."
+          "pagina": 20
         },
         {
           "titular": "Mochila austriaca",
@@ -274,8 +263,7 @@
         {
           "titular": "Pensión mínima de 1.000 euros",
           "texto": "Pensión mínima de 1.000 euros con 35 años cotizados.",
-          "pagina": 21,
-          "nota": "Calcula un coste de unos 2.000 M€/año."
+          "pagina": 21
         },
         {
           "titular": "Fuera las pensiones de políticos",
@@ -290,13 +278,12 @@
       ]
     },
     "seguridad-defensa": {
-      "resumen": "SALF propone una macrocárcel de máxima seguridad para delitos graves y corrupción, cumplimiento íntegro sin permisos y registro público de agresores sexuales con castración química voluntaria. Anuncia equiparación salarial de policías y guardias civiles, un «Plan Estrecho» con la Armada contra el narcotráfico y juicios rápidos en 72 horas. Añade presunción legal de legítima defensa en vivienda o negocio y más medios para las unidades de investigación.",
+      "resumen": "SALF propone una macrocárcel de máxima seguridad para delitos graves y corrupción, cumplimiento íntegro sin permisos y registro público de agresores sexuales con castración química voluntaria. Anuncia equiparación salarial de policías y guardias civiles, un «Plan Estrecho» con la Armada contra el narcotráfico y juicios rápidos en 72 horas. Añade presunción legal de legítima defensa en vivienda o negocio y más medios para las unidades de investigación. Cifra el coste en unos 3.000 M€, que dice pagar con lo decomisado al narcotráfico.",
       "propuestas": [
         {
           "titular": "Macrocárcel de máxima seguridad",
           "texto": "Macrocárcel para asesinos, violadores, narcos y corruptos. Máxima seguridad para asesinos, agresores sexuales, narcotraficantes, crimen organizado, terroristas, multirreincidentes violentos y políticos corruptos.",
-          "pagina": 8,
-          "nota": "Cifra el coste en unos 3.000 M€, que dice pagar con lo decomisado al narcotráfico."
+          "pagina": 8
         },
         {
           "titular": "Cumplimiento íntegro",
@@ -351,8 +338,7 @@
         {
           "titular": "Devolver el triple",
           "texto": "Devuelves el triple o no sales. Responsabilidad civil del triple, decomiso de todo patrimonio no justificado y ningún beneficio hasta restituir.",
-          "pagina": 26,
-          "nota": "El funcionario condenado pierde la plaza y la empresa corruptora queda quince años sin contratar con el Estado."
+          "pagina": 26
         },
         {
           "titular": "El denunciante cobra el 15%",
@@ -362,7 +348,7 @@
       ]
     },
     "europa-exterior": {
-      "resumen": "SALF propone un referéndum de renegociación con la UE y, si Bruselas se niega, un segundo referéndum de salida. Anuncia veto a Mercosur, al recorte de la PAC y al Pacto Verde, y un bloqueo comercial total a Marruecos si mantiene el bloqueo a un puerto español o usa la inmigración como presión. Añade ley antiterrorista con penas máximas para los Hermanos Musulmanes y un régimen fiscal especial para Ceuta y Melilla.",
+      "resumen": "SALF propone un referéndum de renegociación con la UE y, si Bruselas se niega, un segundo referéndum de salida. Anuncia veto a Mercosur, al recorte de la PAC y al Pacto Verde, y un bloqueo comercial total a Marruecos si mantiene el bloqueo a un puerto español o usa la inmigración como presión. Añade ley antiterrorista con penas máximas para los Hermanos Musulmanes y un régimen fiscal especial para Ceuta y Melilla. Cifra en 877 M€/año lo que perdería el campo español con el recorte del 20% de la PAC.",
       "propuestas": [
         {
           "titular": "Referéndum de renegociación con la UE",
@@ -372,8 +358,7 @@
         {
           "titular": "Veto a Mercosur y al Pacto Verde",
           "texto": "Veto a Mercosur, al recorte de la PAC y al Pacto Verde.",
-          "pagina": 35,
-          "nota": "Cifra en 877 M€/año lo que perdería el campo español con el recorte del 20% de la PAC."
+          "pagina": 35
         },
         {
           "titular": "Bloqueo comercial a Marruecos",

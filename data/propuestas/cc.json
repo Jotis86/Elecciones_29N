@@ -3,7 +3,7 @@
   "revisado": "2026-11-15",
   "temas": {
     "vivienda": {
-      "resumen": "El programa de Coalición Canaria está planteado como una agenda de exigencias al Estado para el archipiélago. En vivienda propone un fondo estatal de ocho años para cofinanciar vivienda pública y asequible, con cesión de suelo estatal, un plan de regeneración de barrios y vivienda joven para la emancipación. Añade limitar por ley la compra de vivienda por extranjeros en Canarias —con un régimen específico ante la UE— y dar cobertura jurídica para limitar las viviendas vacacionales donde haya presión acreditada.",
+      "resumen": "El programa de Coalición Canaria está planteado como una agenda de exigencias al Estado para el archipiélago. En vivienda propone un fondo estatal de ocho años para cofinanciar vivienda pública y asequible, con cesión de suelo estatal, un plan de regeneración de barrios y vivienda joven para la emancipación. Añade limitar por ley la compra de vivienda por extranjeros en Canarias —con un régimen específico ante la UE— y dar cobertura jurídica para limitar las viviendas vacacionales donde haya presión acreditada. Se apoya en la condición de región ultraperiférica para pedir un régimen específico y una futura Ley Canaria de Residencia.",
       "propuestas": [
         {
           "titular": "Fondo estatal de ocho años para vivienda asequible",
@@ -23,8 +23,7 @@
         {
           "titular": "Limitar la compra por extranjeros",
           "texto": "Limitar la compra de vivienda por extranjeros. Impulsaremos en las Cortes Generales las reformas necesarias para limitar la compra de vivienda en Canarias por extranjeros",
-          "pagina": 11,
-          "nota": "Se apoya en la condición de región ultraperiférica para pedir un régimen específico y una futura Ley Canaria de Residencia."
+          "pagina": 11
         },
         {
           "titular": "Vivienda vacacional con reglas",
@@ -109,7 +108,7 @@
       ]
     },
     "inmigracion": {
-      "resumen": "CC aborda la migración como territorio de primera acogida en la ruta atlántica y reclama al Estado y a la UE los costes del salvamento y la acogida. Pide que la solidaridad entre comunidades sea «obligatoria y automática», con traslados activados por indicadores y plazos, no negociados caso a caso. Añade financiación estable para menores no acompañados, cooperación con países de origen, participación canaria en las decisiones migratorias y programas de convivencia frente al racismo.",
+      "resumen": "CC aborda la migración como territorio de primera acogida en la ruta atlántica y reclama al Estado y a la UE los costes del salvamento y la acogida. Pide que la solidaridad entre comunidades sea «obligatoria y automática», con traslados activados por indicadores y plazos, no negociados caso a caso. Añade financiación estable para menores no acompañados, cooperación con países de origen, participación canaria en las decisiones migratorias y programas de convivencia frente al racismo. Cuando un territorio de primera acogida supere los umbrales, se activarían traslados y la participación de otras comunidades.",
       "propuestas": [
         {
           "titular": "Salvamento y acogida con costes compartidos",
@@ -119,8 +118,7 @@
         {
           "titular": "Solidaridad obligatoria y automática",
           "texto": "Solidaridad obligatoria y automática. Exigiremos que los mecanismos estatales de solidaridad territorial funcionen con indicadores de capacidad, plazos y financiación conocidos.",
-          "pagina": 19,
-          "nota": "Cuando un territorio de primera acogida supere los umbrales, se activarían traslados y la participación de otras comunidades."
+          "pagina": 19
         },
         {
           "titular": "Sistema estable para menores no acompañados",
@@ -140,13 +138,12 @@
       ]
     },
     "sanidad": {
-      "resumen": "CC reclama una financiación sanitaria que reconozca el coste de atender a la población de ocho islas, con una compensación estatal específica por insularidad y lejanía, y que la formación de especialistas responda a las necesidades del archipiélago. Propone acercar servicios desplazando profesionales en lugar de pacientes y reforzar la salud mental con partidas estatales. Añade una aportación estable para dependencia y cuidados de larga duración.",
+      "resumen": "CC reclama una financiación sanitaria que reconozca el coste de atender a la población de ocho islas, con una compensación estatal específica por insularidad y lejanía, y que la formación de especialistas responda a las necesidades del archipiélago. Propone acercar servicios desplazando profesionales en lugar de pacientes y reforzar la salud mental con partidas estatales. Añade una aportación estable para dependencia y cuidados de larga duración. Pide «una compensación específica y actualizada por los sobrecostes sanitarios de la insularidad y la lejanía».",
       "propuestas": [
         {
           "titular": "Financiación por atender ocho islas",
           "texto": "Atención sanitaria en todas las islas. Defenderemos una financiación sanitaria que reconozca el coste de atender a la población de ocho islas y permita planificar las plantillas y los centros.",
-          "pagina": 9,
-          "nota": "Pide «una compensación específica y actualizada por los sobrecostes sanitarios de la insularidad y la lejanía»."
+          "pagina": 9
         },
         {
           "titular": "Acercar los servicios a las personas",
@@ -166,7 +163,7 @@
       ]
     },
     "educacion": {
-      "resumen": "CC pide financiación estatal para una oferta suficiente y gratuita de educación infantil de 0 a 3 años y para recuperar los programas de inversión en infraestructuras educativas. Reclama becas que cubran el coste de desplazarse cuando los estudios no se ofrecen en la isla, financiación para FP y FP dual y un plan plurianual para las universidades públicas canarias. Vincula la formación a sectores con salida laboral en las islas.",
+      "resumen": "CC pide financiación estatal para una oferta suficiente y gratuita de educación infantil de 0 a 3 años y para recuperar los programas de inversión en infraestructuras educativas. Reclama becas que cubran el coste de desplazarse cuando los estudios no se ofrecen en la isla, financiación para FP y FP dual y un plan plurianual para las universidades públicas canarias. Vincula la formación a sectores con salida laboral en las islas. Exige reforzar las previsiones del REF para quienes deben desplazarse porque sus estudios no se ofrecen en su isla.",
       "propuestas": [
         {
           "titular": "Educación infantil de 0 a 3 años",
@@ -181,8 +178,7 @@
         {
           "titular": "Becas según dónde se vive",
           "texto": "Becas que tengan en cuenta dónde se vive. Defenderemos una formación profesional y una universidad accesibles.",
-          "pagina": 14,
-          "nota": "Exige reforzar las previsiones del REF para quienes deben desplazarse porque sus estudios no se ofrecen en su isla."
+          "pagina": 14
         },
         {
           "titular": "Financiación para las universidades canarias",
@@ -207,7 +203,7 @@
       ]
     },
     "energia-medioambiente": {
-      "resumen": "Coalición Canaria plantea renovar las centrales térmicas obsoletas a medida que avancen las renovables y el almacenamiento, y desarrollar la eólica marina en Gran Canaria con consenso social. Pide un programa estatal extraordinario para reforzar las redes, impulsar el autoconsumo y las comunidades energéticas, y compensar el sobrecoste del agua desalada. Añade fondos para adaptar pueblos y equipamientos al calor extremo.",
+      "resumen": "Coalición Canaria plantea renovar las centrales térmicas obsoletas a medida que avancen las renovables y el almacenamiento, y desarrollar la eólica marina en Gran Canaria con consenso social. Pide un programa estatal extraordinario para reforzar las redes, impulsar el autoconsumo y las comunidades energéticas, y compensar el sobrecoste del agua desalada. Añade fondos para adaptar pueblos y equipamientos al calor extremo. Exige suficiente consenso social, político e institucional y compatibilidad ambiental y territorial.",
       "propuestas": [
         {
           "titular": "Renovar las centrales",
@@ -217,8 +213,7 @@
         {
           "titular": "Eólica marina con consenso",
           "texto": "Desarrollar la eólica marina con garantías. Impulsaremos la eólica marina en Gran Canaria con planificación, subastas, conexión y retribución adaptadas a los sistemas insulares.",
-          "pagina": 15,
-          "nota": "Exige suficiente consenso social, político e institucional y compatibilidad ambiental y territorial."
+          "pagina": 15
         },
         {
           "titular": "Reforzar las redes",
@@ -353,7 +348,7 @@
       ]
     },
     "derechos-sociales": {
-      "resumen": "Coalición Canaria aborda los derechos sociales desde la financiación estatal: programas específicos contra la pobreza infantil mientras Canarias supere la media, y recursos para aplicar el Pacto de Estado contra la violencia de género en todas las islas. Pide que la accesibilidad universal se incorpore al diseño y financiación de vivienda, transporte, empleo y servicios públicos. Añade una política común de infancia con ayudas a la crianza y protección frente a la violencia digital.",
+      "resumen": "Coalición Canaria aborda los derechos sociales desde la financiación estatal: programas específicos contra la pobreza infantil mientras Canarias supere la media, y recursos para aplicar el Pacto de Estado contra la violencia de género en todas las islas. Pide que la accesibilidad universal se incorpore al diseño y financiación de vivienda, transporte, empleo y servicios públicos. Añade una política común de infancia con ayudas a la crianza y protección frente a la violencia digital. Los recursos deberán tener en cuenta la dispersión territorial y facilitar el acceso desde cualquier municipio.",
       "propuestas": [
         {
           "titular": "Pobreza infantil",
@@ -363,8 +358,7 @@
         {
           "titular": "Violencia de género en todas las islas",
           "texto": "Igualdad y protección frente a la violencia de género. Reclamaremos financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas",
-          "pagina": 10,
-          "nota": "Los recursos deberán tener en cuenta la dispersión territorial y facilitar el acceso desde cualquier municipio."
+          "pagina": 10
         },
         {
           "titular": "Accesibilidad universal",
@@ -379,7 +373,7 @@
       ]
     },
     "campo-pesca": {
-      "resumen": "Coalición Canaria reclama mantener el POSEI y su dotación diferenciada en el presupuesto europeo, con el 100% de la aportación estatal a las ayudas adicionales. Pide compensar los sobrecostes de energía, alimentación animal, fertilizantes y transporte, y financiación para seguros agrarios y plagas. Añade apoyo al relevo generacional, protección de las producciones sensibles y reglas adaptadas a la flota artesanal canaria.",
+      "resumen": "Coalición Canaria reclama mantener el POSEI y su dotación diferenciada en el presupuesto europeo, con el 100% de la aportación estatal a las ayudas adicionales. Pide compensar los sobrecostes de energía, alimentación animal, fertilizantes y transporte, y financiación para seguros agrarios y plagas. Añade apoyo al relevo generacional, protección de las producciones sensibles y reglas adaptadas a la flota artesanal canaria. Pide reglas adaptadas a la flota artesanal y posibilidades de pesca suficientes, especialmente de atún rojo y patudo.",
       "propuestas": [
         {
           "titular": "Mantener el POSEI",
@@ -399,8 +393,7 @@
         {
           "titular": "Pesca artesanal",
           "texto": "Proteger nuestras producciones y la pesca artesanal. Exigiremos que España evalúe el impacto de los acuerdos comerciales internacionales sobre las producciones sensibles de Canarias",
-          "pagina": 13,
-          "nota": "Pide reglas adaptadas a la flota artesanal y posibilidades de pesca suficientes, especialmente de atún rojo y patudo."
+          "pagina": 13
         }
       ]
     },

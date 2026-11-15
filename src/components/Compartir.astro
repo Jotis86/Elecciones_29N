@@ -52,6 +52,11 @@ const enlaces = enlacesCompartir({ texto, url, asunto });
   const avisoCercano = (boton: Element) => boton.closest('[data-compartir]')?.querySelector('.compartir-aviso');
   const puedeCompartirNativo = () => Boolean(navigator.share) && navigator.maxTouchPoints > 0;
 
+  const anunciar = (mensaje: string) => {
+    const region = document.getElementById('compartir-estado');
+    if (region) region.textContent = mensaje;
+  };
+
   /** Portapapeles con respaldo para navegadores que niegan la API moderna. */
   async function copiar(texto: string) {
     try {
@@ -81,6 +86,13 @@ const enlaces = enlacesCompartir({ texto, url, asunto });
     if (!boton) return;
 
     const aviso = avisoCercano(boton);
+    const esCita = !aviso && boton.classList.contains('compartir-cita');
+    const textoOriginal = boton.textContent;
+    const decirEnBoton = (mensaje: string) => {
+      if (!esCita) return;
+      boton.textContent = mensaje;
+      setTimeout(() => (boton.textContent = textoOriginal), 2400);
+    };
     const texto = boton.dataset.texto ?? document.title;
 
     if (boton.hasAttribute('data-nativo') && puedeCompartirNativo()) {
@@ -92,15 +104,15 @@ const enlaces = enlacesCompartir({ texto, url, asunto });
       return;
     }
 
-    try {
-      const ok = await copiar(boton.dataset.url ?? location.href);
-      if (aviso) {
-        aviso.textContent = ok ? 'Enlace copiado' : 'No se pudo copiar; usa la barra de direcciones';
-        if (ok) setTimeout(() => (aviso.textContent = ''), 2500);
-      }
-    } catch {
-      if (aviso) aviso.textContent = 'No se pudo copiar; usa la barra de direcciones';
+    const ok = await copiar(boton.dataset.url ?? location.href);
+    const mensaje = ok ? 'Enlace copiado' : 'No se pudo copiar; usa la barra de direcciones';
+    if (aviso) {
+      aviso.textContent = mensaje;
+      if (ok) setTimeout(() => (aviso.textContent = ''), 2500);
+    } else {
+      decirEnBoton(ok ? 'Copiado ✓' : 'No se pudo copiar');
     }
+    anunciar(mensaje);
   });
 
   if (puedeCompartirNativo()) {
