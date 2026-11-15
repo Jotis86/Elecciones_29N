@@ -190,6 +190,26 @@
           "pagina": 14
         }
       ]
+    },
+    "seguridad-defensa": {
+      "resumen": "Coalición Canaria aborda la seguridad desde la realidad insular: financiación estatal para desplegar las 1.400 plazas de la Policía Canaria y recuperación de espacios militares para uso civil. Pide cambios en el marco estatal para que Canarias pueda activar antes la Unidad Militar de Emergencias ante incendios y episodios extremos. Su programa no entra en delincuencia ni en justicia penal.",
+      "propuestas": [
+        {
+          "titular": "Espacios militares para uso civil",
+          "texto": "Recuperar espacios militares para la sociedad canaria. Impulsaremos la recuperación para uso civil de terrenos e instalaciones militares en Canarias, entre ellos el campo de tiro de Pájara, en Fuerteventura.",
+          "pagina": 9
+        },
+        {
+          "titular": "1.400 plazas de la Policía Canaria",
+          "texto": "Financiar el despliegue de la Policía Canaria. Reclamaremos al Estado la financiación de las 1.400 plazas del Cuerpo General de la Policía Canaria previstas en la propuesta de Decreto Canarias.",
+          "pagina": 10
+        },
+        {
+          "titular": "Activación temprana de la UME",
+          "texto": "Anticiparse a las emergencias. Impulsaremos cambios en el marco estatal para que Canarias pueda solicitar la activación temprana de la Unidad Militar de Emergencias en incendios de nivel 1 cuando se cumplan criterios objetivos de riesgo.",
+          "pagina": 17
+        }
+      ]
     }
   }
 }

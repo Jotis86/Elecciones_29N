@@ -242,6 +242,35 @@
           "pagina": 11
         }
       ]
+    },
+    "seguridad-defensa": {
+      "resumen": "El PNV reclama que la seguridad se gestione desde Euskadi, con una Ertzaintza reconocida como policía integral y participación directa en la cooperación policial europea. Plantea acceso recíproco a las bases de datos policiales europeas y una respuesta judicial rápida y proporcionada a la multirreincidencia, con protección a las víctimas. Pide también reforzar la coordinación entre la Ertzaintza y la Administración de Justicia.",
+      "propuestas": [
+        {
+          "titular": "Ertzaintza como policía integral",
+          "texto": "Defender el reconocimiento real de la Ertzaintza como policía integral de Euskadi, respetando sus competencias y garantizando su capacidad para cumplir todas sus funciones.",
+          "texto_original": "Ertzaintza Euskadiko polizia integral gisa benetan aitortzea defendatzea, haren eskumenak errespetatuz eta dagozkion eginkizunak erabat betetzeko gaitasuna bermatuz.",
+          "pagina": 24
+        },
+        {
+          "titular": "Cooperación policial europea directa",
+          "texto": "Asegurar la participación directa y eficaz de la Ertzaintza en los mecanismos de cooperación policial europea, sin intermediarios que limiten su capacidad operativa.",
+          "texto_original": "Ertzaintzaren parte-hartze zuzena eta eraginkorra ziurtatzea Europako polizialankidetzarako mekanismoetan, haren gaitasun operatiboa mugatzen duen bitartekaritzarik gabe.",
+          "pagina": 24
+        },
+        {
+          "titular": "Acceso a bases de datos europeas",
+          "texto": "Garantizar el acceso recíproco completo de la Ertzaintza a las bases de datos policiales europeas, facilitando el intercambio de información con agencias de seguridad de otros estados.",
+          "texto_original": "Ertzaintzak Europako polizia-datu-baseetarako elkarrekiko sarbide osoa ziurtatzea, beste estatu batzuetako segurtasun-agentziekin informazioa trukatzea erraztuz.",
+          "pagina": 24
+        },
+        {
+          "titular": "Respuesta rápida a la multirreincidencia",
+          "texto": "Impulsar las reformas legales necesarias para garantizar una respuesta judicial ágil, eficaz y proporcionada a quienes cometen delitos de forma reiterada, con protección a las víctimas.",
+          "texto_original": "Delituak behin eta berriz egiten dituztenen aurrean erantzun judizial arin, eraginkor eta proportzionatua bermatzeko beharrezkoak diren lege-erreformak bultzatzea",
+          "pagina": 24
+        }
+      ]
     }
   }
 }

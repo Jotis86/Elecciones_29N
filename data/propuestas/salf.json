@@ -250,6 +250,47 @@
           "pagina": 34
         }
       ]
+    },
+    "seguridad-defensa": {
+      "resumen": "SALF propone una macrocárcel de máxima seguridad para delitos graves y corrupción, cumplimiento íntegro sin permisos y registro público de agresores sexuales con castración química voluntaria. Anuncia equiparación salarial de policías y guardias civiles, un «Plan Estrecho» con la Armada contra el narcotráfico y juicios rápidos en 72 horas. Añade presunción legal de legítima defensa en vivienda o negocio y más medios para las unidades de investigación.",
+      "propuestas": [
+        {
+          "titular": "Macrocárcel de máxima seguridad",
+          "texto": "Macrocárcel para asesinos, violadores, narcos y corruptos. Máxima seguridad para asesinos, agresores sexuales, narcotraficantes, crimen organizado, terroristas, multirreincidentes violentos y políticos corruptos.",
+          "pagina": 8,
+          "nota": "Cifra el coste en unos 3.000 M€, que dice pagar con lo decomisado al narcotráfico."
+        },
+        {
+          "titular": "Cumplimiento íntegro",
+          "texto": "Cumplimiento íntegro. Violadores, asesinos, narcos y corruptos: cumplimiento íntegro, sin reducción ninguna ni permisos.",
+          "pagina": 8
+        },
+        {
+          "titular": "Registro público y castración química",
+          "texto": "Agresores sexuales: registro público y castración química. Registro público de reincidentes, pulsera telemática de por vida y castración química voluntaria como condición de cualquier beneficio penitenciario.",
+          "pagina": 8
+        },
+        {
+          "titular": "Equiparación salarial policial",
+          "texto": "Guardia Civil y Policía: el mismo sueldo que un mosso. Equiparación salarial real en dos años, jubilación a los 60 sin penalización y reconocimiento de profesión de riesgo.",
+          "pagina": 9
+        },
+        {
+          "titular": "«Plan Estrecho» contra el narco",
+          "texto": "Plan Estrecho: la Armada contra el narco. Apoyo permanente de la Armada y el Ejército del Aire, 180 millones en lanchas, drones y medios aéreos, y decomiso civil de todo bien del narcotráfico.",
+          "pagina": 9
+        },
+        {
+          "titular": "Justicia en 72 horas",
+          "texto": "Justicia en 72 horas. 2.000 jueces y 1.500 fiscales más. Juicios rápidos en 72 horas para multirreincidentes y delitos flagrantes.",
+          "pagina": 10
+        },
+        {
+          "titular": "Legítima defensa en casa",
+          "texto": "Legítima defensa: el que entra en tu casa asume el riesgo. Presunción legal de legítima defensa en tu vivienda o negocio, incluido el uso de armas de fuego legalmente tenidas",
+          "pagina": 10
+        }
+      ]
     }
   }
 }

@@ -225,6 +225,36 @@
           "pagina": 46
         }
       ]
+    },
+    "seguridad-defensa": {
+      "resumen": "M+J aborda la seguridad desde la prevención y la justicia restaurativa: propone un modelo penitenciario orientado a la reinserción, con normas comunes de accesibilidad y visitas en todas las cárceles. Añade un Pacto de Estado contra los discursos de odio y un Plan Nacional contra el racismo, la islamofobia, el antisemitismo y el antigitanismo. Plantea una Red Pública de Memoria, Reparación y Justicia Restaurativa para las víctimas de violencias políticas.",
+      "propuestas": [
+        {
+          "titular": "Cárceles orientadas a la reinserción",
+          "texto": "Impulsar un modelo penitenciario orientado a la justicia restaurativa, la rehabilitación y la reinserción social, promoviendo medidas que favorezcan la reparación del daño",
+          "pagina": 86
+        },
+        {
+          "titular": "Mismas reglas en todas las cárceles",
+          "texto": "Homologar las normas básicas de accesibilidad y funcionamiento de todos los centros penitenciarios —en especial el régimen de visitas—, para que los derechos de los internos y de sus familias no dependan de la cárcel en la que se encuentren.",
+          "pagina": 86
+        },
+        {
+          "titular": "Pacto contra los discursos de odio",
+          "texto": "Aprobar un Pacto de Estado contra los discursos de odio hacia colectivos en situación de vulnerabilidad con medidas efectivas",
+          "pagina": 13
+        },
+        {
+          "titular": "Plan contra el racismo y la islamofobia",
+          "texto": "Aprobar un Plan Nacional contra el Racismo, la islamofobia, el antisemitismo y el antigitanismo, reforzando las políticas de igualdad de trato y no discriminación",
+          "pagina": 13
+        },
+        {
+          "titular": "Red de memoria y justicia restaurativa",
+          "texto": "Creación de una Red Pública de Memoria, Reparación y Justicia Restaurativa, mediante la cooperación entre el Estado, las comunidades autónomas, las entidades locales y las organizaciones especializadas",
+          "pagina": 14
+        }
+      ]
     }
   }
 }

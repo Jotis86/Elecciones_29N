@@ -249,6 +249,41 @@
           "pagina": 35
         }
       ]
+    },
+    "seguridad-defensa": {
+      "resumen": "El BNG plantea la seguridad desde los derechos civiles: derogar la Ley Mordaza, el delito de desórdenes públicos agravado y la prisión permanente revisable, y prohibir las pelotas de goma y las devoluciones en caliente. Propone asumir en Galicia las competencias penitenciarias y que las penas de personas gallegas se cumplan en Galicia. Añade la derogación de la Ley de Amnistía de 1977 y medidas de memoria democrática.",
+      "propuestas": [
+        {
+          "titular": "Derogar la Ley Mordaza",
+          "texto": "Derogación íntegra de la Ley Mordaza por favorecer la discrecionalidad policial, la criminalización del derecho de reunión y manifestación y ahondar en la indefensión de la ciudadanía.",
+          "texto_original": "Derrogación íntegra da Lei Mordaza por favorecer a discrecionalidade policial, a criminalización do dereito de reunión e manifestación e afondar na indefensión das e dos cidadáns.",
+          "pagina": 30
+        },
+        {
+          "titular": "Prohibir pelotas de goma",
+          "texto": "Debe también prohibirse el uso de pelotas de goma, las devoluciones en caliente y eliminarse el principio de presunción de veracidad que se otorga a las declaraciones de los agentes.",
+          "texto_original": "Debe tamén prohibirse o uso de pelotas de goma, as devolucións en quente e eliminarse o principio de presunción de veracidade que se outorga ás declaracións (denuncias, actas ou atestados) das e dos axentes.",
+          "pagina": 30
+        },
+        {
+          "titular": "Derogar la prisión permanente revisable",
+          "texto": "Derogación de la prisión permanente revisable, por ser una forma encubierta de mantener la cadena perpetua y ir contra el principio de reinserción social.",
+          "texto_original": "Derrogación da prisión permanente revisábel, por ser unha forma encuberta de manter a cadea perpetua e ir en contra do principio de reinserción social",
+          "pagina": 30
+        },
+        {
+          "titular": "Cumplir las penas en Galicia",
+          "texto": "Trabajar para que se garantice el cumplimiento de las penas impuestas a los gallegos y gallegas en Galicia, además del traslado de quienes ya están cumpliendo penas de prisión en otros territorios del Estado.",
+          "texto_original": "traballar para que se garanta o cumprimento das penas impostas aos galegos e galegas en Galiza, ademais do traslado dos que xa están a cumprir penas de prisión noutros territorios do Estado.",
+          "pagina": 30
+        },
+        {
+          "titular": "Competencias penitenciarias para Galicia",
+          "texto": "Transferencia a Galicia de las competencias en materia de Instituciones Penitenciarias, con el objetivo de avanzar hacia una legislación más garantista y respetuosa con los derechos de la población reclusa.",
+          "texto_original": "Transferencia a Galiza das competencias en materia de Institucións Penitenciarias co obxectivo de avanzar cara á unha lexislación penitenciaria actualizada e máis garantista e respectuosa cos dereitos fundamentais da poboación reclusa",
+          "pagina": 31
+        }
+      ]
     }
   }
 }

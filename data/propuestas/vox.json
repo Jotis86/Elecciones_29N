@@ -226,6 +226,43 @@
           "pagina": 42
         }
       ]
+    },
+    "seguridad-defensa": {
+      "resumen": "Vox propone reforzar las Fuerzas Armadas y los cuerpos de seguridad con más medios y equiparación salarial, y ampliar la prisión permanente revisable. Anuncia reducir la edad de responsabilidad penal y un «combate total» al narcotráfico con el restablecimiento del organismo de coordinación en el Sur. En defensa, apuesta por más inversión, reconocimiento como profesión de riesgo y protección de fronteras con apoyo de las Fuerzas Armadas.",
+      "propuestas": [
+        {
+          "titular": "Seguridad y defensa con más medios",
+          "texto": "Instituciones de Seguridad y Defensa al servicio de los españoles y sus familias, con unas Fuerzas Armadas profesionales y unas Fuerzas y Cuerpos de Seguridad del Estado bien dimensionadas",
+          "pagina": 45
+        },
+        {
+          "titular": "Ampliar la prisión permanente revisable",
+          "texto": "Ampliación de la prisión permanente revisable. Los que cometen los peores delitos deben tener las máximas condenas.",
+          "pagina": 45
+        },
+        {
+          "titular": "Rebajar la edad penal",
+          "texto": "Reducción de la edad de responsabilidad penal del menor y plantear la eliminación de inimputabilidad para ciertos delitos violentos como los homicidios o las agresiones sexuales.",
+          "pagina": 45
+        },
+        {
+          "titular": "«Combate total» al narcotráfico",
+          "texto": "Combate total al narcotráfico. Refuerzo urgente de los medios humanos y recursos materiales, técnicos y operativos dedicados a la lucha contra el narcotráfico y la criminalidad organizada",
+          "pagina": 46,
+          "nota": "Incluye el restablecimiento inmediato del Organismo de Coordinación del Narcotráfico (OCON) Sur."
+        },
+        {
+          "titular": "Fronteras con apoyo militar",
+          "texto": "Protección y defensa de las fronteras españolas. Establecer un nuevo modelo de protección permanente de las fronteras terrestres, marítimas y aéreas, con participación de las Fuerzas Armadas",
+          "pagina": 46
+        },
+        {
+          "titular": "Más inversión en defensa",
+          "texto": "Aumento de la inversión en Defensa, sueldos dignos y ayudas a la movilidad geográfica y a la vivienda y alojamiento.",
+          "pagina": 47,
+          "nota": "Propone reconocer la profesión militar como profesión de riesgo y reforzar la ciberseguridad y las infraestructuras críticas."
+        }
+      ]
     }
   }
 }

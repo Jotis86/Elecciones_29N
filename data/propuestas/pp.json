@@ -225,6 +225,43 @@
           "nota": "La beca se configuraría como derecho por ley para quien la necesite y apruebe, con los mismos umbrales en universidad y FP."
         }
       ]
+    },
+    "seguridad-defensa": {
+      "resumen": "El PP plantea una ofensiva contra el crimen organizado y la multirreincidencia: unidad central permanente en la frontera sur, más medios navales y aéreos, juicios rápidos y multas mínimas de 3.000 euros por vandalismo. Anuncia un plan contra las bandas juveniles y el uso de menores para delinquir, y refuerzo de la protección de las víctimas de violencia de género. En defensa, propone una ley de programación y financiación plurianual, más efectivos y una industria nacional orientada a drones, ciberdefensa y munición.",
+      "propuestas": [
+        {
+          "titular": "Golpe al crimen organizado",
+          "texto": "El crimen organizado no campará a sus anchas en ningún territorio de España. Reforzaremos las unidades contra el crimen organizado, con una unidad central permanente en la frontera sur.",
+          "pagina": 17,
+          "nota": "Incluye renovar la flota marítima, más helicópteros nocturnos y drones, y escáneres en Algeciras, Valencia, Barcelona y Vigo."
+        },
+        {
+          "titular": "Multirreincidencia con juicios rápidos",
+          "texto": "La multirreincidencia tendrá una respuesta penal más rápida y eficaz. Impediremos que nadie haga del hurto y la ocupación un modo de vida.",
+          "pagina": 17
+        },
+        {
+          "titular": "Multa mínima de 3.000 euros por vandalismo",
+          "texto": "Vandalizar el espacio público no puede salir gratis. Elevaremos la multa mínima a 3.000 euros para quienes participen activamente en actos de vandalismo contra bienes públicos o privados",
+          "pagina": 18
+        },
+        {
+          "titular": "Bandas y menores",
+          "texto": "Impediremos que las bandas utilicen a menores para delinquir. Castigaremos como delito propio la captación y utilización de menores para cometer delitos.",
+          "pagina": 19
+        },
+        {
+          "titular": "Ley de financiación de la defensa",
+          "texto": "Aprobaremos una ley de programación y financiación de la defensa, con objetivos de personal y material a medio y largo plazo.",
+          "pagina": 26
+        },
+        {
+          "titular": "Industria de defensa nacional",
+          "texto": "La industria de defensa creará empleo y reforzará nuestra soberanía tecnológica. Impulsaremos la industria española de defensa para dotar a nuestras Fuerzas Armadas de las capacidades que necesitan",
+          "pagina": 26,
+          "nota": "Prioriza drones y sistemas antidrones, defensa antiaérea, munición, ciberdefensa, comunicaciones, inteligencia artificial y capacidades navales."
+        }
+      ]
     }
   }
 }
