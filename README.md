@@ -22,6 +22,13 @@ npm run validar  # valida citas y datos electorales
 npm test         # pruebas del reparto D'Hondt
 ```
 
+## Dirección pública
+
+Las URLs absolutas (canonical y tarjetas al compartir) salen de `PUBLIC_SITE_URL`.
+En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION_URL`, así que no hay que
+configurar nada. En local apunta a `http://localhost:4321`, que es lo esperado
+para las pruebas.
+
 ## Cómo está organizado
 
 ```
@@ -38,7 +45,7 @@ src/
   lib/datos.ts        carga de datos y utilidades
   lib/dhondt.js       reparto D'Hondt y umbral del 3% (LOREG 162-163)
   lib/porcentajes.js  topes del 100% y redondeo en décimas
-  components/         FichaTema, TarjetaPartido
+  components/         FichaTema, TarjetaPartido, Compartir
   pages/              portada, /temas, /tema/[slug], /partido/[slug],
                       /calculadora, /buscar, /programas, /sobre
 tests/

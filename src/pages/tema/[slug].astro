@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import FichaTema from '../../components/FichaTema.astro';
+import Compartir from '../../components/Compartir.astro';
 import {
   temas,
   partidos,
@@ -70,7 +71,12 @@ const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
           </p>
         ) : (
           fichas.map(({ partido, ficha, bloque }) => (
-            <FichaTema partido={partido} bloque={bloque} idioma={ficha.idioma ?? 'es'} />
+            <FichaTema
+              partido={partido}
+              bloque={bloque}
+              idioma={ficha.idioma ?? 'es'}
+              ancla={partido.slug}
+            />
           ))
         )
       }
@@ -109,6 +115,8 @@ const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
           </div>
         )
       }
+
+      <Compartir texto={`${tema.nombre} en los programas del 29N, con citas verificadas`} />
     </div>
   </section>
 </Base>

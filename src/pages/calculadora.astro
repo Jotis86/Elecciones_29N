@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Compartir from '../components/Compartir.astro';
 import datos from '../../data/escanos.json';
 import resultados2023 from '../../data/resultados_2023.json';
 
@@ -130,6 +131,12 @@ const datos2023 = {
         El modo 2023 usa los votos oficiales del 23J y los escaños de entonces;
         al editar cualquier porcentaje, vuelve a los escaños de 2026.
       </p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap">
+      <Compartir texto="Calculadora de escaños del 29N, con el reparto D'Hondt" />
     </div>
   </section>
 

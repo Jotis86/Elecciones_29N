@@ -7,10 +7,13 @@ interface Props {
   bloque: BloqueTema;
   titulo?: string;
   idioma?: 'es' | 'gl' | 'eu' | 'ca';
+  /** Prefijo de las anclas de cada propuesta, para enlazar una cita concreta. */
+  ancla?: string;
 }
 
-const { partido, bloque, titulo, idioma = 'es' } = Astro.props;
+const { partido, bloque, titulo, idioma = 'es', ancla } = Astro.props;
 const idiomaNombre = NOMBRE_IDIOMA[idioma] ?? idioma;
+const base = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <article class="ficha" style={`--acento:${partido.color}`}>
@@ -36,10 +39,12 @@ const idiomaNombre = NOMBRE_IDIOMA[idioma] ?? idioma;
 
   <ol class="propuestas">
     {
-      bloque.propuestas.map((propuesta) => {
+      bloque.propuestas.map((propuesta, i) => {
         const enlace = enlacePdf(partido, propuesta.pagina);
+        const id = ancla ? `${ancla}-propuesta-${i + 1}` : undefined;
+        const urlCita = id ? new URL(`${base.pathname}#${id}`, Astro.site).href : undefined;
         return (
-          <li>
+          <li id={id}>
             <h3>{propuesta.titular}</h3>
             <blockquote>{propuesta.texto}</blockquote>
             <p class="cita-pie">
@@ -55,6 +60,19 @@ const idiomaNombre = NOMBRE_IDIOMA[idioma] ?? idioma;
                 </a>
               ) : (
                 <span class="cita-pagina">pág. {propuesta.pagina}</span>
+              )}
+              {urlCita && (
+                <button
+                  class="compartir-cita"
+                  type="button"
+                  data-nativo
+                  data-url={urlCita}
+                  data-texto={`${propuesta.titular} · ${partido.siglas}`}
+                  title="Compartir esta propuesta"
+                  aria-label={`Compartir «${propuesta.titular}»`}
+                >
+                  Compartir cita
+                </button>
               )}
             </p>
             {propuesta.texto_original && (

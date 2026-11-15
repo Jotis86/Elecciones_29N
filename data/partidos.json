@@ -65,6 +65,38 @@
     "notas": "Documento en catalán."
   },
   {
+    "slug": "junts",
+    "siglas": "Junts",
+    "nombre": "Junts per Catalunya",
+    "color": "#00A3A3",
+    "programa": null,
+    "estado": "pendiente",
+    "ambito": "Cataluña",
+    "escanos2023": 7,
+    "pdf": null,
+    "pdf_oficial": null,
+    "pdf_archivado": null,
+    "publicado": null,
+    "descargado": null,
+    "notas": "Sin programa localizado en la web del partido en la fecha de revisión."
+  },
+  {
+    "slug": "eh-bildu",
+    "siglas": "EH Bildu",
+    "nombre": "Euskal Herria Bildu",
+    "color": "#7AC143",
+    "programa": null,
+    "estado": "pendiente",
+    "ambito": "País Vasco",
+    "escanos2023": 6,
+    "pdf": null,
+    "pdf_oficial": null,
+    "pdf_archivado": null,
+    "publicado": null,
+    "descargado": null,
+    "notas": "Sin programa localizado en la web del partido en la fecha de revisión."
+  },
+  {
     "slug": "pnv",
     "siglas": "EAJ-PNV",
     "nombre": "Partido Nacionalista Vasco",

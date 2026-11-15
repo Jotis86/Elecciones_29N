@@ -1,0 +1,109 @@
+---
+import { enlacesCompartir } from '../lib/compartir';
+
+interface Props {
+  /** Texto que se escribe al compartir. */
+  texto: string;
+  /** URL absoluta. Por defecto, la página actual. */
+  url?: string;
+  asunto?: string;
+}
+
+const { texto, asunto = 'Programas electorales 29N' } = Astro.props;
+const url = Astro.props.url ?? new URL(Astro.url.pathname, Astro.site).href;
+const enlaces = enlacesCompartir({ texto, url, asunto });
+---
+
+<div class="compartir" data-compartir>
+  <span class="compartir-etiqueta">Compartir</span>
+  <ul class="compartir-redes" aria-label="Redes para compartir">
+    {
+      enlaces.map((enlace) => (
+        <li>
+          <a
+            href={enlace.href}
+            target={enlace.externo ? '_blank' : undefined}
+            rel={enlace.externo ? 'noopener noreferrer' : undefined}
+            title={`Compartir en ${enlace.nombre}`}
+          >
+            {enlace.nombre}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <button class="compartir-accion" type="button" data-copiar={url}>
+    Copiar enlace
+  </button>
+  <button
+    class="compartir-accion compartir-nativo"
+    type="button"
+    data-nativo
+    data-url={url}
+    data-texto={texto}
+    hidden
+  >
+    Compartir…
+  </button>
+  <span class="compartir-aviso" role="status" aria-live="polite"></span>
+</div>
+
+<script>
+  const avisoCercano = (boton: Element) => boton.closest('[data-compartir]')?.querySelector('.compartir-aviso');
+  const puedeCompartirNativo = () => Boolean(navigator.share) && navigator.maxTouchPoints > 0;
+
+  /** Portapapeles con respaldo para navegadores que niegan la API moderna. */
+  async function copiar(texto: string) {
+    try {
+      await navigator.clipboard.writeText(texto);
+      return true;
+    } catch {
+      try {
+        const area = document.createElement('textarea');
+        area.value = texto;
+        area.setAttribute('readonly', '');
+        area.style.position = 'fixed';
+        area.style.top = '-1000px';
+        document.body.append(area);
+        area.select();
+        const ok = document.execCommand('copy');
+        area.remove();
+        return ok;
+      } catch {
+        return false;
+      }
+    }
+  }
+
+  document.addEventListener('click', async (evento) => {
+    const objetivo = evento.target as HTMLElement;
+    const boton = objetivo.closest<HTMLButtonElement>('[data-copiar], [data-nativo]');
+    if (!boton) return;
+
+    const aviso = avisoCercano(boton);
+    const texto = boton.dataset.texto ?? document.title;
+
+    if (boton.hasAttribute('data-nativo') && puedeCompartirNativo()) {
+      try {
+        await navigator.share({ title: document.title, text: texto, url: boton.dataset.url });
+      } catch {
+        /* el usuario cerró el menú del sistema */
+      }
+      return;
+    }
+
+    try {
+      const ok = await copiar(boton.dataset.url ?? location.href);
+      if (aviso) {
+        aviso.textContent = ok ? 'Enlace copiado' : 'No se pudo copiar; usa la barra de direcciones';
+        if (ok) setTimeout(() => (aviso.textContent = ''), 2500);
+      }
+    } catch {
+      if (aviso) aviso.textContent = 'No se pudo copiar; usa la barra de direcciones';
+    }
+  });
+
+  if (puedeCompartirNativo()) {
+    document.querySelectorAll<HTMLButtonElement>('.compartir-nativo').forEach((b) => (b.hidden = false));
+  }
+</script>

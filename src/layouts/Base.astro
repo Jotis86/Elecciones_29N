@@ -14,6 +14,8 @@ const descripcionFinal =
   'Los programas de los partidos que concurren a las elecciones generales del 29 de noviembre de 2026, resumidos por temas y con cada propuesta enlazada a la página exacta del documento oficial.';
 
 const ruta = Astro.url.pathname;
+const canonica = new URL(ruta, Astro.site);
+const imagen = new URL('/og.png', Astro.site);
 const activo = (href: string) =>
   href === '/' ? ruta === '/' : ruta.startsWith(href.split('#')[0]);
 ---
@@ -26,9 +28,24 @@ const activo = (href: string) =>
     <title>{nombreCompleto}</title>
     <meta name="description" content={descripcionFinal} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonica} />
+    <meta property="og:site_name" content="Programas electorales 29N" />
+    <meta property="og:locale" content="es_ES" />
     <meta property="og:title" content={nombreCompleto} />
     <meta property="og:description" content={descripcionFinal} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonica} />
+    <meta property="og:image" content={imagen} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="29N · Programas electorales: cada propuesta enlazada a la página exacta del PDF"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={nombreCompleto} />
+    <meta name="twitter:description" content={descripcionFinal} />
+    <meta name="twitter:image" content={imagen} />
   </head>
   <body>
     <a class="skip" href="#contenido">Saltar al contenido</a>

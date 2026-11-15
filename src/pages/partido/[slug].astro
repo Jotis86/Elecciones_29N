@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import FichaTema from '../../components/FichaTema.astro';
+import Compartir from '../../components/Compartir.astro';
 import {
   partidos,
   temas,
@@ -117,10 +118,13 @@ const temasSinFicha = ficha
                   bloque={bloque}
                   titulo={tema.nombre}
                   idioma={ficha!.idioma ?? 'es'}
+                  ancla={tema.slug}
                 />
               </div>
             );
           })}
+
+          <Compartir texto={`Programa de ${partido.siglas} para el 29N, tema por tema`} />
         </div>
       </section>
     )

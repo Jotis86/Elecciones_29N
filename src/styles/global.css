@@ -503,6 +503,83 @@ blockquote::after {
   padding-left: 0.9rem;
 }
 
+.compartir-cita {
+  margin-left: 0.7rem;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--linea);
+  background: none;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--tenue);
+  cursor: pointer;
+}
+
+.compartir-cita:hover {
+  color: var(--tinta);
+  border-bottom-color: var(--tinta);
+}
+
+.compartir {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.6rem;
+  margin-top: 1.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--linea);
+  font-size: 0.85rem;
+}
+
+.compartir-etiqueta {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--tenue);
+}
+
+.compartir-redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.compartir-redes a,
+.compartir-accion {
+  display: inline-block;
+  padding: 0.22rem 0.7rem;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--tinta);
+  font: inherit;
+  font-size: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.compartir-redes a:hover,
+.compartir-accion:hover {
+  border-color: var(--tinta);
+}
+
+.compartir-accion[hidden] {
+  display: none;
+}
+
+.compartir-aviso {
+  font-size: 0.78rem;
+  color: var(--ok);
+}
+
+:focus-visible {
+  outline: 2px solid var(--tinta);
+  outline-offset: 2px;
+}
+
 .nota {
   margin: 0.5rem 0 0;
   font-size: 0.85rem;
