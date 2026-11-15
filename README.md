@@ -27,8 +27,9 @@ npm test         # pruebas del reparto D'Hondt
 ```
 programas/            PDFs originales (no se versionan, están en .gitignore)
 data/
-  partidos.json       metadatos: siglas, color, programa, URLs, estado
+  partidos.json       metadatos: siglas, color, programa, URLs, estado, escaños 2023
   temas.json          taxonomía de 16 temas + palabras clave
+  sitio.json          autor, contacto, fecha de actualización y correcciones
   escanos.json        diputados por circunscripción (anexo RD 806/2026)
   texto/<slug>.json   texto extraído del PDF, página a página (generado)
   propuestas/<slug>.json  fichas curadas: resumen + citas con página
@@ -49,6 +50,10 @@ scripts/
   validar-electoral.mjs  52 circunscripciones y suma de 350 diputados
   boe_escanos.py      actualiza los diputados desde el BOE sin cambiar el esquema
 ```
+
+Los partidos se ordenan por `escanos2023` (de mayor a menor) y, a igualdad, por
+siglas. Las candidaturas sin escaños en 2023 van después. El orden se aplica en
+la portada, en los temas y en la tabla de programas.
 
 ## Añadir un partido
 

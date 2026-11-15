@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { sitio, formatearFecha } from '../lib/datos';
 
 interface Props {
   titulo?: string;
@@ -55,12 +56,13 @@ const activo = (href: string) =>
     <footer class="pie">
       <div class="wrap">
         <p>
-          Proyecto independiente, sin afiliación política. Los resúmenes son una
-          interpretación de los programas oficiales: cada cita enlaza a la página
-          exacta del documento para que puedas comprobarla.
+          Proyecto personal de <strong>{sitio.autor}</strong>, independiente y sin
+          afiliación política. Los resúmenes son una interpretación de los
+          programas oficiales: cada cita enlaza a la página exacta del documento.
         </p>
         <p>
-          <a href="/sobre">Metodología y aviso legal</a>
+          <a href="/sobre">Metodología y aviso legal</a><br />
+          Última actualización: {formatearFecha(sitio.actualizado)}
         </p>
       </div>
     </footer>

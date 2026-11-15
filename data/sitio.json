@@ -1,0 +1,19 @@
+{
+  "autor": "Jota",
+  "contacto": null,
+  "actualizado": "2026-11-15",
+  "correcciones": [
+    {
+      "fecha": "2026-11-15",
+      "texto": "Publicación inicial: 7 programas analizados, 16 temas y 571 propuestas citadas."
+    },
+    {
+      "fecha": "2026-11-15",
+      "texto": "Calculadora: barras proporcionales al total de escaños y tope del 100 % en los porcentajes."
+    },
+    {
+      "fecha": "2026-11-15",
+      "texto": "Calculadora: colores estables por partido, formato español y aviso correcto cuando solo hay voto en blanco."
+    }
+  ]
+}

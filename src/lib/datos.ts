@@ -12,6 +12,8 @@ export interface Partido {
   programa: string | null;
   estado: 'disponible' | 'pendiente';
   ambito: string;
+  /** Escaños en el Congreso salido del 23J; las candidaturas nuevas tienen 0. */
+  escanos2023?: number;
   pdf: string | null;
   pdf_oficial: string | null;
   pdf_archivado: string | null;
@@ -55,7 +57,24 @@ export const NOMBRE_IDIOMA: Record<string, string> = {
   eu: 'euskera',
 };
 
-export const partidos = leer<Partido[]>('data/partidos.json');
+export interface Sitio {
+  autor: string;
+  contacto: string | null;
+  actualizado: string;
+  correcciones: { fecha: string; texto: string }[];
+}
+
+export const sitio = leer<Sitio>('data/sitio.json');
+
+/**
+ * Orden público de los partidos: escaños en 2023, de mayor a menor.
+ * Las candidaturas nuevas (0 escaños) van después, por orden alfabético.
+ */
+export const partidos = leer<Partido[]>('data/partidos.json').sort(
+  (a, b) =>
+    (b.escanos2023 ?? 0) - (a.escanos2023 ?? 0) ||
+    a.siglas.localeCompare(b.siglas, 'es'),
+);
 export const temas = leer<Tema[]>('data/temas.json');
 
 const dirFichas = join(RAIZ, 'data/propuestas');

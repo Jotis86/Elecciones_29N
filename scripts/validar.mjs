@@ -33,6 +33,39 @@ const normalizar = (s) =>
 
 const partidos = leer(join(DATOS, 'partidos.json'));
 const temas = leer(join(DATOS, 'temas.json'));
+const sitio = existsSync(join(DATOS, 'sitio.json'))
+  ? leer(join(DATOS, 'sitio.json'))
+  : null;
+
+// ── Metadatos del sitio ───────────────────────────────────────────────────
+if (!sitio) {
+  errores.push('Falta data/sitio.json');
+} else {
+  if (!sitio.autor || typeof sitio.autor !== 'string') {
+    errores.push('sitio.json: falta el autor');
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(sitio.actualizado ?? '')) {
+    errores.push('sitio.json: fecha de actualización no válida');
+  }
+  if (
+    sitio.contacto !== null &&
+    !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(sitio.contacto ?? '')
+  ) {
+    errores.push('sitio.json: contacto no válido');
+  }
+  if (!Array.isArray(sitio.correcciones)) {
+    errores.push('sitio.json: correcciones debe ser un array');
+  } else {
+    sitio.correcciones.forEach((c, i) => {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(c.fecha ?? '')) {
+        errores.push(`sitio.json: la corrección ${i + 1} no tiene fecha válida`);
+      }
+      if (!c.texto) {
+        errores.push(`sitio.json: la corrección ${i + 1} no tiene texto`);
+      }
+    });
+  }
+}
 const slugsTema = new Set(temas.map((t) => t.slug));
 const slugsPartido = new Set(partidos.map((p) => p.slug));
 
@@ -49,6 +82,12 @@ for (const p of partidos) {
   }
   if (p.estado !== 'disponible' && p.estado !== 'pendiente') {
     errores.push(`${p.slug}: estado desconocido «${p.estado}»`);
+  }
+  if (
+    p.escanos2023 !== undefined &&
+    (!Number.isInteger(p.escanos2023) || p.escanos2023 < 0)
+  ) {
+    errores.push(`${p.slug}: escanos2023 debe ser un entero no negativo`);
   }
 }
 

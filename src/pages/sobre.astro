@@ -1,22 +1,35 @@
 ---
 import Base from '../layouts/Base.astro';
-import { partidos, temas, fichas, totalPropuestas, partidosDisponibles, partidosPendientes } from '../lib/datos';
+import {
+  partidos,
+  temas,
+  fichas,
+  totalPropuestas,
+  partidosDisponibles,
+  partidosPendientes,
+  sitio,
+  formatearFecha,
+} from '../lib/datos';
 
-const temasCubiertos = new Set(fichas.flatMap((f) => Object.keys(f.temas))).size;
-const porPartido = fichas.map((f) => Object.keys(f.temas).length);
+const conRepresentacion = partidos.filter((p) => (p.escanos2023 ?? 0) > 0);
+const nuevas = partidos.filter((p) => !p.escanos2023);
+const correcciones = [...sitio.correcciones].reverse();
 ---
 
 <Base
   titulo="Metodología"
-  descripcion="Cómo se elaboran los resúmenes, cómo se verifican las citas y cuáles son los límites de este proyecto."
+  descripcion="Cómo se elaboran los resúmenes, cómo se verifican las citas, qué partidos cubre el sitio y cuáles son sus límites."
 >
   <header class="pagina-cabecera">
     <div class="wrap">
       <p class="kicker">Sobre este sitio</p>
       <h1>Metodología y aviso legal</h1>
       <p class="entradilla">
-        Un proyecto para leer los programas electorales sin tener que leer 400
-        páginas, pero pudiendo comprobar cada afirmación en su origen.
+        Un proyecto para leer los programas electorales sin tener que leer más de
+        400 páginas, pero pudiendo comprobar cada afirmación en su origen.
+      </p>
+      <p class="datos-partido">
+        <span>Última actualización: <b>{formatearFecha(sitio.actualizado)}</b></span>
       </p>
     </div>
   </header>
@@ -28,9 +41,46 @@ const porPartido = fichas.map((f) => Object.keys(f.temas).length);
         <p>
           Una web informativa e independiente sobre las elecciones generales del
           29 de noviembre de 2026. Reúne los programas que publican los partidos y
-          los organiza por temas para que se puedan comparar. No hay publicidad,
-          ni trackers, ni financiación de partidos.
+          los organiza por temas para que se puedan comparar. No hay publicidad.
         </p>
+
+        <h2>Quién lo hace</h2>
+        <p>Proyecto personal de <strong>{sitio.autor}</strong>.</p>
+        {
+          sitio.contacto ? (
+            <p>
+              Contacto:{' '}
+              <a href={`mailto:${sitio.contacto}`}>{sitio.contacto}</a>
+            </p>
+          ) : (
+            <p class="aviso-legal">Contacto: pendiente de configurar.</p>
+          )
+        }
+
+        <h2>Alcance</h2>
+        <p>
+          Este sitio no cubre todas las candidaturas. Incluye los{' '}
+          {conRepresentacion.length} partidos con representación en el Congreso
+          disuelto —{conRepresentacion.map((p) => p.siglas).join(', ')}— y{' '}
+          {nuevas.length} candidaturas adicionales:{' '}
+          {nuevas.map((p) => p.siglas).join(', ')}. Quedan fuera los partidos sin
+          representación previa que no figuren en esta lista.
+        </p>
+        <p>
+          Los partidos se ordenan por escaños obtenidos en las elecciones de 2023,
+          de mayor a menor; las candidaturas sin escaños en 2023 van después, por
+          orden alfabético. El orden no es una valoración.
+        </p>
+        {
+          partidosPendientes.length > 0 && (
+            <p>
+              Aún sin programa publicado o sin localizar:{' '}
+              {partidosPendientes.map((p) => p.siglas).join(', ')}. Sus páginas
+              existen para que los enlaces no se rompan y se completarán cuando haya
+              documento.
+            </p>
+          )
+        }
 
         <h2>Cómo se elabora cada ficha</h2>
         <ul>
@@ -59,60 +109,6 @@ const porPartido = fichas.map((f) => Object.keys(f.temas).length);
           cotejar el texto.
         </p>
 
-        <h2>Qué no es</h2>
-        <ul>
-          <li>
-            <strong>No es una valoración.</strong> Los resúmenes describen lo que
-            el partido escribe, sin juzgar si es mejor o peor, viable o no. Cuando
-            un programa no cuantifica una medida, se dice.
-          </li>
-          <li>
-            <strong>No está completo.</strong> Hay {fichas.length} programas
-            analizados de {partidosDisponibles.length} publicados, con{' '}
-            {Math.min(...porPartido) === Math.max(...porPartido)
-              ? `${porPartido[0]} temas por partido`
-              : `entre ${Math.min(...porPartido)} y ${Math.max(...porPartido)} temas por partido`}{' '}
-            ({temasCubiertos} de {temas.length} temas con alguna ficha). Las fichas
-            se publican por tandas.
-          </li>
-          <li>
-            <strong>No sustituye al documento.</strong> Un resumen siempre recorta.
-            Si un tema te importa, abre el PDF en la página citada: está a un clic.
-          </li>
-          <li>
-            <strong>No es un agregador de promesas electorales.</strong> Solo se
-            incluye lo que está por escrito en el programa, no declaraciones de
-            mítines ni entrevistas.
-          </li>
-        </ul>
-
-        <h2>Límites conocidos</h2>
-        <ul>
-          <li>
-            Un mismo tema puede estar repartido por varias partes del programa; el
-            resumen intenta recogerlo, pero puede quedarse corto.
-          </li>
-          <li>
-            Los programas cambian: algunos partidos publican versiones corregidas o
-            ampliadas. Guardamos la huella del PDF usado y la fecha de revisión.
-          </li>
-          <li>
-            {partidosPendientes.length} partidos no tienen programa publicado
-            todavía ({partidosPendientes.map((p) => p.siglas).join(', ')}). Sus
-            páginas existen para que los enlaces no se rompan y se completarán
-            cuando haya documento.
-          </li>
-        </ul>
-
-        <h2>Aviso legal</h2>
-        <p class="aviso-legal">
-          Este sitio no está afiliado ni financiado por ningún partido, fundación
-          o administración. Las citas son fragmentos de documentos públicos
-          amparados por el derecho de cita, con indicación de autor y fuente. Los
-          nombres y logotipos de los partidos pertenecen a sus titulares y se usan
-          únicamente con fines informativos.
-        </p>
-
         <h2>Calculadora y datos electorales</h2>
         <p>
           La calculadora usa los escaños por circunscripción del anexo del
@@ -126,16 +122,93 @@ const porPartido = fichas.map((f) => Object.keys(f.temas).length);
         <p>
           Es una simulación con los escaños oficiales, no una encuesta ni una
           predicción. Los campos parten vacíos; el botón «Reproducir 2023»
-          carga, solo al pulsarlo, los resultados oficiales del 23J. Nunca se
-          cargan sondeos.
+          carga, solo al pulsarlo, los votos oficiales del 23J y los escaños de
+          entonces. La fuente es el{' '}
+          <a
+            href="https://infoelectoral.interior.gob.es/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ministerio del Interior (Infoelectoral) ↗
+          </a>, fichero TOTA del Congreso de 2023.
+        </p>
+
+        <h2>Qué no es y límites</h2>
+        <ul>
+          <li>
+            <strong>No es una valoración.</strong> Los resúmenes describen lo que
+            el partido escribe, sin juzgar si es mejor o peor, viable o no. Cuando
+            un programa no cuantifica una medida, se dice.
+          </li>
+          <li>
+            <strong>No está completo.</strong> La cobertura es desigual: hay
+            partidos con ficha en los 16 temas y otros con menos, porque su
+            programa no aborda algunas materias o porque el análisis está en
+            curso. Las fichas se publican por tandas.
+          </li>
+          <li>
+            <strong>No sustituye al documento.</strong> Un resumen siempre recorta.
+            Si un tema te importa, abre el PDF en la página citada: está a un clic.
+          </li>
+          <li>
+            <strong>No es un agregador de promesas electorales.</strong> Solo se
+            incluye lo que está por escrito en el programa, no declaraciones de
+            mítines ni entrevistas.
+          </li>
+          <li>
+            Los programas cambian: algunos partidos publican versiones corregidas.
+            Guardamos la huella del PDF usado y la fecha de revisión de cada ficha.
+          </li>
+          <li>
+            Las traducciones del gallego y el euskera son nuestras; la cita
+            original queda a un clic para poder cotejarla.
+          </li>
+        </ul>
+
+        <h2>Cambios y correcciones</h2>
+        <p>
+          ¿Ves un error? Escribe al correo de contacto indicado arriba con la
+          página y la cita que quieres corregir.
+        </p>
+        {
+          correcciones.length > 0 ? (
+            <ul>
+              {correcciones.map((c) => (
+                <li>
+                  <time datetime={c.fecha}>{formatearFecha(c.fecha)}</time> ·{' '}
+                  {c.texto}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="aviso-legal">Sin correcciones registradas.</p>
+          )
+        }
+
+        <h2>Privacidad</h2>
+        <p>
+          No usamos cookies, analítica ni rastreadores, y no hay formularios ni
+          cuentas. El alojamiento puede registrar direcciones IP en sus registros
+          de seguridad; no se usan para perfilado. Si escribes al correo de
+          contacto, el mensaje se usa solo para responderte.
+        </p>
+
+        <h2>Aviso legal</h2>
+        <p class="aviso-legal">
+          Responsable: {sitio.autor}. Este sitio no está afiliado ni financiado
+          por ningún partido, fundación o administración. Las citas son fragmentos
+          de documentos públicos amparados por el derecho de cita, con indicación
+          de autor y fuente. Los nombres y logotipos de los partidos pertenecen a
+          sus titulares y se usan únicamente con fines informativos.
         </p>
 
         <h2>Estado del proyecto</h2>
         <p>
-          {partidosDisponibles.length} programas publicados, {fichas.length}
-          analizados, {totalPropuestas} propuestas citadas y verificadas. El
-          objetivo es cubrir los {temas.length} temas en todos los partidos antes
-          del 29N.
+          {partidosDisponibles.length} programas publicados y analizados;{' '}
+          {partidosPendientes.length} partidos aún sin programa.{' '}
+          {totalPropuestas} propuestas citadas y verificadas en {temas.length}{' '}
+          temas. El objetivo es incorporar los partidos que publiquen programa y
+          mantener las fichas al día.
         </p>
       </div>
     </div>
