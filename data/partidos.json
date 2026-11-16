@@ -45,7 +45,7 @@
     "pdf_archivado": null,
     "publicado": "2026-11-12",
     "descargado": "2026-11-15",
-    "notas": "Pendiente de confirmar que el PDF oficial es la versión completa."
+    "notas": null
   },
   {
     "slug": "erc",
@@ -77,7 +77,7 @@
     "pdf_archivado": null,
     "publicado": null,
     "descargado": null,
-    "notas": "Sin programa localizado en la web del partido en la fecha de revisión."
+    "notas": null
   },
   {
     "slug": "eh-bildu",
@@ -93,7 +93,7 @@
     "pdf_archivado": null,
     "publicado": null,
     "descargado": null,
-    "notas": "Sin programa localizado en la web del partido en la fecha de revisión."
+    "notas": null
   },
   {
     "slug": "pnv",
@@ -221,6 +221,6 @@
     "pdf_archivado": null,
     "publicado": "2026-11-13",
     "descargado": "2026-11-15",
-    "notas": "En FUENTES.md figura como «La ilusión de un país»; el documento se titula «Contrato electoral»."
+    "notas": null
   }
 ]

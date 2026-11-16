@@ -66,8 +66,8 @@ const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
       {
         fichas.length === 0 ? (
           <p class="ficha-vacia">
-            Todavía no hay fichas de este tema. Los programas ya están descargados
-            y el análisis se irá publicando por tandas.
+            Todavía no hay propuestas citadas sobre este tema. Puedes consultar los
+            programas completos en <a href="/programas">Programas</a>.
           </p>
         ) : (
           fichas.map(({ partido, ficha, bloque }) => (
@@ -86,8 +86,7 @@ const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
           <div class="ficha-vacia" style="margin-top:1.5rem">
             <strong>Sin propuestas localizadas en este tema:</strong>{' '}
             {sinFicha.map((p) => p.siglas).join(', ')}. Puede que el programa no aborde
-            la materia o que lo haga de forma indirecta; si encuentras una referencia,
-            escríbenos.
+            la materia o que lo haga de forma indirecta.
           </div>
         )
       }
@@ -95,7 +94,7 @@ const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
       {
         sinAnalizar.length > 0 && (
           <div class="ficha-vacia" style="margin-top:0.75rem">
-            <strong>Programa disponible, ficha en preparación:</strong>{' '}
+            <strong>Programa disponible, sin propuestas citadas todavía:</strong>{' '}
             {sinAnalizar.map((p, i) => (
               <>
                 {i > 0 && ', '}

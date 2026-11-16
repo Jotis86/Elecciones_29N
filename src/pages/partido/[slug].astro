@@ -91,9 +91,8 @@ const temasSinFicha = ficha
       {
         partido.estado === 'pendiente' && (
           <p class="aviso-legal" style="margin-top:1.4rem">
-            En cuanto el partido publique el documento, lo descargaremos, extraeremos
-            su texto y añadiremos sus fichas. Mientras tanto, la página queda
-            preparada para no romper los enlaces.
+            Cuando se publique el programa, esta página mostrará el documento y el
+            resumen por temas.
           </p>
         )
       }
@@ -134,10 +133,10 @@ const temasSinFicha = ficha
     ficha && temasSinFicha.length > 0 && (
       <section class="seccion">
         <div class="wrap">
-          <h2>Temas pendientes de analizar</h2>
+          <h2>Temas sin propuestas citadas</h2>
           <p class="prosa">
             El programa puede contener medidas sobre estas materias, pero todavía no
-            hemos publicado su ficha:
+            hay propuestas citadas:
           </p>
           <ul class="indice-temas">
             {temasSinFicha.map((tema) => (
@@ -156,8 +155,8 @@ const temasSinFicha = ficha
       <section class="seccion">
         <div class="wrap">
           <p class="ficha-vacia">
-            El PDF ya está disponible para descargar, pero su análisis por temas
-            todavía no se ha publicado. Se irá añadiendo por tandas.
+            El PDF ya está disponible para descargar. Todavía no hay un resumen por
+            temas de este programa.
           </p>
         </div>
       </section>

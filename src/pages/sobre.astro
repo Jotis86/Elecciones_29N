@@ -85,9 +85,7 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
           partidosPendientes.length > 0 && (
             <p>
               Aún sin programa publicado o sin localizar:{' '}
-              {partidosPendientes.map((p) => p.siglas).join(', ')}. Sus páginas
-              existen para que los enlaces no se rompan y se completarán cuando haya
-              documento.
+              {partidosPendientes.map((p) => p.siglas).join(', ')}.
             </p>
           )
         }
@@ -155,8 +153,8 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
           <li>
             <strong>No está completo.</strong> La cobertura es desigual: hay
             partidos con ficha en los 16 temas y otros con menos, porque su
-            programa no aborda algunas materias o porque el análisis está en
-            curso. Las fichas se publican por tandas.
+            programa no aborda algunas materias o porque todavía no hay
+            propuestas citadas.
           </li>
           <li>
             <strong>No sustituye al documento.</strong> Un resumen siempre recorta.

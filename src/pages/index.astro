@@ -81,7 +81,7 @@ import {
                 <h3>{tema.nombre}</h3>
                 <p>{tema.descripcion}</p>
                 <span class="cuenta">
-                  {n > 0 ? `${n} partido${n === 1 ? '' : 's'} analizado${n === 1 ? '' : 's'}` : 'En preparación'}
+                  {n > 0 ? `${n} partido${n === 1 ? '' : 's'} analizado${n === 1 ? '' : 's'}` : 'Sin fichas todavía'}
                 </span>
               </a>
             );
@@ -107,8 +107,8 @@ import {
         comprobar.
       </p>
       <p class="prosa">
-        La cobertura está en curso: iremos añadiendo partidos y temas por tandas.{' '}
-        <a href="/sobre">Aquí explicamos</a> el método y los criterios.
+        La cobertura es desigual: hay partidos con ficha en los 16 temas y otros con
+        menos. <a href="/sobre">Aquí explicamos</a> el método y los criterios.
       </p>
       <Compartir texto="Los programas del 29N, resumidos y verificables" />
     </div>
