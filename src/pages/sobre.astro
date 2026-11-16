@@ -53,7 +53,7 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
         <p>
           Este sitio no cubre todas las candidaturas. En 2023 obtuvieron
           representación {conRepresentacion.length + 1} formaciones: las{' '}
-          {conRepresentacion.length} que mantienen su propia marca
+          {conRepresentacion.length} que tenían representación propia
           —{conRepresentacion.map((p) => p.siglas).join(', ')}— y Sumar, cuyo
           espacio hereda Frente Amplio. La web incluye además {nuevas.length}{' '}
           candidaturas adicionales: {nuevas.map((p) => p.siglas).join(', ')}.
@@ -69,6 +69,11 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
           Podemos concurrió en 2023 dentro de Sumar y sus diputados pasaron
           después al Grupo Mixto. Aquí figura como candidatura propia con 0
           escaños a efectos de orden.
+        </p>
+        <p>
+          UPN no se presenta en solitario: concurre en coalición con el PP en
+          Navarra, con UPN encabezando la lista al Congreso. Su programa conjunto
+          está pendiente de publicación.
         </p>
         <p>
           Los partidos se ordenan por los escaños de 2023 que se les atribuyen
