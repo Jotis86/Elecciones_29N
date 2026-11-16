@@ -9,7 +9,7 @@ trackers, sin cookies.
 
 ## Arrancar
 
-Requisitos: Node 20+ y Python 3.11+.
+Requisitos: Node 22.23.4+ y Python 3.11+.
 
 ```bash
 npm install
