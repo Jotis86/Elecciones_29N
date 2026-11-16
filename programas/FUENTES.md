@@ -16,6 +16,7 @@ fuentes; la web enlaza a la URL oficial y, cuando exista, a una copia archivada.
 | PNV / EAJ | Euskadi zaindu | Publicado · en euskera | `pnv.pdf` | https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21765/pdf/hauteskunde-programa-a29 |
 | BNG | Xerais 2026 | Publicado · en gallego | `bng.pdf` | https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf |
 | CC | Defiende Canarias | Publicado 9-nov | `canaria.pdf` | https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf |
+| UPN | — | Sin programa localizado | — | — |
 | Frente Amplio | Un programa como una casa | Publicado 16-nov · texto extraído | `ProgramaFrenteAmplio.pdf` | https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf |
 | Podemos | — | Sin publicar | — | — |
 

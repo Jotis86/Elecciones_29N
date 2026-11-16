@@ -49,7 +49,7 @@ data/
   partidos.json       metadatos: siglas, color, programa, URLs, estado, escaños 2023;
                       pdf_fuente si el partido no aloja el PDF y se usa una copia
   temas.json          taxonomía de 16 temas + palabras clave
-  sitio.json          autor, contacto y fecha de actualización
+  sitio.json          autor y fecha de actualización
   escanos.json        diputados por circunscripción (anexo RD 806/2026)
   texto/<slug>.json   texto extraído del PDF, página a página (generado)
   propuestas/<slug>.json  fichas curadas: resumen + citas con página
@@ -141,12 +141,14 @@ desplegable para ver la cita literal en su idioma.
 del Real Decreto 806/2026 (BOE-A-2026-20742) y las reglas de los artículos 162
 y 163 de la LOREG:
 
-- quedan fuera las candidaturas con menos del 3% de los votos válidos, umbral
+- quedan fuera las candidaturas con menos del 3 % de los votos válidos, umbral
   que incluye el voto en blanco;
 - los votos se dividen entre 1, 2, 3… hasta el número de escaños y se asignan
   los cocientes mayores, comparados con enteros para evitar redondeos;
 - los empates de cociente se resuelven por votos totales y, si persisten, por
-  un sorteo determinista y reproducible.
+  un sorteo determinista y reproducible. Es una simplificación del criterio de
+  la LOREG, que ordena los empates por sorteo y los siguientes de forma
+  alternativa.
 
 Las barras miden los escaños de cada partido sobre el total de la
 circunscripción, de modo que todas juntas suman el 100% de los escaños.

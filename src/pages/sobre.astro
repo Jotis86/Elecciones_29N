@@ -11,7 +11,10 @@ import {
   formatearFecha,
 } from '../lib/datos';
 
-const conRepresentacion = partidos.filter((p) => (p.escanos2023 ?? 0) > 0);
+// Frente Amplio no tenía representación propia en 2023: hereda el espacio de Sumar.
+const conRepresentacion = partidos.filter(
+  (p) => p.slug !== 'frente-amplio' && (p.escanos2023 ?? 0) > 0,
+);
 const nuevas = partidos.filter((p) => !p.escanos2023);
 ---
 
@@ -45,29 +48,33 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
 
         <h2>Quién lo hace</h2>
         <p>Proyecto personal de <strong>{sitio.autor}</strong>.</p>
-        {
-          sitio.contacto ? (
-            <p>
-              Contacto:{' '}
-              <a href={`mailto:${sitio.contacto}`}>{sitio.contacto}</a>
-            </p>
-          ) : (
-            <p>Contacto: pendiente de configurar.</p>
-          )
-        }
 
         <h2>Alcance</h2>
         <p>
-          Este sitio no cubre todas las candidaturas. Incluye los{' '}
-          {conRepresentacion.length} partidos con representación en el Congreso
-          disuelto —{conRepresentacion.map((p) => p.siglas).join(', ')}— y{' '}
-          {nuevas.length} candidaturas adicionales:{' '}
-          {nuevas.map((p) => p.siglas).join(', ')}.
+          Este sitio no cubre todas las candidaturas. En 2023 obtuvieron
+          representación {conRepresentacion.length + 1} formaciones: las{' '}
+          {conRepresentacion.length} que mantienen su propia marca
+          —{conRepresentacion.map((p) => p.siglas).join(', ')}— y Sumar, cuyo
+          espacio hereda Frente Amplio. La web incluye además {nuevas.length}{' '}
+          candidaturas adicionales: {nuevas.map((p) => p.siglas).join(', ')}.
         </p>
         <p>
-          Los partidos se ordenan por escaños obtenidos en las elecciones de 2023,
-          de mayor a menor; las candidaturas sin escaños en 2023 van después, por
-          orden alfabético. El orden no es una valoración.
+          Frente Amplio no tenía representación propia en el Congreso disuelto: la
+          tenía Sumar. A Frente Amplio (coalición heredera de Sumar) se le
+          atribuyen los 31 escaños de Sumar solo para ordenar la portada. Es una
+          referencia orientativa, no una comparación exacta: esos 31 diputados
+          incluían a Podemos y a Compromís.
+        </p>
+        <p>
+          Podemos concurrió en 2023 dentro de Sumar y sus diputados pasaron
+          después al Grupo Mixto. Aquí figura como candidatura propia con 0
+          escaños a efectos de orden.
+        </p>
+        <p>
+          Los partidos se ordenan por los escaños de 2023 que se les atribuyen
+          —en Frente Amplio, los de Sumar—, de mayor a menor; las candidaturas sin
+          escaños en 2023 van después, por orden alfabético. El orden no es una
+          valoración.
         </p>
         {
           partidosPendientes.length > 0 && (
@@ -97,14 +104,14 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
           </li>
           <li>
             <strong>Se verifica automáticamente.</strong> Un control compara cada
-            cita con el texto de la página indicada. Si una no aparece tal cual, se
-            revisa antes de publicar.
+            cita con el texto de la página indicada. En los programas en gallego,
+            euskera o catalán se verifica la cita original antes de traducirla; la
+            ficha muestra la traducción y, desplegable, la cita original.
           </li>
         </ul>
         <p>
-          Los partidos cuyo programa está en gallego, euskera o catalán se resumen y citan
-          en castellano, indicándolo, y el enlace a la página original permite
-          cotejar el texto.
+          Cada ficha lleva la fecha de su última revisión. Si se corrige una cita o
+          un resumen, se anota con fecha en la ficha.
         </p>
 
         <h2>Calculadora y datos electorales</h2>
@@ -112,10 +119,12 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
           La calculadora usa los escaños por circunscripción del anexo del
           Real Decreto 806/2026 (BOE-A-2026-20742, de 6 de octubre). El reparto
           aplica los artículos 162 y 163 de la LOREG: quedan fuera las
-          candidaturas con menos del 3% de los votos válidos, los votos se
-          dividen entre 1, 2, 3… y los escaños van a los cocientes mayores. Si
-          coinciden cocientes, gana quien más votos totales tiene; si persiste
-          el empate, se resuelve por sorteo reproducible.
+          candidaturas con menos del 3 % de los votos válidos (incluido el voto
+          en blanco), los votos se dividen entre 1, 2, 3… y los escaños van a los
+          cocientes mayores. Si coinciden cocientes, gana quien más votos totales
+          tiene; si persiste el empate, se resuelve por un sorteo determinista y
+          reproducible. Es una simplificación del criterio de la LOREG, que ordena
+          los empates por sorteo y los siguientes de forma alternativa.
         </p>
         <p>
           Es una simulación con los escaños oficiales, no una encuesta ni una
@@ -158,21 +167,17 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
             versiones corregidas. Guardamos la huella del PDF usado y la fecha de
             revisión de cada ficha.
           </li>
-          <li>
-            <strong>Las traducciones son nuestras.</strong> Las del gallego, el
-            euskera y el catalán; la cita original queda a un clic para poder
-            cotejarla.
-          </li>
         </ul>
 
         <h2>Privacidad</h2>
         <p>
-          No usamos cookies, analítica ni rastreadores, y no hay formularios ni
-          cuentas. Los botones de compartir son enlaces normales a cada red social:
-          no cargan scripts, píxeles ni cookies de terceros. El alojamiento puede
-          registrar direcciones IP en sus registros de seguridad; no se usan para
-          perfilado. Si escribes al correo de contacto, el mensaje se usa solo para
-          responderte.
+          No usamos cookies, analítica ni rastreadores, y no hay formularios,
+          cuentas ni dirección de contacto. Los botones de compartir son enlaces
+          normales a cada red social o a tu cliente de correo: no cargan scripts,
+          píxeles ni cookies de terceros. Las fuentes son las del sistema
+          operativo; no se descargan de Google Fonts ni de otros servidores. El
+          alojamiento en Vercel puede registrar direcciones IP en sus registros
+          técnicos y de seguridad; no se usan para perfilado.
         </p>
 
         <h2>Aviso legal</h2>
@@ -186,11 +191,11 @@ const nuevas = partidos.filter((p) => !p.escanos2023);
 
         <h2>Estado del proyecto</h2>
         <p>
-          {partidosDisponibles.length} programas publicados y analizados;{' '}
-          {partidosPendientes.length} partidos aún sin programa.{' '}
-          {totalPropuestas} propuestas citadas y verificadas en {temas.length}{' '}
-          temas. El objetivo es incorporar los partidos que publiquen programa y
-          mantener las fichas al día.
+          A {formatearFecha(sitio.actualizado)}: {partidosDisponibles.length}{' '}
+          programas publicados y analizados; {partidosPendientes.length} partidos
+          aún sin programa. {totalPropuestas} propuestas citadas y verificadas en{' '}
+          {temas.length} temas. El objetivo es incorporar los partidos que
+          publiquen programa y mantener las fichas al día.
         </p>
       </div>
     </div>

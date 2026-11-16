@@ -9,7 +9,8 @@
  *  - Si coinciden cocientes de candidaturas distintas, gana la que más votos
  *    totales tenga; si persiste el empate, se resuelve por sorteo
  *    (art. 163.1.d). El sorteo aquí es determinista: misma entrada, mismo
- *    resultado, usando una semilla pública.
+ *    resultado, usando una semilla pública. Es una simplificación del sorteo
+ *    y la alternancia que prevé la LOREG.
  *
  * Los votos pueden expresarse en cualquier unidad (votos reales o milésimas
  * de punto porcentual): el método es invariante a la escala.

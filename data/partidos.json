@@ -144,6 +144,22 @@
     "notas": null
   },
   {
+    "slug": "upn",
+    "siglas": "UPN",
+    "nombre": "Unión del Pueblo Navarro",
+    "color": "#0055A5",
+    "programa": null,
+    "estado": "pendiente",
+    "ambito": "Navarra",
+    "escanos2023": 1,
+    "pdf": null,
+    "pdf_oficial": null,
+    "pdf_archivado": null,
+    "publicado": null,
+    "descargado": null,
+    "notas": "En 2023 obtuvo un escaño por Navarra. Sin programa localizado en la web del partido en la fecha de revisión."
+  },
+  {
     "slug": "frente-amplio",
     "siglas": "Frente Amplio",
     "nombre": "Frente Amplio",
@@ -157,7 +173,7 @@
     "pdf_archivado": null,
     "publicado": "2026-11-16",
     "descargado": "2026-11-16",
-    "notas": "Coalición de IU, Sumar, Comuns, Más Madrid, CHA, Verdes Equo y otras formaciones. Sumar concurre dentro de esta candidatura; se contabiliza una sola vez y se le asignan los 31 escaños de ese espacio en 2023."
+    "notas": "Coalición heredera de Sumar, integrada por IU, Movimiento Sumar, Comuns, Más Madrid, CHA, Verdes Equo y otras formaciones. Para ordenar la portada se le atribuyen los 31 escaños de Sumar en 2023, una referencia orientativa: esa cifra incluía a Podemos y a Compromís y no equivale a una candidatura idéntica."
   },
   {
     "slug": "pumj",
@@ -189,7 +205,7 @@
     "pdf_archivado": null,
     "publicado": null,
     "descargado": null,
-    "notas": "En 2023 concurrió dentro de Sumar; se contabiliza como candidatura propia."
+    "notas": "En 2023 sus diputados concurrieron en la lista de Sumar y después pasaron al Grupo Mixto. Aquí figura como candidatura propia con 0 escaños a efectos de orden."
   },
   {
     "slug": "salf",

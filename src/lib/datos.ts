@@ -62,7 +62,6 @@ export const NOMBRE_IDIOMA: Record<string, string> = {
 
 export interface Sitio {
   autor: string;
-  contacto: string | null;
   actualizado: string;
 }
 

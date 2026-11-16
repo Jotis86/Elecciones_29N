@@ -47,12 +47,6 @@ if (!sitio) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(sitio.actualizado ?? '')) {
     errores.push('sitio.json: fecha de actualización no válida');
   }
-  if (
-    sitio.contacto !== null &&
-    !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(sitio.contacto ?? '')
-  ) {
-    errores.push('sitio.json: contacto no válido');
-  }
 }
 const slugsTema = new Set(temas.map((t) => t.slug));
 const slugsPartido = new Set(partidos.map((p) => p.slug));

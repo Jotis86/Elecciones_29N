@@ -122,12 +122,14 @@ const datos2023 = {
         Simulación, no predicción. No es una encuesta. Los porcentajes son partes
         de los votos válidos de la circunscripción y no pueden sumar más de 100:
         al mover un campo, el resto se ajusta a lo que queda libre. El voto en
-        blanco cuenta para el umbral del 3% y no recibe escaños; lo que dejes sin
+        blanco cuenta para el umbral del 3 % y no recibe escaños; lo que dejes sin
         asignar se considera «otros partidos» y también cuenta para el umbral.
         Escaños: <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20742" target="_blank" rel="noopener noreferrer">Real Decreto 806/2026, anexo ↗</a>.
         Reglas: <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#acientosesentaytres" target="_blank" rel="noopener noreferrer">LOREG, arts. 162 y 163 ↗</a>.
         Los empates de cociente se resuelven por votos totales y, si persisten,
-        por sorteo reproducible: la misma entrada da siempre el mismo resultado.
+        por un sorteo determinista y reproducible. Es una simplificación del
+        criterio de la LOREG, que ordena los empates por sorteo y los siguientes
+        de forma alternativa.
         El modo 2023 usa los votos oficiales del 23J y los escaños de entonces;
         al editar cualquier porcentaje, vuelve a los escaños de 2026.
       </p>
