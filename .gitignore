@@ -1,8 +1,14 @@
 node_modules/
 dist/
 .astro/
+.vercel/
 .venv/
 .DS_Store
+
+# Variables de entorno locales
+.env
+.env.*
+!.env.example
 
 # Los PDFs no se versionan: se enlazan a la fuente oficial.
 programas/*.pdf
