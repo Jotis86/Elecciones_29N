@@ -19,7 +19,7 @@ python3 -m venv .venv
 npm run dev      # http://localhost:4321
 npm run build    # valida los datos y genera dist/
 npm run validar  # valida citas y datos electorales
-npm test         # pruebas del reparto D'Hondt
+npm test         # pruebas: D'Hondt, porcentajes, compartir y cuenta atrás
 ```
 
 ## Dirección pública
@@ -28,6 +28,18 @@ Las URLs absolutas (canonical y tarjetas al compartir) salen de `PUBLIC_SITE_URL
 En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION_URL`, así que no hay que
 configurar nada. En local apunta a `http://localhost:4321`, que es lo esperado
 para las pruebas.
+
+## Cuenta atrás del 29N
+
+La portada muestra una píldora con los días que faltan para las elecciones,
+junto a la fecha del encabezado. Se calcula en el navegador con la fecha de
+Madrid (`Europe/Madrid`), no al construir el sitio, y se actualiza cada minuto
+y al volver a la pestaña. El 29N muestra «Hoy son las elecciones» y a partir
+del 30 desaparece.
+
+La lógica está en `src/lib/cuenta-atras.js` y la píldora en
+`src/components/CuentaAtras.astro`. Sin JavaScript no se muestra la cuenta
+atrás, para no dejar una cifra antigua: la fecha sigue visible en el kicker.
 
 ## Cómo está organizado
 
@@ -42,15 +54,19 @@ data/
   texto/<slug>.json   texto extraído del PDF, página a página (generado)
   propuestas/<slug>.json  fichas curadas: resumen + citas con página
 src/
-  lib/datos.ts        carga de datos y utilidades
-  lib/dhondt.js       reparto D'Hondt y umbral del 3% (LOREG 162-163)
-  lib/porcentajes.js  topes del 100% y redondeo en décimas
-  components/         FichaTema, TarjetaPartido, Compartir
-  pages/              portada, /temas, /tema/[slug], /partido/[slug],
-                      /calculadora, /buscar, /programas, /sobre
+  lib/datos.ts         carga de datos y utilidades
+  lib/cuenta-atras.js  días para el 29N, fecha de Madrid y cálculo
+  lib/dhondt.js        reparto D'Hondt y umbral del 3% (LOREG 162-163)
+  lib/porcentajes.js   topes del 100% y redondeo en décimas
+  components/          FichaTema, TarjetaPartido, Compartir, CuentaAtras
+  pages/               portada, /temas, /tema/[slug], /partido/[slug],
+                       /calculadora, /buscar, /programas, /sobre
 tests/
-  dhondt.test.js      ejemplo de la LOREG, umbral, empates y escala
-  porcentajes.test.js topes del 100% y recorte de valores
+  dhondt.test.js        ejemplo de la LOREG, umbral, empates y escala
+  porcentajes.test.js   topes del 100% y recorte de valores
+  compartir.test.js     enlaces de compartir por red
+  cuenta-atras.test.js  días, singular/plural y medianoche de Madrid
+  reparto-2023.test.js  reparto oficial del 23J en las 52 provincias
 scripts/
   extraer_texto.py    PDF → data/texto (con caché por sha256)
   ver.py              consulta el texto extraído durante la curación

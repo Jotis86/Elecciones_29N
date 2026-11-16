@@ -1,0 +1,706 @@
+{
+  "partido": "frente-amplio",
+  "revisado": "2026-11-16",
+  "temas": {
+    "vivienda": {
+      "resumen": "Frente Amplio convierte la vivienda en el eje de su programa: 1 % del PIB anual y 1,5 millones de viviendas públicas en 12 años, con expropiación del stock de grandes tenedores y prohibición de compras especulativas. Limita el alquiler en zonas tensionadas al 25 % de la renta del barrio, declara el contrato indefinido como norma y prohíbe los desahucios sin alternativa habitacional. Promete una reforma constitucional para hacer exigible el derecho a la vivienda y un impuesto del 10 % a la acumulación de pisos.",
+      "propuestas": [
+        {
+          "titular": "Un 1 % del PIB cada año para vivienda pública",
+          "texto": "Asignación presupuestaria permanente del 1 % del PIB anual (aprox. 17.000 M€/ año) consagrada a la creación del parque público de vivienda.",
+          "pagina": 10
+        },
+        {
+          "titular": "1,5 millones de viviendas públicas en 12 años",
+          "texto": "Ampliaremos el parque público y asequible de vivienda a través de la construcción directa y delegada, la compra por tanteo y retracto, la movilización de vivienda vacía o infrautilizada, la redensificación, la expropiación y el ejercicio del tanteo público con el que se incorporarán 1,5 millones de viviendas públicas en 12 años (125.000 viviendas públicas/año), alcanzando la media europea (9,3 %) durante la legislatura y el 20 % del parque total en 2035.",
+          "pagina": 10
+        },
+        {
+          "titular": "Expropiación a los grandes tenedores",
+          "texto": "Aprobación de la Ley de Expropiación de Viviendas a Propietarios Corporativos Privados: El proceso afectará en primera fase al stock residencial de entidades poseedoras de más de 1.000 viviendas (como Blackstone o CaixaBank), en segunda fase a tenedores de más de 700 viviendas y en tercera fase a empresas propietarias de más de 50 inmuebles.",
+          "pagina": 10
+        },
+        {
+          "titular": "Prohibir la compra especulativa",
+          "texto": "Prohibiremos por ley la compra de viviendas residenciales para cualquier fin que no sea la residencia habitual y permanente de la persona compradora o su arrendamiento bajo el régimen de alquiler asequible regulado.",
+          "pagina": 11
+        },
+        {
+          "titular": "Contrato de alquiler indefinido",
+          "texto": "Contrato de alquiler indefinido como régimen estándar por defecto: El contrato de arrendamiento residencial pasará a tener carácter indefinido por defecto.",
+          "pagina": 14
+        },
+        {
+          "titular": "Tope al alquiler del 25 % de la renta",
+          "texto": "Limitaremos por ley el precio del alquiler residencial en todas las zonas tensionadas aplicando la fórmula objetiva que garantice la renta más baja para el inquilino: el techo máximo de la mensualidad será la cifra menor resultante de comparar el 25 % de la renta neta media por hogar de la sección censal y el tope fijado por el índice SERPAVI.",
+          "pagina": 13
+        },
+        {
+          "titular": "Ni un desahucio sin alternativa",
+          "texto": "Prohibiremos de forma permanente y con rango de ley la ejecución de lanzamientos o desahucios de personas y familias en situación de vulnerabilidad económica o social sin que las administraciones públicas hayan proporcionado con carácter previo una alternativa habitacional digna, adecuada y estable.",
+          "pagina": 15
+        },
+        {
+          "titular": "Impuesto del 10 % a la acumulación",
+          "texto": "Crearemos un impuesto del 10 % sobre el valor de los pisos que afectará a las empresas desde el primer inmueble y a los particulares a partir del cuarto, cuando sus propiedades superen conjuntamente los 800.000 euros.",
+          "pagina": 18
+        },
+        {
+          "titular": "La vivienda, derecho fundamental",
+          "texto": "Impulsaremos una reforma constitucional de urgencia para trasladar el derecho a la vivienda desde los principios rectores (Capítulo III) a la Sección 1.ª del Capítulo II del Título I de la Constitución Española.",
+          "pagina": 19
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "El programa fiscal quiere que grandes empresas y patrimonios paguen más: tipo mínimo real del 20 % en Sociedades, 2 % para patrimonios de más de un millón y una Tasa Zucman del 3 % a partir de 50 millones. Limita las herencias a 10 millones por heredero, baja el IRPF hasta 27.000 euros y sube el tipo máximo al 52 % desde 300.000. Añade IVA progresivo en la luz, banca pública estatal y una inversión en I+D+i del 3 % del PIB en 2030.",
+      "propuestas": [
+        {
+          "titular": "Tipo mínimo del 20 % en Sociedades",
+          "texto": "Impondremos un tipo mínimo efectivo del 20 % sobre el resultado contable ajustado para las grandes empresas y grupos corporativos, avanzando sobre el mínimo previo del 15 % mediante reglas homogéneas que eviten la manipulación de la base tributaria, sin elevar la carga fiscal de las pymes.",
+          "pagina": 44
+        },
+        {
+          "titular": "Un 2 % mínimo a las grandes fortunas",
+          "texto": "Reformaremos el Impuesto de Solidaridad de las Grandes Fortunas para garantizar que los patrimonios con más de un millón de euros paguen como mínimo el 2 %.",
+          "pagina": 45
+        },
+        {
+          "titular": "Tasa Zucman del 3 % desde 50 millones",
+          "texto": "Implantaremos la Tasa Zucman, consistente en un impuesto estatal, permanente y finalista del 3 % anual sobre el patrimonio neto individual que supere los 50 millones de euros.",
+          "pagina": 45
+        },
+        {
+          "titular": "Herencias limitadas a 10 millones",
+          "texto": "Limitaremos las herencias de los ultrarricos a un máximo de 10 millones de euros por heredero.",
+          "pagina": 46
+        },
+        {
+          "titular": "IRPF más bajo hasta 27.000 euros",
+          "texto": "Bajaremos el IRPF a las rentas del trabajo de hasta 27.000 euros (1,5 veces el SMI). Aumentaremos la reducción por rendimientos del trabajo para que quien cobre el salario mínimo no pague IRPF y extenderemos esa rebaja, de forma decreciente, hasta los 27.000 euros.",
+          "pagina": 46
+        },
+        {
+          "titular": "Tipo máximo del 52 % desde 300.000",
+          "texto": "Ampliaremos el número de tramos del IRPF a partir de 120.000 euros anuales y elevaremos progresivamente los tipos marginales hasta alcanzar el 52 % para rentas a partir de 300.000 euros.",
+          "pagina": 46
+        },
+        {
+          "titular": "IVA progresivo en la luz",
+          "texto": "Haremos progresivo el IVA de la luz. Aplicaremos un tipo reducido a los consumos eléctricos vitales, tanto en el IVA como en el Impuesto Especial sobre la Electricidad.",
+          "pagina": 47
+        },
+        {
+          "titular": "I+D+i: 3 % del PIB en 2030",
+          "texto": "Alcanzaremos una inversión en I+D+i del 3 % del PIB en 2030 y del 4 % en la década siguiente.",
+          "pagina": 80
+        },
+        {
+          "titular": "Banca pública estatal",
+          "texto": "Crearemos un Banco Postal Estatal a partir de la Sociedad Estatal de Correos y Telégrafos. El Banco Postal Estatal recibirá como aportación a su capital los activos de la Sociedad Estatal de Correos y Telégrafos y las acciones de CaixaBank en manos del FROB.",
+          "pagina": 84
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "Frente Amplio promete elevar el SMI al 60 % del salario medio neto, reducir la jornada a 32 horas sin bajar el sueldo y hacer obligatorio un registro horario digital. Reforma el despido para que sea reparador, sube la prestación por desempleo al 80 % los primeros seis meses y crea un Plan de Empleo Garantizado. Las empresas con beneficios que no suban salarios pagarán un gravamen del 30 % sobre el exceso.",
+      "propuestas": [
+        {
+          "titular": "SMI al 60 % del salario medio",
+          "texto": "Garantizaremos por ley una subida progresiva del Salario Mínimo Interprofesional (SMI) manteniendo un suelo permanente equivalente al 60 % del salario medio neto de la economía.",
+          "pagina": 51
+        },
+        {
+          "titular": "Jornada de 32 horas sin bajar el sueldo",
+          "texto": "Hacia una jornada laboral máxima de 32 horas semanales sin reducción salarial",
+          "pagina": 55
+        },
+        {
+          "titular": "Registro horario digital",
+          "texto": "Implantaremos un registro horario digital, fiable e interoperable que recoja la jornada real y sus interrupciones, garantizando el acceso remoto en tiempo real para la Inspección de Trabajo sin desplazamientos previos.",
+          "pagina": 52
+        },
+        {
+          "titular": "Despido reparador",
+          "texto": "Reformaremos la indemnización por despido improcedente para que repare el daño real causado a la persona trabajadora y disuada de los despidos injustificados, en línea con el artículo 24 de la Carta Social Europea revisada y con lo concluido por el Comité Europeo de Derechos Sociales sobre el sistema español de indemnización tasada.",
+          "pagina": 52
+        },
+        {
+          "titular": "Paro: 80 % los primeros seis meses",
+          "texto": "Elevaremos el porcentaje de la prestación contributiva por desempleo del 70 % al 80 % de la base reguladora durante los primeros seis meses (y 70 % el resto) y subiremos un 25 % los topes máximos.",
+          "pagina": 53
+        },
+        {
+          "titular": "Gravamen a beneficios no compartidos",
+          "texto": "Crearemos un gravamen estatal para las empresas con una cifra de facturación superior a 50 millones de euros cuyo beneficio crezca mientras los salarios de su plantilla se quedan atrás. Se aplicará sobre el beneficio de explotación que supere la media de los tres ejercicios anteriores cuando la subida salarial de la plantilla no alcance la de referencia: la inflación del año o, si es mayor, la pactada en el Acuerdo para el Empleo y la Negociación Colectiva (AENC) vigente. El tipo será del 30 %; la empresa que suba los salarios lo que marca la referencia no pagará nada.",
+          "pagina": 51
+        },
+        {
+          "titular": "Plan de Empleo Garantizado",
+          "texto": "Pondremos en marcha un Plan de Empleo Garantizado. Se dirigirá preferentemente a personas desempleadas de larga duración y se aplicará mediante convenios con las comunidades autónomas, los ayuntamientos, las diputaciones, cabildos insulares, mancomunidades y otras instituciones locales en el cumplimiento de sus competencias y en el ámbito de sus territorios.",
+          "pagina": 101
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "El programa plantea culminar la regularización de 2026 y crear un procedimiento estable, además de derogar el rechazo en frontera y cerrar los CIE. Apuesta por la protección en embajadas y consulados, los visados de tránsito y una Agencia de Asilo única con plazos estrictos. También amplía el voto municipal de las personas residentes y devuelve la nacionalidad a los saharauis nacidos bajo administración española.",
+      "propuestas": [
+        {
+          "titular": "Culminar la regularización de 2026",
+          "texto": "Culminar la regularización extraordinaria de 2026: Resolveremos todas las solicitudes con medios suficientes, de modo que ninguna persona quede fuera por retrasos de la Administración.",
+          "pagina": 126
+        },
+        {
+          "titular": "Regularización estable y reglada",
+          "texto": "Procedimiento estable de regularización: Reformaremos de forma integral la Ley de Extranjería para instaurar un procedimiento estable, permanente y reglado de regularización administrativa.",
+          "pagina": 126
+        },
+        {
+          "titular": "Derogar el rechazo en frontera",
+          "texto": "Derogación del rechazo en frontera y control independiente: Derogaremos formalmente la disposición adicional décima de la Ley de Extranjería (relativa al «rechazo en frontera») por poner en riesgo el derecho de asilo al carecer de procedimientos y garantías procesales debidas.",
+          "pagina": 126
+        },
+        {
+          "titular": "Cerrar los CIE",
+          "texto": "Cierre de los CIE y limitación estricta de la detención en frontera: Cerraremos los Centros de Internamiento de Extranjeros (CIE).",
+          "pagina": 127
+        },
+        {
+          "titular": "Agencia de Asilo única",
+          "texto": "Agencia de Asilo unificada: Crearemos una Agencia de Asilo dependiente directamente de la Presidencia del Gobierno para unificar las competencias en materia de protección internacional actualmente dispersas entre diferentes organismos.",
+          "pagina": 128
+        },
+        {
+          "titular": "Asilo en 5 días y entrevista en 21",
+          "texto": "Plazos estrictos de registro, formalización y expedición de documentación: Garantizaremos acceso efectivo al procedimiento de protección internacional mediante el registro obligatorio de la solicitud en un plazo máximo de 5 días desde la manifestación de voluntad y de 21 días para la formalización mediante entrevista.",
+          "pagina": 128
+        },
+        {
+          "titular": "Voto municipal para residentes",
+          "texto": "Ampliación del derecho de voto para personas residentes: Ampliaremos el derecho de sufragio activo y pasivo de las personas migrantes en las elecciones municipales.",
+          "pagina": 128
+        },
+        {
+          "titular": "Nacionalidad para los saharauis",
+          "texto": "Devolveremos la nacionalidad española a las y los saharauis nacidos bajo administración española antes de septiembre de 1977, así como a sus descendientes en primer grado de consanguinidad.",
+          "pagina": 128
+        },
+        {
+          "titular": "Protección en embajadas",
+          "texto": "Protección en embajadas y exención de visados de tránsito: Aplicaremos el artículo 38 de la Ley de Asilo para permitir la solicitud de protección internacional en embajadas y consulados (conforme a la interpretación del Tribunal Supremo)",
+          "pagina": 127
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "Frente Amplio blinda el 8 % del PIB para sanidad pública, reserva el 25 % a Atención Primaria y recupera la gestión pública directa frente a la concertada. Amplía la cartera con gafas, lentillas, audífonos y salud bucodental, y fija un mínimo de 10 profesionales de salud mental por 100.000 habitantes. Incluye el aborto en la Constitución y crea una industria farmacéutica pública.",
+      "propuestas": [
+        {
+          "titular": "El 8 % del PIB para sanidad pública",
+          "texto": "Blindaje del gasto sanitario público: Compromiso desde los Presupuestos Generales del Estado del 8 % del PIB estatal para la sanidad pública.",
+          "pagina": 26
+        },
+        {
+          "titular": "25 % del presupuesto a Atención Primaria",
+          "texto": "Continuaremos aumentando los fondos finalistas a Atención Primaria para cumplir la recomendación de la OMS de destinar el 25 % del presupuesto sanitario a Atención Primaria.",
+          "pagina": 26
+        },
+        {
+          "titular": "Gestión pública directa del SNS",
+          "texto": "Apostaremos de nuevo por una Ley de Gestión Pública e Integridad del Sistema Nacional de Salud para consagrar la gestión pública directa como la vía general para los centros y servicios del Sistema Nacional de Salud (SNS).",
+          "pagina": 26
+        },
+        {
+          "titular": "Gafas y lentillas gratuitas para todos",
+          "texto": "Universalizaremos el «Plan Veo» (gafas y lentillas gratuitas) a todos los grupos de edad de la población residente (ampliando la medida inicial para menores de 16 años).",
+          "pagina": 27
+        },
+        {
+          "titular": "Audífonos en la sanidad pública",
+          "texto": "Salud auditiva: Financiación pública e inclusión de los audífonos en la cartera común de servicios para toda la población que los necesite, con programas prioritarios de ayudas para mayores de 65 años y personas con discapacidad.",
+          "pagina": 27
+        },
+        {
+          "titular": "Salud bucodental pública",
+          "texto": "Salud bucodental: Continuaremos la ampliación de la cobertura bucodental realizada en esta legislatura (menores hasta 14 años, embarazadas, mayores de 65 años, pacientes oncológicos específicos) hasta alcanzar al menos el 50 % de la población residente al final de la legislatura.",
+          "pagina": 27
+        },
+        {
+          "titular": "10 profesionales de salud mental por 100.000",
+          "texto": "Crearemos un fondo específico para la Red de Salud Mental Comunitaria y aumentaremos las ratios de profesionales (psiquiatría, psicología clínica, enfermería especializada, trabajo social, terapeutas y expertos por experiencia) hasta un mínimo de 10 por cada 100.000 habitantes.",
+          "pagina": 28
+        },
+        {
+          "titular": "El aborto, en la Constitución",
+          "texto": "Reformaremos el artículo 43 de la Constitución para incluir el derecho al aborto, incluyendo expresamente en la misma que los poderes públicos garantizarán el ejercicio del derecho de las mujeres a la interrupción voluntaria del embarazo en condiciones de igualdad real y efectiva con cuantas prestaciones y servicios sean necesarios para dicho ejercicio.",
+          "pagina": 28
+        },
+        {
+          "titular": "Industria farmacéutica pública",
+          "texto": "Crearemos una empresa/industria farmacéutica con participación 100 % pública y expansión de iniciativas existentes (Certera, Terafront) para asegurar liderazgo investigador, reforzar la producción en España/Europa y evitar desabastecimientos.",
+          "pagina": 29
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "El programa fija un suelo del 7 % del PIB educativo en 2030, ratios máximas por aula y gratuidad universal de 0 a 3 años. Aumenta las becas hasta el 0,44 % del PIB, reduce la carga lectiva a 18 horas en Secundaria y exige que las universidades públicas reciban al menos el 1 % del PIB regional. También garantiza comedor gratuito en Infantil y Primaria.",
+      "propuestas": [
+        {
+          "titular": "El 7 % del PIB para educación en 2030",
+          "texto": "Aprobaremos una Ley de Financiación Educativa que blinde legalmente un porcentaje mínimo de inversión estatal y que deberá llegar al 7 % del PIB en 2030.",
+          "pagina": 31
+        },
+        {
+          "titular": "Ratios máximas por aula",
+          "texto": "15 en Primaria y FP, 20 en Secundaria y 23 en Bachillerato, disponiendo que el alumnado NEAE compute el doble a efectos de ratio.",
+          "pagina": 31
+        },
+        {
+          "titular": "Educación de 0 a 3 años gratuita",
+          "texto": "Universalización de la educación de 0 a 3 años: Integraremos plenamente el primer ciclo de educación infantil en el sistema educativo, ampliaremos plazas públicas gratuitas garantizadas para toda familia solicitante y comedor gratuito en la red pública de Infantil y Primaria.",
+          "pagina": 25
+        },
+        {
+          "titular": "Becas hasta el 0,44 % del PIB",
+          "texto": "Incrementaremos las cuantías de becas postobligatorias hasta el 0,44 % del PIB, garantizando el cobro al inicio de curso, elevando las ayudas de residencia y creando becas-salario para evitar el abandono escolar por motivos económicos.",
+          "pagina": 32
+        },
+        {
+          "titular": "Universidades: 1 % del PIB regional",
+          "texto": "Modificaremos la Ley Orgánica del Sistema Universitario (LOSU) para que las comunidades autónomas destinen al menos el 1 % de su PIB regional a la financiación de sus universidades públicas.",
+          "pagina": 33
+        },
+        {
+          "titular": "18 horas lectivas en Secundaria",
+          "texto": "Reducción de la carga lectiva docente: Fijación estatal por ley de un máximo de 18 horas lectivas en Secundaria, Bachillerato, FP y Régimen Especial, y de 23 horas en Infantil y Primaria.",
+          "pagina": 32
+        },
+        {
+          "titular": "Comedor escolar gratuito",
+          "texto": "Estableceremos la gratuidad total y universal del servicio de comedor escolar para todo el alumnado matriculado en Educación Infantil y Primaria en centros de la red pública en todas las comunidades autónomas.",
+          "pagina": 22
+        }
+      ]
+    },
+    "pensiones": {
+      "resumen": "Frente Amplio quiere blindar en la Constitución las pensiones públicas, su revalorización y una pensión mínima igual al SMI. Devuelve la jubilación a los 65 años, permite adelantar la jubilación en oficios penosos y elimina los coeficientes reductores para quien ha cotizado más de 40 años. Promete subir las pensiones más bajas y cerrar la brecha de género.",
+      "propuestas": [
+        {
+          "titular": "Blindaje constitucional de las pensiones",
+          "texto": "Reforzaremos el nivel de protección constitucional por la vía del procedimiento ordinario de reforma constitucional (artículo 167 CE). Para ello, ubicaremos el derecho a la pensión pública y su revalorización automática con arreglo al IPC, que ninguna sea inferior al SMI y que no se privatice la gestión de las pensiones públicas en la Sección 2.ª del Capítulo II del Título I",
+          "pagina": 57
+        },
+        {
+          "titular": "Jubilación a los 65 años",
+          "texto": "Devolveremos la edad de jubilación a los 65 años, que nos fue arrebatada sin diálogo ni justificación en la reforma realizada en 2011.",
+          "pagina": 57
+        },
+        {
+          "titular": "Jubilación anticipada en oficios penosos",
+          "texto": "Reduciremos la edad de jubilación en determinados oficios y profesiones por su especial penosidad.",
+          "pagina": 57
+        },
+        {
+          "titular": "Sin penalización tras 40 años cotizados",
+          "texto": "Eliminaremos los coeficientes reductores en las jubilaciones anticipadas de quienes han cotizado más de 40 años y tienen que acogerse a la misma de manera involuntaria.",
+          "pagina": 58
+        },
+        {
+          "titular": "Subir las pensiones más bajas",
+          "texto": "Reduciremos la brecha de género en las pensiones. Subiremos las pensiones contributivas más bajas y las no contributivas por encima de la media, para evitar que la pobreza en la vejez tenga rostro de mujer, y garantizaremos la sostenibilidad del complemento de brecha de género con incrementos progresivos.",
+          "pagina": 58
+        },
+        {
+          "titular": "Auditoría de la Seguridad Social",
+          "texto": "Publicaremos de inmediato el informe de auditoría independiente sobre las cuentas de la Seguridad Social (1967-2019) previsto en la Ley 21/2021.",
+          "pagina": 58
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "El programa destina el 3,5 % del PIB anual a la transición ecológica y fija el 100 % de generación renovable en 2040. Crea una comercializadora pública, recupera la titularidad pública de las redes y ofrece tres horas de luz gratis al día en la franja solar. Mantiene el calendario de cierre nuclear, impulsa tejados solares y reconoce el agua como bien público sin cortes por impago.",
+      "propuestas": [
+        {
+          "titular": "3,5 % del PIB para la transición ecológica",
+          "texto": "Compromiso presupuestario legal para destinar el 3,5 % del PIB anual a proyectos de transición ecológica justa, descarbonización industrial, adaptación al cambio climático e infraestructuras verdes.",
+          "pagina": 60
+        },
+        {
+          "titular": "100 % renovable en 2040",
+          "texto": "Aumentaremos la generación renovable hasta el 81 % en 2030, el 90 % en 2035 y el 100 % en 2040, midiendo la participación renovable sobre la generación eléctrica total y coordinando el despliegue renovable con nuevas demandas, redes, almacenamiento y flexibilidad.",
+          "pagina": 60
+        },
+        {
+          "titular": "Comercializadora pública de energía",
+          "texto": "Crearemos una comercializadora pública de referencia, que distribuya energía a los hogares y rompa el oligopolio y su integración vertical.",
+          "pagina": 63
+        },
+        {
+          "titular": "Redes eléctricas y de gas públicas",
+          "texto": "Modificaremos la legislación actual para establecer la titularidad pública de las redes de distribución eléctrica y de gas.",
+          "pagina": 63
+        },
+        {
+          "titular": "Tres horas de luz gratis al día",
+          "texto": "Tres horas de luz gratis al día: En las horas de mayor producción de energía eléctrica solar y en las que hay excedente con respecto a lo que consumimos, la luz será gratis para todos los hogares, tengan o no placas solares.",
+          "pagina": 64
+        },
+        {
+          "titular": "Tejados solares obligatorios",
+          "texto": "Plan de Tejados Solares: Antes de 2030, todas las comunidades de vecinos con un tejado o una azotea útiles tendrán una instalación solar de autoconsumo compartido.",
+          "pagina": 62
+        },
+        {
+          "titular": "Cierre nuclear en calendario",
+          "texto": "Cumpliremos el calendario de cierre de las centrales nucleares. Almaraz I y II cerrarán en los plazos previstos (2027-2028), sin beneficios fiscales, con la gestión de los residuos a cargo de las empresas y con recursos para la transición justa de sus trabajadores",
+          "pagina": 64
+        },
+        {
+          "titular": "El agua, derecho humano",
+          "texto": "Reconoceremos expresamente al más alto nivel legislativo el derecho humano al agua y el saneamiento, con el alcance y contenido definido por Naciones Unidas. Garantizaremos un mínimo vital de agua gratuito para las personas y hogares en situación de vulnerabilidad y la prohibición legal de cortes de suministro por motivos económicos.",
+          "pagina": 73
+        }
+      ]
+    },
+    "seguridad-defensa": {
+      "resumen": "Frente Amplio rechaza el objetivo del 5 % del PIB en gasto militar y apuesta por la seguridad humana, la prevención diplomática y el desarme nuclear. Propone desmilitarizar la Guardia Civil, prohibir las pelotas de goma y crear un control externo de la actuación policial. El modelo de seguridad se basa en derechos humanos, prevención y justicia restaurativa.",
+      "propuestas": [
+        {
+          "titular": "Seguridad humana frente al belicismo",
+          "texto": "Defenderemos una nueva arquitectura de seguridad mundial centrada en la seguridad humana y la seguridad compartida frente al discurso belicista, apostando de manera decidida por la prevención diplomática de los conflictos y por un control efectivo y real del comercio internacional de armas.",
+          "pagina": 130
+        },
+        {
+          "titular": "No al 5 % del PIB en gasto militar",
+          "texto": "Rechazaremos de forma explícita el compromiso de destinar el 5 % del PIB a gasto militar en el marco de la OTAN, impulsando una reducción efectiva de las partidas militares, reorientando los recursos presupuestarios hacia la seguridad humana, la protección civil, emergencias climáticas, sanidad y educación.",
+          "pagina": 130
+        },
+        {
+          "titular": "Adhesión al tratado de prohibición nuclear",
+          "texto": "Firma y ratificación del Tratado sobre la Prohibición de las Armas Nucleares (TPAN) y, desde el primer año, participación de España como observadora en sus reuniones de Estados parte, como hicieron Alemania o Noruega, aliados de la OTAN.",
+          "pagina": 130
+        },
+        {
+          "titular": "Seguridad preventiva y restaurativa",
+          "texto": "Impulsaremos políticas públicas de seguridad preventivas, que no sean estrictamente securitarias y que tengan en cuenta elementos de justicia restaurativa.",
+          "pagina": 143
+        },
+        {
+          "titular": "Desmilitarizar la Guardia Civil",
+          "texto": "Desmilitarizaremos la Guardia Civil, como reivindica la Asociación Unificada de Guardias Civiles y respalda el Código Europeo de Ética de la Policía.",
+          "pagina": 144
+        },
+        {
+          "titular": "Control externo de la Policía",
+          "texto": "Crearemos un órgano de control externo e independiente a los propios cuerpos y similar a modelos en otros países europeos encargado de investigar denuncias por violencia desproporcionada, malos tratos o abuso de autoridad.",
+          "pagina": 145
+        },
+        {
+          "titular": "Prohibir las pelotas de goma",
+          "texto": "Prohibiremos las pelotas de goma y otros materiales antidisturbios muy lesivos, regularemos el uso de la fuerza y de las cámaras corporales, garantizaremos la identificación visible de los agentes y prohibiremos los controles de identidad por perfil racial.",
+          "pagina": 145
+        }
+      ]
+    },
+    "estado-instituciones": {
+      "resumen": "El programa plantea avanzar hacia una República Federal y un referéndum sobre el modelo territorial. Incluye una Ley de Integridad Pública, registro de lobbies y una Oficina Independiente contra la Corrupción, además de derogar la Ley Mordaza. Reforma el CGPJ para desbloquearlo, refuerza jueces y fiscales y apuesta por la laicidad del Estado.",
+      "propuestas": [
+        {
+          "titular": "República Federal y referéndum",
+          "texto": "Nuestro horizonte es avanzar hacia una República Federal que nos permita alcanzar una democracia real en la que también elijamos la Jefatura del Estado.",
+          "pagina": 140
+        },
+        {
+          "titular": "Derecho a decidir mediante referéndum",
+          "texto": "Promoveremos el debate para formar una mayoría social y política e impulsar el cambio de modelo territorial establecido en la Constitución, en un sentido federal y plurinacional incluyendo el derecho a decidir mediante referéndum para resolver definitivamente la cuestión territorial.",
+          "pagina": 140
+        },
+        {
+          "titular": "Ley de Integridad Pública",
+          "texto": "Aprobaremos una Ley de Integridad Pública que cierre las vías de ocultación del poder económico.",
+          "pagina": 141
+        },
+        {
+          "titular": "Ley de grupos de interés",
+          "texto": "Evitaremos que el dinero legisle en la sombra. Aprobaremos una ley de grupos de interés y reformaremos los reglamentos del Congreso y del Senado para prevenir la captura de altos cargos, empleados públicos y representantes políticos.",
+          "pagina": 141
+        },
+        {
+          "titular": "Oficina Independiente contra la Corrupción",
+          "texto": "Crearemos una Oficina Independiente contra la Corrupción, dotada con recursos suficientes y plena capacidad para investigar y sancionar.",
+          "pagina": 142
+        },
+        {
+          "titular": "Derogar la Ley Mordaza",
+          "texto": "Derogaremos por completo la Ley Mordaza.",
+          "pagina": 142
+        },
+        {
+          "titular": "Desbloquear el CGPJ",
+          "texto": "Reformaremos la Ley Orgánica del Poder Judicial para que ningún partido pueda volver a bloquear la renovación del Consejo General del Poder Judicial.",
+          "pagina": 148
+        },
+        {
+          "titular": "Más jueces y fiscales",
+          "texto": "Aprobaremos un plan plurianual de plazas para que España alcance en dos legislaturas la media europea de jueces y fiscales por habitante, de modo que el refuerzo de la justicia no dependa de la voluntad del gobierno de turno.",
+          "pagina": 149
+        },
+        {
+          "titular": "Laicidad del Estado",
+          "texto": "Revisaremos los Acuerdos de 1979 con la Santa Sede, así como con las otras confesiones religiosas, incluyendo la legislación de privilegio que se deriva de los mismos.",
+          "pagina": 150
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "Frente Amplio propone reformar la financiación autonómica con 2,3 puntos adicionales del PIB, condonar deuda a las comunidades y prohibir el dumping fiscal. En el ámbito local, eleva la participación en tributos del Estado al 2,5 % del PIB, condona deuda a ayuntamientos en riesgo y permite usar superávits. Añade un Estatuto Básico para los municipios de menor población.",
+      "propuestas": [
+        {
+          "titular": "2,3 % del PIB para financiación autonómica",
+          "texto": "Destinaremos al menos un 2,3 % del PIB adicional al sistema de financiación autonómica cada año. Supondrá unos 38.000 millones adicionales con los que se afrontará la necesidad de fortalecimiento de los servicios públicos.",
+          "pagina": 103
+        },
+        {
+          "titular": "Condonar deuda a las comunidades",
+          "texto": "Condonación de deuda autonómica condicionada a la prohibición de efectuar dumping fiscal o bajadas de impuestos a rentas altas. Podrán destinar el 20 % de la deuda que se les condone a crear y ampliar su parque público de alquiler asequible.",
+          "pagina": 104
+        },
+        {
+          "titular": "Que las rebajas fiscales no las pague el resto",
+          "texto": "Las rebajas fiscales autonómicas no las pagará el resto del país. El Impuesto sobre el Patrimonio se computará en el sistema por lo que se recaudaría sin las bonificaciones de cada comunidad, y el de Sucesiones y Donaciones por un valor normativo actualizado.",
+          "pagina": 105
+        },
+        {
+          "titular": "Ayuntamientos: 2,5 % de los tributos del Estado",
+          "texto": "Aumentaremos la participación de los ayuntamientos en los tributos del Estado hasta el 2,5 % del PIB.",
+          "pagina": 109
+        },
+        {
+          "titular": "Condonar deuda a los ayuntamientos",
+          "texto": "Aprobaremos una condonación extraordinaria de deuda para los ayuntamientos en riesgo financiero.",
+          "pagina": 110
+        },
+        {
+          "titular": "Usar los superávits municipales",
+          "texto": "Los ayuntamientos saneados no tendrán que aprobar planes económico-financieros por usar sus remanentes.",
+          "pagina": 110
+        },
+        {
+          "titular": "Estatuto de los municipios pequeños",
+          "texto": "Aprobaremos el Estatuto Básico de los Municipios de Menor Población, consensuado con la FEMP y las comunidades autónomas, para dar a los pueblos un marco legal adaptado a sus necesidades.",
+          "pagina": 98
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "El programa eleva la ayuda al desarrollo del 0,27 % al 0,7 % de la renta nacional bruta y apuesta por una Europa de los pueblos con mayoría cualificada en política exterior. Pide superar el Pacto de Estabilidad, ampliar el mandato del BCE al pleno empleo y financiar bienes públicos europeos. Incluye embargo de armas a Israel, apoyo a la autodeterminación saharaui y reconocimiento de Palestina.",
+      "propuestas": [
+        {
+          "titular": "Ayuda al desarrollo: del 0,27 % al 0,7 %",
+          "texto": "Consolidaremos la cooperación internacional para el desarrollo como una política de Estado incrementando los recursos desde el 0,27 % hasta el 0,7 % de la Renta Nacional Bruta.",
+          "pagina": 133
+        },
+        {
+          "titular": "Mayoría cualificada en política exterior",
+          "texto": "Apostaremos por abandonar el requisito de la unanimidad a favor de un sistema de mayorías cualificadas en materia de política exterior y de seguridad común cuando esté involucrada la protección de los derechos humanos, de la paz y la adopción de medidas de carácter humanitario.",
+          "pagina": 136
+        },
+        {
+          "titular": "Superar el Pacto de Estabilidad",
+          "texto": "Superaremos de forma definitiva el Pacto de Estabilidad y Crecimiento y eliminaremos las políticas de recortes o austeridad presupuestaria como herramienta de ajuste macroeconómico de los Estados miembros.",
+          "pagina": 136
+        },
+        {
+          "titular": "Un BCE que persiga el pleno empleo",
+          "texto": "Modificaremos los Tratados y Estatutos del Banco Central Europeo para ampliar su mandato, persiguiendo de forma equilibrada la estabilidad de precios, la consecución del pleno empleo, la cohesión social y la transición ecológica.",
+          "pagina": 136
+        },
+        {
+          "titular": "Embargo de armas a Israel",
+          "texto": "Ley de embargo integral, total y permanente de armas a Israel: Aprobaremos una ley específica de embargo integral de armas a Israel para mejorar el Real Decreto-ley 10/2025.",
+          "pagina": 131
+        },
+        {
+          "titular": "Referéndum en el Sáhara",
+          "texto": "Defenderemos el derecho incondicional a la autodeterminación del pueblo saharaui mediante un referéndum libre supervisado por Naciones Unidas, el cual deberá incluir expresamente la opción de la independencia.",
+          "pagina": 132
+        },
+        {
+          "titular": "Reconocer el Estado de Palestina",
+          "texto": "Lideraremos el impulso europeo mediante acciones en todas las instituciones de la UE para alcanzar una suspensión efectiva del Acuerdo de Asociación UE-Israel y para que la totalidad de Estados miembros reconozcan formalmente al Estado de Palestina.",
+          "pagina": 132
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "Frente Amplio crea una prestación universal por crianza de 200 euros al mes por menor y reforma el IMV para concederlo de oficio. Eleva la inversión en dependencia del 0,8 % al 1,7 % del PIB y amplía permisos parentales y de nacimiento. Destina al menos el 5 % del presupuesto no financiero a igualdad y despliega la Ley Trans y las identidades no binarias.",
+      "propuestas": [
+        {
+          "titular": "200 euros al mes por cada menor",
+          "texto": "Aprobaremos la Ley de Prestación Universal por Crianza que concederá 200 € al mes por cada menor de 18 años a cargo.",
+          "pagina": 21
+        },
+        {
+          "titular": "IMV de oficio",
+          "texto": "Transformaremos de forma radical el Ingreso Mínimo Vital (IMV) para ser concedido de oficio a través de la interconexión automatizada de datos fiscales y de la Seguridad Social, suprimiendo el laberinto burocrático actual.",
+          "pagina": 22
+        },
+        {
+          "titular": "Dependencia: del 0,8 % al 1,7 % del PIB",
+          "texto": "Despliegue presupuestario del Sistema de Atención a la Dependencia para elevar la inversión pública del 0,8 % al 1,7 % del PIB en 2030, con un plan con tiempos y objetivos presupuestarios concretos.",
+          "pagina": 23
+        },
+        {
+          "titular": "Permiso parental de 10 semanas",
+          "texto": "Ampliación y retribución del permiso parental por cuidado de hijos: Estableceremos la retribución del permiso parental para el cuidado de menores que llegará progresivamente a las 10 semanas retribuidas y hasta los 12 años, garantizando la retribución al 100 % de la base reguladora por la Seguridad Social",
+          "pagina": 24
+        },
+        {
+          "titular": "Permiso de nacimiento de 20 semanas",
+          "texto": "Ampliación del permiso por nacimiento y adopción: Ampliaremos el permiso por nacimiento hasta las 20 semanas para cada progenitor con carácter intransferible, ofreciendo flexibilidad para su disfrute a tiempo parcial a partir de la semana 16.",
+          "pagina": 24
+        },
+        {
+          "titular": "5 % del presupuesto a igualdad",
+          "texto": "Asignaremos de forma obligatoria por ley al menos un 5 % del presupuesto no financiero del Estado a políticas de igualdad efectiva entre mujeres y hombres (superando el 4,4 % actual).",
+          "pagina": 38
+        },
+        {
+          "titular": "Desplegar la Ley Trans",
+          "texto": "Desplegaremos de forma efectiva la Ley Trans, reconoceremos a las personas no binarias y protegeremos frente a la violencia intragénero.",
+          "pagina": 123
+        },
+        {
+          "titular": "Reconocer las familias elegidas",
+          "texto": "Familias escogidas. Reconoceremos el principio de libre designación de personas de referencia y reconocimiento de vínculos afectivos y de cuidados.",
+          "pagina": 39
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "El programa aprueba una Ley de Futuro de la Agricultura, la Ganadería y la Alimentación con renta agraria y precios justos. Crea un banco público de tierras, limita la concentración y fija el 25 % de superficie ecológica en 2030 y el 100 % en 2050. Reduce plaguicidas y fertilizantes, prioriza la pesca artesanal y prevé acabar con la pesca de arrastre.",
+      "propuestas": [
+        {
+          "titular": "Ley de Futuro de la Agricultura",
+          "texto": "Aprobaremos un Pacto de Estado que se plasme en una Ley de Futuro de la Agricultura, la Ganadería y la Alimentación para realizar la necesaria transición agroecológica que nos permita avanzar hacia un modelo agroalimentario sostenible.",
+          "pagina": 87
+        },
+        {
+          "titular": "Renta agraria y precios justos",
+          "texto": "Garantizaremos la renta agraria al tiempo que se establecen mecanismos de solidaridad que garanticen el acceso a alimentos sanos y variados a un precio accesible para el conjunto de la población y unos precios justos para los productores.",
+          "pagina": 87
+        },
+        {
+          "titular": "Banco público de tierras",
+          "texto": "Regularemos el mercado de la tierra y garantizaremos el relevo generacional y el empleo digno fomentando la creación de un banco público de tierras estatal para la regulación del mercado de tierras, de los precios de la misma y el control de su uso para evitar la especulación.",
+          "pagina": 88
+        },
+        {
+          "titular": "25 % ecológico en 2030",
+          "texto": "Transición integral hacia la agroecología impulsando una Ley de Agricultura con el objetivo de alcanzar al menos un 25 % de superficie agraria útil en producción ecológica para 2030 y el 100 % para 2050.",
+          "pagina": 88
+        },
+        {
+          "titular": "Menos plaguicidas y fertilizantes",
+          "texto": "Protegeremos la biodiversidad mediante la reducción de insumos químicos estableciendo objetivos vinculantes para la reducción masiva del uso de plaguicidas, fertilizantes sintéticos (especialmente nitrogenados) y antimicrobianos, en línea con la Estrategia de la Granja a la Mesa.",
+          "pagina": 89
+        },
+        {
+          "titular": "Pesca artesanal prioritaria",
+          "texto": "Fomentaremos la pesca de bajo impacto ambiental y alto valor social priorizando la pesca artesanal como pilar de la biodiversidad, la salud y la cohesión territorial costera.",
+          "pagina": 89
+        },
+        {
+          "titular": "Fin de la pesca de arrastre",
+          "texto": "Eliminar los impactos industriales más severos sobre la biodiversidad marina, con el objetivo específico de poner fin a la pesca de arrastre.",
+          "pagina": 89
+        },
+        {
+          "titular": "Plan de Empleo Forestal",
+          "texto": "Plan de Empleo Forestal en zonas de incidencia de grandes incendios, con personas contratadas en los pueblos para la gestión integral forestal que se ocupen de la vigilancia, conservación, explotación de los recursos forestales en el marco del Plan de Empleo Garantizado.",
+          "pagina": 87
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "Frente Amplio propone un abono único estatal de transporte, con 20 euros al mes en Cercanías y gratuidad para menores de 16 años. Crea un fondo de 0,25 % del PIB para transporte público, unifica Renfe y Adif en un operador público y electrifica toda la red ferroviaria en 2030. Destina al tren los 13.000 millones previstos para ampliar aeropuertos.",
+      "propuestas": [
+        {
+          "titular": "Abono único de transporte",
+          "texto": "Abono único estatal e integrado de transporte: Crearemos un abono único nominativo y mensual válido en todo el Estado, ciudades y modos de transporte. Incluye un esquema de precios de 20 €/mes para Cercanías (10 € para menores de 26 años y gratuito para menores de 16), descuentos del 60-70 % en Media Distancia (gratuito para menores de 15 años), 50 % en Larga Distancia para viajes recurrentes (al menos 3 viajes de ida y vuelta al mes) y 75-80 % de descuento en autobús y metro municipal/autonómico (o tarifa plana combinada de 50 €/mes).",
+          "pagina": 65
+        },
+        {
+          "titular": "Fondo de transporte público del 0,25 % del PIB",
+          "texto": "Incremento del Fondo Estatal de Financiación (0,25 % PIB): Incrementaremos un 20 % la financiación estatal del transporte público metropolitano repartido de forma equitativa por población, y crearemos un Fondo para la Sostenibilidad del Transporte Público dotado con al menos el 0,25 % del PIB estatal",
+          "pagina": 65
+        },
+        {
+          "titular": "Renfe y Adif, un solo operador público",
+          "texto": "Pacto de Estado por el Tren y operador público ferroviario único: Unificaremos Adif y Renfe en un gran operador público que coordine trenes e infraestructuras, con más inversión en plantilla y en mantenimiento, revirtiendo su externalización",
+          "pagina": 65
+        },
+        {
+          "titular": "Ferrocarril electrificado en 2030",
+          "texto": "Electrificación integral y fin del diésel para 2030: Electrificaremos por completo la red ferroviaria estatal antes de 2030 y eliminaremos por completo las locomotoras diésel.",
+          "pagina": 66
+        },
+        {
+          "titular": "80 % de mercancías por tren",
+          "texto": "Impulso a las mercancías por tren (meta del 80 %): Incrementaremos la cuota de mercancías por ferrocarril hasta alcanzar el 80 % del total mediante el aumento de la capacidad de apartaderos, terminales intermodales y mejora de conexiones con puertos de interés general y el Corredor Mediterráneo.",
+          "pagina": 66
+        },
+        {
+          "titular": "Triplicar la inversión en Cercanías",
+          "texto": "Reforzaremos las inversiones ferroviarias en Cercanías, para, al menos, triplicar la inversión anual en esta red en los próximos cuatro años",
+          "pagina": 66
+        },
+        {
+          "titular": "13.000 millones de aeropuertos al tren",
+          "texto": "Proponemos destinar al ferrocarril los casi 13.000 millones previstos para ampliar aeropuertos en el Documento de Regulación Aeroportuaria (plan DORA) del Ministerio de Transportes y Movilidad Sostenible.",
+          "pagina": 106
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "El programa garantiza por ley el 0,2 % del PIB para cultura, aprueba una Ley del Sistema Público de la Cultura y desarrolla el Estatuto del Artista. Rebaja el umbral de bibliotecas públicas a municipios de más de 2.000 habitantes y crea un plan de diversidad cultural y lingüística. Deroga la ley que protege la tauromaquia como patrimonio cultural. No hay un capítulo propio de deporte; solo menciones en igualdad y derechos.",
+      "propuestas": [
+        {
+          "titular": "0,2 % del PIB para cultura",
+          "texto": "Suelo de inversión pública del 0,2 % del PIB: Garantizaremos por ley una asignación presupuestaria mínima continuada destinada a la cultura de al menos el 0,2 % del PIB estatal.",
+          "pagina": 34
+        },
+        {
+          "titular": "Ley del Sistema Público de la Cultura",
+          "texto": "Ley del Sistema Público de la Cultura: Desarrollaremos el mandato del artículo 149.2 de la Constitución, estableciendo las responsabilidades del Estado en materia cultural, un suelo mínimo de inversión pública estatal, garantía de los derechos culturales, mecanismos estables de financiación y cooperación con las comunidades autónomas, respetando sus competencias.",
+          "pagina": 34
+        },
+        {
+          "titular": "Estatuto del Artista",
+          "texto": "Desarrollo del Estatuto del Artista: Desplegaremos por completo la agenda normativa avanzando en el tratamiento fiscal y en el sistema de cotización y prestaciones de la Seguridad Social de los trabajadores y trabajadoras por cuenta propia",
+          "pagina": 34
+        },
+        {
+          "titular": "Bibliotecas en municipios de 2.000 habitantes",
+          "texto": "Obligatoriedad del establecimiento de bibliotecas públicas en municipios de más de 2.000 personas. Modificaremos la Ley Reguladora de Bases del Régimen Local para reducirlo de 5.000 a 2.000.",
+          "pagina": 36
+        },
+        {
+          "titular": "Plan de diversidad cultural y lingüística",
+          "texto": "Plan Nacional de Diversidad Cultural y Lingüística: Blindaremos el reconocimiento de la pluralidad cultural y lingüística como una política estructural del Ministerio de Cultura, que defina el marco de actuaciones de las políticas públicas a nivel nacional y en relación con las comunidades autónomas.",
+          "pagina": 36
+        },
+        {
+          "titular": "Derogar la ley de la tauromaquia",
+          "texto": "Derogaremos la Ley 18/2013 que reconoce y protege la tauromaquia como patrimonio cultural.",
+          "pagina": 34
+        },
+        {
+          "titular": "Ley de plurilingüismo",
+          "texto": "Aprobaremos una ley del plurilingüismo, para garantizar plenamente los derechos lingüísticos, para que la ciudadanía pueda relacionarse en las lenguas cooficiales y estatutarias con las instituciones del Estado.",
+          "pagina": 141
+        }
+      ]
+    }
+  }
+}

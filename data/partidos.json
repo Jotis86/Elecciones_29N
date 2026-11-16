@@ -25,12 +25,11 @@
     "ambito": "Estatal",
     "escanos2023": 121,
     "pdf": "psoe.pdf",
-    "pdf_oficial": null,
-    "pdf_fuente": "https://www.democrata.es/uploads/s1/35/40/05/6/programapsoe29n26.pdf",
+    "pdf_oficial": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
     "pdf_archivado": null,
     "publicado": "2026-11-15",
     "descargado": "2026-11-15",
-    "notas": "El PSOE no publica el PDF en su web. El documento procede de una copia alojada por Demócrata; se usa la huella del PDF para detectar cambios."
+    "notas": null
   },
   {
     "slug": "vox",
@@ -148,17 +147,17 @@
     "slug": "frente-amplio",
     "siglas": "Frente Amplio",
     "nombre": "Frente Amplio",
-    "color": "#C2185B",
-    "programa": null,
-    "estado": "pendiente",
+    "color": "#F03C00",
+    "programa": "Un programa como una casa",
+    "estado": "disponible",
     "ambito": "Estatal",
     "escanos2023": 31,
-    "pdf": null,
-    "pdf_oficial": null,
+    "pdf": "ProgramaFrenteAmplio.pdf",
+    "pdf_oficial": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
     "pdf_archivado": null,
-    "publicado": null,
-    "descargado": null,
-    "notas": "Sumar concurre dentro de esta candidatura; se contabiliza una sola vez y se le asignan los 31 escaños de ese espacio en 2023."
+    "publicado": "2026-11-16",
+    "descargado": "2026-11-16",
+    "notas": "Coalición de IU, Sumar, Comuns, Más Madrid, CHA, Verdes Equo y otras formaciones. Sumar concurre dentro de esta candidatura; se contabiliza una sola vez y se le asignan los 31 escaños de ese espacio en 2023."
   },
   {
     "slug": "pumj",

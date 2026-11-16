@@ -1,0 +1,54 @@
+---
+import { FECHA_ELECCIONES } from '../lib/cuenta-atras.js';
+---
+
+<p
+  class="cuenta-atras"
+  data-cuenta-atras
+  data-elecciones={FECHA_ELECCIONES}
+  title="Calculado en hora peninsular española"
+  hidden
+>
+  <span class="cuenta-atras-num" data-cuenta-atras-num>—</span>
+  <span class="cuenta-atras-texto" data-cuenta-atras-texto>días para las elecciones</span>
+</p>
+
+<script>
+  import { diasHasta, fechaMadrid, textoCuentaAtras } from '../lib/cuenta-atras.js';
+
+  const nodo = document.querySelector('[data-cuenta-atras]');
+
+  if (nodo) {
+    const numero = nodo.querySelector('[data-cuenta-atras-num]');
+    const texto = nodo.querySelector('[data-cuenta-atras-texto]');
+    const fecha = nodo.dataset.elecciones ?? '';
+
+    const actualizar = () => {
+      const dias = diasHasta(fecha, fechaMadrid());
+      const estado = textoCuentaAtras(dias);
+
+      if (!estado || !numero || !texto) {
+        nodo.hidden = true;
+        return;
+      }
+
+      nodo.hidden = false;
+      numero.hidden = estado.numero === null;
+      if (estado.numero !== null) numero.textContent = String(estado.numero);
+      texto.textContent = estado.texto;
+      nodo.classList.toggle('es-hoy', estado.numero === null);
+      nodo.setAttribute(
+        'aria-label',
+        estado.numero === null
+          ? 'Hoy son las elecciones del 29 de noviembre de 2026'
+          : `Faltan ${estado.numero} ${estado.numero === 1 ? 'día' : 'días'} para las elecciones del 29 de noviembre de 2026`,
+      );
+    };
+
+    actualizar();
+    window.setInterval(actualizar, 60_000);
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) actualizar();
+    });
+  }
+</script>
