@@ -143,7 +143,7 @@ const total = cobertura.reduce((n, fila) => n + fila.total, 0);
                     href={descarga}
                     target="_blank"
                     rel="noopener noreferrer"
-                    title="Abrir el PDF oficial del programa"
+                    title={partido.notas ? `${partido.notas} — Abrir el PDF oficial` : 'Abrir el PDF oficial del programa'}
                   >
                     Abrir PDF oficial ↗
                   </a>
