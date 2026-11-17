@@ -74,14 +74,29 @@ const temasSinFicha = ficha
         partido.estado === 'disponible' && descarga && (
           <div class="acciones">
             <a class="boton" href={descarga} target="_blank" rel="noopener noreferrer">
-              Descargar programa (PDF) ↗
+              Abrir PDF oficial ↗
             </a>
             {partido.pdf_archivado && (
-              <a class="boton secundario" href={partido.pdf_archivado} target="_blank" rel="noopener noreferrer">
+              <a
+                class="boton secundario"
+                href={partido.pdf_archivado}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Copia congelada del PDF usado para verificar las citas"
+              >
                 Copia archivada ↗
               </a>
             )}
           </div>
+        )
+      }
+
+      {
+        partido.pdf_archivado && (
+          <p class="nota">
+            La copia archivada es la que se usó para verificar las citas. Puede no
+            coincidir con la última versión oficial.
+          </p>
         )
       }
 

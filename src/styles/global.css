@@ -1062,6 +1062,12 @@ blockquote::after {
 
 .tabla-cobertura {
   min-width: 1080px;
+  table-layout: fixed;
+}
+
+.tabla-cobertura th,
+.tabla-cobertura td {
+  padding: 0.55rem 0.3rem;
 }
 
 .tabla-cobertura td,
@@ -1069,8 +1075,22 @@ blockquote::after {
   text-align: center;
 }
 
+.tabla-cobertura th:first-child,
+.tabla-cobertura td:first-child {
+  width: 7.5rem;
+}
+
 .tabla-cobertura thead th {
-  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.2;
+  vertical-align: bottom;
+  font-size: 0.64rem;
+  letter-spacing: 0.04em;
+}
+
+.tabla-cobertura tbody th {
+  white-space: normal;
+  line-height: 1.2;
 }
 
 .tabla-cobertura thead a {
@@ -1115,4 +1135,212 @@ blockquote::after {
 .tabla-cobertura tfoot th {
   background: var(--papel-2);
   font-weight: 600;
+}
+
+
+.grid-fuentes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+
+.fuente {
+  position: relative;
+  overflow: hidden;
+  padding: 1.1rem 1.1rem 1.1rem 1.3rem;
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  background: var(--papel);
+}
+
+.fuente::before {
+  content: '';
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  width: 4px;
+  background: var(--acento);
+}
+
+.fuente-cabecera {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.fuente-cabecera h3 {
+  margin: 0;
+  font-size: 1.45rem;
+}
+
+.fuente-cabecera h3 a {
+  color: var(--tinta);
+  text-decoration: none;
+  border-bottom: 2px solid var(--acento);
+}
+
+.fuente-cabecera .estado {
+  flex: none;
+}
+
+.fuente-ambito {
+  margin: 0.15rem 0 0;
+  color: var(--tenue);
+  font-size: 0.78rem;
+}
+
+.fuente-programa {
+  margin: 0.9rem 0 0.7rem;
+  color: var(--tenue);
+}
+
+.fuente-datos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 0.9rem;
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.fuente-datos div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.fuente-datos dt {
+  color: var(--tenue);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fuente-datos dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.fuente-nota {
+  margin: 0.8rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--linea);
+  color: var(--tenue);
+  font-size: 0.8rem;
+}
+
+.fuente-pie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.fuente-pie .boton {
+  font-size: 0.8rem;
+}
+
+.fuente-sin {
+  color: var(--tenue);
+  font-size: 0.85rem;
+}
+
+.fuente-sha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.8rem 0 0;
+  color: var(--tenue);
+  font-size: 0.75rem;
+}
+
+.fuente-sha code {
+  font-size: 0.75rem;
+  word-break: break-all;
+}
+
+.tabla-cobertura {
+  min-width: 1050px;
+  table-layout: fixed;
+}
+
+.tabla-cobertura thead abbr {
+  text-decoration: none;
+}
+
+.tabla-cobertura tbody th,
+.tabla-cobertura thead th:first-child,
+.tabla-cobertura tfoot th {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--papel);
+}
+
+.tabla-cobertura tfoot th {
+  background: var(--papel-2);
+}
+
+.cobertura-movil {
+  display: none;
+  margin-top: 1.2rem;
+  gap: 0.8rem;
+}
+
+.cobertura-ficha {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+}
+
+.cobertura-ficha-cabecera {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.cobertura-ficha-cabecera h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.cobertura-ficha-cabecera h3 a {
+  color: var(--tinta);
+  text-decoration: none;
+}
+
+.cobertura-ficha-cabecera span {
+  color: var(--tenue);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.cobertura-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.65rem;
+}
+
+.cobertura-chips span {
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  font-size: 0.76rem;
+}
+
+.cobertura-chips b {
+  font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+  .tabla-cobertura-wrap {
+    display: none;
+  }
+
+  .cobertura-movil {
+    display: grid;
+  }
 }
