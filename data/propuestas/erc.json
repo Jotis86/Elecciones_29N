@@ -1,7 +1,7 @@
 {
   "partido": "erc",
   "idioma": "ca",
-  "revisado": "2026-11-15",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "ERC quiere que la Generalitat tenga competencia plena para aprobar una ley catalana de arrendamientos y que el Estado le transfiera los pisos de la SAREB y de Casa 47. Exige que la política estatal de vivienda llegue al 1,5% del PIB y que los fondos se transfieran a las comunidades. Sube el IVA del alquiler turístico al 21%, grava a fondos buitre y grandes tenedores que no destinen a vivienda habitual y mantiene la protección frente a desahucios de vulnerables. Se articularía mediante una ley estatal del artículo 150.1 de la Constitución que delegue la competencia. Mantiene compensaciones para los pequeños propietarios afectados.",
@@ -15,7 +15,7 @@
         {
           "titular": "1,5% del PIB para vivienda",
           "texto": "Que los presupuestos del Estado dediquen a políticas de vivienda al menos el 1,5% del PIB, multiplicando los recursos actuales.",
-          "texto_original": "que dediqui a aquestes polítiques almenys l’1,5 % del Producte Interior Brut (PIB)",
+          "texto_original": "Que dediqui a aquestes polítiques almenys l’1,5 % del Producte Interior Brut (PIB)",
           "pagina": 19
         },
         {
@@ -39,7 +39,7 @@
         {
           "titular": "Frenar desahucios de vulnerables",
           "texto": "Mejorar la regulación de los arrendamientos para proteger a los inquilinos y evitar los desahucios de personas vulnerables sin vivienda alternativa.",
-          "texto_original": "evitar els desnonaments de les persones vulnerables sense habitatge alternatiu",
+          "texto_original": "Evitar els desnonaments de les persones vulnerables sense habitatge alternatiu",
           "pagina": 19
         }
       ]
@@ -115,7 +115,7 @@
         {
           "titular": "Indemnización de 45 días",
           "texto": "Recuperar la indemnización por despido improcedente de 45 días por año trabajado, con un máximo de 42 mensualidades, y los salarios de tramitación.",
-          "texto_original": "recuperant la indemnització per acomiadament improcedent de 45 dies per any treballat, amb un màxim de 42 mensualitats, i els salaris de tramitació",
+          "texto_original": "Recuperant la indemnització per acomiadament improcedent de 45 dies per any treballat, amb un màxim de 42 mensualitats, i els salaris de tramitació",
           "pagina": 26
         },
         {
@@ -267,7 +267,7 @@
         {
           "titular": "Ni recortes ni privatización",
           "texto": "Frente al envejecimiento, la respuesta no puede ser recortar derechos ni privatizar las pensiones, sino reforzar su financiación.",
-          "texto_original": "la resposta no pot ser retallar drets ni privatitzar les pensions, sinó reforçar-ne el finançament",
+          "texto_original": "La resposta no pot ser retallar drets ni privatitzar les pensions, sinó reforçar-ne el finançament",
           "pagina": 25
         }
       ]
@@ -278,7 +278,7 @@
         {
           "titular": "100% renovable y descentralizado",
           "texto": "Pasar de un esquema vertical y concentrado a un modelo energético 100% renovable, descentralizado, distribuido y de proximidad.",
-          "texto_original": "passem d’un esquema vertical i concentrat a un model energètic 100 % renovable, descentralitzat, distribuït i de proximitat (km0)",
+          "texto_original": "Passem d’un esquema vertical i concentrat a un model energètic 100 % renovable, descentralitzat, distribuït i de proximitat (km0)",
           "pagina": 29
         },
         {
@@ -296,7 +296,7 @@
         {
           "titular": "CO2: -65% en 2030 y -95% en 2040",
           "texto": "Alinear la planificación energética y climática con los objetivos científicos: reducir emisiones al menos un 65% en 2030 y un 95% en 2040 respecto a 1990.",
-          "texto_original": "assegurar el compliment amb els objectius de reducció d’emissions de CO2 d’almenys el 65 % el 2030 i del 95 % el 2040, respecte a 1990",
+          "texto_original": "Assegurar el compliment amb els objectius de reducció d’emissions de CO2 d’almenys el 65 % el 2030 i del 95 % el 2040, respecte a 1990",
           "pagina": 32
         },
         {
@@ -331,7 +331,7 @@
         {
           "titular": "180 jueces y juezas más",
           "texto": "Incorporar 180 plazas judiciales entre 2026 y 2027 para agilizar los procedimientos y acabar con la impunidad.",
-          "texto_original": "incorporar 180 places entre 2026 i 2027 per accelerar els tràmits judicials",
+          "texto_original": "Incorporar 180 places entre 2026 i 2027 per accelerar els tràmits judicials",
           "pagina": 43
         },
         {
@@ -425,7 +425,7 @@
         {
           "titular": "Endeudamiento municipal para invertir",
           "texto": "Autorizar el endeudamiento gradual de los ayuntamientos para inversiones hasta un límite del 50% de los ingresos corrientes.",
-          "texto_original": "cal autoritzar l’endeutament gradual dels ajuntaments per a inversions fins a un límit del 50 % dels ingressos corrents",
+          "texto_original": "Cal autoritzar l’endeutament gradual dels ajuntaments per a inversions fins a un límit del 50 % dels ingressos corrents",
           "pagina": 44
         }
       ]
@@ -460,7 +460,7 @@
         {
           "titular": "Seguridad europea sin depender de la OTAN",
           "texto": "Impulsar una estrategia de seguridad propia de la UE basada en la diplomacia y la solución negociada de conflictos, autónoma de la OTAN en materia de defensa.",
-          "texto_original": "una estratègia de seguretat pròpia basada en la diplomàcia i la solució negociada de conflictes",
+          "texto_original": "Una estratègia de seguretat pròpia basada en la diplomàcia i la solució negociada de conflictes",
           "pagina": 17
         },
         {

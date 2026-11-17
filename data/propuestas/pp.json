@@ -1,6 +1,6 @@
 {
   "partido": "pp",
-  "revisado": "2026-11-15",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "El PP propone elevar la producción hasta un millón de viviendas nuevas, con una nueva Ley del Suelo que agilice licencias y movilice suelo público y privado. Derogaría la Ley de Vivienda estatal, incluidas las zonas tensionadas y el índice de precios de referencia. Para jóvenes plantea rebajas fiscales (IVA del 4%, ITP reducido), avales públicos de hasta el 20% y una cuenta de ahorro con deducción. En alquiler ofrece deducciones a inquilinos y a propietarios que renueven contratos, y un desalojo por ocupación en 48 horas. La medida «Tres años+» combina deducción en el IRPF para el inquilino y para el propietario que renueve subiendo la renta por debajo del IPC.",
@@ -12,17 +12,17 @@
         },
         {
           "titular": "Derogar la Ley de Vivienda",
-          "texto": "Derogaremos la Ley de Vivienda. Recuperaremos la seguridad jurídica que necesitan propietarios e inquilinos. Eliminaremos las zonas tensionadas y el índice de precios…",
+          "texto": "Derogaremos la Ley de Vivienda. Recuperaremos la seguridad jurídica que necesitan propietarios e inquilinos. Eliminaremos las zonas tensionadas y el índice de precios.",
           "pagina": 53
         },
         {
           "titular": "IVA del 4% para la primera vivienda de los menores de 40",
-          "texto": "Reduciremos el IVA de la compra de primera vivienda del 10% al 4% para menores de 40 años…",
+          "texto": "Reduciremos el IVA de la compra de primera vivienda del 10% al 4% para menores de 40 años.",
           "pagina": 54
         },
         {
           "titular": "Aval público del 20% para comprar",
-          "texto": "El Estado avalará la entrada a quien pueda pagar la hipoteca. Ampliaremos el aval público, que cubre hasta el 20% del valor de la vivienda, a los compradores menores de 40 años…",
+          "texto": "El Estado avalará la entrada a quien pueda pagar la hipoteca. Ampliaremos el aval público, que cubre hasta el 20% del valor de la vivienda, a los compradores menores de 40 años.",
           "pagina": 55
         },
         {
@@ -47,7 +47,7 @@
         },
         {
           "titular": "Quien cobre el SMI no pagará IRPF",
-          "texto": "Quien cobre el salario mínimo no pagará IRPF: por ley, el umbral subirá automáticamente cada vez que suba el SMI…",
+          "texto": "Quien cobre el salario mínimo no pagará IRPF: por ley, el umbral subirá automáticamente cada vez que suba el SMI.",
           "pagina": 60
         },
         {
@@ -77,7 +77,7 @@
       "propuestas": [
         {
           "titular": "Cuota cero para nuevos autónomos",
-          "texto": "Dejaremos emprender a quien quiera emprender. Los nuevos autónomos no pagarán cuota a la Seguridad Social durante su primer año…",
+          "texto": "Dejaremos emprender a quien quiera emprender. Los nuevos autónomos no pagarán cuota a la Seguridad Social durante su primer año.",
           "pagina": 59
         },
         {
@@ -162,12 +162,12 @@
         },
         {
           "titular": "Mejores condiciones y menos guardias",
-          "texto": "Aumentaremos la oferta de formación sanitaria especializada para cubrir las necesidades asistenciales de los españoles, mejoraremos las condiciones de trabajo, la conciliación y la retribución de los médicos y demás profesionales…",
+          "texto": "Aumentaremos la oferta de formación sanitaria especializada para cubrir las necesidades asistenciales de los españoles, mejoraremos las condiciones de trabajo, la conciliación y la retribución de los médicos y demás profesionales.",
           "pagina": 69
         },
         {
           "titular": "Plan Nacional de Salud Mental 2027-2037",
-          "texto": "Aprobaremos un Plan Nacional de Salud Mental 2027-2037, con financiación garantizada…",
+          "texto": "Aprobaremos un Plan Nacional de Salud Mental 2027-2037, con financiación garantizada.",
           "pagina": 70
         },
         {

@@ -10,7 +10,7 @@
     "escanos2023": 137,
     "pdf": "pp.pdf",
     "pdf_oficial": "https://www.pp.es/wp-content/uploads/2026/11/LA-RECONSTRUCCION-NACIONAL.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261116082933/https://www.pp.es/wp-content/uploads/2026/11/LA-RECONSTRUCCION-NACIONAL.pdf",
     "publicado": "2026-11-10",
     "descargado": "2026-11-15",
     "notas": null
@@ -26,7 +26,7 @@
     "escanos2023": 121,
     "pdf": "psoe.pdf",
     "pdf_oficial": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261116133503/https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
     "publicado": "2026-11-15",
     "descargado": "2026-11-15",
     "notas": null
@@ -42,7 +42,7 @@
     "escanos2023": 33,
     "pdf": "vox.pdf",
     "pdf_oficial": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261116092501/https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
     "publicado": "2026-11-12",
     "descargado": "2026-11-15",
     "notas": null
@@ -58,7 +58,7 @@
     "escanos2023": 7,
     "pdf": "ERC.pdf",
     "pdf_oficial": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261116131055/https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
     "publicado": "2026-11-10",
     "descargado": "2026-11-15",
     "notas": "Documento en catalán."
@@ -77,23 +77,23 @@
     "pdf_archivado": null,
     "publicado": null,
     "descargado": null,
-    "notas": null
+    "notas": "Programa electoral no localizado a 17-nov-2026."
   },
   {
     "slug": "eh-bildu",
     "siglas": "EH Bildu",
     "nombre": "Euskal Herria Bildu",
     "color": "#7AC143",
-    "programa": null,
-    "estado": "pendiente",
+    "programa": "Posible egin. Garantía y derechos",
+    "estado": "disponible",
     "ambito": "País Vasco",
     "escanos2023": 6,
-    "pdf": null,
-    "pdf_oficial": null,
+    "pdf": "bildu.pdf",
+    "pdf_oficial": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-eus.pdf",
     "pdf_archivado": null,
-    "publicado": null,
-    "descargado": null,
-    "notas": null
+    "publicado": "2026-11-16",
+    "descargado": "2026-11-17",
+    "notas": "Documento en euskera."
   },
   {
     "slug": "pnv",
@@ -106,7 +106,7 @@
     "escanos2023": 5,
     "pdf": "pnv.pdf",
     "pdf_oficial": "https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21765/pdf/hauteskunde-programa-a29",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261112152342/https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21765/pdf/hauteskunde-programa-a29",
     "publicado": "2026-11-04",
     "descargado": "2026-11-15",
     "notas": "Documento en euskera."
@@ -122,7 +122,7 @@
     "escanos2023": 1,
     "pdf": "bng.pdf",
     "pdf_oficial": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261112195808/https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
     "publicado": "2026-11-05",
     "descargado": "2026-11-15",
     "notas": "Documento en gallego."
@@ -157,7 +157,7 @@
     "pdf_archivado": null,
     "publicado": null,
     "descargado": null,
-    "notas": "Concurre en coalición con el PP en Navarra, con UPN encabezando la lista al Congreso; programa conjunto pendiente."
+    "notas": "Concurre en coalición con el PP en Navarra, con UPN encabezando la lista al Congreso; programa conjunto pendiente a 17-nov-2026."
   },
   {
     "slug": "frente-amplio",
@@ -170,7 +170,7 @@
     "escanos2023": 31,
     "pdf": "ProgramaFrenteAmplio.pdf",
     "pdf_oficial": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261116115259/https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
     "publicado": "2026-11-16",
     "descargado": "2026-11-16",
     "notas": "Coalición heredera de Sumar, integrada por IU, Movimiento Sumar, Comuns, Más Madrid, CHA, Verdes Equo y otras formaciones. Para ordenar la portada se le atribuyen los 31 escaños de Sumar en 2023, una referencia orientativa: esa cifra incluía a Podemos y a Compromís y no equivale a una candidatura idéntica."
@@ -186,7 +186,7 @@
     "escanos2023": 0,
     "pdf": "por un mundo mas justo.pdf",
     "pdf_oficial": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261111074114/https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
     "publicado": "2026-11-12",
     "descargado": "2026-11-15",
     "notas": null
@@ -218,9 +218,9 @@
     "escanos2023": 0,
     "pdf": "salf.pdf",
     "pdf_oficial": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261115155915/https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
     "publicado": "2026-11-13",
     "descargado": "2026-11-15",
-    "notas": null
+    "notas": "El PDF oficial está protegido por Cloudflare; se ofrece una copia archivada."
   }
 ]

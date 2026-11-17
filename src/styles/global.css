@@ -990,3 +990,8 @@ blockquote::after {
     color: #000;
   }
 }
+
+.resultado-original {
+  font-style: italic;
+  opacity: 0.9;
+}

@@ -1,6 +1,6 @@
 {
   "partido": "vox",
-  "revisado": "2026-11-15",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "Vox vincula la política de vivienda al control de fronteras y a una «prioridad nacional» en el acceso a vivienda protegida y ayudas al alquiler. Propone derogar la Ley de Vivienda, reformar la Ley del Suelo para ampliar suelo y agilizar licencias, y aumentar la construcción de vivienda protegida con colaboración público-privada. Anuncia desalojo de viviendas ocupadas en menos de 24 horas, IVA del 0% en la primera vivienda de nueva construcción y bonificación total del ITP en la de segunda mano. Exigiría verificar la residencia legal como requisito para formalizar el contrato de alquiler.",
@@ -27,7 +27,7 @@
         },
         {
           "titular": "Desalojo en 24 horas",
-          "texto": "Mano dura contra la okupación y la inquiocupación. Desalojo de la vivienda okupada en menos de 24 horas…",
+          "texto": "Mano dura contra la okupación y la inquiocupación. Desalojo de la vivienda okupada en menos de 24 horas.",
           "pagina": 24
         },
         {
@@ -37,7 +37,7 @@
         },
         {
           "titular": "IVA 0% en la primera vivienda",
-          "texto": "La primera vivienda habitual de una familia española no paga impuestos. Tipo 0% de IVA para la compra de tu primera vivienda habitual…",
+          "texto": "La primera vivienda habitual de una familia española no paga impuestos. Tipo 0% de IVA para la compra de tu primera vivienda habitual.",
           "pagina": 24
         }
       ]
@@ -67,7 +67,7 @@
         },
         {
           "titular": "Reducir la deuda pública",
-          "texto": "Reducción de la deuda pública. Compatibilizar la rebaja de impuestos con la financiación de los servicios…",
+          "texto": "Reducción de la deuda pública. Compatibilizar la rebaja de impuestos con la financiación de los servicios.",
           "pagina": 9
         },
         {
@@ -87,12 +87,12 @@
         },
         {
           "titular": "Derogar la legislación laboral",
-          "texto": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad, desincentivado la contratación…",
+          "texto": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad, desincentivado la contratación.",
           "pagina": 13
         },
         {
           "titular": "Cuota cero para autónomos bajo el SMI",
-          "texto": "Apoyo a los trabajadores autónomos. Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional…",
+          "texto": "Apoyo a los trabajadores autónomos. Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional.",
           "pagina": 9
         },
         {
@@ -117,7 +117,7 @@
         },
         {
           "titular": "Suprimir el arraigo",
-          "texto": "Supresión de la institución del arraigo como forma de atajar la inmigración ilegal…",
+          "texto": "Supresión de la institución del arraigo como forma de atajar la inmigración ilegal.",
           "pagina": 15
         },
         {
@@ -127,12 +127,12 @@
         },
         {
           "titular": "Deportación por delitos",
-          "texto": "Deportación de quienes cometan delitos graves o hagan del delito leve su forma de vida…",
+          "texto": "Deportación de quienes cometan delitos graves o hagan del delito leve su forma de vida.",
           "pagina": 15
         },
         {
           "titular": "Menores no acompañados, devueltos",
-          "texto": "Devolución de menores extranjeros no acompañados a sus padres…",
+          "texto": "Devolución de menores extranjeros no acompañados a sus padres.",
           "pagina": 15
         },
         {
@@ -167,7 +167,7 @@
         },
         {
           "titular": "Colaboración público-privada si reduce demoras",
-          "texto": "Fomento de la colaboración público-privada cuando ayude efectivamente a reducir demoras…",
+          "texto": "Fomento de la colaboración público-privada cuando ayude efectivamente a reducir demoras.",
           "pagina": 37
         },
         {
@@ -197,12 +197,12 @@
         },
         {
           "titular": "Libre elección de centro",
-          "texto": "Garantizar los derechos de las familias en la educación de sus hijos. Garantizar la libre elección de centro educativo en todos los niveles…",
+          "texto": "Garantizar los derechos de las familias en la educación de sus hijos. Garantizar la libre elección de centro educativo en todos los niveles.",
           "pagina": 41
         },
         {
           "titular": "Derogar la LOMLOE",
-          "texto": "Eliminación de contenidos ideológicos ajenos a las materias académicas. Derogación de la LOMLOE…",
+          "texto": "Eliminación de contenidos ideológicos ajenos a las materias académicas. Derogación de la LOMLOE.",
           "pagina": 41
         },
         {
@@ -212,7 +212,7 @@
         },
         {
           "titular": "«Prioridad nacional» en becas y admisión",
-          "texto": "Prioridad nacional para escoger centro para los hijos, en la concesión de ayudas y subvenciones educativas…",
+          "texto": "Prioridad nacional para escoger centro para los hijos, en la concesión de ayudas y subvenciones educativas.",
           "pagina": 42
         }
       ]
@@ -237,7 +237,7 @@
         },
         {
           "titular": "Natalidad y familia",
-          "texto": "es necesario impulsar medidas de apoyo a las familias, fomento de la natalidad y ayuda a la crianza, contribuyendo a revertir el envejecimiento demográfico",
+          "texto": "Es necesario impulsar medidas de apoyo a las familias, fomento de la natalidad y ayuda a la crianza, contribuyendo a revertir el envejecimiento demográfico",
           "pagina": 11
         }
       ]
@@ -457,7 +457,7 @@
         },
         {
           "titular": "Modernizar regadíos",
-          "texto": "impulsar y modernizar los regadíos y la producción de energía. Al mismo tiempo, conclusión de las obras pendientes y desarrollo de las infraestructuras hidráulicas necesarias para garantizar la seguridad de los españoles ante las inundaciones.",
+          "texto": "Impulsar y modernizar los regadíos y la producción de energía. Al mismo tiempo, conclusión de las obras pendientes y desarrollo de las infraestructuras hidráulicas necesarias para garantizar la seguridad de los españoles ante las inundaciones.",
           "pagina": 62
         }
       ]
@@ -489,6 +489,36 @@
           "titular": "Deporte femenino",
           "texto": "Compromiso con la defensa del deporte femenino, que debe regirse por criterios biológicos y deportivos objetivos para garantizar la igualdad real en la competición.",
           "pagina": 43
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "Vox defiende una España «un solo mercado y una sola Nación»: propone una Ley de Unidad de Mercado, ilegalizar partidos u organizaciones que atenten contra la unidad territorial y proteger los símbolos, la identidad y las tradiciones. Añade revertir la degradación institucional que, a su juicio, amenaza la igualdad de los españoles.",
+      "propuestas": [
+        {
+          "titular": "Ley de Unidad de Mercado",
+          "texto": "España es un solo mercado y una sola Nación. Ley de Unidad de Mercado. Lo que es legal en una región de España, lo es en toda España.",
+          "pagina": 28
+        },
+        {
+          "titular": "Ilegalizar partidos contrarios a la unidad",
+          "texto": "Ilegalización de los partidos políticos, asociaciones u organizaciones de cualquier tipo que atenten contra la soberanía e independencia de España, su unidad e integridad territorial.",
+          "pagina": 56
+        },
+        {
+          "titular": "Proteger los símbolos de la Nación",
+          "texto": "Dotar de la máxima protección jurídica a los símbolos de la Nación, especialmente la Bandera, el Escudo y el Himno o la Corona.",
+          "pagina": 56
+        },
+        {
+          "titular": "Defensa de la identidad y las tradiciones",
+          "texto": "Defensa y protección de nuestra identidad, tradiciones, usos y costumbres.",
+          "pagina": 56
+        },
+        {
+          "titular": "Revertir la degradación institucional",
+          "texto": "Revertir y poner fin a la gravísima degradación institucional promovida desde el Gobierno de Sánchez, la cual amenaza con romper la unidad y la igualdad de los españoles y quebrar nuestro Estado de Derecho.",
+          "pagina": 56
         }
       ]
     }

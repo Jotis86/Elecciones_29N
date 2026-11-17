@@ -1,6 +1,6 @@
 {
   "partido": "pumj",
-  "revisado": "2026-11-15",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "M+J parte de la vivienda como derecho y no como activo financiero. Propone un parque público de alquiler que pase del 1,1% al 5% del parque en 2030 —unos 1,35 millones de viviendas— con alquileres limitados al 30% de la renta familiar. Plantea vivienda protegida de carácter permanente, prohibición de vender viviendas públicas a empresas privadas, alquiler de referencia en el mercado privado y contratos indefinidos. Para pequeños propietarios ofrece incentivos fiscales. Solo podrían terminar por necesidad acreditada del propietario o por incumplimiento del inquilino; la venta no extinguiría el contrato.",
@@ -17,7 +17,7 @@
         },
         {
           "titular": "Del 1,1% al 5% del parque en 2030",
-          "texto": "Objetivo 5% (desde el 1,1% actual): alcanzar al menos 1,35 millones de viviendas sociales y asequibles de carácter permanente en 2030…",
+          "texto": "Objetivo 5% (desde el 1,1% actual): alcanzar al menos 1,35 millones de viviendas sociales y asequibles de carácter permanente en 2030.",
           "pagina": 5
         },
         {
@@ -32,7 +32,7 @@
         },
         {
           "titular": "No vender vivienda pública a empresas",
-          "texto": "Prohibiremos la venta, cesión o transferencia de viviendas públicas en alquiler a empresas privadas…",
+          "texto": "Prohibiremos la venta, cesión o transferencia de viviendas públicas en alquiler a empresas privadas.",
           "pagina": 7
         },
         {
@@ -42,7 +42,7 @@
         },
         {
           "titular": "Contratos de alquiler indefinidos",
-          "texto": "Los contratos de alquiler de vivienda habitual serán indefinidos…",
+          "texto": "Los contratos de alquiler de vivienda habitual serán indefinidos.",
           "pagina": 8
         }
       ]
@@ -62,17 +62,17 @@
         },
         {
           "titular": "+40% de recursos contra el fraude",
-          "texto": "Reforzar la lucha contra el fraude fiscal incrementando al menos un 40% los recursos humanos y materiales de la Agencia Tributaria…",
+          "texto": "Reforzar la lucha contra el fraude fiscal incrementando al menos un 40% los recursos humanos y materiales de la Agencia Tributaria.",
           "pagina": 26
         },
         {
           "titular": "Tipo efectivo mínimo del 3% a los grandes patrimonios",
-          "texto": "Establecer una tributación efectiva mínima del 3 % sobre el patrimonio neto superior a 50 millones de euros…",
+          "texto": "Establecer una tributación efectiva mínima del 3 % sobre el patrimonio neto superior a 50 millones de euros.",
           "pagina": 27
         },
         {
           "titular": "Mantener el impuesto a las grandes fortunas",
-          "texto": "Mantener el Impuesto de Solidaridad sobre las Grandes Fortunas como garantía de equidad territorial…",
+          "texto": "Mantener el Impuesto de Solidaridad sobre las Grandes Fortunas como garantía de equidad territorial.",
           "pagina": 27
         },
         {
@@ -87,27 +87,27 @@
       "propuestas": [
         {
           "titular": "Renta básica de justicia social",
-          "texto": "Avanzar hacia una renta básica de justicia social, ampliando progresivamente la cobertura, las cuantías y la accesibilidad del Ingreso Mínimo Vital…",
+          "texto": "Avanzar hacia una renta básica de justicia social, ampliando progresivamente la cobertura, las cuantías y la accesibilidad del Ingreso Mínimo Vital.",
           "pagina": 29
         },
         {
           "titular": "Jornada de 35 horas sin bajar el salario",
-          "texto": "Reducir progresivamente la jornada laboral hasta las 35 horas semanales, sin reducción salarial…",
+          "texto": "Reducir progresivamente la jornada laboral hasta las 35 horas semanales, sin reducción salarial.",
           "pagina": 29
         },
         {
           "titular": "Reforzar la Inspección de Trabajo",
-          "texto": "Combatir la explotación laboral y la economía sumergida, reforzando la Inspección de Trabajo…",
+          "texto": "Combatir la explotación laboral y la economía sumergida, reforzando la Inspección de Trabajo.",
           "pagina": 30
         },
         {
           "titular": "Cláusulas de revisión salarial",
-          "texto": "Garantizar salarios dignos y una estructura salarial justa, promoviendo en la negociación colectiva cláusulas de revisión…",
+          "texto": "Garantizar salarios dignos y una estructura salarial justa, promoviendo en la negociación colectiva cláusulas de revisión.",
           "pagina": 30
         },
         {
           "titular": "Cuidados que cotizan",
-          "texto": "Reconocer el trabajo de cuidados como una contribución esencial a la sociedad, ampliando los períodos computables como cotizados para la jubilación por crianza de menores…",
+          "texto": "Reconocer el trabajo de cuidados como una contribución esencial a la sociedad, ampliando los períodos computables como cotizados para la jubilación por crianza de menores.",
           "pagina": 30
         }
       ]
@@ -122,7 +122,7 @@
         },
         {
           "titular": "Reforzar el salvamento marítimo",
-          "texto": "Garantizar el salvamento de vidas humanas. Reforzar Salvamento Marítimo…",
+          "texto": "Garantizar el salvamento de vidas humanas. Reforzar Salvamento Marítimo.",
           "pagina": 51
         },
         {
@@ -132,7 +132,7 @@
         },
         {
           "titular": "Fin de la externalización de fronteras",
-          "texto": "Poner fin a la externalización de fronteras…",
+          "texto": "Poner fin a la externalización de fronteras.",
           "pagina": 51
         },
         {
@@ -142,12 +142,12 @@
         },
         {
           "titular": "Sustituir los CIE",
-          "texto": "Sustituir los Centros de Internamiento de Extranjeros (CIE) por alternativas abiertas y comunitarias…",
+          "texto": "Sustituir los Centros de Internamiento de Extranjeros (CIE) por alternativas abiertas y comunitarias.",
           "pagina": 51
         },
         {
           "titular": "Regularización accesible",
-          "texto": "Facilitar la regularización y eliminar las barreras administrativas. Establecer vías accesibles y permanentes de regularización…",
+          "texto": "Facilitar la regularización y eliminar las barreras administrativas. Establecer vías accesibles y permanentes de regularización.",
           "pagina": 52
         }
       ]
@@ -162,7 +162,7 @@
         },
         {
           "titular": "Universalidad también en situación irregular",
-          "texto": "Consolidar y avanzar en la universalidad de la atención sanitaria reconocida en el Real Decreto-ley 7/2018…",
+          "texto": "Consolidar y avanzar en la universalidad de la atención sanitaria reconocida en el Real Decreto-ley 7/2018.",
           "pagina": 37
         },
         {
@@ -177,7 +177,7 @@
         },
         {
           "titular": "Estatuto Marco del personal sanitario",
-          "texto": "Promover un Estatuto Marco del Personal Estatutario de los Servicios de Salud que nazca del diálogo y el acuerdo con todos los colectivos profesionales y con las comunidades autónomas…",
+          "texto": "Promover un Estatuto Marco del Personal Estatutario de los Servicios de Salud que nazca del diálogo y el acuerdo con todos los colectivos profesionales y con las comunidades autónomas.",
           "pagina": 38
         },
         {
@@ -192,32 +192,32 @@
       "propuestas": [
         {
           "titular": "Educación pública, inclusiva y gratuita",
-          "texto": "Defendemos una educación pública fuerte y de calidad, inclusiva, gratuita y equitativa…",
+          "texto": "Defendemos una educación pública fuerte y de calidad, inclusiva, gratuita y equitativa.",
           "pagina": 45
         },
         {
           "titular": "6% del PIB en educación",
-          "texto": "incremento progresivo de la inversión pública en educación hasta alcanzar al menos el 6 % del PIB…",
+          "texto": "Incremento progresivo de la inversión pública en educación hasta alcanzar al menos el 6 % del PIB.",
           "pagina": 45
         },
         {
           "titular": "Jornada lectiva máxima de 23 horas",
-          "texto": "Establecer por ley una jornada lectiva máxima de 23 horas semanales en Infantil, Primaria y Educación Especial, y de 18 horas en el resto de enseñanzas…",
+          "texto": "Establecer por ley una jornada lectiva máxima de 23 horas semanales en Infantil, Primaria y Educación Especial, y de 18 horas en el resto de enseñanzas.",
           "pagina": 46
         },
         {
           "titular": "Menos alumnos por aula",
-          "texto": "Aprobar una ley básica que reduzca progresivamente las ratios máximas a 20 estudiantes por aula en Infantil y Primaria y 25 en ESO y Bachillerato…",
+          "texto": "Aprobar una ley básica que reduzca progresivamente las ratios máximas a 20 estudiantes por aula en Infantil y Primaria y 25 en ESO y Bachillerato.",
           "pagina": 46
         },
         {
           "titular": "Gratuidad de 0 a 3 años",
-          "texto": "Avanzar hacia la gratuidad universal de la Educación Infantil de 0 a 3 años…",
+          "texto": "Avanzar hacia la gratuidad universal de la Educación Infantil de 0 a 3 años.",
           "pagina": 46
         },
         {
           "titular": "Reforzar la FP pública",
-          "texto": "Fortalecer la Formación Profesional pública. Ampliar las plazas, los equipamientos, los talleres y el profesorado especializado…",
+          "texto": "Fortalecer la Formación Profesional pública. Ampliar las plazas, los equipamientos, los talleres y el profesorado especializado.",
           "pagina": 46
         }
       ]
@@ -489,6 +489,26 @@
           "titular": "Cultura sin exclusiones",
           "texto": "Cultura sin exclusiones: que la renta no decida quién accede a la cultura. Destinar una parte fija del presupuesto cultural a proyectos artísticos realizados con y desde las personas más excluidas",
           "pagina": 63
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "M+J enfoca la cohesión territorial desde el mundo rural: propone un plan de repoblación de la España Vaciada a cinco años, con empresas en las capitales de provincia y colaboración con ayuntamientos, diputaciones y agentes locales. Defiende discriminación positiva y servicios públicos garantizados para que quedarse o volver al pueblo sea una opción real.",
+      "propuestas": [
+        {
+          "titular": "Plan de repoblación de la España Vaciada",
+          "texto": "Puesta en marcha de un plan de repoblación a 5 años de los territorios de la España Vaciada (23 provincias identificadas por informe de Funcas 2019) con implantación de empresas en las capitales de provincia.",
+          "pagina": 91
+        },
+        {
+          "titular": "Justicia territorial y servicios públicos",
+          "texto": "Repoblar los pueblos es una cuestión de justicia territorial y de futuro compartido. Proponemos discriminación positiva para el mundo rural y servicios públicos garantizados, para que quedarse o volver sea una opción posible.",
+          "pagina": 91
+        },
+        {
+          "titular": "Consejos territoriales de participación",
+          "texto": "Constituir consejos territoriales de participación integrados por administraciones, comunidades locales, agricultores, ganaderos y especialistas para planificar y supervisar estas actuaciones.",
+          "pagina": 92
         }
       ]
     }

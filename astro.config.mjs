@@ -6,7 +6,14 @@ import { defineConfig } from 'astro/config';
  * En local se queda en localhost, que es lo correcto para las pruebas.
  */
 const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
-const site = process.env.PUBLIC_SITE_URL ?? (vercel ? `https://${vercel}` : 'http://localhost:4321');
+const produccion = 'https://elecciones29n-sigma.vercel.app';
+const site =
+  process.env.PUBLIC_SITE_URL ??
+  (vercel
+    ? `https://${vercel}`
+    : process.env.NODE_ENV === 'production'
+      ? produccion
+      : 'http://localhost:4321');
 
 export default defineConfig({
   site,

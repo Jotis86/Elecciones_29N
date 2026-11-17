@@ -1,7 +1,7 @@
 {
   "partido": "bng",
   "idioma": "gl",
-  "revisado": "2026-11-15",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "El BNG propone topar por ley los precios del alquiler y suspender de forma automática cualquier desalojo sin alternativa habitacional, además de blindar por ley el carácter indefinido de los contratos. Plantea destinar el 3% de los Presupuestos del Estado a un parque público de alquiler permanente, expropiar viviendas públicas compradas por fondos y traspasar gratuitamente a Galicia los suelos y viviendas de la Sareb. En fiscalidad, elimina deducciones a propietarios que alquilen por encima del precio de referencia y recarga a fondos y SOCIMI.",
@@ -214,13 +214,13 @@
         {
           "titular": "Pública, universal y gratuita de 0 a 18",
           "texto": "Garantizar una educación pública, universal y gratuita de 0 a 18 años que contribuya a formar personas críticas y libres y a la normalización lingüística.",
-          "texto_original": "garantir unha educación pública, universal e gratuíta de 0 a 18 anos que contribúa para formar persoas críticas e libres, para a transformación social, para a normalización lingüística",
+          "texto_original": "Garantir unha educación pública, universal e gratuíta de 0 a 18 anos que contribúa para formar persoas críticas e libres, para a transformación social, para a normalización lingüística",
           "pagina": 33
         },
         {
           "titular": "Ley gallega de educación",
           "texto": "Aprobar una ley gallega de educación que regule el sistema educativo hasta Bachillerato, junto con una ley gallega de formación profesional y una ley del sistema universitario gallego.",
-          "texto_original": "unha Lei galega de educación que regule o noso sistema educativo até o Bacharelato, unha Lei galega de formación profesional, unha Lei de ensinanzas artísticas superiores que permita que os centros que imparten estas ensinanzas poidan adscribirse á universidade e unha Lei do Sistema Universitario Galego.",
+          "texto_original": "Unha Lei galega de educación que regule o noso sistema educativo até o Bacharelato, unha Lei galega de formación profesional, unha Lei de ensinanzas artísticas superiores que permita que os centros que imparten estas ensinanzas poidan adscribirse á universidade e unha Lei do Sistema Universitario Galego.",
           "pagina": 34
         },
         {
@@ -290,7 +290,7 @@
         {
           "titular": "Decidir en materia ambiental",
           "texto": "Apuesta por una Galicia con plena capacidad para decidir en materia ambiental, que pueda aplicar políticas avanzadas y transformadoras.",
-          "texto_original": "aposta por unha Galiza con plena capacidade para decidir en materia ambiental, que poida aplicar políticas avanzadas e transformadoras neste ámbito.",
+          "texto_original": "Aposta por unha Galiza con plena capacidade para decidir en materia ambiental, que poida aplicar políticas avanzadas e transformadoras neste ámbito.",
           "pagina": 65
         },
         {
@@ -302,7 +302,7 @@
         {
           "titular": "Participación en proyectos renovables",
           "texto": "Garantizar la participación social, la información pública y el procedimiento de evaluación ambiental, especialmente en la tramitación de proyectos industriales de energías renovables y de explotación minera.",
-          "texto_original": "garantir a participación social, a información pública e o procedemento de avaliación ambiental, nomeadamente na tramitación de proxectos industriais de implantación de enerxías renovábeis e nos proxectos de explotación de recursos minerais.",
+          "texto_original": "Garantir a participación social, a información pública e o procedemento de avaliación ambiental, nomeadamente na tramitación de proxectos industriais de implantación de enerxías renovábeis e nos proxectos de explotación de recursos minerais.",
           "pagina": 66
         },
         {
@@ -349,7 +349,7 @@
         {
           "titular": "Cumplir las penas en Galicia",
           "texto": "Trabajar para que se garantice el cumplimiento de las penas impuestas a los gallegos y gallegas en Galicia, además del traslado de quienes ya están cumpliendo penas de prisión en otros territorios del Estado.",
-          "texto_original": "traballar para que se garanta o cumprimento das penas impostas aos galegos e galegas en Galiza, ademais do traslado dos que xa están a cumprir penas de prisión noutros territorios do Estado.",
+          "texto_original": "Traballar para que se garanta o cumprimento das penas impostas aos galegos e galegas en Galiza, ademais do traslado dos que xa están a cumprir penas de prisión noutros territorios do Estado.",
           "pagina": 30
         },
         {
@@ -471,13 +471,13 @@
         {
           "titular": "Contra todas las discriminaciones",
           "texto": "La mejor respuesta es impulsar nuevos avances contra cada una de las discriminaciones que sufrimos por causa del patriarcado.",
-          "texto_original": "a mellor resposta é impulsar novos avances contra cada unha das discriminacións que sufrimos por causa do patriarcado",
+          "texto_original": "A mellor resposta é impulsar novos avances contra cada unha das discriminacións que sufrimos por causa do patriarcado",
           "pagina": 24
         },
         {
           "titular": "Reforma integral de la ley",
           "texto": "Realizar una reforma legislativa integral que garantice la cobertura de todos los tipos de violencias contra las mujeres en la ley orgánica correspondiente y que otorgue rango de ley efectivo a la violencia vicaria.",
-          "texto_original": "realizar unha reforma lexislativa integral que garanta a cobertura de todos os tipos de violencias contra as mulleres na lei orgánica correspondente e que outorgue rango de lei efectivo á violencia vicaria.",
+          "texto_original": "Realizar unha reforma lexislativa integral que garanta a cobertura de todos os tipos de violencias contra as mulleres na lei orgánica correspondente e que outorgue rango de lei efectivo á violencia vicaria.",
           "pagina": 24
         },
         {
@@ -512,7 +512,7 @@
         {
           "titular": "No vender bajo coste",
           "texto": "Garantizar que no se hacen ventas por debajo de costes de producción.",
-          "texto_original": "garantindo que non se fan vendas por debaixo de custos de produción",
+          "texto_original": "Garantindo que non se fan vendas por debaixo de custos de produción",
           "pagina": 47
         },
         {
@@ -524,7 +524,7 @@
         {
           "titular": "Fondos para soberanía alimentaria",
           "texto": "Exigimos la gestión descentralizada y el incremento de los fondos para el desarrollo territorial, la producción y la soberanía alimentaria, la sostenibilidad y el futuro de los sectores productivos.",
-          "texto_original": "esiximos a xestión descentralizada e o incremento dos fondos para o desenvolvemento territorial, a produción e a soberanía alimentaria, a sustentabilidade e o futuro dos nosos sectores produtivos",
+          "texto_original": "Esiximos a xestión descentralizada e o incremento dos fondos para o desenvolvemento territorial, a produción e a soberanía alimentaria, a sustentabilidade e o futuro dos nosos sectores produtivos",
           "pagina": 48
         },
         {

@@ -15,6 +15,8 @@ const indice = fichas.flatMap((ficha) => {
       tema: tema?.nombre ?? slugTema,
       titular: propuesta.titular,
       texto: propuesta.texto,
+      texto_original: propuesta.texto_original ?? '',
+      idioma: ficha.idioma ?? 'es',
       pagina: propuesta.pagina,
       pdf: enlacePdf(partido, propuesta.pagina),
     }));
@@ -32,7 +34,8 @@ const indice = fichas.flatMap((ficha) => {
       <h1>Buscar en los programas</h1>
       <p class="entradilla">
         Escribe una palabra o una frase —«alquiler», «nuclear», «SMI»— y verás las
-        propuestas que la mencionan, con el partido y la página del programa.
+        propuestas que la mencionan, también en la lengua original del programa,
+        con el partido y la página.
       </p>
     </div>
   </header>
@@ -82,7 +85,10 @@ const indice = fichas.flatMap((ficha) => {
     const datos: any[] = JSON.parse(
       document.getElementById('indice')!.textContent || '[]',
     );
-    for (const d of datos) d.busca = normalizar(`${d.titular} ${d.texto} ${d.tema} ${d.partido}`);
+    for (const d of datos)
+      d.busca = normalizar(
+        `${d.titular} ${d.texto} ${d.texto_original} ${d.tema} ${d.partido}`,
+      );
 
     const input = document.getElementById('q') as HTMLInputElement;
     const lista = document.getElementById('resultados')!;
@@ -146,7 +152,18 @@ const indice = fichas.flatMap((ficha) => {
           pie.append(a);
         }
 
-        li.append(cabecera, h3, p, pie);
+        li.append(cabecera, h3, p);
+
+        const originalNorm = d.texto_original ? normalizar(d.texto_original) : '';
+        if (originalNorm && terminos.some((t) => originalNorm.includes(t))) {
+          const original = document.createElement('p');
+          original.className = 'resultado-texto resultado-original';
+          original.lang = d.idioma;
+          original.textContent = `Cita original: «${recortar(d.texto_original, terminos)}»`;
+          li.append(original);
+        }
+
+        li.append(pie);
         lista.append(li);
       }
     };

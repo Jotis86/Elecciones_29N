@@ -26,8 +26,8 @@ npm test         # pruebas: D'Hondt, porcentajes, compartir y cuenta atrás
 
 Las URLs absolutas (canonical y tarjetas al compartir) salen de `PUBLIC_SITE_URL`.
 En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION_URL`, así que no hay que
-configurar nada. En local apunta a `http://localhost:4321`, que es lo esperado
-para las pruebas.
+configurar nada. En desarrollo apunta a `http://localhost:4321`; al generar
+un build sin variables usa la URL pública de producción.
 
 ## Cuenta atrás del 29N
 

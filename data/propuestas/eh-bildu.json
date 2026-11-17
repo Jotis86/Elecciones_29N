@@ -1,0 +1,639 @@
+{
+  "partido": "eh-bildu",
+  "idioma": "eu",
+  "revisado": "2026-11-17",
+  "temas": {
+    "vivienda": {
+      "resumen": "EH Bildu plantea cambiar de raíz el mercado de la vivienda con intervención pública de los precios, contratos de alquiler con prórroga automática y prohibición de los desahucios a familias vulnerables. Quiere frenar la compra especulativa y turística, limitar la actualización anual de la renta al 2 %, aplicar un IVA del 21 % a los alojamientos turísticos y eliminar las SOCIMIs.",
+      "propuestas": [
+        {
+          "titular": "Contratos de alquiler con prórroga automática",
+          "texto": "Establecer contratos de arrendamiento ordinarios con prórroga automática como mecanismo para dar estabilidad y seguridad a inquilinos y pequeños propietarios.",
+          "texto_original": "Errentamendu-kontratu arruntak ezartzea, automatikoki luzatuko direnak, maizterrei eta jabe txikiei egonkortasuna eta segurtasuna eskaintzeko mekanismo gisa.",
+          "pagina": 5
+        },
+        {
+          "titular": "Prohibir los desahucios a familias vulnerables",
+          "texto": "Establecer de forma estructural y permanente la prohibición de desahuciar a personas y familias vulnerables sin alternativa habitacional, con un mecanismo de compensación financiado por el Estado.",
+          "texto_original": "Bizitoki-alternatibarik ez duten pertsona eta familia kalteberak etxegabetzeko debekua egitu-neurri gisa eta modu iraunkorrean ezartzea, Estatuaren finantzaketaz hornitutako konpentsazio-mekanismo batekin osatuko dena.",
+          "pagina": 5
+        },
+        {
+          "titular": "Prohibir la compra especulativa de vivienda",
+          "texto": "Prohibir la compra especulativa de viviendas por parte de personas jurídicas con ánimo de lucro, fondos de inversión y grandes tenedores físicos o jurídicos.",
+          "texto_original": "Etxebizitzen erosketa espekulatiboa debekatzea, irabazi-asmoa duten pertsona juridikoen, inbertsio-funtsen eta etxebizitza-jabe fisiko zein juridiko handien esku dagoenean.",
+          "pagina": 5
+        },
+        {
+          "titular": "Tope del 2 % a la subida del alquiler",
+          "texto": "Fijar de forma permanente un máximo del 2 % de actualización anual de la renta en los contratos de arrendamiento cuando el IPC interanual supere ese porcentaje.",
+          "texto_original": "Errentamendu-kontratuetako errentaren urteko eguneratzean % 2ko gehieneko igoera-muga ezartzea, modu iraunkorrean, baldin eta eguneratze-datan urte arteko KPIaren aldakuntza-tasa ehuneko hori baino handiagoa bada.",
+          "pagina": 5
+        },
+        {
+          "titular": "IVA del 21 % a los alojamientos turísticos",
+          "texto": "Aplicar un IVA del 21 % a los servicios de alojamiento turístico de corta duración.",
+          "texto_original": "Epe laburreko turismo-ostatuen zerbitzuei % 21eko BEZ tasa aplikatzea.",
+          "pagina": 6
+        },
+        {
+          "titular": "Eliminar las SOCIMIs como promotoras",
+          "texto": "Eliminar la figura jurídica de las SOCIMIs como promotoras de vivienda y acabar con sus ventajas y privilegios fiscales.",
+          "texto_original": "Higiezinen Merkatuan Inbertitzeko Sozietate Anonimo Kotizatuak etxebizitza-sustatzaile gisa jarduteko figura juridikoa ezabatzea.",
+          "pagina": 6
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "La propuesta económica de EH Bildu refuerza la intervención pública sobre precios y márgenes empresariales, con topes temporales a bienes esenciales y un mecanismo para absorber costes en las grandes empresas energéticas y alimentarias. En fiscalidad apuesta por recuperar y hacer permanente el impuesto a las energéticas, subir el de banca y grandes fortunas, crear un impuesto a la distribución alimentaria y derogar la reforma del artículo 135 de la Constitución.",
+      "propuestas": [
+        {
+          "titular": "Intervenir los márgenes de las grandes empresas",
+          "texto": "Crear un mecanismo de intervención extraordinaria sobre los márgenes de las grandes empresas de los sectores energético y alimentario para que no trasladen subidas desproporcionadas a los precios.",
+          "texto_original": "Energia eta elikadura sektoreetako enpresa handien marjinetan ezohiko esku hartzeko mekanismo bat ezartzea.",
+          "pagina": 8
+        },
+        {
+          "titular": "Topes temporales a precios esenciales",
+          "texto": "Establecer límites temporales a los precios de bienes y servicios esenciales como la electricidad, el gas, los combustibles, el transporte y determinados productos básicos ante situaciones de emergencia o subidas injustificadas.",
+          "texto_original": "Denborazko mugak ezartzea funtsezko ondasun eta zerbitzuen prezioei, hala nola elektrizitateari, gasari, erregaiei, garraioari eta oinarrizko produktu jakin batzuei, larrialdi-egoeretan, hornidura-krisietan edo prezioen ezohiko eta justifikaziorik gabeko igoeretan.",
+          "pagina": 8
+        },
+        {
+          "titular": "Impuesto permanente a las energéticas",
+          "texto": "Recuperar y hacer permanente el impuesto a las empresas energéticas que tumbaron PNV, PP, Vox, UPN y Junts, concertándolo con las haciendas forales.",
+          "texto_original": "PNVk, PPk, VOXek, UPNk eta JUNTSek atzera bota zuten energia-enpresen gaineko zerga berreskuratzea eta iraunkor bihurtzea.",
+          "pagina": 14
+        },
+        {
+          "titular": "Subir el impuesto a la banca y las grandes fortunas",
+          "texto": "Aumentar la carga fiscal del impuesto a la banca y a las grandes fortunas.",
+          "texto_original": "Bankuen eta fortuna handien gaineko zergaren karga fiskala handitzea.",
+          "pagina": 14
+        },
+        {
+          "titular": "Nuevo impuesto a la distribución alimentaria",
+          "texto": "Aprobar un nuevo impuesto especial sobre los beneficios de las grandes distribuidoras alimentarias, concertado con las haciendas forales para su gestión y recaudación.",
+          "texto_original": "Elikagaiak banatzen dituzten enpresa handien irabazien gaineko zerga berezi berri bat onartzea, foru-ogasunekin itunduta, zerga kudeatu eta bildu dezaten.",
+          "pagina": 14
+        },
+        {
+          "titular": "Derogar la prioridad del pago de la deuda",
+          "texto": "Derogar la modificación del artículo 135 de la Constitución española hecha por PP y PSOE, que da prioridad al pago de la deuda sobre la inversión social y pública.",
+          "texto_original": "PPk eta PSOEk egindako Espainiako Konstituzioaren 135. artikuluaren aldaketa indargabetzea, zeinak zorraren ordainketari lehentasuna ematen baitio inbertsio sozialaren eta publikoaren aurretik.",
+          "pagina": 14
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "EH Bildu propone reducir la jornada a 32 horas semanales o cuatro días sin bajar el salario, con una senda progresiva para las pymes, y avanzar hacia un SMI propio adecuado a la realidad socioeconómica. Añade la recuperación de indemnizaciones de 45 días por despido improcedente, el control de las horas extras, la inclusión laboral de las personas con discapacidad y un marco vasco y navarro de relaciones laborales.",
+      "propuestas": [
+        {
+          "titular": "Jornada de 32 horas o cuatro días",
+          "texto": "Reducir la jornada laboral a 32 horas semanales o a la semana de cuatro días sin reducción salarial mediante la reforma del Estatuto de los Trabajadores.",
+          "texto_original": "Lanaldia astean 32 ordura edo lau lan-eguneko astera murriztea, soldata-murrizketarik gabe, Langileen Estatutuaren Legearen erreformaren bidez.",
+          "pagina": 6
+        },
+        {
+          "titular": "Salario mínimo propio",
+          "texto": "Adaptar el salario mínimo a la realidad socioeconómica mediante un SMI propio que permita alcanzar valores de suficiencia y evite la pérdida de poder adquisitivo.",
+          "texto_original": "Lanbide arteko gutxieneko soldata propio (LGS) baten bidez errealitate sozioekonomikora egokitzea.",
+          "pagina": 6
+        },
+        {
+          "titular": "Indemnización de 45 días por despido",
+          "texto": "Recuperar una indemnización por despido improcedente de al menos 45 días de salario, cumpliendo la resolución del Comité Europeo de Derechos Sociales.",
+          "texto_original": "Bidegabeko kaleratzeagatiko kalte-ordaina gutxienez 45 eguneko soldatakoa izatea, Europako Eskubide Sozialen Batzordeak emandako ebazpena bete eta, kalte-ordain disuasorioak eta behar bestekoak bermatzeko.",
+          "pagina": 6
+        },
+        {
+          "titular": "Acabar con el abuso de las horas extras",
+          "texto": "Terminar con la práctica del uso abusivo de las horas extras mediante un registro horario digital obligatorio accesible a la Inspección de Trabajo y un recargo legal.",
+          "texto_original": "Aparteko orduen gehiegizko erabileraren praktikarekin amaitzea, horietako asko ordaindu gabeak edo atsedenarekin konpentsatuak, Lan Ikuskaritzak nahitaezko ordutegi-erregistro digitala eta legez aparteko orduen errekargua ezarrita.",
+          "pagina": 7
+        },
+        {
+          "titular": "Inclusión laboral de las personas con discapacidad",
+          "texto": "Garantizar una inclusión laboral efectiva de las personas con discapacidad, con puestos accesibles, apoyos al empleo, adaptaciones y carrera profesional.",
+          "texto_original": "Desgaitasuna duten pertsonen laneratze eraginkorra bermatzea, Desgaitasuna duten Pertsonen Eskubideei buruzko Komitearen 8. ohar orokorrarekin bat etorrita, askatasunez aukeratutako edo onartutako lana izateko eskubideari dagokionez, gainerako herritarren baldintza berberetan.",
+          "pagina": 7
+        },
+        {
+          "titular": "Marco vasco y navarro de relaciones laborales",
+          "texto": "Reconocer y aplicar de forma efectiva el Marco Vasco y Navarro de Relaciones Laborales para la negociación colectiva, adaptado a la realidad sindical, laboral, social y económica propia.",
+          "texto_original": "Negoziazio kolektiborako Euskal Autonomia Erkidegoko eta Nafarroako Lan Harremanen Esparrua aitortzea eta benetan ezartzea, bertako errealitate sindikal, laboral, sozial eta ekonomikoari erantzun diezaion.",
+          "pagina": 7
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "EH Bildu plantea una regularización efectiva, accesible y estable, junto a una nueva Ley de Extranjería basada en los derechos humanos. Rechaza las devoluciones sumarias, la externalización de fronteras y los CIE, y defiende un sistema público de acogida integral, la lucha contra el racismo institucional, el derecho al voto de las personas residentes y la transferencia de competencias migratorias.",
+      "propuestas": [
+        {
+          "titular": "Regularización y nueva Ley de Extranjería",
+          "texto": "Garantizar una regularización efectiva, accesible y estable, facilitar las autorizaciones de residencia y trabajo y avanzar hacia una nueva legislación de extranjería basada en los derechos humanos.",
+          "texto_original": "Erregularizazioa eta Atzerritartasun Lege berria: Erregularizazio eraginkorra, irisgarria eta egonkorra bermatzea.",
+          "pagina": 20
+        },
+        {
+          "titular": "Derecho de asilo y fin de los CIE",
+          "texto": "Garantizar el derecho de asilo y rechazar las disposiciones restrictivas del Pacto Europeo de Migración y Asilo, las devoluciones sumarias, la externalización de fronteras y los CIE.",
+          "texto_original": "Asilo-eskubidea bermatzea eta eskubideak urratzen dituzten migrazio-politikekin amaitzea: Migrazioa eta Asiloari buruzko Europako Itunaren xedapen murriztaileak, prozedurarik gabeko itzulketak, mugen kontrola hirugarren herrialdeen esku uztea eta Atzerritarrak Barneratzeko Zentroak (CIE) baztertzea, eta pertsona bakoitzaren egoera banaka aztertuko duten prozedurak bermatzea, berme juridiko guztiekin.",
+          "pagina": 20
+        },
+        {
+          "titular": "Acogida y servicios públicos universales",
+          "texto": "Garantizar un sistema público de acogida integral con acompañamiento social, jurídico y laboral, homologación de títulos y acceso efectivo a la sanidad, la educación, la vivienda y la protección social, sea cual sea la situación administrativa.",
+          "texto_original": "Harrerarako eta zerbitzu publikoetarako eskubide unibertsala: Harrera integraleko sistema publiko bat bermatzea, laguntza sozial, juridiko eta laboralarekin, tituluen homologazioarekin, erroldarako sarbide eraginkorrarekin eta osasunera, hezkuntzara, etxebizitzara eta babes sozialera iristeko oztopoak ezabatzearekin, egoera administratiboa edozein dela ere.",
+          "pagina": 20
+        },
+        {
+          "titular": "Lucha contra el racismo institucional",
+          "texto": "Reforzar la prevención, denuncia y sanción del racismo institucional, laboral, inmobiliario y policial, con mecanismos independientes de supervisión, reparación y protección.",
+          "texto_original": "Arrazakeria instituzionalaren eta egiturazkoaren aurkako borroka integrala: Arrazakeria instituzionala, lan-arlokoa, higiezinen merkatukoa eta poliziala prebenitzeko, salatzeko eta zigortzeko neurriak indartzea, eta horretarako gainbegiratze-mekanismo independenteak eta kaltetutako pertsonentzako erreparazio- eta babes-mekanismoak ezartzea.",
+          "pagina": 20
+        },
+        {
+          "titular": "Derecho al voto de las personas residentes",
+          "texto": "Impulsar las reformas necesarias para ampliar el derecho al voto y a la representación política de las personas de origen extranjero residentes, avanzando hacia una ciudadanía basada en la residencia efectiva.",
+          "texto_original": "Herritartasun osoa eta eskubide politikoen aitortza: Atzerritar jatorriko egoiliarren boto-eskubidea eta ordezkaritza politikorako eskubidea zabaltzeko beharrezko erreformak bultzatzea, benetako bizilekuan eta parte-hartze demokratikoan oinarritutako herritartasun-eredu baterantz aurrera eginez.",
+          "pagina": 20
+        },
+        {
+          "titular": "Competencias migratorias para un modelo vasco",
+          "texto": "Reclamar la transferencia integral de las competencias migratorias que permitan desarrollar un modelo vasco de acogida propio.",
+          "texto_original": "Euskal harrera-eredu propioa garatzea ahalbidetzen diguten migrazio-eskumenen transferentzia integrala.",
+          "pagina": 20
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "EH Bildu quiere ampliar la cartera común con salud bucodental y visual, gratuidad de productos de higiene menstrual y preservativos, y regular la publicidad de ultraprocesados dirigida a menores. En gobernanza propone cambiar el modelo de salud mental, derogar la ley que permite privatizar la sanidad, crear una farmacia pública y reforzar la atención primaria y las especialidades.",
+      "propuestas": [
+        {
+          "titular": "Ampliar la cartera bucodental y visual",
+          "texto": "Ampliar la cartera común básica con salud bucodental y productos ópticos y de salud visual para los colectivos históricamente desatendidos o en mayor situación de vulnerabilidad.",
+          "texto_original": "Oinarrizko kartera komuna zabaltzea, aho-hortzen osasun eta produktu optikoak eta ikusmen-osasun prestazioekin, historikoki arretarik jaso ez duten edo kalteberatasun handieneko egoeran dauden kolektiboentzat, gizarte-ekitatearen zeharkako ikuspegiarekin.",
+          "pagina": 10
+        },
+        {
+          "titular": "Productos menstruales gratuitos",
+          "texto": "Aprobar la gratuidad de los productos de higiene menstrual mediante su distribución farmacéutica y aplicarles el IVA superreducido en todos los puntos de venta.",
+          "texto_original": "Higiene menstrualeko produktuen doakotasuna onartzea, farmazia-banaketaren bidez, eta produktu horiei BEZ supermurriztua aplikatzea salmenta-puntu guztietan.",
+          "pagina": 10
+        },
+        {
+          "titular": "Publicidad de ultraprocesados para menores",
+          "texto": "Regular y restringir la comercialización y la publicidad de alimentos ultraprocesados, bebidas azucaradas y energéticas dirigida a menores de edad.",
+          "texto_original": "Adingabeen elikagai ultraprozesatuen, edari azukredunen eta energetikoen merkaturatzea eta publizitatea arautzea eta mugatzea.",
+          "pagina": 10
+        },
+        {
+          "titular": "Cambio de modelo en salud mental",
+          "texto": "Impulsar un cambio de modelo en la atención a la salud mental dentro de la nueva estrategia del Sistema Nacional de Salud, poniendo en el centro los determinantes sociales y la capacidad de decisión de las personas afectadas.",
+          "texto_original": "Osasun mentaleko arretan eredu-aldaketa bat bultzatzea Osasun Sistema Nazionalaren Osasun Mentaleko estrategia berrian.",
+          "pagina": 11
+        },
+        {
+          "titular": "Derogar la ley que permite privatizar la sanidad",
+          "texto": "Derogar la Ley 15/1997, aprobada por el PP, que permite la privatización y externalización de los servicios sanitarios.",
+          "texto_original": "PPk onartutako Osasun Sistema Kudeatzeko 15/1997 Legea indargabetzea, zeinak osasun-zerbitzuak pribatizatzea ahalbidetzen duen.",
+          "pagina": 11
+        },
+        {
+          "titular": "Crear una farmacia pública",
+          "texto": "Avanzar junto con las comunidades autónomas hacia la creación de una farmacia pública que garantice el suministro de materiales básicos y medicamentos esenciales.",
+          "texto_original": "Autonomia-erkidegoekin batera, farmazia publiko bat sortzeko bidean aurrera egitea.",
+          "pagina": 11
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "EH Bildu defiende un sistema educativo propio para Euskal Herria, de calidad, inclusivo, coeducativo, participativo, laico, euskaldun y soberano. Propone bajar las ratios, estabilizar y mejorar las condiciones del profesorado, acercarse al 6 % de inversión que marca la UNESCO y reforzar la atención al alumnado con necesidades educativas especiales.",
+      "propuestas": [
+        {
+          "titular": "Sistema educativo propio",
+          "texto": "Defender un sistema educativo propio para Euskal Herria, de calidad, inclusivo, coeducativo, participativo, laico, euskaldun y soberano.",
+          "texto_original": "Euskal Herrirako hezkuntza-sistema propioa defendatzen dugu, kalitatezkoa, inklusiboa, hezkidetzakoa, parte-hartzailea, laikoa, euskalduna eta subiranoa.",
+          "pagina": 11
+        },
+        {
+          "titular": "Bajar las ratios",
+          "texto": "Apostar por una bajada de ratios como oportunidad para mejorar la calidad educativa y reforzar la atención personalizada al alumnado más vulnerable.",
+          "texto_original": "Ratioak jaistearen alde egiten dugu, hezkuntza-kalitatea hobetzeko aukera gisa.",
+          "pagina": 11
+        },
+        {
+          "titular": "Estabilizar al profesorado",
+          "texto": "Apostar por la estabilización del profesorado, mejorando sus condiciones laborales y aumentando la formación para adaptarse a las nuevas necesidades.",
+          "texto_original": "Profesionalak egonkortzearen aldeko apustua egitea, haien lan-baldintzak hobetuz eta prestakuntza handituz, premia berrietara egokitzeko.",
+          "pagina": 11
+        },
+        {
+          "titular": "Acercarse al 6 % de inversión de la UNESCO",
+          "texto": "Aumentar la financiación educativa para acercarse progresivamente al 6 % de inversión definido por la UNESCO.",
+          "texto_original": "Finantzaketa handitzea, UNESCOk zehaztutako inbertsioaren % 6ra hurbiltzeko helburuarekin.",
+          "pagina": 11
+        },
+        {
+          "titular": "Reforzar las necesidades educativas especiales",
+          "texto": "Impulsar cambios normativos que refuercen la atención al alumnado con necesidades educativas especiales.",
+          "texto_original": "Hezkuntza-premia bereziak dituzten ikasleen arreta indartzea helburu duten arau-aldaketak bultzatuko ditugu.",
+          "pagina": 11
+        }
+      ]
+    },
+    "pensiones": {
+      "resumen": "Frente a los intentos de recorte y privatización, EH Bildu quiere blindar el carácter público de las pensiones y la revalorización anual conforme al IPC. Propone subir las pensiones mínimas hasta al menos 1.220 euros, aumentar un 15 % las de viudedad y no contributivas, reconocer la pensión sin penalización con 40 años cotizados y transferir el régimen económico de la Seguridad Social.",
+      "propuestas": [
+        {
+          "titular": "Blindar el sistema público de pensiones",
+          "texto": "Blindar el carácter público de las pensiones y rechazar cualquier intento de recorte, privatización o aumento de la edad de jubilación y del periodo de cómputo.",
+          "texto_original": "Pentsioen izaera publikoa eta pentsio-sistema publikoa blindatzea, edozein murrizketa, pribatizazio edo erretiro adina eta kalkulu-aldia luzatzeko saiakerari uko eginda.",
+          "pagina": 7
+        },
+        {
+          "titular": "Revalorización anual conforme al IPC",
+          "texto": "Garantizar el poder adquisitivo de los pensionistas manteniendo y blindando la revalorización anual conforme al IPC.",
+          "texto_original": "Pentsiodunen erosteko ahalmena bermatzea, KPIaren araberako urteko eguneratzea mantenduz eta blindatuz.",
+          "pagina": 8
+        },
+        {
+          "titular": "Pensiones mínimas de 1.220 euros",
+          "texto": "Aumentar las pensiones mínimas al menos hasta 1.220 euros y vincular su cuantía y actualización al SMI, como exige el movimiento de pensionistas.",
+          "texto_original": "Gutxieneko pentsioak, gutxienez 1.220 eurora igotzea, eta haien zenbatekoa eta eguneratzea Langilearteko Gutxieneko Soldatari lotzea, pentsiodunen mugimenduak eskatzen duen bezela.",
+          "pagina": 8
+        },
+        {
+          "titular": "Subir un 15 % viudedad y no contributivas",
+          "texto": "Volver a subir al menos un 15 % las pensiones de viudedad y las no contributivas hasta alcanzar valores de suficiencia, para hacer frente a la precariedad que sufren quienes las cobran, en su mayoría mujeres.",
+          "texto_original": "Alarguntza-pentsioak eta kotizazio gabeko pentsioak gutxienez %15 igotzea berriro, gutxieneko nahikotasun mailara iritsi arte, pentsio horiek jasotzen dituzten pertsonek, gehienak emakumeak, pairatzen duten prekarietateari aurre egiteko neurri gisa.",
+          "pagina": 8
+        },
+        {
+          "titular": "Pensión sin penalización con 40 años cotizados",
+          "texto": "Culminar la tramitación de la ley que reconoce el derecho a pensión sin penalización de las personas con al menos 40 años de cotización.",
+          "texto_original": "Gutxienez 40 urteko kotizazio-aldia duten pertsonek penalizaziorik gabe pentsioa jasotzeko duten eskubidea aitortzen duen Legearen izapidetza amaitzea.",
+          "pagina": 8
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "EH Bildu entiende la transición ecosocial como una transformación urgente y sistémica para afrontar la emergencia climática con justicia social. Propone adelantar la descarbonización a 2045, reducir los combustibles fósiles, acelerar el despliegue renovable, mantener el calendario de cierre nuclear y extender comunidades energéticas y autoconsumo, además de eliminar las subvenciones a los fósiles.",
+      "propuestas": [
+        {
+          "titular": "Descarbonización en 2045",
+          "texto": "Revisar al alza los objetivos de la planificación de energía y clima (PNIEC) para adelantar la descarbonización al menos a 2045.",
+          "texto_original": "Anbizio klimatikoa: Energia eta klimaren plangintzaren (PNIEC) helburuen goranzko berrikuspena, deskarbonizazioa, gutxienez, 2045era aurreratzeko.",
+          "pagina": 15
+        },
+        {
+          "titular": "Reducir la dependencia de los fósiles",
+          "texto": "Reducir urgentemente el uso de los combustibles fósiles como vía prioritaria para recortar emisiones y la dependencia energética exterior.",
+          "texto_original": "Mendekotasun fosila: Erregai fosilen erabilera lehenbailehen murriztea, emisioak eta kanpoko energia-mendekotasuna murrizteko lehentasunezko bide gisa.",
+          "pagina": 15
+        },
+        {
+          "titular": "Acelerar el despliegue renovable",
+          "texto": "Crear las condiciones sociales, fiscales, administrativas, planificadoras y económicas óptimas para un despliegue renovable rápido y a la escala necesaria.",
+          "texto_original": "Hedapen berriztagarria: Hedapen berriztagarri azkarra eta beharrezkoa den eskalan egiteko baldintza sozial, fiskal, administratibo, planifikatzaile eta ekonomiko optimoak sortzea.",
+          "pagina": 15
+        },
+        {
+          "titular": "Mantener el calendario de cierre nuclear",
+          "texto": "Mantener el calendario de cierre nuclear definido en el PNIEC.",
+          "texto_original": "Itxiera nuklearra: PNIECen definitutako itxiera nuklearraren egutegia mantentzearen alde egingo dugu.",
+          "pagina": 15
+        },
+        {
+          "titular": "Comunidades energéticas y autoconsumo",
+          "texto": "Facilitar, a través del marco normativo, fiscal y de ayudas directas, la expansión del autoconsumo y de las comunidades energéticas y ciudadanas.",
+          "texto_original": "Energia Komunitateak eta autokontsumoa: Arau-esparruaren bidez, zerga-esparrua eta zuzeneko laguntza ekonomikoa ahalbidetzea, autokontsumoaren, energia-komunitateen eta herritarren energia-komunitateen hedapena ahalbidetzeko.",
+          "pagina": 15
+        },
+        {
+          "titular": "Eliminar las subvenciones a los combustibles fósiles",
+          "texto": "Eliminar las subvenciones directas e indirectas a los combustibles fósiles, desde la equiparación del impuesto especial de hidrocarburos hasta el fin de la exención al queroseno de aviación.",
+          "texto_original": "Erregai fosilentzako diru-laguntza zuzenak eta zeharkakoak kentzea, hidrokarburoen zerga berezia parekatzetik abiazioko kerosenoaren salbuespena ezabatzeraino.",
+          "pagina": 18
+        }
+      ]
+    },
+    "seguridad-defensa": {
+      "resumen": "EH Bildu rechaza la OTAN y el aumento del gasto en defensa, y apuesta por la diplomacia, el diálogo y una seguridad europea indivisible que no dependa de Estados Unidos. Propone cerrar el campo de tiro de las Bardenas, impedir el uso de las bases estadounidenses en Europa, adherirse al Tratado sobre la Prohibición de las Armas Nucleares y replegar a las Fuerzas de Seguridad del Estado.",
+      "propuestas": [
+        {
+          "titular": "No a la OTAN",
+          "texto": "Rechazar la OTAN y la pertenencia de Euskal Herria a la misma, ratificando la decisión expresada por la sociedad vasca en el referéndum de 1986.",
+          "texto_original": "NATOri eta Euskal Herriaren parte izateari uko egiten diogu, euskal gizarteak 1986ko erreferendumean emandako botoarekin hartutako erabakia berretsiz.",
+          "pagina": 28
+        },
+        {
+          "titular": "Rechazar el aumento del gasto militar",
+          "texto": "Rechazar el aumento del gasto en defensa que exige la OTAN.",
+          "texto_original": "NATOk defentsarako eskatzen duen gastua handitzeari uko egingo diogu.",
+          "pagina": 28
+        },
+        {
+          "titular": "Cerrar el campo de tiro de las Bardenas",
+          "texto": "Proponer el cierre y desmantelamiento del campo de tiro de las Bardenas, con planes de reconversión y financiación suficiente para los municipios del entorno.",
+          "texto_original": "Bardeako tiro-eremua ixtea eta desegitea proposatuko dugu.",
+          "pagina": 28
+        },
+        {
+          "titular": "Impedir el uso de las bases de EE. UU.",
+          "texto": "Impedir que Estados Unidos utilice las más de 275 bases e instalaciones en Europa, incluidas Rota y Morón, y reclamar la salida de los más de 100.000 soldados estadounidenses en activo.",
+          "texto_original": "Estatu Batuek Europako 275 base eta instalazio baino gehiago erabiltzea galaraziko dugu, Rota eta Moron barne, AEBk mantentzen dituen gerretarako operazio-gune gisa erabiltzen direnak, baita Europan jardunean dauden 100.000 soldadu estatubatuar baino gehiago ateratzea ere.",
+          "pagina": 28
+        },
+        {
+          "titular": "Adherirse al Tratado de Prohibición Nuclear",
+          "texto": "Impulsar la adhesión al Tratado sobre la Prohibición de las Armas Nucleares (TPNW) ante el aumento del riesgo y de la amenaza de su uso.",
+          "texto_original": "Arma Nuklearren Debekuari buruzko Itunari (TPNW) bultzada eta atxikimendua ematea proposatuko dugu, munduko potentzia nuklearrek arriskua areagotu eta erabiltzeko mehatxuaren aurrean.",
+          "pagina": 28
+        },
+        {
+          "titular": "Repliegue de las Fuerzas de Seguridad del Estado",
+          "texto": "Impulsar en la Comunidad Autónoma Vasca y en Navarra el repliegue de las Fuerzas y Cuerpos de Seguridad del Estado, respetando las competencias de ambas comunidades y el carácter integral de la Ertzaintza y la Policía Foral.",
+          "texto_original": "Euskal Autonomia Erkidegoan eta Nafarroako Foru Komunitatean Estatuko Segurtasun Indar eta Kidegoen atzera egitea bultzatzea.",
+          "pagina": 27
+        }
+      ]
+    },
+    "estado-instituciones": {
+      "resumen": "EH Bildu propone una administración accesible también de forma presencial, con el euskera como requisito en los servicios estatales en Euskadi y Navarra. En memoria y derechos plantea ampliar la Ley de Memoria Democrática, derogar la Ley de Secretos Oficiales y la Ley Mordaza, y despenalizar los delitos que restringen la libertad de expresión.",
+      "propuestas": [
+        {
+          "titular": "Administración pública presencial",
+          "texto": "Asegurar el acceso presencial a la administración pública mientras exista brecha digital, con canales ágiles y recursos suficientes para evitar el colapso y la falta de citas.",
+          "texto_original": "Administrazio publikorako sarbidea ziurtatzea herritar guztiei, garaiz eta behar bezala. Horretarako, eta arrakala digitala errealitatea den bitartean, aurrez aurreko kanalak ezarri beharko dira nahitaez, edozein izapide garaiz eta behar bezala egin ahal izateko.",
+          "pagina": 12
+        },
+        {
+          "titular": "Euskera en la administración estatal",
+          "texto": "Exigir el conocimiento del euskera en los servicios que la administración estatal ofrece en Álava, Bizkaia, Gipuzkoa y Navarra, incluida la administración de justicia.",
+          "texto_original": "Estatuko administrazio publikoak Araban, Bizkaian, Gipuzkoan eta Nafarroan eskaintzen dituen zerbitzuetarako, justizia-administrazioa barne, euskara jakitea baldintza gisa ezartzea, herritarrek arreta gure hizkuntzan jasotzeko duten eskubidea bermatzeko, bai aurrez aurre, bai telematikoki edo telefono bidez.",
+          "pagina": 12
+        },
+        {
+          "titular": "Ampliar la Ley de Memoria Democrática",
+          "texto": "Ampliar la Ley de Memoria Democrática para reconocer como víctimas de vulneraciones de derechos humanos a colectivos que aún no tienen ese reconocimiento, como las víctimas del franquismo, de la tortura, de la guerra sucia o de la ultraderecha.",
+          "texto_original": "Memoria Demokratikoaren Legea zabaltzea, oraindik errekonozimendu hori ez duten kolektiboei giza eskubideen urraketen biktima direla aitortzeko: frankismoaren, torturaren, gerra zikinaren edo ultraeskuindarren biktimei, esaterako.",
+          "pagina": 27
+        },
+        {
+          "titular": "Derogar la Ley de Secretos Oficiales",
+          "texto": "Derogar la Ley de Secretos Oficiales, en vigor desde el franquismo, para garantizar la transparencia, el acceso a la información y la protección sobre episodios aún sin esclarecer.",
+          "texto_original": "Frankismotik indarrean dagoen Sekretu Ofizialen Legea indargabetzea, gardentasuna, irisgarritasuna, informazioa eta babesa bermatuko dituen legeria bat ziurtatzeko, oraindik ere zigorgabe jarraitzen duten eta gure historia markatu zuten gertakari ilun guztiei dagokienez.",
+          "pagina": 27
+        },
+        {
+          "titular": "Derogar la Ley Mordaza",
+          "texto": "Volver a presentar la proposición de ley para acabar con la Ley Mordaza y con todos los artículos contrarios a la libertad de expresión y a los derechos básicos de la ciudadanía.",
+          "texto_original": "Mozal legearekin amaitzea. Duela bi urte EH Bilduk adierazpen askatasunaren eta herritarren oinarrizko eskubide eta askatasunen aurkako artikulu guztiekin amaitzeko lortu zuen akordioan oinarritutako Herritarren Askatasuna eta Segurtasuna Babesteko Lege Proposamena berriro aurkeztuko dugu.",
+          "pagina": 22
+        },
+        {
+          "titular": "Despenalizar los delitos de opinión",
+          "texto": "Eliminar del Código Penal los delitos que restringen la libertad de expresión y de opinión, como las críticas a la corona, a las instituciones o a los sentimientos religiosos.",
+          "texto_original": "Adierazpen eta iritzi askatasuna murrizten duten delituak zigor kodetik ezabatzea proposatuko dugu.",
+          "pagina": 22
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "EH Bildu reivindica el reconocimiento de Euskal Herria como nación y el derecho a decidir, dentro de un Estado plurinacional. Propone completar las transferencias pendientes del Estatuto Vasco y del Amejoramiento Navarro, asumir nuevas competencias plenas, ensanchar el Concierto y el Convenio Económico y avanzar en la oficialidad del euskera también en la Unión Europea.",
+      "propuestas": [
+        {
+          "titular": "Reconocer Euskal Herria como nación",
+          "texto": "Lograr el reconocimiento del carácter plurinacional del Estado, con el respeto y reconocimiento de Euskal Herria como nación y de las demás naciones que lo componen.",
+          "texto_original": "Euskal Herria nazio gisa errespetatzea eta aitortzea, bai eta gaur egun Espainiako estatua osatzen duten gainontzeko nazioak ere.",
+          "pagina": 23
+        },
+        {
+          "titular": "Derecho a decidir",
+          "texto": "Reconocer el derecho a decidir del pueblo vasco como mecanismo democrático y legítimo, basado en la voluntad de la ciudadanía vasca libre y democráticamente expresada.",
+          "texto_original": "Euskal Herriaren erabakitzeko eskubidea aitortzea, konponbide horretarako mekanismo demokratiko eta legitimo gisa, euskal herritar aske eta demokratikoki adieraziaren borondatean eta erabakian oinarrituta.",
+          "pagina": 23
+        },
+        {
+          "titular": "Transferir las competencias pendientes",
+          "texto": "Exigir la transferencia de todas las competencias contempladas en el Estatuto Vasco y en el Amejoramiento Navarro que siguen pendientes después de más de 40 años.",
+          "texto_original": "Euskal Autonomia Erkidegoko Estatutuan eta Nafarroako Hobekuntzan jasotako eskumen guztiak transferitzea eskatuko dugu, 40 urte baino gehiago igaro ondoren.",
+          "pagina": 24
+        },
+        {
+          "titular": "Nuevas competencias plenas",
+          "texto": "Proponer la asunción de nuevas competencias plenas e instrumentos para ampliar la capacidad de autogobierno y diseñar políticas propias adaptadas a la realidad del país.",
+          "texto_original": "Eskumen oso eta tresna berriak hartzea proposatuko dugu, gure autogobernu-gaitasunak zabaltzeko, gure herriaren eta gizartearen errealitateetara eta beharretara egokitutako politika propioak erabaki, diseinatu eta garatu ahal izateko.",
+          "pagina": 24
+        },
+        {
+          "titular": "Defender los instrumentos de autogobierno económico",
+          "texto": "Defender los instrumentos de autogobierno económico, fiscal y financiero como pilares del bienestar social.",
+          "texto_original": "Tresna horiek gure gizarte-ongizatearen eta ekonomia-, zerga- eta finantza-autogobernuaren zutabeetako bat direla defendatuko dugu.",
+          "pagina": 24
+        },
+        {
+          "titular": "Oficialidad del euskera en la UE",
+          "texto": "Seguir trabajando para lograr la oficialidad del euskera, el catalán y el gallego en la Unión Europea y sus instituciones, en igualdad de condiciones con el resto de lenguas.",
+          "texto_original": "Lanean jarraituko dugu euskararen, katalanaren eta galegoaren ofizialtasuna lortzeko Europar Batasunean eta bertako erakundeetan, gure hizkuntza Europako gainerako hizkuntzen baldintza berdinetan bizi dadin.",
+          "pagina": 25
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "EH Bildu apuesta por la diplomacia, el diálogo y el derecho internacional frente a las guerras y las injerencias. Defiende una seguridad europea integral e indivisible, el aislamiento económico y político de Israel, el derecho de autodeterminación del pueblo saharaui, el fin del bloqueo a Cuba y el multilateralismo.",
+      "propuestas": [
+        {
+          "titular": "Diplomacia y acuerdo frente a la guerra",
+          "texto": "Defender el diálogo, la diplomacia y el acuerdo como las mejores herramientas para resolver los conflictos, frente a las intervenciones y escaladas militares.",
+          "texto_original": "Gatazkak konpontzeko tresnarik onena elkarrizketa, diplomazia eta akordioa dira.",
+          "pagina": 28
+        },
+        {
+          "titular": "Seguridad europea integral",
+          "texto": "Impulsar un proyecto de seguridad integral para Europa que no dependa de Estados Unidos y que apueste por el diálogo y la diplomacia.",
+          "texto_original": "Europak segurtasun integraleko proiektu bat behar du, Estatu Batuen mende egon ezin daitekeena, eta elkarrizketaren eta diplomaziaren alde egin behar du.",
+          "pagina": 28
+        },
+        {
+          "titular": "Aislar económicamente a Israel",
+          "texto": "Tomar todas las medidas que busquen el aislamiento económico y político de Israel, rompiendo el Tratado de Amistad con la UE y terminando las relaciones económicas y comerciales con empresas o capital israelíes.",
+          "texto_original": "Israelen isolamendu ekonomiko eta politikoa bilatzen duten neurri guztiak hartzea proposatuko dugu: EBak Israelekin duen Adiskidetasun Ituna hautsi eta Israelgo enpresekin edo hiriburuarekin harreman ekonomikoak eta komertzialak amaitu.",
+          "pagina": 29
+        },
+        {
+          "titular": "Derecho de autodeterminación del Sahara",
+          "texto": "Reconocer, apoyar y respetar el derecho de autodeterminación del pueblo saharaui, y rechazar la política de ocupación de Marruecos.",
+          "texto_original": "Saharar Herriaren autodeterminazio eskubidea aitortu, babestu eta errespetatu, baita Marokoren okupazio politika arbuiatu ere.",
+          "pagina": 29
+        },
+        {
+          "titular": "Acabar con el bloqueo a Cuba",
+          "texto": "Exigir el fin del bloqueo energético, económico, comercial y financiero que Estados Unidos impone a Cuba.",
+          "texto_original": "AEBk Kubari ezartzen dion blokeo energetiko, ekonomiko, komertzial eta finantzarioaren amaiera exijitzeko ekimenak aurkeztuko ditugu, Kubako herriari hainbat hamarkadatan ezarritako zigor eta zigorren amaieraren hasiera gisa.",
+          "pagina": 29
+        },
+        {
+          "titular": "Multilateralismo y derecho internacional",
+          "texto": "Mantener la posición en defensa del Derecho Internacional y del multilateralismo.",
+          "texto_original": "Nazioarteko Zuzenbidearen eta multilateralismoaren aldeko jarrerari eutsiko diogu.",
+          "pagina": 29
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "EH Bildu sitúa los cuidados en el centro, con universalidad y gratuidad, y propone avanzar en derechos subjetivos como la retroactividad de las prestaciones de dependencia. En igualdad plantea blindar el aborto, combatir la violencia vicaria, prohibir las terapias de conversión y reforzar los derechos de las personas LGTBIQ+, además de crear permisos de maternidad preparto y puerperal.",
+      "propuestas": [
+        {
+          "titular": "Cuidados universales y gratuitos",
+          "texto": "Situar el cuidado como cuestión central para el futuro de las sociedades, limitando la privatización y el ánimo de lucro y avanzando hacia su universalidad y gratuidad.",
+          "texto_original": "Zaintza gure gizarteen etorkizunerako funtsezko gai gisa kokatzea, sektore horretan pribatizazioa eta irabazi-asmoa mugatuz, eta haren unibertsaltasun eta doakotasunerantz aurrera eginez.",
+          "pagina": 12
+        },
+        {
+          "titular": "Retroactividad de las prestaciones de dependencia",
+          "texto": "Dar pasos en el derecho subjetivo a los cuidados, empezando por reconocer la prestación económica por dependencia desde la fecha de solicitud.",
+          "texto_original": "Zaintzarako eskubide subjektiboan urratsak ematea. Lehen urratsa mendekotasunagatiko prestazio ekonomikoa eskaera egiten den egunetik jasotzeko eskubidea lortze aldera emango dugu.",
+          "pagina": 12
+        },
+        {
+          "titular": "Nuevos permisos de maternidad preparto y puerperal",
+          "texto": "Crear un permiso de maternidad preparto y otro puerperal, ambos universales y retribuidos, para reconocer y proteger los derechos reproductivos y las necesidades de la primera infancia.",
+          "texto_original": "Jaio aurreko amatasun-baimena eta erdiberriaroko baimena sortzea, biak unibertsalak eta ordainduak, ugalketa-eskubideak eta lehen haurtzaroko premiak aitortzeko eta babesteko.",
+          "pagina": 14
+        },
+        {
+          "titular": "Blindar el derecho al aborto",
+          "texto": "Blindar el derecho al aborto y proponer todas las medidas necesarias para garantizar un acceso libre, seguro, confidencial y digno.",
+          "texto_original": "Abortatzeko eskubidea blindatzea. Horretarako, pausoak emango ditugu eta aborturako sarbide libre, seguru, konfidentzial eta duina bermatzeko beharrezko neurri guztiak proposatuko ditugu.",
+          "pagina": 18
+        },
+        {
+          "titular": "Reconocer y penalizar la violencia vicaria",
+          "texto": "Avanzar en el reconocimiento y la penalización de la violencia vicaria, identificando sus causas y consecuencias y desarrollando medidas de prevención y reparación.",
+          "texto_original": "Indarkeria bikarioa aitortzeko eta zigortzeko bidean aurrera egitea.",
+          "pagina": 19
+        },
+        {
+          "titular": "Prohibir las terapias de conversión",
+          "texto": "Prohibir las terapias de conversión, que vulneran el derecho a la no discriminación, a la salud, a la identidad personal, a la integridad física y psicológica y a no ser sometido a torturas.",
+          "texto_original": "Konbertsio-terapiak debekatzea; izan ere, terapia horiek, besteak beste, diskriminaziorik eza, osasuna, nortasun pertsonala, osotasun fisiko eta psikologikoa eta torturapean ez egoteko eskubidea urratzen dituzte.",
+          "pagina": 19
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "EH Bildu reclama más capacidad de decisión sobre la PAC y la Política Pesquera Común para diseñar políticas agrarias y pesqueras propias. Propone garantizar la alimentación como derecho con precios justos, reforzar la compra pública sostenible y de proximidad, regular la cadena alimentaria y expandir la producción ecológica y regenerativa.",
+      "propuestas": [
+        {
+          "titular": "Soberanía alimentaria y decisión sobre la PAC",
+          "texto": "Soberanía alimentaria y capacidad de decisión sobre la PAC: impulsar una mayor capacidad de gestión y decisión de la Política Agraria Común, avanzando hacia su renacionalización y territorialización.",
+          "texto_original": "Elikadura burujabetza eta NPBri buruz erabakitzeko gaitasuna: Nekazaritza Politika Bateratua kudeatzeko eta erabakitzeko gaitasun handiagoa bultzatzea, bere birnazionalizaziorantz eta lurraldetasunerantz aurrera eginez.",
+          "pagina": 16
+        },
+        {
+          "titular": "Soberanía pesquera",
+          "texto": "Soberanía pesquera: impulsar una mayor descentralización y regionalización de la Política Pesquera Común, reforzando la capacidad de gestión y decisión de las comunidades y regiones pesqueras.",
+          "texto_original": "Arrantza-subiranotasuna eta Arrantza Politika Bateratuari buruzko erabakiak hartzeko gaitasuna: Arrantza Politika Bateratuaren deszentralizazio eta erregionalizazio handiagoa bultzatzea, arrantza-komunitate eta eskualdeen kudeaketa eta erabaki ahalmena indartuz.",
+          "pagina": 16
+        },
+        {
+          "titular": "Alimentación como derecho y precios justos",
+          "texto": "Avanzar hacia un modelo que garantice el derecho universal a una alimentación saludable y de calidad, con precios justos para los productores y asequibles para los consumidores.",
+          "texto_original": "Elikadura eskubide gisa eta bidezko prezioak: Elikadura osasuntsu eta kalitatezkoa izateko eskubide unibertsala bermatuko duen eredu baterantz aurrera egitea, ekoizleentzat prezio bidezkoak eta kontsumitzaileentzat prezio eskuragarriak ziurtatuz.",
+          "pagina": 17
+        },
+        {
+          "titular": "Compra pública alimentaria sostenible",
+          "texto": "Reforzar la legislación que permite la contratación pública alimentaria con objetivos de productos saludables, sostenibles y de proximidad en comedores escolares, hospitales y residencias.",
+          "texto_original": "Elikagaien erosketa publiko iraunkorra eta hurbilekoa: Elikagaien kontratazio publikoa ahalbidetuko duen legedia indartzea, eskola-jantokietan, ospitaleetan, egoitzetan eta beste zerbitzu publiko batzuetan produktu osasungarriak, jasangarriak eta hurbilekoak eskuratzeko helburuen bidez, erosketa publikoa landa-garapenerako, ingurumen-jasangarritasunerako eta tokiko ekoizpen-sektorea indartzeko tresna gisa erabiliz.",
+          "pagina": 17
+        },
+        {
+          "titular": "Producción ecológica y regenerativa",
+          "texto": "Expandir la superficie destinada a la agricultura y ganadería ecológica e implantar el sello ECORREGENERATIVA para las explotaciones que combinen producción ecológica y prácticas regenerativas del suelo.",
+          "texto_original": "Ekoizpen ekologikoari eta birsortzaileari bultzada ematea: Nekazaritza eta abeltzaintza ekologikora bideratutako azalera zabaltzea eta ekoizpen ekologikoa eta lurzoruaren birsortze-jarduerak uztartzen dituzten ustiategietarako EKOBIRSORTZAILEA aintzatespen-zigilua ezartzea.",
+          "pagina": 17
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "EH Bildu pide la transferencia completa de las competencias ferroviarias, aeroportuarias y portuarias a la CAPV y Navarra. Propone renovar la red ferroviaria, reforzar Cercanías y Media Distancia, trasvasar mercancías de la carretera al tren, reorientar las ayudas al vehículo eléctrico y garantizar la interoperabilidad tarifaria.",
+      "propuestas": [
+        {
+          "titular": "Transferir las competencias de movilidad",
+          "texto": "Reclamar la transferencia completa y efectiva a la CAPV y Navarra de las competencias ferroviarias, aeroportuarias y portuarias.",
+          "texto_original": "Mugikortasunaren arloko eskumen osoak: trenbide-, aireportu- eta portu-eskumenen transferentzia osoa eta eraginkorra EAEra eta Nafarroara.",
+          "pagina": 17
+        },
+        {
+          "titular": "Renovar la red ferroviaria",
+          "texto": "Apostar por una renovación integral de las vías en los corredores donde es posible ofrecer una alternativa a la Alta Velocidad, especialmente el corredor navarro y la conexión de la CAPV con Burgos.",
+          "texto_original": "Trenbide-sarea berritzea: AHTari alternatiba eskain dakiokeen korridoreetan trenbideak berritzearen alde egitea (batez ere Nafarroako korridoreari eta EAEk Burgosekin duen loturari).",
+          "pagina": 17
+        },
+        {
+          "titular": "Más tren para la movilidad cotidiana",
+          "texto": "Reforzar las redes de Cercanías y Media Distancia, mejorar las infraestructuras para aumentar frecuencias y mejorar las conexiones con Ipar Euskal Herria.",
+          "texto_original": "Aldiriak, Distantzia Ertaina eta Ipar Euskal Herriarekiko loturak indartzea: Tren gehiago eguneroko mugikortasunerako.",
+          "pagina": 17
+        },
+        {
+          "titular": "Llevar las mercancías al tren",
+          "texto": "Fijar objetivos ambiciosos para trasvasar mercancías de la carretera al ferrocarril.",
+          "texto_original": "Salgaiak trenera eramatea: Salgaiak errepidetik trenbidera eramateko helburu handinahiak finkatzea.",
+          "pagina": 17
+        },
+        {
+          "titular": "Leasing social de coches eléctricos",
+          "texto": "Reorientar las ayudas a la movilidad eléctrica según la renta y crear programas de leasing social para vehículos eléctricos puros en hogares vulnerables, eliminando las subvenciones a los híbridos.",
+          "texto_original": "Ibilgailu elektrikoen laguntza progresiboak eta leasing soziala: Mugikortasun elektrikorako laguntzak berrorientatzea errenta irizpideen eta ibilgailu elektriko puruetarako leasing sozialeko programen bidez (BEV) etxe zaurgarrietan, ibilgailu hibridoentzako diru-laguntzak ezabatuz.",
+          "pagina": 17
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "EH Bildu defiende la cultura vasca y las producciones en euskera con ayudas blindadas por ley y un 15 % del Fondo de Protección de la Cinematografía para lenguas distintas del castellano. También propone proteger la producción independiente, reservar cuotas para la diversidad y eliminar las trabas para que las selecciones vascas compitan internacionalmente.",
+      "propuestas": [
+        {
+          "titular": "Blindar las ayudas a las producciones en euskera",
+          "texto": "Blindar por ley las ayudas a las producciones en euskera y en el resto de lenguas oficiales distintas del castellano.",
+          "texto_original": "Euskaraz edota gaztelania ez diren gainontzeko hizkuntzetan ekoiztutako produkzioei laguntzak legez blindatzea.",
+          "pagina": 25
+        },
+        {
+          "titular": "15 % del fondo para cine en otras lenguas",
+          "texto": "Destinar como mínimo el 15 % del presupuesto del Fondo de Protección de la Cinematografía a proyectos en lenguas oficiales distintas del castellano, para asegurar la financiación del cine en euskera.",
+          "texto_original": "Zinematografia Babesteko Funtsaren aurrekontuaren % 15, gutxienez, gaztelaniaz besteko hizkuntza ofizialetako proiektuetarako erabiltzea, euskarazko zinemaren finantzaketa eta garapena ziurtatzeko.",
+          "pagina": 25
+        },
+        {
+          "titular": "Proteger la producción independiente",
+          "texto": "Delimitar estrictamente la definición de productor independiente para que los grandes grupos de comunicación y las plataformas de streaming no absorban las ayudas públicas.",
+          "texto_original": "Ekoizpen independentearen defentsan, ekoizle independentearen definizioa zorrotz mugatzea.",
+          "pagina": 25
+        },
+        {
+          "titular": "Cuotas para la diversidad",
+          "texto": "Establecer porcentajes mínimos de ayudas para proyectos liderados por mujeres, jóvenes o creados en lenguas oficiales distintas del castellano, y elevar las reservas para películas dirigidas por mujeres.",
+          "texto_original": "Aniztasunerako kuota-erreserbak, emakumeek, gazteek edo gaztelaniaz besteko hizkuntza ofizialetan sortutako proiektuetarako laguntzen gutxieneko ehunekoak ezarriz, eta emakumeek zuzendutako filmetarako erreserbak handituz.",
+          "pagina": 25
+        },
+        {
+          "titular": "Selecciones vascas internacionales",
+          "texto": "Modificar la legislación que impide que las selecciones vascas compitan en cualquier ámbito y disciplina en igualdad de condiciones con el resto de selecciones internacionales.",
+          "texto_original": "Egungo legedia aldatzea proposatuko dugu, gure selekzioak, euskal selekzioak, edozein esparru eta diziplinatan lehiatu ahal izatea eragozten duena, nazioarteko gainontzeko selekzioen baldintza berdinetan, eta gure herrialdea, Euskal Herria, osatzen duten zazpi lurraldeetako kirolarien parte-hartzearekin.",
+          "pagina": 26
+        },
+        {
+          "titular": "Eliminar las sanciones a deportistas",
+          "texto": "Eliminar el régimen sancionador que se aplica a los deportistas vascos que no desean participar en las selecciones españolas.",
+          "texto_original": "Espainiako selekzioetan parte hartu nahi ez duten kirolariei aplikatzen zaien zehapen-araubidea ezabatzeko lan egingo dugu, eta inposaketa eta mehatxu onartezinak izango dira euskal kirolarientzat.",
+          "pagina": 26
+        }
+      ]
+    }
+  }
+}

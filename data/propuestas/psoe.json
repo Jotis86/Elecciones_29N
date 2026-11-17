@@ -1,6 +1,6 @@
 {
   "partido": "psoe",
-  "revisado": "2026-11-15",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "El PSOE sitúa la vivienda como quinto pilar del Estado del bienestar y promete reformar la Constitución para convertirla en derecho fundamental. Movilizaría un 1% del PIB al año y constituiría un parque público estatal de 100.000 viviendas mediante CASA 47. Mantiene las zonas tensionadas: amplía contratos, congela rentas por encima de los índices y crea un impuesto a grandes tenedores y fondos buitre. Para comprar, préstamos de hasta 50.000 euros sin intereses del programa TU CASA; para los vulnerables, un escudo estable frente al desahucio. Se sumarían todas las administraciones y el ICO a través del Fondo España Crece. Los ingresos del parque se reinvertirían en nuevas actuaciones de vivienda asequible. El texto detalla que tributarán las viviendas turísticas, las vacías y las alquiladas a precio abusivo. Añade que el coste de esa prohibición lo asumirían las administraciones, no el pequeño propietario.",
@@ -47,7 +47,7 @@
       "propuestas": [
         {
           "titular": "Fondo España Crece: 120.000 millones",
-          "texto": "abriremos una nueva etapa de inversión productiva, apoyada en instrumentos como el Fondo España Crece, que movilizará 120.000 millones de euros para asegurar que la modernización continúe más allá de los fondos europeos",
+          "texto": "Abriremos una nueva etapa de inversión productiva, apoyada en instrumentos como el Fondo España Crece, que movilizará 120.000 millones de euros para asegurar que la modernización continúe más allá de los fondos europeos",
           "pagina": 13
         },
         {
@@ -187,7 +187,7 @@
         },
         {
           "titular": "Vapeadores sin sabores",
-          "texto": "estableciendo información sobre sus componentes, dosis máximas de nicotina y la prohibición de sabores agradables",
+          "texto": "Estableciendo información sobre sus componentes, dosis máximas de nicotina y la prohibición de sabores agradables",
           "pagina": 51
         }
       ]
@@ -372,7 +372,7 @@
         },
         {
           "titular": "Despidos y desahucios, en tres meses",
-          "texto": "juicios por despido y desahucio en un máximo de tres meses, desalojo de viviendas ocupadas en 48 horas y más jueces y fiscales",
+          "texto": "Juicios por despido y desahucio en un máximo de tres meses, desalojo de viviendas ocupadas en 48 horas y más jueces y fiscales",
           "pagina": 100
         },
         {
@@ -442,7 +442,7 @@
         },
         {
           "titular": "Tasa a los tokens de la IA",
-          "texto": "promoveremos el debate internacional sobre la creación de un gravamen específico sobre los tokens utilizados por los modelos de inteligencia artificial",
+          "texto": "Promoveremos el debate internacional sobre la creación de un gravamen específico sobre los tokens utilizados por los modelos de inteligencia artificial",
           "pagina": 107
         },
         {
@@ -577,12 +577,12 @@
       "propuestas": [
         {
           "titular": "Corredores Mediterráneo y Atlántico",
-          "texto": "culminaremos los corredores Mediterráneo y Atlántico, conectando puertos, plataformas logísticas y polos industriales con la red europea; impulsaremos el transporte de mercancías por ferrocarril y la intermodalidad para descarbonizar la logística",
+          "texto": "Culminaremos los corredores Mediterráneo y Atlántico, conectando puertos, plataformas logísticas y polos industriales con la red europea; impulsaremos el transporte de mercancías por ferrocarril y la intermodalidad para descarbonizar la logística",
           "pagina": 13
         },
         {
           "titular": "19.000 millones para el ferrocarril",
-          "texto": "daremos prioridad al mantenimiento y la fiabilidad de toda la red ferroviaria, con unos 19.000 millones de euros comprometidos hasta 2030",
+          "texto": "Daremos prioridad al mantenimiento y la fiabilidad de toda la red ferroviaria, con unos 19.000 millones de euros comprometidos hasta 2030",
           "pagina": 13
         },
         {

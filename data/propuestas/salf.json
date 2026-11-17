@@ -1,6 +1,6 @@
 {
   "partido": "salf",
-  "revisado": "2026-11-15",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "SALF plantea abaratar por ley un 35% la primera vivienda con impuestos a cero (ITP y AJD al 0%, IVA del 4% devuelto) y suelo público sin coste. Propone desalojo policial en 48 horas con denuncia y título de propiedad, y 30 días para el impago de alquiler. Añade aval público del 20% de la entrada para menores de 40, seguro público de impago para propietarios y eliminación total del IBI. El programa cifra el coste en unos 5.000 M€/año y dice financiarlo con el «sobrecoste autonómico». La garantía de 2.000 M€ se presenta como aval, no como gasto. Calcula 13.400 M€/año de menores ingresos municipales, que dice que los ayuntamientos absorberían con ahorro.",
@@ -373,6 +373,31 @@
         {
           "titular": "Ceuta y Melilla, plaza franca",
           "texto": "Ceuta y Melilla, plaza franca: 0 % de IRPF, 0 % de Sociedades y 0 % de cotizaciones. Para siempre.",
+          "pagina": 36
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "SALF lleva su «España primero» al terreno territorial: quiere negociar la soberanía de Gibraltar con Londres, convertir Ceuta y Melilla en una plaza franca con IRPF, Sociedades y cotizaciones al 0 %, y aplicar una deducción de 1.000 euros de IRPF a los residentes en Canarias, con la ZEC al 0 %.",
+      "propuestas": [
+        {
+          "titular": "Gibraltar: la soberanía, sobre la mesa",
+          "texto": "Gibraltar: la soberanía, sobre la mesa. El tratado de 2026 abre la Verja sin tocar la soberanía ni el privilegio fiscal: sociedades al 15 % y contrabando de tabaco a diario.",
+          "pagina": 37
+        },
+        {
+          "titular": "Negociar la cosoberanía de Gibraltar",
+          "texto": "Negociación bilateral con Londres con la cosoberanía como primer paso y fin del paraíso fiscal, como pide la ONU desde 1965.",
+          "pagina": 37
+        },
+        {
+          "titular": "Ceuta y Melilla, plaza franca",
+          "texto": "Ceuta y Melilla, plaza franca: 0 % de IRPF, 0 % de Sociedades y 0 % de cotizaciones. Para siempre.",
+          "pagina": 36
+        },
+        {
+          "titular": "Canarias: 1.000 euros menos de IRPF",
+          "texto": "Canarias: 1.000 euros menos de IRPF por vivir en las islas. Y la ZEC al 0 %.",
           "pagina": 36
         }
       ]

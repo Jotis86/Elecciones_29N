@@ -1,6 +1,6 @@
 {
   "partido": "frente-amplio",
-  "revisado": "2026-11-16",
+  "revisado": "2026-11-17",
   "temas": {
     "vivienda": {
       "resumen": "Frente Amplio convierte la vivienda en el eje de su programa: 1 % del PIB anual y 1,5 millones de viviendas públicas en 12 años, con expropiación del stock de grandes tenedores y prohibición de compras especulativas. Limita el alquiler en zonas tensionadas al 25 % de la renta del barrio, declara el contrato indefinido como norma y prohíbe los desahucios sin alternativa habitacional. Promete una reforma constitucional para hacer exigible el derecho a la vivienda y un impuesto del 10 % a la acumulación de pisos.",
@@ -132,7 +132,7 @@
         },
         {
           "titular": "Gravamen a beneficios no compartidos",
-          "texto": "Crearemos un gravamen estatal para las empresas con una cifra de facturación superior a 50 millones de euros cuyo beneficio crezca mientras los salarios de su plantilla se quedan atrás. Se aplicará sobre el beneficio de explotación que supere la media de los tres ejercicios anteriores cuando la subida salarial de la plantilla no alcance la de referencia: la inflación del año o, si es mayor, la pactada en el Acuerdo para el Empleo y la Negociación Colectiva (AENC) vigente. El tipo será del 30 %; la empresa que suba los salarios lo que marca la referencia no pagará nada.",
+          "texto": "Gravamen sobre beneficios no compartidos: Crearemos un gravamen estatal para las empresas con una cifra de facturación superior a 50 millones de euros cuyo beneficio crezca mientras los salarios de su plantilla se quedan atrás.",
           "pagina": 51
         },
         {
@@ -627,7 +627,7 @@
       "propuestas": [
         {
           "titular": "Abono único de transporte",
-          "texto": "Abono único estatal e integrado de transporte: Crearemos un abono único nominativo y mensual válido en todo el Estado, ciudades y modos de transporte. Incluye un esquema de precios de 20 €/mes para Cercanías (10 € para menores de 26 años y gratuito para menores de 16), descuentos del 60-70 % en Media Distancia (gratuito para menores de 15 años), 50 % en Larga Distancia para viajes recurrentes (al menos 3 viajes de ida y vuelta al mes) y 75-80 % de descuento en autobús y metro municipal/autonómico (o tarifa plana combinada de 50 €/mes).",
+          "texto": "Abono único estatal e integrado de transporte: Crearemos un abono único nominativo y mensual válido en todo el Estado, ciudades y modos de transporte.",
           "pagina": 65
         },
         {
