@@ -172,7 +172,20 @@ const indice = fichas.flatMap((ficha) => {
     const inicial = params.get('q') ?? '';
     input.value = inicial;
     pintar(inicial);
-    input.addEventListener('input', () => pintar(input.value));
-    input.form?.addEventListener('submit', (e) => e.preventDefault());
+
+    const actualizar = () => {
+      const q = input.value.trim();
+      const url = new URL(location.href);
+      if (q) url.searchParams.set('q', q);
+      else url.searchParams.delete('q');
+      history.replaceState(null, '', url);
+      pintar(q);
+    };
+
+    input.addEventListener('input', actualizar);
+    input.form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      actualizar();
+    });
   </script>
 </Base>

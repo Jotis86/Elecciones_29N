@@ -18,6 +18,20 @@ const canonica = new URL(ruta, Astro.site);
 const imagen = new URL('/og.png', Astro.site);
 const activo = (href: string) =>
   href === '/' ? ruta === '/' : ruta.startsWith(href.split('#')[0]);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Programas electorales 29N',
+  url: new URL('/', Astro.site).href,
+  inLanguage: 'es',
+  description: descripcionFinal,
+  publisher: { '@type': 'Person', name: sitio.autor },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${new URL('/buscar/', Astro.site).href}?q={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 
 <!doctype html>
@@ -27,7 +41,11 @@ const activo = (href: string) =>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{nombreCompleto}</title>
     <meta name="description" content={descripcionFinal} />
+    <meta name="theme-color" content="#fcfbf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#101114" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={canonica} />
     <meta property="og:site_name" content="Programas electorales 29N" />
     <meta property="og:locale" content="es_ES" />
@@ -46,6 +64,7 @@ const activo = (href: string) =>
     <meta name="twitter:title" content={nombreCompleto} />
     <meta name="twitter:description" content={descripcionFinal} />
     <meta name="twitter:image" content={imagen} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </head>
   <body>
     <a class="skip" href="#contenido">Saltar al contenido</a>

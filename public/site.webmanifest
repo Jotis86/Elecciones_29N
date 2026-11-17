@@ -1,0 +1,25 @@
+{
+  "name": "Programas electorales 29N",
+  "short_name": "29N Programas",
+  "description": "Los programas de los partidos del 29N, resumidos por temas y con cada propuesta enlazada a su página.",
+  "lang": "es",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fcfbf7",
+  "theme_color": "#fcfbf7",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
