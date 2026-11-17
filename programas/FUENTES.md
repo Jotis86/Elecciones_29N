@@ -20,7 +20,7 @@ fuentes; la web enlaza a la URL oficial y, cuando exista, a una copia archivada.
 | CC | Defiende Canarias | Publicado 9-nov · texto extraído | `canaria.pdf` | https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf |
 | UPN | — | Coalición con PP en Navarra; programa conjunto pendiente | — | — |
 | Frente Amplio | Un programa como una casa | Publicado 16-nov · texto extraído | `ProgramaFrenteAmplio.pdf` | https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf |
-| Podemos | — | Sin publicar | — | — |
+| Podemos | Así de básico: Paz, casa y trabajo | Publicado 17-nov · texto extraído · copia de Demócrata | `podemos.pdf` | — |
 
 ## Notas
 
@@ -43,6 +43,8 @@ fuentes; la web enlaza a la URL oficial y, cuando exista, a una copia archivada.
   oficial ya responde correctamente desde esta red.
 - **SALF**: el PDF oficial está protegido por Cloudflare y devuelve 403 a
   peticiones automáticas; se enlaza una copia archivada.
+- **Podemos**: no publica el PDF en su web. La copia local procede de Demócrata
+  (17-nov-2026): https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf
 - **Frente Amplio**: coalición de IU, Sumar, Comuns, Más Madrid, CHA, Verdes
   Equo y otras formaciones. El PDF oficial pesa 1,1 MB y tiene 151 páginas.
 

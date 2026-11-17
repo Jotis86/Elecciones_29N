@@ -196,16 +196,17 @@
     "siglas": "Podemos",
     "nombre": "Podemos",
     "color": "#7A2F8F",
-    "programa": null,
-    "estado": "pendiente",
+    "programa": "Así de básico: Paz, casa y trabajo",
+    "estado": "disponible",
     "ambito": "Estatal",
     "escanos2023": 0,
-    "pdf": null,
+    "pdf": "podemos.pdf",
     "pdf_oficial": null,
     "pdf_archivado": null,
-    "publicado": null,
-    "descargado": null,
-    "notas": "En 2023 sus diputados concurrieron en la lista de Sumar y después pasaron al Grupo Mixto. Aquí figura como candidatura propia con 0 escaños a efectos de orden."
+    "publicado": "2026-11-17",
+    "descargado": "2026-11-17",
+    "notas": "En 2023 sus diputados concurrieron en la lista de Sumar y después pasaron al Grupo Mixto. Aquí figura como candidatura propia con 0 escaños a efectos de orden. Podemos no publica el PDF en su web: la copia local procede de Demócrata (17-nov-2026).",
+    "pdf_fuente": "https://www.democrata.es/uploads/s1/35/51/60/4/29n-programa-podemos-paz-casa-y-trabajo.pdf"
   },
   {
     "slug": "salf",

@@ -74,7 +74,7 @@ const temasSinFicha = ficha
         partido.estado === 'disponible' && descarga && (
           <div class="acciones">
             <a class="boton" href={descarga} target="_blank" rel="noopener noreferrer">
-              Abrir PDF oficial ↗
+              {partido.pdf_oficial ? 'Abrir PDF oficial' : 'Abrir PDF (copia de terceros)'} ↗
             </a>
             {partido.pdf_archivado && (
               <a

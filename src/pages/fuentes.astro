@@ -144,7 +144,7 @@ const total = cobertura.reduce((n, fila) => n + fila.total, 0);
                     rel="noopener noreferrer"
                     title={partido.notas ? `${partido.notas} — Abrir el PDF oficial` : 'Abrir el PDF oficial del programa'}
                   >
-                    Abrir PDF oficial ↗
+                    Abrir {etiquetaPdf(partido)} ↗
                   </a>
                 ) : (
                   <span class="fuente-sin">Sin PDF</span>

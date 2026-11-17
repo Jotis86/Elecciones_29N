@@ -1,0 +1,546 @@
+{
+  "partido": "podemos",
+  "revisado": "2026-11-17",
+  "temas": {
+    "vivienda": {
+      "resumen": "Podemos plantea una intervención directa del mercado de la vivienda: bajar por ley un 40 % los alquileres, convertir los contratos de vivienda habitual en indefinidos y prohibir los desahucios de personas vulnerables sin alternativa. Añade la prohibición de comprar viviendas que no sean para vivir, el fin de los pisos turísticos, una inmobiliaria pública y la ampliación del parque público de alquiler.",
+      "propuestas": [
+        {
+          "titular": "Bajar los alquileres un 40 % por ley",
+          "texto": "Aprobaremos una reducción extraordinaria del 40 % de los precios del alquiler, aplicable a los contratos vigentes, sus renovaciones y prórrogas, así como a los nuevos contratos para acabar con los alquileres abusivos y garantizar el derecho a la vivienda.",
+          "pagina": 8
+        },
+        {
+          "titular": "Contratos de alquiler indefinidos",
+          "texto": "Convertiremos todos los contratos de alquiler de vivienda habitual en contratos de duración indefinida por defecto, para garantizar la estabilidad residencial y evitar que nadie tenga que abandonar su hogar por el mero vencimiento del contrato.",
+          "pagina": 8
+        },
+        {
+          "titular": "Prohibir los desahucios sin alternativa",
+          "texto": "Prohibiremos los desahucios y lanzamientos de personas en situación de vulnerabilidad sin alternativa habitacional digna y adecuada, estableciendo su suspensión indefinida, también en los casos de contratos de renta antigua.",
+          "pagina": 9
+        },
+        {
+          "titular": "Prohibir los pisos turísticos",
+          "texto": "Pondremos fin al uso turístico de viviendas residenciales, mientras se mantenga la emergencia habitacional, mediante la eliminación progresiva de las autorizaciones existentes y la prohibición de nuevas licencias.",
+          "pagina": 9
+        },
+        {
+          "titular": "Crear una inmobiliaria pública",
+          "texto": "Crearemos una inmobiliaria pública que actúe como intermediaria entre propietarios e inquilinos y asuma la gestión integral de los arrendamientos, incluidas las obligaciones y responsabilidades que correspondan a los propietarios.",
+          "pagina": 10
+        },
+        {
+          "titular": "Vivienda protegida permanente",
+          "texto": "Toda vivienda que tenga algún tipo de protección pública conservará permanentemente esta condición, al objeto de impedir que sea vendida a precios de mercado y objeto de especulación.",
+          "pagina": 11
+        }
+      ]
+    },
+    "economia-fiscalidad": {
+      "resumen": "Podemos propone una fiscalidad más progresiva sobre grandes fortunas, banca, energéticas y distribución alimentaria, junto a una banca y una red de supermercados públicas. Plantea elevar el impuesto de sociedades y el IRPF a las rentas altas, y revertir las reglas de austeridad que limitan la inversión pública.",
+      "propuestas": [
+        {
+          "titular": "Impuesto permanente a las grandes fortunas",
+          "texto": "Ampliaremos el impuesto a las grandes fortunas a todos los obligados tributarios del Impuesto del Patrimonio, para evitar que las Comunidades Autónomas lo eliminen.",
+          "pagina": 17
+        },
+        {
+          "titular": "Gravamen permanente a banca y eléctricas",
+          "texto": "Estableceremos un impuesto permanente sobre los beneficios extraordinarios de la gran banca, de forma que al menos el 50 % de sus beneficios revierta en las arcas públicas.",
+          "pagina": 17
+        },
+        {
+          "titular": "Crear una banca pública",
+          "texto": "Crearemos una Banca Pública a la que se integrarán todos los recursos y la estructura del ICO, CDTI y ENISA, que será con la que operen las administraciones públicas en exclusiva, con el fin de atraer ahorro y orientarlo a la creación de empleo estable y de calidad.",
+          "pagina": 17
+        },
+        {
+          "titular": "Red pública de supermercados",
+          "texto": "Establecimiento de una red pública de supermercados. La existencia de un operador público en el sector de la gran distribución de alimentos tendrá innumerables ventajas.",
+          "pagina": 17
+        },
+        {
+          "titular": "Reforma del impuesto de sociedades",
+          "texto": "Reformaremos el impuesto de sociedades para aumentar su capacidad recaudatoria, evitar la regresividad fiscal y combatir la ingeniería fiscal de las grandes corporaciones.",
+          "pagina": 21
+        },
+        {
+          "titular": "Reforma del IRPF para rentas altas",
+          "texto": "Reformaremos la escala estatal del IRPF sobre la base imponible general para reforzar la progresividad fiscal, reduciremos el tipo mínimo del 9,5 % actual al 9 %, y elevaremos los tipos a las bases imponibles de más de 60.000 euros anuales.",
+          "pagina": 21
+        }
+      ]
+    },
+    "empleo": {
+      "resumen": "Podemos quiere elevar el SMI a 1.800 euros y reducir la jornada a 30 horas semanales sin bajar el salario, empezando por las 35 y con posibilidad de cuatro días. Propone un nuevo Estatuto de los Trabajadores, recuperar la indemnización de 45 días por despido ilegal, prohibir las horas extras no compensadas y reforzar la Inspección de Trabajo.",
+      "propuestas": [
+        {
+          "titular": "SMI de 1.800 euros",
+          "texto": "Aumentaremos el SMI hasta los 1.800 euros al mes en una legislatura para garantizar salarios dignos y acercar el poder adquisitivo de las personas trabajadoras al de los países de nuestro entorno.",
+          "pagina": 41
+        },
+        {
+          "titular": "Jornada de 30 horas",
+          "texto": "Reduciremos la jornada laboral a 30 horas semanales durante la legislatura, comenzando con una bajada a 35 horas, con la posibilidad de reducir la semana laboral a cuatro días en función del trabajo concreto, de los tiempos de desplazamiento y de la voluntad del trabajador o trabajadora.",
+          "pagina": 41
+        },
+        {
+          "titular": "Nuevo Estatuto de los Trabajadores",
+          "texto": "Elaboraremos un nuevo Estatuto de los Trabajadores y Trabajadoras para derogar los efectos de las reformas laborales de 2010 y 2012 y avanzar hacia un modelo que garantice empleo estable, salarios dignos y derechos laborales.",
+          "pagina": 42
+        },
+        {
+          "titular": "Indemnización de 45 días por despido ilegal",
+          "texto": "Restableceremos la indemnización de 45 días por año trabajado en los despidos ilegales, estableciendo el derecho de la persona trabajadora a elegir entre la indemnización o la reincorporación.",
+          "pagina": 42
+        },
+        {
+          "titular": "Prohibir las horas extras no compensadas",
+          "texto": "Prohibiremos la realización de horas extraordinarias sin compensación en descanso, para fomentar la creación de empleo, ampliar las plantillas y avanzar hacia el pleno empleo, junto con la reducción de la jornada laboral.",
+          "pagina": 42
+        },
+        {
+          "titular": "Tolerancia cero con el fraude laboral",
+          "texto": "Reforzaremos la legislación laboral y los mecanismos de inspección y control para combatir el fraude empresarial y garantizar la estabilidad en el empleo.",
+          "pagina": 42
+        }
+      ]
+    },
+    "inmigracion": {
+      "resumen": "Podemos propone derogar la Ley de Extranjería y aprobar una nueva ley integral basada en derechos humanos, cerrar los CIE y garantizar un procedimiento permanente de regularización. Defiende el ius soli, una ley integral antirracista, el derecho al voto de las personas migrantes y la universalidad de la sanidad y los servicios sociales.",
+      "propuestas": [
+        {
+          "titular": "Derogar la Ley de Extranjería",
+          "texto": "Acabar con la Ley Orgánica 4/2000 y aprobar una nueva Ley Integral que sitúe los derechos humanos, la igualdad de trato y la inclusión en el centro de la política pública.",
+          "pagina": 65
+        },
+        {
+          "titular": "Cerrar los CIE",
+          "texto": "Procederemos al cierre de todos los Centros de Internamiento de Extranjeros, sustituyendo la privación de libertad por alternativas comunitarias y procedimientos individualizados que respeten los derechos fundamentales.",
+          "pagina": 65
+        },
+        {
+          "titular": "DNI y derecho al voto",
+          "texto": "Quien vive y trabaja en España, tiene que tener DNI español y derecho al voto.",
+          "pagina": 65
+        },
+        {
+          "titular": "Ius soli",
+          "texto": "Ius soli: Los nacidos en España son españoles.",
+          "pagina": 66
+        },
+        {
+          "titular": "Ley integral antirracista",
+          "texto": "Impulsaremos una Ley Integral Antirracista que prevenga, investigue, sancione y repare la discriminación racial y étnica, tanto en el ámbito privado como en el institucional.",
+          "pagina": 66
+        },
+        {
+          "titular": "Regularización permanente",
+          "texto": "Mediante la nueva norma estatal de igualdad de trato superaremos un modelo criminalizador con las personas migrantes y el sistema de regularización reconocerá el arraigo social, familiar y comunitario, sin hacer depender el derecho a residir legalmente en España exclusivamente de disponer de un contrato de trabajo.",
+          "pagina": 67
+        }
+      ]
+    },
+    "sanidad": {
+      "resumen": "Podemos plantea recuperar la sanidad pública y derogar las leyes que permiten su privatización, con más financiación hasta 2.900 euros por habitante y año. Propone una ley de Atención Primaria, otra de salud mental, sanidad universal con dental y oftalmología, y garantizar la muerte digna.",
+      "propuestas": [
+        {
+          "titular": "Acabar con la privatización sanitaria",
+          "texto": "Derogaremos la Ley 15/1997, los artículos 66, 67 y 90 de la Ley General de Sanidad, y todas las leyes privatizadoras que abrieron la puerta a la gestión privada de la sanidad, y blindaremos la titularidad y la gestión pública directa como modelo obligatorio del Sistema Nacional de Salud.",
+          "pagina": 88
+        },
+        {
+          "titular": "Financiación de 2.900 euros por habitante",
+          "texto": "Incrementaremos progresivamente la financiación del Sistema Nacional de Salud hasta alcanzar una dotación mínima de 2.900 euros por habitante y año, frente a los 2.247 euros actuales, para converger con los países de nuestro entorno.",
+          "pagina": 89
+        },
+        {
+          "titular": "Ley de Atención Primaria",
+          "texto": "Aprobaremos una Ley que sitúe la Atención Primaria en el centro del sistema sanitario público y ponga fin a sus recortes.",
+          "pagina": 90
+        },
+        {
+          "titular": "Ley General de Salud Mental",
+          "texto": "Aprobaremos la Ley General de Salud Mental que establecerá ratios mínimas de 18 psiquiatras, 18 psicólogos y psicólogas clínicas y 23 enfermeros y enfermeras especialistas por cada 100.000 habitantes.",
+          "pagina": 91
+        },
+        {
+          "titular": "Sanidad universal y dental",
+          "texto": "Recuperaremos una sanidad plenamente universal, financiada con recursos públicos y gestionada desde lo público, que garantice el derecho a la salud en condiciones de igualdad, independientemente de la situación económica, laboral o territorial.",
+          "pagina": 91
+        },
+        {
+          "titular": "Derecho a una muerte digna",
+          "texto": "Reforzaremos los recursos humanos y materiales de las Comisiones de Garantía y Evaluación y de los equipos sanitarios para agilizar los procedimientos, estableciendo vías de tramitación prioritaria para las personas cuya situación clínica requiera una respuesta urgente.",
+          "pagina": 94
+        }
+      ]
+    },
+    "educacion": {
+      "resumen": "Podemos propone elevar la inversión educativa al 7 % del PIB y reforzar la red pública, con subidas salariales y menos jornada lectiva para el profesorado. Añade gratuidad de libros y material, refuerzo de la educación inclusiva y gratuidad de las tasas universitarias.",
+      "propuestas": [
+        {
+          "titular": "Inversión del 7 % del PIB",
+          "texto": "Crearemos un fondo estatal para reforzar exclusivamente la educación pública de gestión directa, con un sistema de reparto territorial que tenga en cuenta la población, el coste de los servicios y las necesidades de las zonas rurales y despobladas.",
+          "pagina": 80
+        },
+        {
+          "titular": "Subir un 30 % el salario docente",
+          "texto": "Incrementaremos un 30 % los salarios del personal de los centros públicos, actualizaremos anualmente las retribuciones conforme al coste de la vida y garantizaremos la equiparación salarial y de complementos para quienes desempeñen trabajos equivalentes.",
+          "pagina": 81
+        },
+        {
+          "titular": "Reducir la jornada lectiva",
+          "texto": "Reduciremos la jornada lectiva semanal del profesorado en todas las etapas educativas, estableciendo los siguientes máximos: 22 horas en Educación Infantil y Primaria, 17 en Educación Secundaria y 22 en Bachillerato, Formación Profesional y Educación de Personas Adultas.",
+          "pagina": 81
+        },
+        {
+          "titular": "Libros y material gratuitos",
+          "texto": "Pondremos en marcha un Plan Estatal de Gratuidad y Reutilización para garantizar que todo el alumnado pueda acceder gratuitamente a los libros de texto, el material escolar y los recursos pedagógicos, con independencia de la renta familiar o de la comunidad autónoma de residencia.",
+          "pagina": 82
+        },
+        {
+          "titular": "Reforzar la educación inclusiva",
+          "texto": "Reforzaremos las plantillas de orientación, atención a la diversidad y personal especializado para garantizar una atención individualizada y una respuesta adecuada a las necesidades de cada alumno y alumna.",
+          "pagina": 82
+        },
+        {
+          "titular": "Universidad pública gratuita",
+          "texto": "Alcanzaremos progresivamente, durante la próxima legislatura, la gratuidad total de las tasas de grado, máster y doctorado en las universidades públicas, en todos los cursos y convocatorias, y estableceremos un sistema de becas-salario de hasta 800 euros mensuales en función de la renta familiar para estudiantes universitarios.",
+          "pagina": 85
+        }
+      ]
+    },
+    "pensiones": {
+      "resumen": "Podemos plantea adelantar la jubilación ordinaria a los 63 años y equiparar la pensión mínima al SMI. Propone eliminar la base máxima de cotización, completar las lagunas de cotización, permitir la jubilación anticipada en sectores duros y mejorar la pensión de viudedad de las parejas de hecho.",
+      "propuestas": [
+        {
+          "titular": "Jubilación a los 63 años",
+          "texto": "Reformaremos el sistema de pensiones para adelantar la edad ordinaria de jubilación a los 63 años garantizando la sostenibilidad y suficiencia de las pensiones mediante su financiación a través de los Presupuestos Generales del Estado.",
+          "pagina": 41
+        },
+        {
+          "titular": "Eliminar la base máxima de cotización",
+          "texto": "Suprimiremos la base máxima de cotización y estableceremos un sistema de cotización progresiva que tenga en cuenta el nivel de renta y el volumen de beneficios empresariales, garantizando una mayor contribución de quienes más tienen para reforzar la financiación del sistema público de pensiones.",
+          "pagina": 44
+        },
+        {
+          "titular": "Pensión mínima igual al SMI",
+          "texto": "Garantizaremos que la pensión mínima contributiva se equipare al SMI, y la pensión no contributiva al 80% del SMI.",
+          "pagina": 44
+        },
+        {
+          "titular": "Completar las lagunas de cotización",
+          "texto": "Una carrera laboral irregular no recortará la pensión. Las empleadas y los empleados del hogar, las trabajadoras y los trabajadores agrarios y las personas autónomas podrán completar sus lagunas de cotización como el resto de trabajadores.",
+          "pagina": 44
+        },
+        {
+          "titular": "Jubilación anticipada en sectores duros",
+          "texto": "Las trabajadoras y los trabajadores de los sectores especialmente duros y precarios podrán jubilarse anticipadamente sin penalización.",
+          "pagina": 45
+        },
+        {
+          "titular": "Viudedad para parejas de hecho",
+          "texto": "Garantizaremos la compatibilidad de la pensión de viudedad con la pensión de jubilación para las parejas de hecho, en igualdad de condiciones que en el matrimonio, eliminando las discriminaciones y asegurando la protección económica de todas las formas de convivencia familiar.",
+          "pagina": 45
+        }
+      ]
+    },
+    "energia-medioambiente": {
+      "resumen": "Podemos propone elevar la ambición climática, con al menos un 55 % menos de emisiones en 2030 y neutralidad en 2040, y retirar el dinero público de los combustibles fósiles. Apuesta por un sistema eléctrico 100 % renovable, el cierre nuclear, la renaturalización urbana y una ley de residuo cero.",
+      "propuestas": [
+        {
+          "titular": "Reducir emisiones al 55 % en 2030",
+          "texto": "Emisiones de gases de efecto invernadero al menos un 55 % para 2030 respecto a 1990, con la ambición de alcanzar el 65 %, y adelantaremos a 2040 el horizonte de neutralidad climática.",
+          "pagina": 95
+        },
+        {
+          "titular": "Auditar las ayudas a los fósiles",
+          "texto": "Pondremos en marcha una auditoría oficial de todas las ayudas, subvenciones, beneficios fiscales y mecanismos de financiación pública destinados a la industria de los combustibles fósiles.",
+          "pagina": 95
+        },
+        {
+          "titular": "Sistema eléctrico 100 % renovable",
+          "texto": "Revisaremos el Plan Nacional Integrado de Energía y Clima para acelerar la transición energética, estableciendo como meta una reducción al 50 % de la energía primaria fósil en 2030 y alcanzar al menos un 95 % de generación eléctrica renovable en 2035.",
+          "pagina": 98
+        },
+        {
+          "titular": "Cumplir el cierre nuclear",
+          "texto": "Defenderemos el cumplimiento del calendario de cierre de las centrales nucleares, comenzando por Almaraz, de acuerdo con la planificación energética vigente y las condiciones de seguridad del sistema eléctrico.",
+          "pagina": 103
+        },
+        {
+          "titular": "Ley de residuo cero",
+          "texto": "Una ley de economía circular prohibirá los plásticos de un solo uso, implantará sistemas de depósito, devolución y retorno de envases y fijará objetivos de reutilización y reciclaje de más del 90 % en algunas líneas.",
+          "pagina": 97
+        },
+        {
+          "titular": "Renaturalización urbana",
+          "texto": "Aprobaremos una Ley de Renaturalización Urbana para recuperar la biodiversidad y devolver espacio a la naturaleza en ciudades y pueblos.",
+          "pagina": 95
+        }
+      ]
+    },
+    "seguridad-defensa": {
+      "resumen": "Podemos propone sacar a España de la OTAN y cerrar las bases de Rota y Morón, frente al rearme y al objetivo del 5 % del PIB en gasto militar. Defiende una reforma constitucional de no a la guerra, un Estatuto de Neutralidad, control parlamentario del gasto militar y el desarme nuclear.",
+      "propuestas": [
+        {
+          "titular": "Salir de la OTAN",
+          "texto": "Impulsaremos la salida de España de la OTAN mediante la denuncia del Tratado del Atlántico Norte y pondremos fin a la presencia militar estadounidense en nuestro territorio, incluida la Base Naval de Rota y la Base Aérea de Morón.",
+          "pagina": 28
+        },
+        {
+          "titular": "No a la guerra en la Constitución",
+          "texto": "Promoveremos una reforma de la Constitución española para incorporar el rechazo expreso a la guerra como principio fundamental de la política exterior y de seguridad de nuestro país.",
+          "pagina": 28
+        },
+        {
+          "titular": "Revertir el rearme",
+          "texto": "Revertiremos en los Presupuestos Generales del Estado el mayor aumento del gasto militar de la historia de la democracia, destinando esos recursos a financiar los servicios públicos, el derecho a la vivienda y la paz.",
+          "pagina": 28
+        },
+        {
+          "titular": "Rechazar el 5 % del PIB en defensa",
+          "texto": "Rechazaremos el compromiso adquirido por el Gobierno de Pedro Sánchez de elevar el gasto militar hasta el 5 % del PIB en 2035 y defenderemos una política exterior basada en la paz, la diplomacia y la cooperación internacional.",
+          "pagina": 28
+        },
+        {
+          "titular": "Control democrático del gasto militar",
+          "texto": "Garantizaremos el control parlamentario y la transparencia de todo el gasto militar.",
+          "pagina": 28
+        },
+        {
+          "titular": "Adhesión al Tratado de Prohibición Nuclear",
+          "texto": "Promoveremos la adhesión y la firma del Tratado sobre la Prohibición de las Armas Nucleares (TPAN).",
+          "pagina": 30
+        }
+      ]
+    },
+    "estado-instituciones": {
+      "resumen": "Podemos propone eliminar los privilegios de la Corona, suprimir los aforamientos y democratizar el CGPJ y el Tribunal Constitucional. Añade una nueva Ley de Secretos Oficiales, la derogación de la Ley Mordaza y una garantía del derecho a la información veraz frente a la desinformación.",
+      "propuestas": [
+        {
+          "titular": "Eliminar los privilegios de la Corona",
+          "texto": "Reformaremos el artículo 56.3 de la Constitución para eliminar la inviolabilidad del Rey y suprimir la referencia a que la justicia se administra en nombre del Rey, reconociendo que emana del pueblo.",
+          "pagina": 128
+        },
+        {
+          "titular": "Suprimir los aforamientos",
+          "texto": "Supresión de los aforamientos y reducción del peso político del Tribunal Supremo.",
+          "pagina": 128
+        },
+        {
+          "titular": "Democratizar el CGPJ y el TC",
+          "texto": "Reformaremos la legislación para establecer mecanismos efectivos de cese y sustitución de los miembros del CGPJ y del TC una vez agotados sus mandatos, respetando los procedimientos de renovación.",
+          "pagina": 129
+        },
+        {
+          "titular": "Nueva Ley de Secretos Oficiales",
+          "texto": "Aprobación de una nueva Ley de Secretos Oficiales que alcance los más altos estándares en términos de derechos democráticos.",
+          "pagina": 133
+        },
+        {
+          "titular": "Derogar la Ley Mordaza",
+          "texto": "Derogar la Ley Mordaza y reformar la legislación que limita los derechos fundamentales.",
+          "pagina": 133
+        },
+        {
+          "titular": "Derecho a la información veraz",
+          "texto": "Garantía del Derecho a la Información Veraz y de Lucha contra la Desinformación.",
+          "pagina": 138
+        }
+      ]
+    },
+    "territorio": {
+      "resumen": "Podemos plantea una constitución republicana que reconozca la plurinacionalidad del Estado y abra un proceso constituyente. Propone reformar el sistema electoral con circunscripción autonómica, convertir el Senado en cámara territorial y reconocer el derecho al voto a partir de los 16 años.",
+      "propuestas": [
+        {
+          "titular": "Constitución republicana y plurinacional",
+          "texto": "Impulsaremos la aprobación de una constitución republicana que incorpore los avances democráticos previstos en este capítulo.",
+          "pagina": 128
+        },
+        {
+          "titular": "Circunscripción autonómica",
+          "texto": "Reformaremos el sistema electoral del Congreso de los Diputados mediante la adopción de la circunscripción autonómica.",
+          "pagina": 129
+        },
+        {
+          "titular": "Senado territorial",
+          "texto": "Reformaremos el Senado para convertirlo en una verdadera cámara de representación territorial, garantizando la misma representación a todas las Comunidades Autónomas y estableciendo un sistema de elección proporcional en cada circunscripción.",
+          "pagina": 129
+        },
+        {
+          "titular": "Voto a los 16 años",
+          "texto": "Reconoceremos el derecho al sufragio a partir de los 16 años para ampliar la participación democrática, garantizar que la juventud tenga voz en las decisiones que afectan a su futuro y fortalecer una democracia más inclusiva y participativa.",
+          "pagina": 129
+        }
+      ]
+    },
+    "europa-exterior": {
+      "resumen": "Podemos defiende una política exterior de paz, multilateralismo y derechos humanos, con reforma de Naciones Unidas y rechazo a los bloques militares. Propone romper relaciones con Israel y un embargo de armas, apoyar la autodeterminación del Sahara y una solución negociada para Ucrania.",
+      "propuestas": [
+        {
+          "titular": "Reformar Naciones Unidas",
+          "texto": "Rechazaremos los foros restringidos de las grandes potencias occidentales, como el G7, y las coaliciones militares que pretenden imponer sus intereses al resto del mundo.",
+          "pagina": 30
+        },
+        {
+          "titular": "Agenda de paz en Oriente Medio",
+          "texto": "Impulsaremos una agenda de paz y derechos de la soberanía de los pueblos en Oriente Medio.",
+          "pagina": 31
+        },
+        {
+          "titular": "Romper relaciones con Israel",
+          "texto": "Ruptura de las relaciones diplomáticas, culturales y comerciales con Israel.",
+          "pagina": 34
+        },
+        {
+          "titular": "Embargo de armas a Israel",
+          "texto": "Impulsaremos un embargo de armas efectivo, sin excepciones, y verificable a las empresas públicas y privadas israelíes.",
+          "pagina": 34
+        },
+        {
+          "titular": "Autodeterminación del Sahara",
+          "texto": "Defensa del derecho a la libre autodeterminación del pueblo saharaui mediante referéndum y ruptura con la defensa del plan de autonomía promovido por Marruecos y Estados Unidos.",
+          "pagina": 35
+        },
+        {
+          "titular": "Rechazo a los tratados de libre comercio",
+          "texto": "Nos opondremos a los acuerdos comerciales internacionales que antepongan los intereses de las grandes multinacionales a los derechos sociales, laborales y medioambientales.",
+          "pagina": 37
+        }
+      ]
+    },
+    "derechos-sociales": {
+      "resumen": "Podemos propone un fondo estable contra la violencia machista, blindar el aborto y ampliar los derechos LGTBIQA+. Añade apoyo a la crianza en los primeros 1.000 días, la desprivatización de las residencias y una Ley de la Buena Vejez que garantice los derechos de las personas mayores.",
+      "propuestas": [
+        {
+          "titular": "Fondo contra la violencia machista",
+          "texto": "Creación de un fondo de contingencia de mil millones de euros para las políticas contra todas las formas de violencia machista que garantice la financiación estable y a largo plazo de las mismas mediante la reforma de la Ley General Presupuestaria.",
+          "pagina": 51
+        },
+        {
+          "titular": "Blindar el derecho al aborto",
+          "texto": "La interrupción voluntaria del embarazo es un derecho de las mujeres reconocido por ley.",
+          "pagina": 51
+        },
+        {
+          "titular": "Derechos LGTBIQA+",
+          "texto": "Paquete integral de avances en derechos LGTBIQA+ y protección contra la LGTBIfobia.",
+          "pagina": 52
+        },
+        {
+          "titular": "Primeros 1.000 días",
+          "texto": "Se establecerá el apoyo en la crianza y en el cuidado los primeros 1.000 días para garantizar un buen comienzo en la vida a todas los niñas y niños de nuestro país.",
+          "pagina": 61
+        },
+        {
+          "titular": "Desprivatizar las residencias",
+          "texto": "Se llevará a cabo un proceso de desprivatización del sistema de residencias en España con el horizonte de que su gestión sea pública y directa al 100%.",
+          "pagina": 63
+        },
+        {
+          "titular": "Ley de la Buena Vejez",
+          "texto": "Garantizar los derechos de las personas mayores que aseguren la protección económica, el acceso a la asistencia social y sanitaria, la vivienda digna y la plena participación de las personas mayores en todos los ámbitos.",
+          "pagina": 64
+        }
+      ]
+    },
+    "campo-pesca": {
+      "resumen": "Podemos propone una PAC orientada a la agricultura familiar y la soberanía alimentaria, con moratoria a las macrogranjas y límites a los fondos de inversión. Añade derechos laborales en el campo y la pesca, un plan contra la sobreexplotación de acuíferos, precios justos en origen y apoyo a la producción ecológica.",
+      "propuestas": [
+        {
+          "titular": "PAC para la agricultura familiar",
+          "texto": "Defenderemos una Política Agraria Común con financiación suficiente, redistributiva y orientada a la actividad agraria efectiva, la producción sostenible de alimentos y el mantenimiento de un medio rural vivo.",
+          "pagina": 111
+        },
+        {
+          "titular": "Moratoria a las macrogranjas",
+          "texto": "Moratoria indefinida a la apertura de nuevas macroexplotaciones y a la compra de tierras fértiles por parte de fondos buitre y grandes corporaciones.",
+          "pagina": 111
+        },
+        {
+          "titular": "Trabajo digno en el campo y la mar",
+          "texto": "Reforzaremos la inspección laboral y garantizaremos el cumplimiento de los convenios, la seguridad y la protección frente al calor, el acoso y la explotación.",
+          "pagina": 112
+        },
+        {
+          "titular": "Frenar la sobreexplotación de acuíferos",
+          "texto": "Pondremos en marcha un plan de choque para recuperar las aguas subterráneas, clausurar las extracciones ilegales y establecer una moratoria a nuevos regadíos intensivos y ampliaciones en las cuencas con estrés hídrico.",
+          "pagina": 112
+        },
+        {
+          "titular": "Precios justos en origen",
+          "texto": "Reforzaremos la Ley de la Cadena Alimentaria para garantizar precios en origen que cubran los costes efectivos de producción, perseguir las prácticas comerciales abusivas y aumentar la transparencia sobre los márgenes de intermediación.",
+          "pagina": 112
+        },
+        {
+          "titular": "Agricultura ecológica",
+          "texto": "Apoyo decidido por parte de la administración pública a la agricultura y ganadería ecológicas.",
+          "pagina": 116
+        }
+      ]
+    },
+    "infraestructuras": {
+      "resumen": "Podemos apuesta por más trenes y frecuencias, la renacionalización del sistema ferroviario y el trasvase de mercancías de la carretera al tren. Añade la gestión pública de los puertos y un refuerzo de las infraestructuras de cercanías, carreteras y caminos rurales en la España vaciada.",
+      "propuestas": [
+        {
+          "titular": "Más trenes y frecuencias",
+          "texto": "Más trenes, más frecuencias y conexión para todos los territorios.",
+          "pagina": 104
+        },
+        {
+          "titular": "Renacionalizar el ferrocarril",
+          "texto": "Renacionalizar el sistema ferroviario usando el artículo 128 de la Constitución.",
+          "pagina": 105
+        },
+        {
+          "titular": "Más mercancías por tren",
+          "texto": "Más mercancías por tren y menos camiones en las carreteras.",
+          "pagina": 105
+        },
+        {
+          "titular": "Puertos de gestión pública",
+          "texto": "Recuperación de la gestión pública directa de las infraestructuras y los servicios portuarios.",
+          "pagina": 106
+        },
+        {
+          "titular": "Conectividad rural",
+          "texto": "Reforzar todas las infraestructuras que garantizan la conectividad en la España vaciada: las vías de tren convencional, las del servicio de cercanías, las carreteras provinciales y comarcales, los caminos rurales, etc.",
+          "pagina": 107
+        }
+      ]
+    },
+    "cultura-deporte": {
+      "resumen": "Podemos propone duplicar el presupuesto de Cultura en una legislatura y garantizar la gratuidad de los museos públicos. Añade una ley integral de artes escénicas, una Agencia Estatal de Música y el deporte como derecho universal, con más inversión en deporte base, femenino e inclusivo.",
+      "propuestas": [
+        {
+          "titular": "Duplicar el presupuesto de Cultura",
+          "texto": "Multiplicar por dos la partida de Cultura en los Presupuestos Generales del Estado en una legislatura.",
+          "pagina": 72
+        },
+        {
+          "titular": "Museos públicos gratuitos",
+          "texto": "Gratuidad de los museos públicos y centros de ciencia como medida para garantizar la cultura como un derecho básico y no como un bien mercantil.",
+          "pagina": 73
+        },
+        {
+          "titular": "Ley de artes escénicas",
+          "texto": "Ley integral de desarrollo y promoción de las artes escénicas.",
+          "pagina": 77
+        },
+        {
+          "titular": "Agencia Estatal de Música",
+          "texto": "Creación de una Agencia Estatal de Música. Para apoyar y estimular el ciclo de la creación, la interpretación y la investigación musical.",
+          "pagina": 77
+        },
+        {
+          "titular": "Deporte como derecho",
+          "texto": "Garantizaremos el acceso universal al deporte y a la actividad física como derechos fundamentales para la salud, la igualdad y la cohesión social.",
+          "pagina": 87
+        }
+      ]
+    }
+  }
+}
