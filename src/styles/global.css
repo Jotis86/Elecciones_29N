@@ -1340,3 +1340,28 @@ blockquote::after {
     display: grid;
   }
 }
+
+
+/* Anclas de propuestas: que la cabecera sticky no tape la cita compartida. */
+html {
+  scroll-padding-top: 6rem;
+}
+
+.propuestas > li[id] {
+  scroll-margin-top: 6rem;
+}
+
+.propuestas > li:target {
+  background: color-mix(in srgb, var(--acento) 7%, transparent);
+  border-radius: var(--radio);
+}
+
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 7rem;
+  }
+
+  .propuestas > li[id] {
+    scroll-margin-top: 7rem;
+  }
+}
