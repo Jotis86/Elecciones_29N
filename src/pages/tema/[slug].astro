@@ -27,6 +27,8 @@ const sinAnalizar = disponiblesSinFicha.filter((p) => !fichaDe(p.slug));
 
 <Base
   titulo={tema.nombre}
+  imagen={`/og/tema-${tema.slug}.png`}
+  imagenAlt={`${tema.nombre} en los programas del 29N`}
   descripcion={`Qué propone cada partido sobre ${tema.nombre.toLowerCase()} en las elecciones del 29N, con citas literales y enlace a la página del programa.`}
 >
   <header class="pagina-cabecera">

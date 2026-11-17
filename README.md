@@ -19,6 +19,7 @@ python3 -m venv .venv
 npm run dev      # http://localhost:4321
 npm run build    # valida los datos y genera dist/
 npm run validar  # valida citas y datos electorales
+npm run og       # regenera las imágenes OG de partidos y temas
 npm test         # pruebas: D'Hondt, porcentajes, compartir y cuenta atrás
 ```
 
@@ -60,7 +61,8 @@ src/
   lib/porcentajes.js   topes del 100% y redondeo en décimas
   components/          FichaTema, TarjetaPartido, Compartir, CuentaAtras
   pages/               portada, /temas, /tema/[slug], /partido/[slug],
-                       /calculadora, /buscar, /programas, /sobre
+                       /calculadora, /buscar, /programas, /sobre, /fuentes,
+                       404, sitemap.xml y robots.txt
 tests/
   dhondt.test.js        ejemplo de la LOREG, umbral, empates y escala
   porcentajes.test.js   topes del 100% y recorte de valores
@@ -72,6 +74,7 @@ scripts/
   ver.py              consulta el texto extraído durante la curación
   validar.mjs         comprueba esquema y que cada cita exista en su página
   validar-electoral.mjs  52 circunscripciones y suma de 350 diputados
+  generar_og.mjs      genera las imágenes OG de partidos y temas en public/og
   boe_escanos.py      actualiza los diputados desde el BOE sin cambiar el esquema
 ```
 
@@ -91,9 +94,9 @@ la portada, en los temas y en la tabla de programas.
    .venv/bin/python scripts/extraer_texto.py --solo <slug>
    ```
 4. Crea `data/propuestas/<slug>.json` con las fichas por tema.
-5. Valida y construye:
+5. Genera las imágenes OG y valida:
    ```bash
-   npm run validar && npm run build
+   npm run og && npm run validar && npm run build
    ```
 
 Si el partido aún no ha publicado programa, basta con `estado: "pendiente"`:

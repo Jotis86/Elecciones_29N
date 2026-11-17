@@ -1,0 +1,212 @@
+---
+import Base from '../layouts/Base.astro';
+import Compartir from '../components/Compartir.astro';
+import {
+  partidos,
+  temas,
+  fichaDe,
+  documentoDe,
+  enlacePdf,
+  etiquetaPdf,
+  formatearFecha,
+} from '../lib/datos';
+
+const filas = partidos.map((partido) => ({
+  partido,
+  documento: documentoDe(partido.slug),
+  ficha: fichaDe(partido.slug),
+}));
+
+const disponibles = partidos.filter((p) => p.estado === 'disponible');
+const pendientes = partidos.filter((p) => p.estado === 'pendiente');
+const totalPorTema = temas.map((tema) =>
+  disponibles.reduce((n, partido) => n + (fichaDe(partido.slug)?.temas[tema.slug]?.propuestas.length ?? 0), 0),
+);
+const total = totalPorTema.reduce((a, b) => a + b, 0);
+const conArchivo = partidos.filter((p) => p.pdf_archivado).length;
+---
+
+<Base
+  titulo="Fuentes y cobertura"
+  descripcion="Registro público de fuentes de los programas del 29N: PDF oficial, copia archivada, fechas, páginas y cobertura por partido y tema."
+>
+  <header class="pagina-cabecera">
+    <div class="wrap">
+      <p class="migas"><a href="/">Inicio</a> / Fuentes y cobertura</p>
+      <h1>Fuentes y cobertura</h1>
+      <p class="entradilla">
+        De dónde sale cada programa, qué documento se usó y qué temas están
+        cubiertos. Los PDFs no se alojan en esta web: se enlazan a la fuente
+        oficial y, cuando existe, a una copia archivada.
+      </p>
+      <div class="datos-partido">
+        <span><b>{disponibles.length}</b> programas publicados</span>
+        <span><b>{temas.length}</b> temas</span>
+        <span><b>{total}</b> propuestas citadas</span>
+        <span><b>{conArchivo}</b> copias archivadas</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="seccion">
+    <div class="wrap">
+      <h2>Fuentes documentales</h2>
+      <p class="prosa">
+        Fecha de publicación, fecha de descarga, número de páginas y huella del
+        PDF usado para extraer el texto. La huella permite detectar si el
+        documento cambia.
+      </p>
+
+      <div class="tabla-scroll">
+        <table class="tabla-fuentes">
+          <caption class="visualmente-oculto">
+            Fuentes documentales de los programas electorales del 29N
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Partido</th>
+              <th scope="col">Programa</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Fechas</th>
+              <th scope="col">Páginas</th>
+              <th scope="col">Documento</th>
+              <th scope="col">Copia archivada</th>
+              <th scope="col">SHA-256</th>
+              <th scope="col">Notas</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filas.map(({ partido, documento, ficha }) => {
+              const descarga = enlacePdf(partido);
+              const publicado = formatearFecha(partido.publicado);
+              const descargado = formatearFecha(partido.descargado);
+              return (
+                <tr>
+                  <td>
+                    <a href={`/partido/${partido.slug}/`} style={`color:var(--tinta);border-bottom:2px solid ${partido.color}`}>
+                      <strong>{partido.siglas}</strong>
+                    </a>
+                    <div class="tabla-sub">{partido.ambito}</div>
+                  </td>
+                  <td>
+                    {partido.programa ?? '—'}
+                    {ficha && <div class="tabla-sub">{Object.keys(ficha.temas).length} temas analizados</div>}
+                  </td>
+                  <td>
+                    <span class={partido.estado === 'disponible' ? 'estado ok' : 'estado pendiente'}>
+                      {partido.estado === 'disponible' ? 'Publicado' : 'Pendiente'}
+                    </span>
+                  </td>
+                  <td class="tabla-fechas">
+                    {publicado ? <>Publicado: {publicado}</> : '—'}
+                    {descargado && <><br />Descargado: {descargado}</>}
+                  </td>
+                  <td class="num">{documento?.paginas ?? '—'}</td>
+                  <td>
+                    {descarga ? (
+                      <a href={descarga} target="_blank" rel="noopener noreferrer">
+                        {etiquetaPdf(partido)} ↗
+                      </a>
+                    ) : '—'}
+                  </td>
+                  <td>
+                    {partido.pdf_archivado ? (
+                      <a href={partido.pdf_archivado} target="_blank" rel="noopener noreferrer">
+                        Wayback ↗
+                      </a>
+                    ) : '—'}
+                  </td>
+                  <td class="tabla-sha">
+                    {documento ? (
+                      <code title={documento.sha256}>{documento.sha256.slice(0, 10)}…</code>
+                    ) : '—'}
+                  </td>
+                  <td class="tabla-notas">{partido.notas ?? '—'}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+      <p class="aviso-legal">
+        {conArchivo} de {disponibles.length} programas tienen copia archivada.
+        {pendientes.length > 0 && <> Pendientes: {pendientes.map((p) => p.siglas).join(', ')}.</>}
+      </p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap">
+      <h2>Cobertura por partido y tema</h2>
+      <p class="prosa">
+        Cada celda indica cuántas propuestas citadas hay en ese tema. Un guion
+        significa que el partido tiene programa, pero todavía no hay ficha en ese
+        tema. Los partidos pendientes no aparecen en la matriz.
+      </p>
+
+      <div class="tabla-scroll">
+        <table class="tabla-cobertura">
+          <caption class="visualmente-oculto">
+            Número de propuestas citadas por partido y tema
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Partido</th>
+              {temas.map((tema) => (
+                <th scope="col">
+                  <a href={`/tema/${tema.slug}/`}>{tema.nombre}</a>
+                </th>
+              ))}
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {disponibles.map((partido) => {
+              const ficha = fichaDe(partido.slug);
+              const totalPartido = temas.reduce(
+                (n, tema) => n + (ficha?.temas[tema.slug]?.propuestas.length ?? 0),
+                0,
+              );
+              return (
+                <tr>
+                  <th scope="row">
+                    <a href={`/partido/${partido.slug}/`}>{partido.siglas}</a>
+                  </th>
+                  {temas.map((tema) => {
+                    const n = ficha?.temas[tema.slug]?.propuestas.length ?? 0;
+                    return (
+                      <td>
+                        {n > 0 ? (
+                          <a href={`/partido/${partido.slug}/#tema-${tema.slug}`} title={`${partido.siglas} · ${tema.nombre}: ${n} propuestas`}>
+                            {n}
+                          </a>
+                        ) : (
+                          <span class="sin">—</span>
+                        )}
+                      </td>
+                    );
+                  })}
+                  <td class="num"><strong>{totalPartido}</strong></td>
+                </tr>
+              );
+            })}
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row">Total</th>
+              {totalPorTema.map((n) => <td class="num">{n}</td>)}
+              <td class="num"><strong>{total}</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <p class="aviso-legal">
+        La matriz se genera a partir de las fichas de <code>data/propuestas</code>.
+        Si un tema no aparece, no hay propuestas citadas; no significa que el
+        programa no lo mencione.
+      </p>
+    </div>
+  </section>
+
+  <Compartir texto="Fuentes y cobertura de los programas del 29N" />
+</Base>

@@ -30,6 +30,9 @@ const temasSinFicha = ficha
 
 <Base
   titulo={partido.siglas}
+  noindex={partido.estado === 'pendiente'}
+  imagen={`/og/partido-${partido.slug}.png`}
+  imagenAlt={`Programa de ${partido.siglas} para el 29N`}
   descripcion={
     partido.estado === 'disponible'
       ? `Programa electoral de ${partido.nombre} para el 29N: resumen por temas con citas literales y enlace al PDF completo.`

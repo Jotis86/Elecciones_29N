@@ -995,3 +995,124 @@ blockquote::after {
   font-style: italic;
   opacity: 0.9;
 }
+
+
+.tabla-scroll {
+  overflow-x: auto;
+  margin-top: 1.2rem;
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+}
+
+.tabla-fuentes,
+.tabla-cobertura {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+}
+
+.tabla-fuentes {
+  min-width: 1050px;
+}
+
+.tabla-fuentes th,
+.tabla-fuentes td,
+.tabla-cobertura th,
+.tabla-cobertura td {
+  padding: 0.65rem 0.55rem;
+  border-bottom: 1px solid var(--linea);
+  vertical-align: top;
+}
+
+.tabla-fuentes th,
+.tabla-cobertura th {
+  text-align: left;
+  font-size: 0.7rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--tenue);
+  font-weight: 500;
+}
+
+.tabla-fuentes tr:last-child td,
+.tabla-fuentes tr:last-child th,
+.tabla-cobertura tr:last-child td,
+.tabla-cobertura tr:last-child th {
+  border-bottom: 0;
+}
+
+.tabla-sub {
+  color: var(--tenue);
+  font-size: 0.76rem;
+  margin-top: 0.2rem;
+}
+
+.tabla-fechas {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabla-sha code {
+  font-size: 0.78rem;
+}
+
+.tabla-notas {
+  min-width: 18rem;
+}
+
+.tabla-cobertura {
+  min-width: 1080px;
+}
+
+.tabla-cobertura td,
+.tabla-cobertura th:not(:first-child) {
+  text-align: center;
+}
+
+.tabla-cobertura thead th {
+  white-space: nowrap;
+}
+
+.tabla-cobertura thead a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tabla-cobertura thead a:hover {
+  text-decoration: underline;
+}
+
+.tabla-cobertura tbody th,
+.tabla-cobertura tfoot th {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tabla-cobertura tbody th a {
+  color: var(--tinta);
+  text-decoration: none;
+}
+
+.tabla-cobertura tbody th a:hover {
+  text-decoration: underline;
+}
+
+.tabla-cobertura td a {
+  color: var(--tinta);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabla-cobertura td a:hover {
+  text-decoration: underline;
+}
+
+.tabla-cobertura .sin {
+  color: var(--tenue);
+}
+
+.tabla-cobertura tfoot td,
+.tabla-cobertura tfoot th {
+  background: var(--papel-2);
+  font-weight: 600;
+}

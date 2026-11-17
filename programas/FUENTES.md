@@ -48,7 +48,7 @@ fuentes; la web enlaza a la URL oficial y, cuando exista, a una copia archivada.
 
 ## Pendiente
 
-- Guardar copia archivada (Wayback Machine) de cada PDF y rellenar
+- Solo falta la copia archivada de CC; el resto de programas publicados ya tiene
   `pdf_archivado` en `data/partidos.json`.
 - Revisar si los partidos sustituyen sus PDFs: `scripts/extraer_texto.py` avisa
   cuando cambia el `sha256`.
