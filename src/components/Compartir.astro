@@ -104,13 +104,18 @@ const enlaces = enlacesCompartir({ texto, url, asunto });
       return;
     }
 
-    const ok = await copiar(boton.dataset.url ?? location.href);
-    const mensaje = ok ? 'Enlace copiado' : 'No se pudo copiar; usa la barra de direcciones';
+    const aCopiar = boton.dataset.copiar ?? boton.dataset.url ?? location.href;
+    const ok = await copiar(aCopiar);
+    const mensaje = ok
+      ? esCita
+        ? 'Cita copiada'
+        : 'Enlace copiado'
+      : 'No se pudo copiar; usa la barra de direcciones';
     if (aviso) {
       aviso.textContent = mensaje;
       if (ok) setTimeout(() => (aviso.textContent = ''), 2500);
     } else {
-      decirEnBoton(ok ? 'Copiado ✓' : 'No se pudo copiar');
+      decirEnBoton(ok ? (esCita ? 'Cita copiada ✓' : 'Copiado ✓') : 'No se pudo copiar');
     }
     anunciar(mensaje);
   });

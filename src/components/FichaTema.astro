@@ -9,11 +9,12 @@ interface Props {
   idioma?: 'es' | 'gl' | 'eu' | 'ca';
   /** Prefijo de las anclas de cada propuesta, para enlazar una cita concreta. */
   ancla?: string;
+  /** Slug del tema para construir la URL canónica de la cita en la ficha del partido. */
+  temaSlug?: string;
 }
 
-const { partido, bloque, titulo, idioma = 'es', ancla } = Astro.props;
+const { partido, bloque, titulo, idioma = 'es', ancla, temaSlug } = Astro.props;
 const idiomaNombre = NOMBRE_IDIOMA[idioma] ?? idioma;
-const base = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <article class="ficha" style={`--acento:${partido.color}`}>
@@ -42,7 +43,11 @@ const base = new URL(Astro.url.pathname, Astro.site);
       bloque.propuestas.map((propuesta, i) => {
         const enlace = enlacePdf(partido, propuesta.pagina);
         const id = ancla ? `${ancla}-propuesta-${i + 1}` : undefined;
-        const urlCita = id ? new URL(`${base.pathname}#${id}`, Astro.site).href : undefined;
+        const shareId = temaSlug ? `${temaSlug}-propuesta-${i + 1}` : id;
+        const urlCita = shareId
+          ? new URL(`/partido/${partido.slug}/#${shareId}`, Astro.site).href
+          : undefined;
+        const textoCita = `${propuesta.titular}: «${propuesta.texto.trim()}» — ${partido.siglas}, pág. ${propuesta.pagina}`;
         return (
           <li id={id}>
             <h3>{propuesta.titular}</h3>
@@ -67,9 +72,10 @@ const base = new URL(Astro.url.pathname, Astro.site);
                   type="button"
                   data-nativo
                   data-url={urlCita}
-                  data-texto={`${propuesta.titular} · ${partido.siglas}`}
-                  title="Compartir esta propuesta"
-                  aria-label={`Compartir «${propuesta.titular}»`}
+                  data-texto={textoCita}
+                  data-copiar={`${textoCita}\n${urlCita}`}
+                  title="Compartir esta cita"
+                  aria-label={`Compartir la cita «${propuesta.titular}»`}
                 >
                   Compartir cita
                 </button>

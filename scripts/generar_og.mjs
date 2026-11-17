@@ -80,7 +80,7 @@ for (const partido of partidos) {
   const propuestas = ficha
     ? Object.values(ficha.temas).reduce((n, b) => n + b.propuestas.length, 0)
     : 0;
-  const kicker = partido.estado === 'disponible' ? 'PROGRAMA ELECTORAL · 29N' : 'PROGRAMA PENDIENTE · 29N';
+  const kicker = 'PARTIDO · 29N';
   const title = partido.siglas;
   const subtitle = partido.programa ?? 'Programa electoral todavía no publicado';
   const footer = partido.estado === 'disponible'
