@@ -90,7 +90,7 @@
     "escanos2023": 6,
     "pdf": "bildu.pdf",
     "pdf_oficial": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-eus.pdf",
-    "pdf_archivado": null,
+    "pdf_archivado": "https://web.archive.org/web/20261117085844/https://ehbildu.eus/media/dokumentuak/posibleegin-programa-eus.pdf",
     "publicado": "2026-11-16",
     "descargado": "2026-11-17",
     "notas": "Documento en euskera."
@@ -109,7 +109,7 @@
     "pdf_archivado": "https://web.archive.org/web/20261112152342/https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21765/pdf/hauteskunde-programa-a29",
     "publicado": "2026-11-04",
     "descargado": "2026-11-15",
-    "notas": "Documento en euskera."
+    "notas": "Documento en euskera. No se ha localizado un bloque específico de cultura y deporte."
   },
   {
     "slug": "bng",
@@ -221,6 +221,6 @@
     "pdf_archivado": "https://web.archive.org/web/20261115155915/https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
     "publicado": "2026-11-13",
     "descargado": "2026-11-15",
-    "notas": "El PDF oficial está protegido por Cloudflare; se ofrece una copia archivada."
+    "notas": "El PDF oficial está protegido por Cloudflare; se ofrece una copia archivada. El contrato se organiza en 10 bloques y no tiene secciones específicas de energía, derechos sociales, campo, infraestructuras o cultura."
   }
 ]
