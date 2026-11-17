@@ -17,7 +17,6 @@ const filas = partidos.map((partido) => ({
 }));
 
 const disponibles = partidos.filter((p) => p.estado === 'disponible');
-const pendientes = partidos.filter((p) => p.estado === 'pendiente');
 const conArchivo = partidos.filter((p) => p.pdf_archivado).length;
 const fechaCorta = (iso: string | null) =>
   iso
@@ -174,10 +173,6 @@ const total = cobertura.reduce((n, fila) => n + fila.total, 0);
         })}
       </div>
 
-      <p class="aviso-legal">
-        {conArchivo} de {disponibles.length} programas tienen copia archivada.
-        {pendientes.length > 0 && <> Pendientes: {pendientes.map((p) => p.siglas).join(', ')}.</>}
-      </p>
     </div>
   </section>
 
