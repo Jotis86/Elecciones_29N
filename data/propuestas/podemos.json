@@ -34,11 +34,21 @@
           "titular": "Vivienda protegida permanente",
           "texto": "Toda vivienda que tenga algún tipo de protección pública conservará permanentemente esta condición, al objeto de impedir que sea vendida a precios de mercado y objeto de especulación.",
           "pagina": 11
+        },
+        {
+          "titular": "Prohibir comprar viviendas que no sean para vivir",
+          "texto": "Prohibiremos la adquisición y acumulación de viviendas que no estén destinadas a residencia habitual.",
+          "pagina": 8
+        },
+        {
+          "titular": "Reservar el 50 % de la vivienda nueva al alquiler social",
+          "texto": "Estableceremos la obligación de reservar al menos el 50% de las nuevas viviendas previstas en los planes urbanísticos al alquiler social.",
+          "pagina": 11
         }
       ]
     },
     "economia-fiscalidad": {
-      "resumen": "Podemos propone una fiscalidad más progresiva sobre grandes fortunas, banca, energéticas y distribución alimentaria, junto a una banca y una red de supermercados públicas. Plantea elevar el impuesto de sociedades y el IRPF a las rentas altas, y revertir las reglas de austeridad que limitan la inversión pública.",
+      "resumen": "Podemos propone una fiscalidad más progresiva sobre grandes fortunas, banca y energéticas, junto a una banca y una red de supermercados públicas. Plantea elevar el impuesto de sociedades y el IRPF a las rentas altas, limitar los márgenes de la gran distribución y revertir las reglas de austeridad que limitan la inversión pública.",
       "propuestas": [
         {
           "titular": "Impuesto permanente a las grandes fortunas",
@@ -69,6 +79,16 @@
           "titular": "Reforma del IRPF para rentas altas",
           "texto": "Reformaremos la escala estatal del IRPF sobre la base imponible general para reforzar la progresividad fiscal, reduciremos el tipo mínimo del 9,5 % actual al 9 %, y elevaremos los tipos a las bases imponibles de más de 60.000 euros anuales.",
           "pagina": 21
+        },
+        {
+          "titular": "Tope a los márgenes de la gran distribución",
+          "texto": "Estableceremos límites a los márgenes comerciales de las grandes cadenas de distribución en los productos de primera necesidad, para evitar que estas grandes distribuidoras hinchen los precios en contextos de inflación.",
+          "pagina": 18
+        },
+        {
+          "titular": "Revertir la reforma del artículo 135",
+          "texto": "Derogaremos la reforma constitucional que afectó al artículo 135 de la Constitución para evitar que el pago de la deuda externa sea preferente a la inversión social y las limitaciones en la financiación de los servicios públicos.",
+          "pagina": 23
         }
       ]
     },
@@ -139,6 +159,11 @@
           "titular": "Regularización permanente",
           "texto": "Mediante la nueva norma estatal de igualdad de trato superaremos un modelo criminalizador con las personas migrantes y el sistema de regularización reconocerá el arraigo social, familiar y comunitario, sin hacer depender el derecho a residir legalmente en España exclusivamente de disponer de un contrato de trabajo.",
           "pagina": 67
+        },
+        {
+          "titular": "Sanidad sin barreras administrativas",
+          "texto": "Eliminaremos las barreras administrativas que impiden recibir atención y reforzaremos la coordinación entre los servicios sanitarios y sociales.",
+          "pagina": 69
         }
       ]
     },
@@ -174,6 +199,11 @@
           "titular": "Derecho a una muerte digna",
           "texto": "Reforzaremos los recursos humanos y materiales de las Comisiones de Garantía y Evaluación y de los equipos sanitarios para agilizar los procedimientos, estableciendo vías de tramitación prioritaria para las personas cuya situación clínica requiera una respuesta urgente.",
           "pagina": 94
+        },
+        {
+          "titular": "Sanidad bucodental y oftalmológica",
+          "texto": "Aumentaremos hasta el 100% la cobertura de la cartera de servicios de salud bucodental, oftalmológica y auditiva, así como de fisioterapia y psicológica",
+          "pagina": 91
         }
       ]
     },
@@ -292,7 +322,7 @@
         },
         {
           "titular": "No a la guerra en la Constitución",
-          "texto": "Promoveremos una reforma de la Constitución española para incorporar el rechazo expreso a la guerra como principio fundamental de la política exterior y de seguridad de nuestro país.",
+          "texto": "Promoveremos una reforma de la Constitución española para incorporar el rechazo expreso a la guerra como principio fundamental de la política exterior y de seguridad de nuestro país. Asimismo, impulsaremos la aprobación de un Estatuto de Neutralidad que sitúe la paz, la soberanía de los pueblos y la resolución pacífica de los conflictos en el centro de nuestra política exterior.",
           "pagina": 28
         },
         {
@@ -408,6 +438,11 @@
         {
           "titular": "Rechazo a los tratados de libre comercio",
           "texto": "Nos opondremos a los acuerdos comerciales internacionales que antepongan los intereses de las grandes multinacionales a los derechos sociales, laborales y medioambientales.",
+          "pagina": 37
+        },
+        {
+          "titular": "Paz, justicia y reconstrucción para Ucrania",
+          "texto": "Un acuerdo de paz, justicia y reconstrucción para Ucrania.",
           "pagina": 37
         }
       ]
@@ -538,6 +573,11 @@
         {
           "titular": "Deporte como derecho",
           "texto": "Garantizaremos el acceso universal al deporte y a la actividad física como derechos fundamentales para la salud, la igualdad y la cohesión social.",
+          "pagina": 87
+        },
+        {
+          "titular": "Deporte base, femenino e inclusivo",
+          "texto": "Duplicaremos durante la próxima legislatura los presupuestos destinados al deporte femenino, al deporte inclusivo y al deporte base, priorizando los barrios más vulnerables y los municipios de menos de 10.000 habitantes.",
           "pagina": 87
         }
       ]
