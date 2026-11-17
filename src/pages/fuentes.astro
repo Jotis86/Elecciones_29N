@@ -136,8 +136,6 @@ const total = cobertura.reduce((n, fila) => n + fila.total, 0);
                 </div>
               </dl>
 
-              {partido.notas && <p class="fuente-nota">{partido.notas}</p>}
-
               <div class="fuente-pie">
                 {descarga ? (
                   <a
@@ -266,8 +264,8 @@ const total = cobertura.reduce((n, fila) => n + fila.total, 0);
         Si un tema no aparece, no hay propuestas citadas; no significa que el
         programa no lo mencione.
       </p>
+
+      <Compartir texto="Fuentes y cobertura de los programas del 29N" />
     </div>
   </section>
-
-  <Compartir texto="Fuentes y cobertura de los programas del 29N" />
 </Base>

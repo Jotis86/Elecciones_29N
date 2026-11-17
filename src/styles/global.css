@@ -1147,7 +1147,10 @@ blockquote::after {
 
 .fuente {
   position: relative;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
+  min-height: 355px;
   padding: 1.1rem 1.1rem 1.1rem 1.3rem;
   border: 1px solid var(--linea);
   border-radius: var(--radio);
@@ -1222,19 +1225,12 @@ blockquote::after {
   font-variant-numeric: tabular-nums;
 }
 
-.fuente-nota {
-  margin: 0.8rem 0 0;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--linea);
-  color: var(--tenue);
-  font-size: 0.8rem;
-}
-
 .fuente-pie {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
 .fuente-pie .boton {
